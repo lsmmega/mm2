@@ -275,8 +275,8 @@ MACRO noise_note a, b
 	db c+d
 ENDM
 
-MACRO pitch_bend a, b
-	db a, b
+MACRO pitch_bend a, b, c
+	db a, (b<<5)+c
 ENDM
 
 MACRO volume_modulation a, b
