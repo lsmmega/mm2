@@ -84,7 +84,7 @@ MACRO modulation a
 	ENDIF
 ENDM
 
-MACRO music_channel_end
+MACRO channel_end
 	db 9
 ENDM
 
