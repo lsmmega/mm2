@@ -2,38 +2,6 @@ MACRO music_pointers
 	db $f
 ENDM
 
-MACRO channel_1 a
-	IF channel_flags&1
-		dw a
-	ELSE
-		db 0, 0
-	ENDIF
-ENDM
-
-MACRO channel_2 a
-	IF channel_flags&2
-		dw a
-	ELSE
-		db 0, 0
-	ENDIF
-ENDM
-
-MACRO channel_3 a
-	IF channel_flags&4
-		dw a
-	ELSE
-		db 0, 0
-	ENDIF
-ENDM
-
-MACRO channel_4 a
-	IF channel_flags&8
-		dw a
-	ELSE
-		db 0, 0
-	ENDIF
-ENDM
-
 MACRO tempo a
 	db 0, a
 ENDM
