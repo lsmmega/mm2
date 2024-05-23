@@ -84,7 +84,7 @@ MACRO modulation a
 	ENDIF
 ENDM
 
-MACRO stop_playing
+MACRO music_channel_end
 	db 9
 ENDM
 
