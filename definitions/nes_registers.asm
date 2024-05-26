@@ -1,5 +1,3 @@
-;mm2_ram_pre_definitions
-
 ;nes_registers
 	ppu_ctrl = $2000
 	ppu_mask = $2001
@@ -27,9 +25,3 @@
 	apu_status = $4015
 	apu_frame_counter = $4017 ;write
 	joy2_frame = $4017 ;read
-
-;mm2_mmc1_registers
-	mmc1_control = $9fff
-	chr_bank0 = $bfff
-	chr_bank1 = $dfff
-	shift_register = $fff0
