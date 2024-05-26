@@ -65,8 +65,8 @@ MACRO triplet_set
 ENDM
 
 ;general
-even = 1
-odd = 0
+	odd = 0
+	even = 1
 
 MACRO rest a
 	IF a == 2 && tempo_number
