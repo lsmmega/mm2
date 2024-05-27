@@ -244,7 +244,13 @@ MACRO noise_note a, b
 ENDM
 
 MACRO pitch_bend a, b, c
-	db a, (b<<5)+c
+	IF b < 0 || b > 7
+		error "Pitch amount is out of range"
+	ELSEIF c < 0 || c > $1f
+		error "Pitch repeat is out of range"
+	ELSE
+		db a, (b<<5)+c
+	ENDIF
 ENDM
 
 MACRO volume_modulation a, b
