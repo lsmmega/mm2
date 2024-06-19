@@ -34,9 +34,9 @@
 	dw music_game_over
 
 ;sfx
-	dw sfx_flash
+	dw sfx_time_stopper
 	dw sfx_unused22
-	dw sfx_metal
+	dw sfx_metal_blade
 	dw sfx_shoot
 	dw sfx_enemy_shoot
 	dw sfx_damage_mm
@@ -47,24 +47,24 @@
 	dw sfx_destroy_enemy
 	dw sfx_dragon
 	dw sfx_shoot_recoil
-	dw sfx_crash
+	dw sfx_crash_bomn
 	dw sfx_change_weapon
 	dw sfx_teleport_in
-	dw sfx_leaf
+	dw sfx_leaf_shield
 	dw sfx_open_menu
 	dw sfx_unused33
 	dw sfx_boss_door
-	dw sfx_heat_charge1
-	dw sfx_heat_charge2
-	dw sfx_heat_charge3
-	dw sfx_heat
+	dw sfx_atomic_fire_charge1
+	dw sfx_atomic_fire_charge2
+	dw sfx_atomic_fire_charge3
+	dw sfx_atomic_fire_release
 	dw sfx_fly_boy
 	dw sfx_teleport_out
 	dw sfx_water
 	dw sfx_yoku_block
 	dw sfx_red_liquid_1
 	dw sfx_red_liquid_2
-	dw sfx_air
+	dw sfx_air_shooter
 	dw sfx_unused40
 	dw sfx_death
 	dw sfx_1up
