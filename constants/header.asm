@@ -1,4 +1,4 @@
 ;nes header constants
-	horizontal  EQU 0
-	vertical    EQU 1
-	four_screen EQU 4
+	horizontal  equ 0
+	vertical    equ 1
+	four_screen equ 4

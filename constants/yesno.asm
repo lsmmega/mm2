@@ -1,2 +1,2 @@
-	no  EQU 0
-	yes EQU 1
+	no  equ 0
+	yes equ 1
