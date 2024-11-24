@@ -1,2 +1,2 @@
 .SEGMENT "AUDIO"
-.INCBIN "unanalyzed/audio.bin"
+.INCBIN "audio/audio.bin"
