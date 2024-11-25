@@ -1,6 +1,7 @@
 rom_obj := \
 	audio.o  \
 	header.o \
+	stages.o \
 	bank00.o \
 	bank01.o \
 	bank02.o \
