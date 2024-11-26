@@ -1,6 +1,7 @@
 rom_obj := \
 	audio.o  \
 	header.o \
+	home.o   \
 	stages.o \
 	bank00.o \
 	bank01.o \
@@ -15,8 +16,7 @@ rom_obj := \
 	bank0A.o \
 	bank0B.o \
 	bank0D.o \
-	bank0E.o \
-	bank0F.o
+	bank0E.o
 
 mm2_obj := $(rom_obj:.o=.o)
 
