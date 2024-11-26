@@ -1,47 +1,47 @@
 .SEGMENT "STAGE00_1"
-.INCBIN "stages/heat_wily1_1.bin"
+.INCBIN "stages/heat_wily1.bin", $0, $1000
 
 .SEGMENT "STAGE00_2"
-.INCBIN "stages/heat_wily1_2.bin"
+.INCBIN "stages/heat_wily1.bin", $1000
 
 .SEGMENT "STAGE01_1"
-.INCBIN "stages/air_wily2_1.bin"
+.INCBIN "stages/air_wily2.bin", $0, $1000
 
 .SEGMENT "STAGE01_2"
-.INCBIN "stages/air_wily2_2.bin"
+.INCBIN "stages/air_wily2.bin", $1000
 
 .SEGMENT "STAGE02_1"
-.INCBIN "stages/wood_wily3_1.bin"
+.INCBIN "stages/wood_wily3.bin", $0, $1000
 
 .SEGMENT "STAGE02_2"
-.INCBIN "stages/wood_wily3_2.bin"
+.INCBIN "stages/wood_wily3.bin", $1000
 
 .SEGMENT "STAGE03_1"
-.INCBIN "stages/bubble_wily4_1.bin"
+.INCBIN "stages/bubble_wily4.bin", $0, $1000
 
 .SEGMENT "STAGE03_2"
-.INCBIN "stages/bubble_wily4_2.bin"
+.INCBIN "stages/bubble_wily4.bin", $1000
 
 .SEGMENT "STAGE04_1"
-.INCBIN "stages/quick_wily5_1.bin"
+.INCBIN "stages/quick_wily5.bin", $0, $1000
 
 .SEGMENT "STAGE04_2"
-.INCBIN "stages/quick_wily5_2.bin"
+.INCBIN "stages/quick_wily5.bin", $1000
 
 .SEGMENT "STAGE05_1"
-.INCBIN "stages/flash_wily6_1.bin"
+.INCBIN "stages/flash_wily6.bin", $0, $1000
 
 .SEGMENT "STAGE05_2"
-.INCBIN "stages/flash_wily6_2.bin"
+.INCBIN "stages/flash_wily6.bin", $1000
 
 .SEGMENT "STAGE06_1"
-.INCBIN "stages/metal_1.bin"
+.INCBIN "stages/metal.bin", $0, $1000
 
 .SEGMENT "STAGE06_2"
-.INCBIN "stages/metal_2.bin"
+.INCBIN "stages/metal.bin", $1000
 
 .SEGMENT "STAGE07_1"
-.INCBIN "stages/crash_1.bin"
+.INCBIN "stages/crash.bin", $0, $1000
 
 .SEGMENT "STAGE07_2"
-.INCBIN "stages/crash_2.bin"
+.INCBIN "stages/crash.bin", $1000
