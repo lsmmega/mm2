@@ -1,11 +1,11 @@
 rom_obj := \
 	audio.o  \
+	data.o   \
 	gfx.o    \
 	header.o \
 	home.o   \
 	main.o   \
-	stages.o \
-	bank0A.o
+	stages.o
 
 mm2_obj := $(rom_obj:.o=.o)
 
