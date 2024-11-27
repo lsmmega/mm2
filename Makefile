@@ -1,17 +1,9 @@
 rom_obj := \
 	audio.o  \
+	gfx.o    \
 	header.o \
 	home.o   \
 	stages.o \
-	bank00.o \
-	bank01.o \
-	bank02.o \
-	bank03.o \
-	bank04.o \
-	bank05.o \
-	bank06.o \
-	bank07.o \
-	bank08.o \
 	bank09.o \
 	bank0A.o \
 	bank0B.o \
