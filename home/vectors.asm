@@ -1,0 +1,4 @@
+;vectors
+	.WORD RESET
+	.WORD NMI
+	.WORD IRQ
