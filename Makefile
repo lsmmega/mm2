@@ -22,8 +22,9 @@ mm2.nes: $(mm2_obj) \
 	ca65 -o $@ $<
 
 %.nes: $(rom_obj)
-	ld65 $(rom_obj) -C mm2.cfg -o $@
+	ld65 -C mm2.cfg $(rom_obj) -o $@ -m mm2.map
 
 clean:
 	$(RM) $(rom_obj) \
+	mm2.map \
 	mm2.nes
