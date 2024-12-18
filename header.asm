@@ -1,7 +1,7 @@
 .INCLUDE "includes/header.asm"
 
 .SEGMENT "HEADER"
-;mm1 header.
+;mm2 header.
 	.BYTE "NES", $1A
 	prg_rom   = 256
 	chr_rom   = 0
