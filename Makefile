@@ -3,7 +3,6 @@ rom_obj := \
 	data.o   \
 	gfx.o    \
 	header.o \
-	home.o   \
 	main.o   \
 	stages.o
 
