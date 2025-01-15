@@ -1,0 +1,4 @@
+.ENUM
+	false
+	true
+.ENDENUM
