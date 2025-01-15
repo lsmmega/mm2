@@ -18,7 +18,8 @@ rom := \
 
 stages_asm := \
 	stages.asm \
-	constants/palettes.asm
+	constants/palettes.asm \
+	stages/heat/*.asm
 
 .PHONY: all mm2 clean
 
