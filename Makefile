@@ -8,7 +8,8 @@ map := \
 	mm2.map
 
 obj := \
-	ines.o
+	ines.o \
+	stages.o
 
 rom := \
 	mm2.nes

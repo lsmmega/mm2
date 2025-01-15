@@ -32,7 +32,7 @@
 	track_1e                ;repeated game over
 	track_1f                ;repeated game over
 	track_20                ;repeated game over
-	track_flash
+	track_time_stopper
 	track_22                ;unused
 	track_metal_blade
 	track_mm_shoot
