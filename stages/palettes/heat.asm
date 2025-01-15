@@ -1,4 +1,8 @@
-;soild background palettes.
+;frames setting.
+	.BYTE 3 ;frames total usage.
+	.BYTE 6 ;anime frames.
+
+;soild background palettes. 
 	.BYTE black, pale_red,  white_red,  light_rose
 	.BYTE black, pale,      light_gray, dark_gray
 	.BYTE black, light_red, dark_rose,  dark_orange
