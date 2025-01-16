@@ -8,7 +8,7 @@
 	.BYTE black, white_yellow, light_red,    dark_orange
 	.BYTE black, white_yellow, black,        white_cyan
 
-;soild object palettes.
+;solid object palettes.
 	.BYTE black, black, white_cyan, light_azure
 	.BYTE black, black, white,      pale_yellow
 	.BYTE black, black, black,      black
