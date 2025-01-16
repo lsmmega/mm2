@@ -14,7 +14,7 @@
 	.BYTE black, black, white_chartreuse, pale
 	.BYTE black, black, light_rose,       pale
 
-;anime background palettes.
+;anime background palettes. (unused)
 ;1
 	.BYTE light_azure, pale_chartreuse, white_green, dark_spring
 	.BYTE black,       white,           light_gray,  dark_orange
