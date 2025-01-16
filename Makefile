@@ -4,7 +4,7 @@ cfg := \
 ines_asm := \
 	ines.asm \
 	constants/boolean.asm \
-	constants/ines/*.asm
+	constants/ines.asm
 
 map := \
 	mm2.map

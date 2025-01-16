@@ -1,5 +1,5 @@
 .INCLUDE "constants/boolean.asm"
-.INCLUDE "constants/ines/ines.asm"
+.INCLUDE "constants/ines.asm"
 
 .SEGMENT "INES"
 	.BYTE "NES", $1A
