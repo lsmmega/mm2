@@ -21,7 +21,8 @@ stages_asm := \
 	constants/palettes.asm \
 	constants/scrolling.asm \
 	stages/palettes/*.asm \
-	stages/scrolling/*.asm
+	stages/scrolling/*.asm \
+	stages/tileset/*.asm
 
 .PHONY: all mm2 clean
 
