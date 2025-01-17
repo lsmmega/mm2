@@ -19,7 +19,9 @@ rom := \
 stages_asm := \
 	stages.asm \
 	constants/palettes.asm \
-	stages/palettes/*.asm
+	constants/scrolling.asm \
+	stages/palettes/*.asm \
+	stages/scrolling/*.asm
 
 .PHONY: all mm2 clean
 
