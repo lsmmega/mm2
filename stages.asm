@@ -3,38 +3,46 @@
 
 .SEGMENT "BANK00"
 .INCLUDE "stages/scrolling/heat_wily1.asm"
+.INCLUDE "stages/tileset/heat_wily1.asm"
 .INCLUDE "stages/palettes/heat.asm"
 .INCLUDE "stages/palettes/wily1.asm"
 
 .SEGMENT "BANK01"
 .INCLUDE "stages/scrolling/air_wily2.asm"
+.INCLUDE "stages/tileset/air_wily2.asm"
 .INCLUDE "stages/palettes/air.asm"
 .INCLUDE "stages/palettes/wily2.asm"
 
 .SEGMENT "BANK02"
 .INCLUDE "stages/scrolling/wood_wily3.asm"
+.INCLUDE "stages/tileset/wood_wily3.asm"
 .INCLUDE "stages/palettes/wood.asm"
 .INCLUDE "stages/palettes/wily3.asm"
 
 .SEGMENT "BANK03"
 .INCLUDE "stages/scrolling/bubble_wily4.asm"
+.INCLUDE "stages/tileset/bubble_wily4.asm"
 .INCLUDE "stages/palettes/bubble.asm"
 .INCLUDE "stages/palettes/wily4.asm"
 
 .SEGMENT "BANK04"
 .INCLUDE "stages/scrolling/quick_wily5.asm"
+.INCLUDE "stages/tileset/quick_wily5.asm"
 .INCLUDE "stages/palettes/quick.asm"
 .INCLUDE "stages/palettes/wily5.asm"
 
 .SEGMENT "BANK05"
 .INCLUDE "stages/scrolling/flash_wily6.asm"
+.INCLUDE "stages/tileset/flash_wily6.asm"
 .INCLUDE "stages/palettes/flash.asm"
 .INCLUDE "stages/palettes/wily6.asm"
 
 .SEGMENT "BANK06"
 .INCLUDE "stages/scrolling/metal.asm"
+.INCLUDE "stages/tileset/metal.asm"
 .INCLUDE "stages/palettes/metal.asm"
 
 .SEGMENT "BANK07"
 .INCLUDE "stages/scrolling/crash.asm"
+.INCLUDE "stages/tileset/crash.asm"
 .INCLUDE "stages/palettes/crash.asm"
