@@ -18,8 +18,11 @@ rom := \
 
 stages_asm := \
 	stages.asm \
+	constants/block_attributes.asm \
 	constants/palettes.asm \
 	constants/scrolling.asm \
+	stages/blocksets/32x32/*.asm \
+	stages/blocksets/palette_set/*.asm \
 	stages/palettes/*.asm \
 	stages/scrolling/*.asm \
 	stages/tilesets/index/*.asm
