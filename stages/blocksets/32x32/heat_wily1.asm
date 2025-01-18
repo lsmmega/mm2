@@ -1,258 +1,258 @@
 ;32x32 blocksets with 16x16 blocksets | block_attribute.
           ;top left,                  bottom left,                top right,                  bottom right
-	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $20 | block_attribute_wall, $28 | block_attribute_wall
-	.BYTE $00 | block_attribute_null, $21 | block_attribute_null, $00 | block_attribute_null, $21 | block_attribute_null
-	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $22 | block_attribute_null, $23 | block_attribute_null
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $2A | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $2B | block_attribute_null, $00 | block_attribute_null, $2B | block_attribute_null, $00 | block_attribute_null
-	.BYTE $31 | block_attribute_null, $18 | block_attribute_wall, $31 | block_attribute_null, $18 | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1B | block_attribute_wall, $31 | block_attribute_null, $1B | block_attribute_wall
-	.BYTE $1C | block_attribute_wall, $1D | block_attribute_wall, $1C | block_attribute_wall, $1D | block_attribute_wall
-	.BYTE $2C | block_attribute_null, $1F | block_attribute_3,    $2D | block_attribute_null, $1F | block_attribute_3
-	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $29 | block_attribute_null, $32 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1E | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $31 | block_attribute_null, $1E | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1B | block_attribute_wall, $31 | block_attribute_null, $1E | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $31 | block_attribute_null, $1B | block_attribute_wall
-	.BYTE $1C | block_attribute_wall, $1D | block_attribute_wall, $2D | block_attribute_null, $1F | block_attribute_3
-	.BYTE $2C | block_attribute_null, $1F | block_attribute_3,    $1C | block_attribute_wall, $1D | block_attribute_wall
-	.BYTE $24 | block_attribute_null, $33 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $25 | block_attribute_null, $33 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $33 | block_attribute_null, $25 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $33 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $35 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $36 | block_attribute_null, $1A | block_attribute_wall
-	.BYTE $36 | block_attribute_null, $1A | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $33 | block_attribute_null
-	.BYTE $22 | block_attribute_null, $33 | block_attribute_null, $22 | block_attribute_null, $23 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1B | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1B | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall
-	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1A | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1A | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null
-	.BYTE $25 | block_attribute_null, $35 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $37 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $2E | block_attribute_null, $2F | block_attribute_null, $2B | block_attribute_null, $00 | block_attribute_null
-	.BYTE $30 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $27 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $1F | block_attribute_wall, $00 | block_attribute_null, $1F | block_attribute_wall, $00 | block_attribute_null
-	.BYTE $1F | block_attribute_wall, $18 | block_attribute_wall, $1F | block_attribute_wall, $18 | block_attribute_wall
-	.BYTE $1D | block_attribute_wall, $18 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $34 | block_attribute_null, $19 | block_attribute_wall, $34 | block_attribute_null, $19 | block_attribute_wall
-	.BYTE $24 | block_attribute_null, $35 | block_attribute_null, $24 | block_attribute_null, $35 | block_attribute_null
-	.BYTE $25 | block_attribute_null, $35 | block_attribute_null, $25 | block_attribute_null, $35 | block_attribute_null
-	.BYTE $19 | block_attribute_wall, $25 | block_attribute_null, $19 | block_attribute_wall, $25 | block_attribute_null
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $19 | block_attribute_wall, $27 | block_attribute_null, $19 | block_attribute_wall, $27 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $26 | block_attribute_null, $37 | block_attribute_null
-	.BYTE $1B | block_attribute_wall, $1C | block_attribute_wall, $1B | block_attribute_wall, $1C | block_attribute_wall
-	.BYTE $1D | block_attribute_wall, $00 | block_attribute_null, $1D | block_attribute_wall, $00 | block_attribute_null
-	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $22 | block_attribute_null, $38 | block_attribute_null
-	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $18 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $29 | block_attribute_null, $2A | block_attribute_null, $1A | block_attribute_wall, $2A | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $2A | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $2B | block_attribute_null, $18 | block_attribute_wall, $2B | block_attribute_null, $18 | block_attribute_wall
-	.BYTE $00 | block_attribute_null, $21 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $20 | block_attribute_wall, $28 | block_attribute_wall
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $24 | block_attribute_null, $33 | block_attribute_null
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $33 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $34 | block_attribute_null, $1A | block_attribute_wall
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall
-	.BYTE $07 | block_attribute_null, $07 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $07 | block_attribute_null, $07 | block_attribute_null
-	.BYTE $07 | block_attribute_null, $07 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $29 | block_attribute_null, $2A | block_attribute_null, $29 | block_attribute_null, $32 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $07 | block_attribute_null, $07 | block_attribute_null
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $2B | block_attribute_null, $00 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $00 | block_attribute_null, $00 | block_attribute_null
-	.BYTE $2B | block_attribute_null, $00 | block_attribute_null, $18 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $20 | block_attribute_wall, $28 | block_attribute_wall
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $33 | block_attribute_null
-	.BYTE $33 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $07 | block_attribute_null, $07 | block_attribute_null, $29 | block_attribute_null, $32 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $26 | block_attribute_null, $37 | block_attribute_null
-	.BYTE $36 | block_attribute_null, $19 | block_attribute_wall, $36 | block_attribute_null, $19 | block_attribute_wall
-	.BYTE $18 | block_attribute_wall, $28 | block_attribute_wall, $18 | block_attribute_wall, $28 | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1B | block_attribute_wall
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $28 | block_attribute_wall, $1B | block_attribute_wall, $28 | block_attribute_wall, $1B | block_attribute_wall
-	.BYTE $28 | block_attribute_wall, $1B | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $1C | block_attribute_wall, $1D | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $28 | block_attribute_wall, $1E | block_attribute_wall, $28 | block_attribute_wall, $1E | block_attribute_wall
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $25 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $28 | block_attribute_wall, $1B | block_attribute_wall, $29 | block_attribute_null, $02 | block_attribute_2
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $02 | block_attribute_2,    $23 | block_attribute_null
-	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $02 | block_attribute_2,    $1E | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $26 | block_attribute_null, $37 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $28 | block_attribute_wall, $23 | block_attribute_null, $28 | block_attribute_wall, $23 | block_attribute_null
-	.BYTE $00 | block_attribute_null, $21 | block_attribute_null, $09 | block_attribute_wall, $09 | block_attribute_wall
-	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $09 | block_attribute_wall, $09 | block_attribute_wall
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $09 | block_attribute_wall, $0A | block_attribute_wall
-	.BYTE $07 | block_attribute_wall, $0C | block_attribute_wall, $07 | block_attribute_wall, $0D | block_attribute_wall
-	.BYTE $0E | block_attribute_wall, $0B | block_attribute_wall, $0F | block_attribute_wall, $0B | block_attribute_wall
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $29 | block_attribute_null, $39 | block_attribute_null
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $08 | block_attribute_null, $08 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $08 | block_attribute_null, $08 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall, $28 | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $22 | block_attribute_null, $23 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $29 | block_attribute_null, $32 | block_attribute_null
-	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall
-	.BYTE $1B | block_attribute_wall, $1C | block_attribute_wall, $1E | block_attribute_wall, $2D | block_attribute_null
-	.BYTE $1E | block_attribute_wall, $2C | block_attribute_null, $1B | block_attribute_wall, $1C | block_attribute_wall
-	.BYTE $1E | block_attribute_wall, $2C | block_attribute_null, $1E | block_attribute_wall, $2D | block_attribute_null
-	.BYTE $1D | block_attribute_wall, $00 | block_attribute_null, $1F | block_attribute_wall, $00 | block_attribute_null
-	.BYTE $1F | block_attribute_wall, $00 | block_attribute_null, $1D | block_attribute_wall, $00 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $2A | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $36 | block_attribute_null, $1A | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null
-	.BYTE $24 | block_attribute_null, $35 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $36 | block_attribute_null, $1A | block_attribute_wall
-	.BYTE $31 | block_attribute_null, $1A | block_attribute_wall, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $24 | block_attribute_null, $25 | block_attribute_null
-	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $28 | block_attribute_wall, $1E | block_attribute_wall, $28 | block_attribute_wall, $1E | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $2C | block_attribute_null, $1F | block_attribute_wall, $2D | block_attribute_null, $1F | block_attribute_wall
-	.BYTE $06 | block_attribute_wall, $06 | block_attribute_wall, $06 | block_attribute_wall, $06 | block_attribute_wall
-	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall
-	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $29 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null
-	.BYTE $23 | block_attribute_wall, $25 | block_attribute_wall, $24 | block_attribute_wall, $26 | block_attribute_wall
-	.BYTE $25 | block_attribute_wall, $25 | block_attribute_wall, $26 | block_attribute_wall, $26 | block_attribute_wall
-	.BYTE $01 | block_attribute_null, $23 | block_attribute_wall, $01 | block_attribute_null, $24 | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $21 | block_attribute_wall, $27 | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $21 | block_attribute_wall, $3C | block_attribute_wall, $21 | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $3C | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $30 | block_attribute_null, $38 | block_attribute_null
-	.BYTE $31 | block_attribute_null, $39 | block_attribute_null, $32 | block_attribute_null, $3A | block_attribute_null
-	.BYTE $01 | block_attribute_null, $3B | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null
-	.BYTE $01 | block_attribute_null, $29 | block_attribute_null, $01 | block_attribute_null, $2A | block_attribute_null
-	.BYTE $21 | block_attribute_wall, $3C | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall
-	.BYTE $3C | block_attribute_wall, $3C | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall
-	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null
-	.BYTE $1E | block_attribute_null, $1D | block_attribute_null, $1E | block_attribute_null, $1D | block_attribute_null
-	.BYTE $1D | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null
-	.BYTE $1D | block_attribute_null, $1D | block_attribute_null, $28 | block_attribute_null, $28 | block_attribute_null
-	.BYTE $01 | block_attribute_null, $1E | block_attribute_null, $01 | block_attribute_null, $1E | block_attribute_null
-	.BYTE $1D | block_attribute_null, $28 | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null
-	.BYTE $1D | block_attribute_null, $23 | block_attribute_wall, $1D | block_attribute_null, $24 | block_attribute_wall
-	.BYTE $1D | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null, $28 | block_attribute_null
-	.BYTE $1D | block_attribute_null, $23 | block_attribute_wall, $28 | block_attribute_null, $24 | block_attribute_wall
-	.BYTE $3D | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null
-	.BYTE $28 | block_attribute_null, $23 | block_attribute_wall, $1D | block_attribute_null, $24 | block_attribute_wall
-	.BYTE $3C | block_attribute_wall, $3C | block_attribute_wall, $0C | block_attribute_wall, $0E | block_attribute_wall
-	.BYTE $0D | block_attribute_wall, $0F | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $2C | block_attribute_wall, $01 | block_attribute_null
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $2E | block_attribute_wall, $37 | block_attribute_wall
-	.BYTE $2F | block_attribute_wall, $33 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall
-	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall
-	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall, $3E | block_attribute_null
-	.BYTE $2D | block_attribute_wall, $3E | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null
-	.BYTE $34 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall
-	.BYTE $34 | block_attribute_wall, $3E | block_attribute_null, $34 | block_attribute_wall, $3E | block_attribute_null
-	.BYTE $3F | block_attribute_null, $3D | block_attribute_null, $3F | block_attribute_null, $3F | block_attribute_null
-	.BYTE $34 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall
-	.BYTE $3E | block_attribute_null, $3D | block_attribute_null, $3E | block_attribute_null, $3D | block_attribute_null
-	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $3D | block_attribute_null, $3D | block_attribute_null
-	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $3F | block_attribute_null, $3D | block_attribute_null
-	.BYTE $3E | block_attribute_null, $3F | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null
-	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $3E | block_attribute_null, $3F | block_attribute_null
-	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $02 | block_attribute_2,    $3D | block_attribute_null
-	.BYTE $3D | block_attribute_null, $3F | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null
-	.BYTE $2F | block_attribute_wall, $33 | block_attribute_wall, $3D | block_attribute_null, $34 | block_attribute_wall
-	.BYTE $3D | block_attribute_null, $34 | block_attribute_wall, $3F | block_attribute_null, $35 | block_attribute_wall
-	.BYTE $33 | block_attribute_wall, $3E | block_attribute_null, $34 | block_attribute_wall, $3E | block_attribute_null
-	.BYTE $34 | block_attribute_wall, $3E | block_attribute_null, $34 | block_attribute_wall, $3E | block_attribute_null
-	.BYTE $35 | block_attribute_wall, $3E | block_attribute_null, $02 | block_attribute_2,    $3D | block_attribute_null
-	.BYTE $3D | block_attribute_null, $02 | block_attribute_2,    $3D | block_attribute_null, $33 | block_attribute_wall
-	.BYTE $3D | block_attribute_null, $34 | block_attribute_wall, $3F | block_attribute_null, $34 | block_attribute_wall
-	.BYTE $3D | block_attribute_null, $34 | block_attribute_wall, $3F | block_attribute_null, $35 | block_attribute_wall
-	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $33 | block_attribute_wall, $33 | block_attribute_wall
-	.BYTE $34 | block_attribute_wall, $34 | block_attribute_wall, $35 | block_attribute_wall, $35 | block_attribute_wall
-	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $3E | block_attribute_null, $3D | block_attribute_null
-	.BYTE $3E | block_attribute_null, $3F | block_attribute_null, $3E | block_attribute_null, $3D | block_attribute_null
-	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $2B | block_attribute_wall, $2C | block_attribute_wall
-	.BYTE $33 | block_attribute_wall, $2D | block_attribute_wall, $3E | block_attribute_null, $3F | block_attribute_null
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $2E | block_attribute_wall
-	.BYTE $3E | block_attribute_null, $2F | block_attribute_wall, $3D | block_attribute_null, $3D | block_attribute_null
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $37 | block_attribute_wall, $01 | block_attribute_null
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $02 | block_attribute_2,    $01 | block_attribute_null
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $21 | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $01 | block_attribute_null, $18 | block_attribute_wall, $01 | block_attribute_null
-	.BYTE $19 | block_attribute_wall, $3C | block_attribute_wall, $19 | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $19 | block_attribute_wall, $01 | block_attribute_null, $19 | block_attribute_wall, $01 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $01 | block_attribute_null, $3C | block_attribute_wall, $01 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $19 | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $18 | block_attribute_wall, $3C | block_attribute_wall, $19 | block_attribute_wall, $3C | block_attribute_wall
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $2B | block_attribute_wall
-	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $3C | block_attribute_wall, $21 | block_attribute_wall
-	.BYTE $3C | block_attribute_wall, $21 | block_attribute_wall, $3C | block_attribute_wall, $21 | block_attribute_wall
-	.BYTE $3C | block_attribute_wall, $21 | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall
-	.BYTE $1A | block_attribute_wall, $3C | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall
-	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $36 | block_attribute_wall, $00 | block_attribute_null
-	.BYTE $36 | block_attribute_wall, $00 | block_attribute_null, $36 | block_attribute_wall, $00 | block_attribute_null
-	.BYTE $00 | block_attribute_null, $36 | block_attribute_wall, $00 | block_attribute_null, $00 | block_attribute_null
-	.BYTE $1F | block_attribute_null, $01 | block_attribute_null, $27 | block_attribute_null, $01 | block_attribute_null
-	.BYTE $1B | block_attribute_null, $27 | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null
-	.BYTE $1F | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null, $1B | block_attribute_null
-	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1F | block_attribute_null
-	.BYTE $1B | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null
-	.BYTE $1B | block_attribute_null, $27 | block_attribute_null, $1F | block_attribute_null, $1B | block_attribute_null
-	.BYTE $01 | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null, $1F | block_attribute_null
-	.BYTE $27 | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null
-	.BYTE $1F | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null
-	.BYTE $27 | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null, $01 | block_attribute_null
-	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null
-	.BYTE $1B | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null, $01 | block_attribute_null
-	.BYTE $1B | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null
-	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1F | block_attribute_null, $1B | block_attribute_null
-	.BYTE $01 | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null
-	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $27 | block_attribute_null, $01 | block_attribute_null
-	.BYTE $27 | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null
-	.BYTE $1B | block_attribute_null, $27 | block_attribute_null, $1B | block_attribute_null, $1F | block_attribute_null
-	.BYTE $27 | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null
-	.BYTE $1F | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null
-	.BYTE $01 | block_attribute_null, $1F | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null
-	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $29 | block_attribute_null, $32 | block_attribute_null
-	.BYTE $30 | block_attribute_wall, $32 | block_attribute_wall, $31 | block_attribute_wall, $33 | block_attribute_wall
-	.BYTE $3F | block_attribute_null, $00 | block_attribute_null, $3F | block_attribute_null, $00 | block_attribute_null
-	.BYTE $34 | block_attribute_wall, $35 | block_attribute_wall, $36 | block_attribute_wall, $37 | block_attribute_wall
-	.BYTE $0A | block_attribute_wall, $12 | block_attribute_wall, $17 | block_attribute_null, $17 | block_attribute_null
-	.BYTE $3F | block_attribute_2,    $16 | block_attribute_null, $17 | block_attribute_null, $17 | block_attribute_null
-	.BYTE $17 | block_attribute_null, $17 | block_attribute_null, $05 | block_attribute_3,    $05 | block_attribute_3
-	.BYTE $3F | block_attribute_2,    $16 | block_attribute_null, $3F | block_attribute_2,    $16 | block_attribute_null
+	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null ;00
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall ;01
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall ;02
+	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $20 | block_attribute_wall, $28 | block_attribute_wall ;03
+	.BYTE $00 | block_attribute_null, $21 | block_attribute_null, $00 | block_attribute_null, $21 | block_attribute_null ;04
+	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $22 | block_attribute_null, $23 | block_attribute_null ;05
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null ;06
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null ;07
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null ;08
+	.BYTE $29 | block_attribute_null, $2A | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;09
+	.BYTE $2B | block_attribute_null, $00 | block_attribute_null, $2B | block_attribute_null, $00 | block_attribute_null ;0A
+	.BYTE $31 | block_attribute_null, $18 | block_attribute_wall, $31 | block_attribute_null, $18 | block_attribute_wall ;0B
+	.BYTE $31 | block_attribute_null, $1B | block_attribute_wall, $31 | block_attribute_null, $1B | block_attribute_wall ;0C
+	.BYTE $1C | block_attribute_wall, $1D | block_attribute_wall, $1C | block_attribute_wall, $1D | block_attribute_wall ;0D
+	.BYTE $2C | block_attribute_null, $1F | block_attribute_3,    $2D | block_attribute_null, $1F | block_attribute_3    ;0E
+	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $29 | block_attribute_null, $32 | block_attribute_null ;0F
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1E | block_attribute_wall ;10
+	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $31 | block_attribute_null, $1E | block_attribute_wall ;11
+	.BYTE $31 | block_attribute_null, $1B | block_attribute_wall, $31 | block_attribute_null, $1E | block_attribute_wall ;12
+	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $31 | block_attribute_null, $1B | block_attribute_wall ;13
+	.BYTE $1C | block_attribute_wall, $1D | block_attribute_wall, $2D | block_attribute_null, $1F | block_attribute_3    ;14
+	.BYTE $2C | block_attribute_null, $1F | block_attribute_3,    $1C | block_attribute_wall, $1D | block_attribute_wall ;15
+	.BYTE $24 | block_attribute_null, $33 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null ;16
+	.BYTE $25 | block_attribute_null, $33 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null ;17
+	.BYTE $33 | block_attribute_null, $25 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null ;18
+	.BYTE $33 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null ;19
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $35 | block_attribute_null ;1A
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $36 | block_attribute_null, $1A | block_attribute_wall ;1B
+	.BYTE $36 | block_attribute_null, $1A | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null ;1C
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall ;1D
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $33 | block_attribute_null ;1E
+	.BYTE $22 | block_attribute_null, $33 | block_attribute_null, $22 | block_attribute_null, $23 | block_attribute_null ;1F
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1B | block_attribute_wall ;20
+	.BYTE $31 | block_attribute_null, $1B | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null ;21
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall ;22
+	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null ;23
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1A | block_attribute_wall ;24
+	.BYTE $31 | block_attribute_null, $1A | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null ;25
+	.BYTE $25 | block_attribute_null, $35 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null ;26
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $37 | block_attribute_null ;27
+	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null ;28
+	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null ;29
+	.BYTE $2E | block_attribute_null, $2F | block_attribute_null, $2B | block_attribute_null, $00 | block_attribute_null ;2A
+	.BYTE $30 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null ;2B
+	.BYTE $1A | block_attribute_wall, $27 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null ;2C
+	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;2D
+	.BYTE $1F | block_attribute_wall, $00 | block_attribute_null, $1F | block_attribute_wall, $00 | block_attribute_null ;2E
+	.BYTE $1F | block_attribute_wall, $18 | block_attribute_wall, $1F | block_attribute_wall, $18 | block_attribute_wall ;2F
+	.BYTE $1D | block_attribute_wall, $18 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;30
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;31
+	.BYTE $34 | block_attribute_null, $19 | block_attribute_wall, $34 | block_attribute_null, $19 | block_attribute_wall ;32
+	.BYTE $24 | block_attribute_null, $35 | block_attribute_null, $24 | block_attribute_null, $35 | block_attribute_null ;33
+	.BYTE $25 | block_attribute_null, $35 | block_attribute_null, $25 | block_attribute_null, $35 | block_attribute_null ;34
+	.BYTE $19 | block_attribute_wall, $25 | block_attribute_null, $19 | block_attribute_wall, $25 | block_attribute_null ;35
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall ;36
+	.BYTE $19 | block_attribute_wall, $27 | block_attribute_null, $19 | block_attribute_wall, $27 | block_attribute_null ;37
+	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $26 | block_attribute_null, $37 | block_attribute_null ;38
+	.BYTE $1B | block_attribute_wall, $1C | block_attribute_wall, $1B | block_attribute_wall, $1C | block_attribute_wall ;39
+	.BYTE $1D | block_attribute_wall, $00 | block_attribute_null, $1D | block_attribute_wall, $00 | block_attribute_null ;3A
+	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $22 | block_attribute_null, $38 | block_attribute_null ;3B
+	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $18 | block_attribute_wall, $20 | block_attribute_wall ;3C
+	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $20 | block_attribute_wall, $20 | block_attribute_wall ;3D
+	.BYTE $29 | block_attribute_null, $2A | block_attribute_null, $1A | block_attribute_wall, $2A | block_attribute_null ;3E
+	.BYTE $1A | block_attribute_wall, $2A | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;3F
+	.BYTE $2B | block_attribute_null, $18 | block_attribute_wall, $2B | block_attribute_null, $18 | block_attribute_wall ;40
+	.BYTE $00 | block_attribute_null, $21 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2    ;41
+	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2    ;42
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2    ;43
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2    ;44
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2    ;45
+	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $20 | block_attribute_wall, $28 | block_attribute_wall ;46
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $24 | block_attribute_null, $33 | block_attribute_null ;47
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $33 | block_attribute_null, $25 | block_attribute_null ;48
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $34 | block_attribute_null, $1A | block_attribute_wall ;49
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall ;4A
+	.BYTE $07 | block_attribute_null, $07 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null ;4B
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $07 | block_attribute_null, $07 | block_attribute_null ;4C
+	.BYTE $07 | block_attribute_null, $07 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;4D
+	.BYTE $29 | block_attribute_null, $2A | block_attribute_null, $29 | block_attribute_null, $32 | block_attribute_null ;4E
+	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $07 | block_attribute_null, $07 | block_attribute_null ;4F
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $2B | block_attribute_null, $00 | block_attribute_null ;50
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $00 | block_attribute_null, $00 | block_attribute_null ;51
+	.BYTE $2B | block_attribute_null, $00 | block_attribute_null, $18 | block_attribute_wall, $20 | block_attribute_wall ;52
+	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $20 | block_attribute_wall, $28 | block_attribute_wall ;53
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null, $33 | block_attribute_null ;54
+	.BYTE $33 | block_attribute_null, $27 | block_attribute_null, $26 | block_attribute_null, $27 | block_attribute_null ;55
+	.BYTE $07 | block_attribute_null, $07 | block_attribute_null, $29 | block_attribute_null, $32 | block_attribute_null ;56
+	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;57
+	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $26 | block_attribute_null, $37 | block_attribute_null ;58
+	.BYTE $36 | block_attribute_null, $19 | block_attribute_wall, $36 | block_attribute_null, $19 | block_attribute_wall ;59
+	.BYTE $18 | block_attribute_wall, $28 | block_attribute_wall, $18 | block_attribute_wall, $28 | block_attribute_wall ;5A
+	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $29 | block_attribute_null, $39 | block_attribute_null ;5B
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $31 | block_attribute_null, $1B | block_attribute_wall ;5C
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;5D
+	.BYTE $28 | block_attribute_wall, $1B | block_attribute_wall, $28 | block_attribute_wall, $1B | block_attribute_wall ;5E
+	.BYTE $28 | block_attribute_wall, $1B | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;5F
+	.BYTE $1C | block_attribute_wall, $1D | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;60
+	.BYTE $28 | block_attribute_wall, $1E | block_attribute_wall, $28 | block_attribute_wall, $1E | block_attribute_wall ;61
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $24 | block_attribute_null, $25 | block_attribute_null ;62
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $25 | block_attribute_null, $25 | block_attribute_null ;63
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null ;64
+	.BYTE $28 | block_attribute_wall, $1B | block_attribute_wall, $29 | block_attribute_null, $02 | block_attribute_2    ;65
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $02 | block_attribute_2,    $23 | block_attribute_null ;66
+	.BYTE $31 | block_attribute_null, $1E | block_attribute_wall, $02 | block_attribute_2,    $1E | block_attribute_wall ;67
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $26 | block_attribute_null, $37 | block_attribute_null ;68
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall ;69
+	.BYTE $28 | block_attribute_wall, $23 | block_attribute_null, $28 | block_attribute_wall, $23 | block_attribute_null ;6A
+	.BYTE $00 | block_attribute_null, $21 | block_attribute_null, $09 | block_attribute_wall, $09 | block_attribute_wall ;6B
+	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $09 | block_attribute_wall, $09 | block_attribute_wall ;6C
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $09 | block_attribute_wall, $0A | block_attribute_wall ;6D
+	.BYTE $07 | block_attribute_wall, $0C | block_attribute_wall, $07 | block_attribute_wall, $0D | block_attribute_wall ;6E
+	.BYTE $0E | block_attribute_wall, $0B | block_attribute_wall, $0F | block_attribute_wall, $0B | block_attribute_wall ;6F
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $29 | block_attribute_null, $39 | block_attribute_null ;70
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $08 | block_attribute_null, $08 | block_attribute_null ;71
+	.BYTE $26 | block_attribute_null, $37 | block_attribute_null, $08 | block_attribute_null, $08 | block_attribute_null ;72
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall, $28 | block_attribute_wall ;73
+	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall ;74
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $22 | block_attribute_null, $23 | block_attribute_null ;75
+	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $24 | block_attribute_null, $25 | block_attribute_null ;76
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $29 | block_attribute_null, $32 | block_attribute_null ;77
+	.BYTE $22 | block_attribute_null, $23 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall ;78
+	.BYTE $24 | block_attribute_null, $25 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall ;79
+	.BYTE $25 | block_attribute_null, $25 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall ;7A
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall ;7B
+	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $20 | block_attribute_wall, $20 | block_attribute_wall ;7C
+	.BYTE $1B | block_attribute_wall, $1C | block_attribute_wall, $1E | block_attribute_wall, $2D | block_attribute_null ;7D
+	.BYTE $1E | block_attribute_wall, $2C | block_attribute_null, $1B | block_attribute_wall, $1C | block_attribute_wall ;7E
+	.BYTE $1E | block_attribute_wall, $2C | block_attribute_null, $1E | block_attribute_wall, $2D | block_attribute_null ;7F
+	.BYTE $1D | block_attribute_wall, $00 | block_attribute_null, $1F | block_attribute_wall, $00 | block_attribute_null ;80
+	.BYTE $1F | block_attribute_wall, $00 | block_attribute_null, $1D | block_attribute_wall, $00 | block_attribute_null ;81
+	.BYTE $1A | block_attribute_wall, $25 | block_attribute_null, $25 | block_attribute_null, $25 | block_attribute_null ;82
+	.BYTE $1A | block_attribute_wall, $2A | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;83
+	.BYTE $36 | block_attribute_null, $1A | block_attribute_wall, $26 | block_attribute_null, $27 | block_attribute_null ;84
+	.BYTE $24 | block_attribute_null, $35 | block_attribute_null, $24 | block_attribute_null, $25 | block_attribute_null ;85
+	.BYTE $26 | block_attribute_null, $27 | block_attribute_null, $36 | block_attribute_null, $1A | block_attribute_wall ;86
+	.BYTE $31 | block_attribute_null, $1A | block_attribute_wall, $29 | block_attribute_null, $2A | block_attribute_null ;87
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $24 | block_attribute_null, $25 | block_attribute_null ;88
+	.BYTE $29 | block_attribute_null, $39 | block_attribute_null, $29 | block_attribute_null, $2A | block_attribute_null ;89
+	.BYTE $28 | block_attribute_wall, $1E | block_attribute_wall, $28 | block_attribute_wall, $1E | block_attribute_wall ;8A
+	.BYTE $20 | block_attribute_wall, $28 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;8B
+	.BYTE $2C | block_attribute_null, $1F | block_attribute_wall, $2D | block_attribute_null, $1F | block_attribute_wall ;8C
+	.BYTE $06 | block_attribute_wall, $06 | block_attribute_wall, $06 | block_attribute_wall, $06 | block_attribute_wall ;8D
+	.BYTE $29 | block_attribute_null, $32 | block_attribute_null, $1A | block_attribute_wall, $1A | block_attribute_wall ;8E
+	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $29 | block_attribute_null, $2A | block_attribute_null ;8F
+	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null ;90
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null ;91
+	.BYTE $23 | block_attribute_wall, $25 | block_attribute_wall, $24 | block_attribute_wall, $26 | block_attribute_wall ;92
+	.BYTE $25 | block_attribute_wall, $25 | block_attribute_wall, $26 | block_attribute_wall, $26 | block_attribute_wall ;93
+	.BYTE $01 | block_attribute_null, $23 | block_attribute_wall, $01 | block_attribute_null, $24 | block_attribute_wall ;94
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $21 | block_attribute_wall, $27 | block_attribute_wall ;95
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall ;96
+	.BYTE $21 | block_attribute_wall, $3C | block_attribute_wall, $21 | block_attribute_wall, $3C | block_attribute_wall ;97
+	.BYTE $3C | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall ;98
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $30 | block_attribute_null, $38 | block_attribute_null ;99
+	.BYTE $31 | block_attribute_null, $39 | block_attribute_null, $32 | block_attribute_null, $3A | block_attribute_null ;9A
+	.BYTE $01 | block_attribute_null, $3B | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null ;9B
+	.BYTE $01 | block_attribute_null, $29 | block_attribute_null, $01 | block_attribute_null, $2A | block_attribute_null ;9C
+	.BYTE $21 | block_attribute_wall, $3C | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall ;9D
+	.BYTE $3C | block_attribute_wall, $3C | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall ;9E
+	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null ;9F
+	.BYTE $1E | block_attribute_null, $1D | block_attribute_null, $1E | block_attribute_null, $1D | block_attribute_null ;A0
+	.BYTE $1D | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null ;A1
+	.BYTE $1D | block_attribute_null, $1D | block_attribute_null, $28 | block_attribute_null, $28 | block_attribute_null ;A2
+	.BYTE $01 | block_attribute_null, $1E | block_attribute_null, $01 | block_attribute_null, $1E | block_attribute_null ;A3
+	.BYTE $1D | block_attribute_null, $28 | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null ;A4
+	.BYTE $1D | block_attribute_null, $23 | block_attribute_wall, $1D | block_attribute_null, $24 | block_attribute_wall ;A5
+	.BYTE $1D | block_attribute_null, $1D | block_attribute_null, $1D | block_attribute_null, $28 | block_attribute_null ;A6
+	.BYTE $1D | block_attribute_null, $23 | block_attribute_wall, $28 | block_attribute_null, $24 | block_attribute_wall ;A7
+	.BYTE $3D | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null ;A8
+	.BYTE $28 | block_attribute_null, $23 | block_attribute_wall, $1D | block_attribute_null, $24 | block_attribute_wall ;A9
+	.BYTE $3C | block_attribute_wall, $3C | block_attribute_wall, $0C | block_attribute_wall, $0E | block_attribute_wall ;AA
+	.BYTE $0D | block_attribute_wall, $0F | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall ;AB
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $2C | block_attribute_wall, $01 | block_attribute_null ;AC
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $2E | block_attribute_wall, $37 | block_attribute_wall ;AD
+	.BYTE $2F | block_attribute_wall, $33 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall ;AE
+	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall ;AF
+	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall, $3E | block_attribute_null ;B0
+	.BYTE $2D | block_attribute_wall, $3E | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null ;B1
+	.BYTE $34 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall ;B2
+	.BYTE $34 | block_attribute_wall, $3E | block_attribute_null, $34 | block_attribute_wall, $3E | block_attribute_null ;B3
+	.BYTE $3F | block_attribute_null, $3D | block_attribute_null, $3F | block_attribute_null, $3F | block_attribute_null ;B4
+	.BYTE $34 | block_attribute_wall, $33 | block_attribute_wall, $34 | block_attribute_wall, $34 | block_attribute_wall ;B5
+	.BYTE $3E | block_attribute_null, $3D | block_attribute_null, $3E | block_attribute_null, $3D | block_attribute_null ;B6
+	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $3D | block_attribute_null, $3D | block_attribute_null ;B7
+	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $3F | block_attribute_null, $3D | block_attribute_null ;B8
+	.BYTE $3E | block_attribute_null, $3F | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null ;B9
+	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $3E | block_attribute_null, $3F | block_attribute_null ;BA
+	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;BB
+	.BYTE $33 | block_attribute_wall, $33 | block_attribute_wall, $02 | block_attribute_2,    $3D | block_attribute_null ;BC
+	.BYTE $3D | block_attribute_null, $3F | block_attribute_null, $3D | block_attribute_null, $3D | block_attribute_null ;BD
+	.BYTE $2F | block_attribute_wall, $33 | block_attribute_wall, $3D | block_attribute_null, $34 | block_attribute_wall ;BE
+	.BYTE $3D | block_attribute_null, $34 | block_attribute_wall, $3F | block_attribute_null, $35 | block_attribute_wall ;BF
+	.BYTE $33 | block_attribute_wall, $3E | block_attribute_null, $34 | block_attribute_wall, $3E | block_attribute_null ;C0
+	.BYTE $34 | block_attribute_wall, $3E | block_attribute_null, $34 | block_attribute_wall, $3E | block_attribute_null ;C1
+	.BYTE $35 | block_attribute_wall, $3E | block_attribute_null, $02 | block_attribute_2,    $3D | block_attribute_null ;C2
+	.BYTE $3D | block_attribute_null, $02 | block_attribute_2,    $3D | block_attribute_null, $33 | block_attribute_wall ;C3
+	.BYTE $3D | block_attribute_null, $34 | block_attribute_wall, $3F | block_attribute_null, $34 | block_attribute_wall ;C4
+	.BYTE $3D | block_attribute_null, $34 | block_attribute_wall, $3F | block_attribute_null, $35 | block_attribute_wall ;C5
+	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $33 | block_attribute_wall, $33 | block_attribute_wall ;C6
+	.BYTE $34 | block_attribute_wall, $34 | block_attribute_wall, $35 | block_attribute_wall, $35 | block_attribute_wall ;C7
+	.BYTE $02 | block_attribute_2,    $02 | block_attribute_2,    $3E | block_attribute_null, $3D | block_attribute_null ;C8
+	.BYTE $3E | block_attribute_null, $3F | block_attribute_null, $3E | block_attribute_null, $3D | block_attribute_null ;C9
+	.BYTE $35 | block_attribute_wall, $35 | block_attribute_wall, $02 | block_attribute_2,    $02 | block_attribute_2    ;CA
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $2B | block_attribute_wall, $2C | block_attribute_wall ;CB
+	.BYTE $33 | block_attribute_wall, $2D | block_attribute_wall, $3E | block_attribute_null, $3F | block_attribute_null ;CC
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $2E | block_attribute_wall ;CD
+	.BYTE $3E | block_attribute_null, $2F | block_attribute_wall, $3D | block_attribute_null, $3D | block_attribute_null ;CE
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $37 | block_attribute_wall, $01 | block_attribute_null ;CF
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $02 | block_attribute_2,    $02 | block_attribute_2    ;D0
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $02 | block_attribute_2,    $01 | block_attribute_null ;D1
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $3C | block_attribute_wall ;D2
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $21 | block_attribute_wall, $3C | block_attribute_wall ;D3
+	.BYTE $20 | block_attribute_wall, $01 | block_attribute_null, $18 | block_attribute_wall, $01 | block_attribute_null ;D4
+	.BYTE $19 | block_attribute_wall, $3C | block_attribute_wall, $19 | block_attribute_wall, $3C | block_attribute_wall ;D5
+	.BYTE $19 | block_attribute_wall, $01 | block_attribute_null, $19 | block_attribute_wall, $01 | block_attribute_null ;D6
+	.BYTE $1A | block_attribute_wall, $01 | block_attribute_null, $3C | block_attribute_wall, $01 | block_attribute_null ;D7
+	.BYTE $1A | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall, $3C | block_attribute_wall ;D8
+	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $19 | block_attribute_wall, $3C | block_attribute_wall ;D9
+	.BYTE $18 | block_attribute_wall, $3C | block_attribute_wall, $19 | block_attribute_wall, $3C | block_attribute_wall ;DA
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $2B | block_attribute_wall ;DB
+	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $3C | block_attribute_wall, $21 | block_attribute_wall ;DC
+	.BYTE $3C | block_attribute_wall, $21 | block_attribute_wall, $3C | block_attribute_wall, $21 | block_attribute_wall ;DD
+	.BYTE $3C | block_attribute_wall, $21 | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall ;DE
+	.BYTE $1A | block_attribute_wall, $3C | block_attribute_wall, $22 | block_attribute_wall, $22 | block_attribute_wall ;DF
+	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $36 | block_attribute_wall, $00 | block_attribute_null ;E0
+	.BYTE $36 | block_attribute_wall, $00 | block_attribute_null, $36 | block_attribute_wall, $00 | block_attribute_null ;E1
+	.BYTE $00 | block_attribute_null, $36 | block_attribute_wall, $00 | block_attribute_null, $00 | block_attribute_null ;E2
+	.BYTE $1F | block_attribute_null, $01 | block_attribute_null, $27 | block_attribute_null, $01 | block_attribute_null ;E3
+	.BYTE $1B | block_attribute_null, $27 | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null ;E4
+	.BYTE $1F | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null, $1B | block_attribute_null ;E5
+	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1F | block_attribute_null ;E6
+	.BYTE $1B | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null ;E7
+	.BYTE $1B | block_attribute_null, $27 | block_attribute_null, $1F | block_attribute_null, $1B | block_attribute_null ;E8
+	.BYTE $01 | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null, $1F | block_attribute_null ;E9
+	.BYTE $27 | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null ;EA
+	.BYTE $1F | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null ;EB
+	.BYTE $27 | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null, $01 | block_attribute_null ;EC
+	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null ;ED
+	.BYTE $1B | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null, $01 | block_attribute_null ;EE
+	.BYTE $1B | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null ;EF
+	.BYTE $1B | block_attribute_null, $1B | block_attribute_null, $1F | block_attribute_null, $1B | block_attribute_null ;F0
+	.BYTE $01 | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null ;F1
+	.BYTE $01 | block_attribute_null, $01 | block_attribute_null, $27 | block_attribute_null, $01 | block_attribute_null ;F2
+	.BYTE $27 | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null, $1B | block_attribute_null ;F3
+	.BYTE $1B | block_attribute_null, $27 | block_attribute_null, $1B | block_attribute_null, $1F | block_attribute_null ;F4
+	.BYTE $27 | block_attribute_null, $01 | block_attribute_null, $1B | block_attribute_null, $27 | block_attribute_null ;F5
+	.BYTE $1F | block_attribute_null, $1B | block_attribute_null, $01 | block_attribute_null, $1F | block_attribute_null ;F6
+	.BYTE $01 | block_attribute_null, $1F | block_attribute_null, $01 | block_attribute_null, $01 | block_attribute_null ;F7
+	.BYTE $1A | block_attribute_wall, $1A | block_attribute_wall, $29 | block_attribute_null, $32 | block_attribute_null ;F8
+	.BYTE $30 | block_attribute_wall, $32 | block_attribute_wall, $31 | block_attribute_wall, $33 | block_attribute_wall ;F9
+	.BYTE $3F | block_attribute_null, $00 | block_attribute_null, $3F | block_attribute_null, $00 | block_attribute_null ;FA
+	.BYTE $34 | block_attribute_wall, $35 | block_attribute_wall, $36 | block_attribute_wall, $37 | block_attribute_wall ;FB
+	.BYTE $0A | block_attribute_wall, $12 | block_attribute_wall, $17 | block_attribute_null, $17 | block_attribute_null ;FC
+	.BYTE $3F | block_attribute_2,    $16 | block_attribute_null, $17 | block_attribute_null, $17 | block_attribute_null ;FD
+	.BYTE $17 | block_attribute_null, $17 | block_attribute_null, $05 | block_attribute_3,    $05 | block_attribute_3    ;FE
+	.BYTE $3F | block_attribute_2,    $16 | block_attribute_null, $3F | block_attribute_2,    $16 | block_attribute_null ;FF
