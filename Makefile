@@ -1,6 +1,11 @@
 cfg := \
 	mm2.cfg
 
+home_asm := \
+	home.asm \
+	constants/block_attributes.asm \
+	home/*.asm
+
 ines_asm := \
 	ines.asm \
 	constants/boolean.asm \
@@ -10,6 +15,7 @@ map := \
 	mm2.map
 
 obj := \
+	home.o \
 	ines.o \
 	stages.o
 
@@ -35,6 +41,9 @@ mm2: $(rom)
 
 %.nes: $(cfg) $(obj)
 	ld65 $(obj) -C $(cfg) -m $(map) -o $(rom)
+
+home.o: $(home_asm)
+	ca65 $< -o $@
 
 ines.o: $(ines_asm)
 	ca65 $< -o $@

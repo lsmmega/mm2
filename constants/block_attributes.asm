@@ -1,4 +1,4 @@
-;block attribute set.
+;block attribute 2 and 3 index.
 .ENUM
 	block_null
 	block_wall

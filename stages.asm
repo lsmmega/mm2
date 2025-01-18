@@ -1,3 +1,4 @@
+.INCLUDE "constants/block_attributes.asm"
 .INCLUDE "constants/palettes.asm"
 .INCLUDE "constants/scrolling.asm"
 
