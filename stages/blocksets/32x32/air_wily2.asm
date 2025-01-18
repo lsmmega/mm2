@@ -1,4 +1,4 @@
-;32x32 blocksets with 16x16 blocksets | block_attribute.
+;32x32 blocksets with 16x16 blocksets | block attribute.
 ;block_attribute 2 and 3 setting see home/blocksets.asm. 
 	      ;top left,                  bottom left,                top right,                  bottom right
 	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null ;00
