@@ -1,5 +1,5 @@
 ;32x32 blocksets with 16x16 blocksets | block_attribute.
-          ;top left,                  bottom left,                top right,                  bottom right
+	      ;top left,                  bottom left,                top right,                  bottom right
 	.BYTE $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null, $00 | block_attribute_null ;00
 	.BYTE $18 | block_attribute_wall, $20 | block_attribute_wall, $18 | block_attribute_wall, $20 | block_attribute_wall ;01
 	.BYTE $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall, $20 | block_attribute_wall ;02
