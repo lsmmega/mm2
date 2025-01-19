@@ -28,7 +28,7 @@ stages_asm := \
 	constants/palettes.asm \
 	constants/scrolling.asm \
 	stages/blocksets/32x32/*.asm \
-	stages/blocksets/palette_set/*.asm \
+	stages/blocksets/palette_group/*.asm \
 	stages/palettes/*.asm \
 	stages/scrolling/*.asm \
 	stages/tilesets/index/*.asm
