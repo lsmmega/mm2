@@ -34,7 +34,7 @@ stages_asm := \
 	stages/heat_wily1/*.asm \
 	stages/metal/*.asm \
 	stages/quick_wily5/*.asm \
-	stages/wood_wily3/*.asm \
+	stages/wood_wily3/*.asm
 
 .PHONY: all mm2 clean
 
