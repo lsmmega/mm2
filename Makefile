@@ -27,11 +27,14 @@ stages_asm := \
 	constants/block_attributes.asm \
 	constants/palettes.asm \
 	constants/scrolling.asm \
-	stages/blocksets/32x32/*.asm \
-	stages/blocksets/palette_group/*.asm \
-	stages/palettes/*.asm \
-	stages/scrolling/*.asm \
-	stages/tilesets/index/*.asm
+	stages/air_wily2/*.asm \
+	stages/bubble_wily4/*.asm \
+	stages/crash/*.asm \
+	stages/flash_wily6/*.asm \
+	stages/heat_wily1/*.asm \
+	stages/metal/*.asm \
+	stages/quick_wily5/*.asm \
+	stages/wood_wily3/*.asm \
 
 .PHONY: all mm2 clean
 
