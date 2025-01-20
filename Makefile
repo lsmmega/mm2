@@ -26,7 +26,7 @@ stages_asm := \
 	stages.asm \
 	constants/block_attributes.asm \
 	constants/palettes.asm \
-	constants/scrolling.asm \
+	constants/scroll.asm \
 	stages/air_wily2/*.asm \
 	stages/bubble_wily4/*.asm \
 	stages/crash/*.asm \
