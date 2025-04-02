@@ -1,5 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=lf
 
+# files part of the build
+*.asm text
+*.cfg text
+
 # Denote all files that are truly binary and should not be modified.
 *.bin binary diff=hex

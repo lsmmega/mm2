@@ -1,2 +1,8 @@
+# compiled objects
+*.o
+
 # compiled roms
 *.nes
+
+# ld65 extras
+*.map
