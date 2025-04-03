@@ -1,6 +1,9 @@
 # compiled objects
 *.o
 
+# compiled graphics
+*.chr
+
 # compiled roms
 *.nes
 
