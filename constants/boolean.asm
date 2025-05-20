@@ -1,0 +1,4 @@
+.ENUM
+	no
+	yes
+.ENDENUM
