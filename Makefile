@@ -1,5 +1,6 @@
 rom_obj := \
 	header.o \
+	home.o \
 	0.o \
 	1.o \
 	2.o \
@@ -14,8 +15,7 @@ rom_obj := \
 	11.o \
 	12.o \
 	13.o \
-	14.o \
-	15.o
+	14.o
 
 cfg := \
 	mm2.cfg
@@ -23,6 +23,10 @@ cfg := \
 header := \
 	constants/* \
 	header.asm
+
+home := \
+	home.asm \
+	home/*
 
 0 := \
 	0.asm \
@@ -94,10 +98,6 @@ header := \
 	14.asm \
 	14/*
 
-15 := \
-	15.asm \
-	15/*
-
 gfx0 := \
 	gfx/0/0.bmp gfx/0/0.chr
 
@@ -142,6 +142,9 @@ mm2: mm2.nes
 
 header.o: $(header)
 	ca65 header.asm
+
+home.o: $(home)
+	ca65 home.asm
 
 0.o: $(0)
 	bmp2nes $(gfx0)
@@ -198,9 +201,6 @@ header.o: $(header)
 
 14.o: $(14)
 	ca65 14.asm
-
-15.o: $(15)
-	ca65 15.asm
 
 clean:
 	$(RM) $(rom_obj) \
