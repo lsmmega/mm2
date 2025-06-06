@@ -14,16 +14,16 @@ label_1
 	LDA $F7
 	AND #$7C
 	STA $F7
-	STA $2000
+	STA PPU_CTRL
 	LDA $F8
 	AND #$E7
 	STA $F8
-	STA $2001
-	LDA $2002
+	STA PPU_MASK
+	LDA PPU_STATUS
 	LDA #$00
-	STA $2003
+	STA PPU_OAM_ADDR
 	LDA #$02
-	STA $4014
+	STA OAM_DMA
 	LDA $1B
 	BEQ label_3
 	JSR $D11B
@@ -37,7 +37,7 @@ label_4
 	BEQ label_5
 	JSR $D1F9
 label_5
-	LDA $2002
+	LDA PPU_STATUS
 	LDA #$00
 	STA $01
 	LDA $1F
@@ -54,7 +54,7 @@ label_5
 	STA $01
 label_6
 	LDA $00
-	STA $2005
+	STA PPU_SCROLL
 	LDA $22
 	STA $00
 	LDA $B6
@@ -65,11 +65,11 @@ label_6
 	STA $00
 label_7
 	LDA $00
-	STA $2005
+	STA PPU_SCROLL
 	LDA $F8
 	ORA #$1E
 	STA $F8
-	STA $2001
+	STA PPU_MASK
 	LDA $F7
 	ORA #$80
 	STA $F7
@@ -79,7 +79,7 @@ label_7
 	ORA $F7
 	ORA $AE
 	STA $F7
-	STA $2000
+	STA PPU_CTRL
 	STA $1D
 	INC $1C
 label_2
@@ -127,14 +127,14 @@ label_9
 	PLA
 	RTI
 	LDX #$01
-	STX $4016
+	STX JOY1
 	DEX
-	STX $4016
+	STX JOY1
 	INX
 label_14
 	LDY #$08
 label_13
-	LDA $4016,X
+	LDA JOY1,X
 	STA $27
 	LSR
 	ORA $27
