@@ -9,5 +9,9 @@
 	PPU_DATA
 .ENDENUM
 
-	OAM_DMA = $4014
-	JOY1    = $4016
+	DMC_FREQ          = $4010
+	OAM_DMA           = $4014
+	APU_STATUS        = $4015
+	JOY1              = $4016
+	JOY2_FRAME        = $4017 ;read
+	APU_FRAME_COUNTER = $4017 ;write
