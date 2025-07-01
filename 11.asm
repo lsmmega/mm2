@@ -1,3 +1,3 @@
 .SEGMENT "BANK0B"
-.INCBIN "11/11.bin"
-.INCBIN "gfx/11/11.chr"
+.INCBIN  "11/11.bin"
+.INCBIN  "gfx/11/11.chr"

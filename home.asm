@@ -1,5 +1,5 @@
 .SEGMENT "HOME"
-.INCBIN "home/home.bin"
+.INCBIN  "home/home.bin"
 ;.INCLUDE "home/reset.asm"
 ;.INCLUDE "home/nmi.asm"
 ;.INCLUDE "home/vectors.asm"
