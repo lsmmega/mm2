@@ -1,4 +1,5 @@
 .SEGMENT "BANK04"
+.INCLUDE "4/quick_wily5_tsa.asm"
 .INCBIN  "4/4_p0.bin"
 .INCBIN  "gfx/4/4.chr"
 .INCBIN  "4/4_p1.bin"
