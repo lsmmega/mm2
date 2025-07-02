@@ -1,4 +1,5 @@
 .SEGMENT "BANK05"
+.INCLUDE "5/flash_wily6_tsa.asm"
 .INCBIN  "5/5_p0.bin"
 .INCBIN  "gfx/5/5.chr"
 .INCBIN  "5/5_p1.bin"
