@@ -1,0 +1,6 @@
+.SEGMENT "BANK0C"
+.INCLUDE "constants/audio.asm"
+.INCLUDE "macros/audio.asm"
+.INCBIN  "audio/engine.bin"
+.INCBIN  "audio/pointers.bin"
+.INCBIN  "audio/audio.bin"

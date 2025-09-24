@@ -13,7 +13,7 @@ rom_obj := \
 	9.o \
 	10.o \
 	11.o \
-	12.o \
+	audio.o \
 	13.o \
 	14.o
 
@@ -86,9 +86,11 @@ home := \
 	11/* \
 	gfx/11/*.bmp
 
-12 := \
-	12.asm \
-	12/*
+audio := \
+	audio.asm \
+	constants/* \
+	macros/* \
+	audio/*
 
 13 := \
 	13.asm \
@@ -193,8 +195,8 @@ home.o: $(home)
 	bmp2nes $(gfx11)
 	ca65 11.asm
 
-12.o: $(12)
-	ca65 12.asm
+audio.o: $(audio)
+	ca65 audio.asm
 
 13.o: $(13)
 	ca65 13.asm
