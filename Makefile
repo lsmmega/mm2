@@ -90,7 +90,8 @@ audio := \
 	audio.asm \
 	constants/* \
 	macros/* \
-	audio/*
+	audio/* \
+	audio/music/*
 
 13 := \
 	13.asm \

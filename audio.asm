@@ -3,4 +3,5 @@
 .INCLUDE "macros/audio.asm"
 .INCBIN  "audio/engine.bin"
 .INCBIN  "audio/pointers.bin"
+.INCLUDE "audio/music/flashman.asm"
 .INCBIN  "audio/audio.bin"
