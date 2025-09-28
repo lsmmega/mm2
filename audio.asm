@@ -4,4 +4,5 @@
 .INCBIN  "audio/engine.bin"
 .INCBIN  "audio/pointers.bin"
 .INCLUDE "audio/music/flashman.asm"
+.INCLUDE "audio/music/woodman.asm"
 .INCBIN  "audio/audio.bin"
