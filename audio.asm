@@ -16,4 +16,5 @@
 .INCLUDE "audio/music/boss_show.asm"
 .INCLUDE "audio/music/boss_fighting.asm"
 .INCLUDE "audio/music/stage_select.asm"
+.INCLUDE "audio/music/title_screen.asm"
 .INCBIN  "audio/audio.bin"
