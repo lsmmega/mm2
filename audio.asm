@@ -18,4 +18,5 @@
 .INCLUDE "audio/music/stage_select.asm"
 .INCLUDE "audio/music/title_screen.asm"
 .INCLUDE "audio/music/opening.asm"
+.INCLUDE "audio/music/game_over.asm"
 .INCBIN  "audio/audio.bin"
