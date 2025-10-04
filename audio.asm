@@ -22,4 +22,5 @@
 .INCLUDE "audio/music/password.asm"
 .INCLUDE "audio/music/wily_castle.asm"
 .INCLUDE "audio/music/wily_ufo.asm"
+.INCLUDE "audio/music/ending.asm"
 .INCBIN  "audio/audio.bin"
