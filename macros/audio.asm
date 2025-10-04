@@ -121,18 +121,30 @@
 	@e .SET @current_tempo & 1
 		.IF c = 2 && @e
 			.ERROR "Note can't play under its tempo correctly."
-		.ELSEIF c = 2
+		.ELSEIF c = 2 && b < 15
 			.BYTE @d | $40
-		.ELSEIF c = 4
+		.ELSEIF c = 4 && b < 15
 			.BYTE @d | $60
-		.ELSEIF c = 8
+		.ELSEIF c = 8 && b < 15
 			.BYTE @d | $80
-		.ELSEIF c = 16
+		.ELSEIF c = 16 && b < 15
 			.BYTE @d | $A0
-		.ELSEIF c = 32
+		.ELSEIF c = 32 && b < 15
 			.BYTE @d | $C0
-		.ELSEIF c = 64
+		.ELSEIF c = 64 && b < 15
 			.BYTE @d | $E0
+		.ELSEIF c = 2 && b = 15
+			.BYTE $50
+		.ELSEIF c = 4 && b = 15
+			.BYTE $70
+		.ELSEIF c = 8 && b = 15
+			.BYTE $90
+		.ELSEIF c = 16 && b = 15
+			.BYTE $B0
+		.ELSEIF c = 32 && b = 15
+			.BYTE $D0
+		.ELSEIF c = 62 && b = 15
+			.BYTE $F0
 		.ELSE
 			.ERROR "Invaild note length."
 		.ENDIF
