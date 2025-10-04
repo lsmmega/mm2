@@ -146,7 +146,7 @@
 		.ELSEIF c = 62 && b = 15
 			.BYTE $F0
 		.ELSE
-			.ERROR "Invaild note length."
+			.ERROR "Invaild note length or name."
 		.ENDIF
 .ENDMACRO
 
