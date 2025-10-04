@@ -19,4 +19,5 @@
 .INCLUDE "audio/music/title_screen.asm"
 .INCLUDE "audio/music/opening.asm"
 .INCLUDE "audio/music/game_over.asm"
+.INCLUDE "audio/music/password.asm"
 .INCBIN  "audio/audio.bin"
