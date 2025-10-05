@@ -195,6 +195,11 @@
 	nA_7 = $000F
 	nBb7 = $000F
 	nB_7 = $000E
-	
+
+	sfx_pulse_1  = 1 << 0
+	sfx_pulse_2  = 1 << 1
+	sfx_triangle = 1 << 2
+	sfx_noise    = 1 << 3
+
 	volume_attack = 0
 	volume_decay  = 1 << 7
