@@ -153,3 +153,31 @@
 .MACRO modulator_set b, c, d, e, f, g
 	.BYTE d, b << 5 | c, e | g, f
 .ENDMACRO
+
+.MACRO sfx_priority b
+	.BYTE b << 4
+.ENDMACRO
+
+.MACRO sfx_frames b
+	.BYTE $00, b
+.ENDMACRO
+
+.MACRO sfx_modulator_set b, c, d, e, f, g
+	.BYTE $05, d, b << 5 | c, e | g, f
+.ENDMACRO
+
+.MACRO sfx_end
+	.BYTE $06
+.ENDMACRO
+
+.MACRO sfx_note b
+	.DBYT b | $8000
+.ENDMACRO
+
+.MACRO sfx_noise_note b
+	.IF b = 15
+		.DBYT $8010
+	.ELSE
+		.DBYT b ^ $0F | $8000
+	.ENDIF
+.ENDMACRO
