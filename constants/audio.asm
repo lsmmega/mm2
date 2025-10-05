@@ -196,6 +196,7 @@
 	nBb7 = $000F
 	nB_7 = $000E
 
+;sfx channel flags.
 	sfx_pulse_1  = 1 << 0
 	sfx_pulse_2  = 1 << 1
 	sfx_triangle = 1 << 2
