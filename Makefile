@@ -91,7 +91,8 @@ audio := \
 	constants/* \
 	macros/* \
 	audio/* \
-	audio/music/*
+	audio/music/* \
+	audio/sfx/*
 
 13 := \
 	13.asm \
