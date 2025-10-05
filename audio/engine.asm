@@ -1,4 +1,4 @@
-basenotetable:
+base_note_table:
 	.WORD nC_0
 	.WORD nDb0
 	.WORD nD_0
