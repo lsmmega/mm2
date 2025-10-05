@@ -2,6 +2,7 @@
 .INCLUDE "constants/audio.asm"
 .INCLUDE "macros/audio.asm"
 .INCBIN  "audio/engine.bin"
+.INCLUDE "audio/engine.asm"
 .INCBIN  "audio/pointers.bin"
 .INCLUDE "audio/music/flashman.asm"
 .INCLUDE "audio/music/woodman.asm"
