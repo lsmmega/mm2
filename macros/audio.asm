@@ -183,5 +183,5 @@
 .ENDMACRO
 
 .MACRO sfx_note_keep
-	.BYTE $8F, $FF
+	.DBYT $8FFF
 .ENDMACRO
