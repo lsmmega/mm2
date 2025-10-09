@@ -182,6 +182,6 @@
 	.ENDIF
 .ENDMACRO
 
-.MACRO sfx_note_keep
+.MACRO sfx_note_tied
 	.DBYT $8FFF
 .ENDMACRO
