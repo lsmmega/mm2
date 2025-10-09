@@ -31,4 +31,5 @@
 .INCLUDE "audio/sfx/time_stopper.asm"
 .INCLUDE "audio/sfx/sfx_22.asm"
 .INCLUDE "audio/sfx/metal_blade.asm"
+.INCLUDE "audio/sfx/mega_buster.asm"
 .INCBIN  "audio/audio.bin"
