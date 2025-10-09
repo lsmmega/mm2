@@ -29,4 +29,5 @@
 .INCLUDE "audio/music/wily_defeated.asm"
 .INCLUDE "audio/music/get_weapon.asm"
 .INCLUDE "audio/sfx/time_stopper.asm"
+.INCLUDE "audio/sfx/sfx_22.asm"
 .INCBIN  "audio/audio.bin"
