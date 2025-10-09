@@ -181,3 +181,7 @@
 		.DBYT b ^ $0F | $8000
 	.ENDIF
 .ENDMACRO
+
+.MACRO sfx_note_keep
+	.BYTE $8F, $FF
+.ENDMACRO
