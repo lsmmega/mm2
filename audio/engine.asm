@@ -1,3 +1,5 @@
+.INCBIN "audio/engine.bin"
+
 base_note_table:
 	.WORD nC_0
 	.WORD nDb0
