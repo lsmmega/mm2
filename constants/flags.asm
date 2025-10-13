@@ -1,8 +1,8 @@
 ;got item flags.
-	no_item    = 0
-	got_item_1 = 1 << 0
-	got_item_2 = 1 << 1
-	got_item_3 = 1 << 2
+	no_item_got = 0
+	got_item_1  = 1 << 0
+	got_item_2  = 1 << 1
+	got_item_3  = 1 << 2
 
 ;got weapon flags.
 	got_atomic_fire     = 1 << 0
