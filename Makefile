@@ -1,4 +1,5 @@
 rom_obj := \
+	audio.o \
 	header.o \
 	home.o \
 	0.o \
@@ -13,12 +14,19 @@ rom_obj := \
 	9.o \
 	10.o \
 	11.o \
-	audio.o \
 	13.o \
 	14.o
 
 cfg := \
 	mm2.cfg
+
+audio := \
+	audio.asm \
+	constants/* \
+	macros/* \
+	audio/* \
+	audio/music/* \
+	audio/sfx/*
 
 header := \
 	constants/* \
@@ -86,14 +94,6 @@ home := \
 	11/* \
 	gfx/11/*.bmp
 
-audio := \
-	audio.asm \
-	constants/* \
-	macros/* \
-	audio/* \
-	audio/music/* \
-	audio/sfx/*
-
 13 := \
 	13.asm \
 	13/*
@@ -143,6 +143,9 @@ mm2: mm2.nes
 
 %.nes: $(rom_obj) $(cfg)
 	ld65 -C $(cfg) $(rom_obj) -o $@ -m $*.map
+
+audio.o: $(audio)
+	ca65 audio.asm
 
 header.o: $(header)
 	ca65 header.asm
@@ -196,9 +199,6 @@ home.o: $(home)
 11.o: $(11)
 	bmp2nes $(gfx11)
 	ca65 11.asm
-
-audio.o: $(audio)
-	ca65 audio.asm
 
 13.o: $(13)
 	ca65 13.asm
