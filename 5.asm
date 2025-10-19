@@ -1,4 +1,5 @@
 .SEGMENT "BANK05"
+.INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "5/flash_wily6_tsa.asm"
 .INCBIN  "5/5_p0.bin"
 .INCBIN  "gfx/5/5.chr"

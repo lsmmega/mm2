@@ -1,4 +1,5 @@
 .SEGMENT "BANK03"
+.INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "3/bubble_wily4_tsa.asm"
 .INCBIN  "3/3_p0.bin"
 .INCBIN  "gfx/3/3.chr"

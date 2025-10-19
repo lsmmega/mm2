@@ -1,4 +1,5 @@
 .SEGMENT "BANK02"
+.INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "2/wood_wily3_tsa.asm"
 .INCBIN  "2/2_p0.bin"
 .INCBIN  "gfx/2/2.chr"

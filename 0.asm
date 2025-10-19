@@ -1,4 +1,5 @@
 .SEGMENT "BANK00"
+.INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "0/heat_wily1_tsa.asm"
 .INCBIN  "0/0_p0.bin"
 .INCBIN  "gfx/0/0.chr"
