@@ -1,6 +1,8 @@
 .SEGMENT "BANK00"
+.INCLUDE "constants/scrolling.asm"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "0/heat_wily1_tsa.asm"
 .INCLUDE "0/heat_wily1_mapset.asm"
 .INCBIN  "gfx/0/0.chr"
+.INCLUDE "0/heat_wily1_scrolling.asm"
 .INCBIN  "0/0_p1.bin"

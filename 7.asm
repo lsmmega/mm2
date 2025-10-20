@@ -1,6 +1,8 @@
 .SEGMENT "BANK07"
+.INCLUDE "constants/scrolling.asm"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "7/crash_tsa.asm"
 .INCLUDE "7/crash_mapset.asm"
 .INCBIN  "gfx/7/7.chr"
+.INCLUDE "7/crash_scrolling.asm"
 .INCBIN  "7/7_p1.bin"
