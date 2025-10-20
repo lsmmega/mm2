@@ -1,6 +1,6 @@
 .SEGMENT "BANK01"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "1/air_wily2_tsa.asm"
-.INCBIN  "1/1_p0.bin"
+.INCLUDE "1/air_wily2_mapset.asm"
 .INCBIN  "gfx/1/1.chr"
 .INCBIN  "1/1_p1.bin"

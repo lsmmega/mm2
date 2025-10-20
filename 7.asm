@@ -1,6 +1,6 @@
 .SEGMENT "BANK07"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "7/crash_tsa.asm"
-.INCBIN  "7/7_p0.bin"
+.INCLUDE "7/crash_mapset.asm"
 .INCBIN  "gfx/7/7.chr"
 .INCBIN  "7/7_p1.bin"

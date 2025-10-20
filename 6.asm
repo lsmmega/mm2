@@ -1,6 +1,6 @@
 .SEGMENT "BANK06"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "6/metal_tsa.asm"
-.INCBIN  "6/6_p0.bin"
+.INCLUDE "6/metal_mapset.asm"
 .INCBIN  "gfx/6/6.chr"
 .INCBIN  "6/6_p1.bin"

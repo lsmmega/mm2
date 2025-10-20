@@ -1,6 +1,6 @@
 .SEGMENT "BANK04"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "4/quick_wily5_tsa.asm"
-.INCBIN  "4/4_p0.bin"
+.INCLUDE "4/quick_wily5_mapset.asm"
 .INCBIN  "gfx/4/4.chr"
 .INCBIN  "4/4_p1.bin"
