@@ -8,4 +8,5 @@
 .INCLUDE "1/airman_wily2_mapset.asm"
 .INCBIN  "gfx/1/1.chr"
 .INCLUDE "1/airman_wily2_scrolling.asm"
+.INCLUDE "1/airman_wily2_sprites_set.asm"
 .INCBIN  "1/1_p1.bin"

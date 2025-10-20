@@ -8,4 +8,5 @@
 .INCLUDE "7/crashman_mapset.asm"
 .INCBIN  "gfx/7/7.chr"
 .INCLUDE "7/crashman_scrolling.asm"
+.INCLUDE "7/crashman_sprites_set.asm"
 .INCBIN  "7/7_p1.bin"

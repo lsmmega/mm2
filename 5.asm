@@ -8,4 +8,5 @@
 .INCLUDE "5/flashman_wily6_mapset.asm"
 .INCBIN  "gfx/5/5.chr"
 .INCLUDE "5/flashman_wily6_scrolling.asm"
+.INCLUDE "5/flashman_wily6_sprites_set.asm"
 .INCBIN  "5/5_p1.bin"

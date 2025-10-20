@@ -8,4 +8,5 @@
 .INCLUDE "3/bubbleman_wily4_mapset.asm"
 .INCBIN  "gfx/3/3.chr"
 .INCLUDE "3/bubbleman_wily4_scrolling.asm"
+.INCLUDE "3/bubbleman_wily4_sprites_set.asm"
 .INCBIN  "3/3_p1.bin"

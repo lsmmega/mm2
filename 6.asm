@@ -8,4 +8,5 @@
 .INCLUDE "6/metalman_mapset.asm"
 .INCBIN  "gfx/6/6.chr"
 .INCLUDE "6/metalman_scrolling.asm"
+.INCLUDE "6/metalman_sprites_set.asm"
 .INCBIN  "6/6_p1.bin"

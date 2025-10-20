@@ -8,4 +8,5 @@
 .INCLUDE "0/heatman_wily1_mapset.asm"
 .INCBIN  "gfx/0/0.chr"
 .INCLUDE "0/heatman_wily1_scrolling.asm"
+.INCLUDE "0/heatman_wily1_sprites_set.asm"
 .INCBIN  "0/0_p1.bin"
