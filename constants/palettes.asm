@@ -1,0 +1,55 @@
+.ENUM
+	dark_gray
+	dark_azure
+	dark_blue
+	dark_violet
+	dark_magenta
+	dark_rose
+	dark_red
+	dark_orange
+	dark_yellow
+	dark_chartreuse
+	dark_green
+	dark_spring
+	dark_cyan
+	black = $0F
+	light_gray
+	light_azure
+	light_blue
+	light_violet
+	light_magenta
+	light_rose
+	light_red
+	light_orange
+	light_yellow
+	light_chartreuse
+	light_green
+	light_spring
+	light_cyan
+	white_gray = $20
+	white_azure
+	white_blue
+	white_violet
+	white_magenta
+	white_rose
+	white_red
+	white_orange
+	white_yellow
+	white_chartreuse
+	white_green
+	white_spring
+	white_cyan
+	pale_gray = $30
+	pale_azure
+	pale_blue
+	pale_violet
+	pale_magenta
+	pale_rose
+	pale_red
+	pale_orange
+	pale_yellow
+	pale_chartreuse
+	pale_green
+	pale_spring
+	pale_cyan
+.ENDENUM

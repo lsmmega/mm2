@@ -1,0 +1,18 @@
+.ENUM
+	bank_00
+	bank_01
+	bank_02
+	bank_03
+	bank_04
+	bank_05
+	bank_06
+	bank_07
+	bank_08
+	bank_09
+	bank_0a
+	bank_0b
+	bank_0c
+	bank_0d
+	bank_0e
+	bank_0f
+.ENDENUM
