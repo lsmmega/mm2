@@ -1,4 +1,4 @@
-;track ids.
+;track ids
 .ENUM
 	track_flashman
 	track_woodman

@@ -1,4 +1,4 @@
-;base note index set.
+;base note index set
 .ENUM
 	C_0
 	Db0
@@ -98,7 +98,7 @@
 	B_7
 .ENDENUM
 
-;base note value set.
+;base note value set
 	nC_0 = $0000
 	nDb0 = $0000
 	nD_0 = $0000
@@ -196,7 +196,7 @@
 	nBb7 = $000F
 	nB_7 = $000E
 
-;sfx channel flags.
+;sfx channel flags
 	sfx_pulse_1  = 1 << 0
 	sfx_pulse_2  = 1 << 1
 	sfx_triangle = 1 << 2
