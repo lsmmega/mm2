@@ -10,3 +10,4 @@
 .INCLUDE "2/woodman_wily3_scrolling.asm"
 .INCLUDE "2/woodman_wily3_sprites_set.asm"
 .INCBIN  "2/2_p1.bin"
+.INCLUDE "2/woodman_wily3_palette_init.asm"

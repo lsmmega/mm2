@@ -10,3 +10,4 @@
 .INCLUDE "1/airman_wily2_scrolling.asm"
 .INCLUDE "1/airman_wily2_sprites_set.asm"
 .INCBIN  "1/1_p1.bin"
+.INCLUDE "1/airman_wily2_palette_init.asm"

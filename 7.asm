@@ -10,3 +10,4 @@
 .INCLUDE "7/crashman_scrolling.asm"
 .INCLUDE "7/crashman_sprites_set.asm"
 .INCBIN  "7/7_p1.bin"
+.INCLUDE "7/crashman_palette_init.asm"

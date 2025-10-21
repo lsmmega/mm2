@@ -10,3 +10,4 @@
 .INCLUDE "4/quickman_wily5_scrolling.asm"
 .INCLUDE "4/quickman_wily5_sprites_set.asm"
 .INCBIN  "4/4_p1.bin"
+.INCLUDE "4/quickman_wily5_palette_init.asm"

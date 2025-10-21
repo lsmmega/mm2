@@ -10,3 +10,4 @@
 .INCLUDE "6/metalman_scrolling.asm"
 .INCLUDE "6/metalman_sprites_set.asm"
 .INCBIN  "6/6_p1.bin"
+.INCLUDE "6/metalman_palette_init.asm"
