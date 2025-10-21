@@ -29,8 +29,8 @@ audio := \
 	audio/sfx/*
 
 header := \
-	constants/* \
-	header.asm
+	header.asm \
+	constants/*
 
 home := \
 	home.asm \
@@ -38,41 +38,57 @@ home := \
 
 0 := \
 	0.asm \
+	constants/* \
+	macros/* \
 	0/* \
 	gfx/0/*.bmp
 
 1 := \
 	1.asm \
+	constants/* \
+	macros/* \
 	1/* \
 	gfx/1/*.bmp
 
 2 := \
 	2.asm \
+	constants/* \
+	macros/* \
 	2/* \
 	gfx/2/*.bmp
 
 3 := \
 	3.asm \
+	constants/* \
+	macros/* \
 	3/* \
 	gfx/3/*.bmp
 
 4:= \
 	4.asm \
+	constants/* \
+	macros/* \
 	4/* \
 	gfx/4/*.bmp
 
 5 := \
 	5.asm \
+	constants/* \
+	macros/* \
 	5/* \
 	gfx/5/*.bmp
 
 6 := \
 	6.asm \
+	constants/* \
+	macros/* \
 	6/* \
 	gfx/6/*.bmp
 
 7 := \
 	7.asm \
+	constants/* \
+	macros/* \
 	7/* \
 	gfx/7/*.bmp
 
