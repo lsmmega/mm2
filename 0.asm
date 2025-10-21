@@ -10,4 +10,5 @@
 .INCLUDE "0/heatman_wily1_scrolling.asm"
 .INCLUDE "0/heatman_wily1_sprites_set.asm"
 .INCBIN  "0/0_p1.bin"
+.INCLUDE "0/heatman_wily1_tiles_init.asm"
 .INCLUDE "0/heatman_wily1_palette_init.asm"
