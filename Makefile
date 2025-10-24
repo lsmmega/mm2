@@ -40,56 +40,56 @@ home := \
 	0.asm \
 	constants/* \
 	macros/* \
-	0/* \
+	stages/heatman_wily1/* \
 	gfx/0/*.bmp
 
 1 := \
 	1.asm \
 	constants/* \
 	macros/* \
-	1/* \
+	stages/airman_wily2/* \
 	gfx/1/*.bmp
 
 2 := \
 	2.asm \
 	constants/* \
 	macros/* \
-	2/* \
+	stages/woodman_wily3/* \
 	gfx/2/*.bmp
 
 3 := \
 	3.asm \
 	constants/* \
 	macros/* \
-	3/* \
+	stages/bubbleman_wily4/* \
 	gfx/3/*.bmp
 
 4:= \
 	4.asm \
 	constants/* \
 	macros/* \
-	4/* \
+	stages/quickman_wily5/* \
 	gfx/4/*.bmp
 
 5 := \
 	5.asm \
 	constants/* \
 	macros/* \
-	5/* \
+	stages/flashman_wily6/* \
 	gfx/5/*.bmp
 
 6 := \
 	6.asm \
 	constants/* \
 	macros/* \
-	6/* \
+	stages/metalman/* \
 	gfx/6/*.bmp
 
 7 := \
 	7.asm \
 	constants/* \
 	macros/* \
-	7/* \
+	stages/crashman/* \
 	gfx/7/*.bmp
 
 8 := \
