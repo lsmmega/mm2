@@ -98,7 +98,9 @@ home := \
 
 9 := \
 	9.asm \
+	constants/* \
 	9/* \
+	screen/* \
 	gfx/9/*.bmp
 
 10 := \
