@@ -2,14 +2,7 @@ rom_obj := \
 	audio.o \
 	header.o \
 	home.o \
-	0.o \
-	1.o \
-	2.o \
-	3.o \
-	4.o \
-	5.o \
-	6.o \
-	7.o \
+	stages.o \
 	8.o \
 	9.o \
 	10.o \
@@ -36,59 +29,24 @@ home := \
 	home.asm \
 	home/*
 
-0 := \
-	0.asm \
+stages := \
+	stages.asm \
 	constants/* \
 	macros/* \
 	stages/heatman_wily1/* \
-	gfx/0/*.bmp
-
-1 := \
-	1.asm \
-	constants/* \
-	macros/* \
+	gfx/0/*.bmp \
 	stages/airman_wily2/* \
-	gfx/1/*.bmp
-
-2 := \
-	2.asm \
-	constants/* \
-	macros/* \
+	gfx/1/*.bmp \
 	stages/woodman_wily3/* \
-	gfx/2/*.bmp
-
-3 := \
-	3.asm \
-	constants/* \
-	macros/* \
+	gfx/2/*.bmp \
 	stages/bubbleman_wily4/* \
-	gfx/3/*.bmp
-
-4:= \
-	4.asm \
-	constants/* \
-	macros/* \
+	gfx/3/*.bmp \
 	stages/quickman_wily5/* \
-	gfx/4/*.bmp
-
-5 := \
-	5.asm \
-	constants/* \
-	macros/* \
+	gfx/4/*.bmp \
 	stages/flashman_wily6/* \
-	gfx/5/*.bmp
-
-6 := \
-	6.asm \
-	constants/* \
-	macros/* \
+	gfx/5/*.bmp \
 	stages/metalman/* \
-	gfx/6/*.bmp
-
-7 := \
-	7.asm \
-	constants/* \
-	macros/* \
+	gfx/6/*.bmp \
 	stages/crashman/* \
 	gfx/7/*.bmp
 
@@ -172,37 +130,16 @@ header.o: $(header)
 home.o: $(home)
 	ca65 home.asm
 
-0.o: $(0)
+stages.o: $(stages)
 	bmp2nes $(gfx0)
-	ca65 0.asm
-
-1.o: $(1)
 	bmp2nes $(gfx1)
-	ca65 1.asm
-
-2.o: $(2)
 	bmp2nes $(gfx2)
-	ca65 2.asm
-
-3.o: $(3)
 	bmp2nes $(gfx3)
-	ca65 3.asm
-
-4.o: $(4)
 	bmp2nes $(gfx4)
-	ca65 4.asm
-
-5.o: $(5)
 	bmp2nes $(gfx5)
-	ca65 5.asm
-
-6.o: $(6)
 	bmp2nes $(gfx6)
-	ca65 6.asm
-
-7.o: $(7)
 	bmp2nes $(gfx7)
-	ca65 7.asm
+	ca65 stages.asm
 
 8.o: $(8)
 	bmp2nes $(gfx8)
