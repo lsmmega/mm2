@@ -1,2 +1,5 @@
 .SEGMENT "BANK0D"
-.INCBIN  "13/13.bin"
+.INCLUDE "constants/ppu_attributes.asm"
+.INCBIN  "13/13_0.bin"
+.INCLUDE "screen/title.asm"
+.INCBIN  "13/13_1.bin"
