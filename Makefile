@@ -79,28 +79,14 @@ stages := \
 	14.asm \
 	14/*
 
-gfx0 := \
-	gfx/0/0.bmp gfx/0/0.chr
-
-gfx1 := \
-	gfx/1/1.bmp gfx/1/1.chr
-
-gfx2 := \
-	gfx/2/2.bmp gfx/2/2.chr
-
-gfx3 := \
-	gfx/3/3.bmp gfx/3/3.chr
-
-gfx4 := \
-	gfx/4/4.bmp gfx/4/4.chr
-
-gfx5 := \
-	gfx/5/5.bmp gfx/5/5.chr
-
-gfx6 := \
-	gfx/6/6.bmp gfx/6/6.chr
-
-gfx7 := \
+gfx_stages := \
+	gfx/0/0.bmp gfx/0/0.chr \
+	gfx/1/1.bmp gfx/1/1.chr \
+	gfx/2/2.bmp gfx/2/2.chr \
+	gfx/3/3.bmp gfx/3/3.chr \
+	gfx/4/4.bmp gfx/4/4.chr \
+	gfx/5/5.bmp gfx/5/5.chr \
+	gfx/6/6.bmp gfx/6/6.chr \
 	gfx/7/7.bmp gfx/7/7.chr
 
 gfx8 := \
@@ -131,14 +117,7 @@ home.o: $(home)
 	ca65 home.asm
 
 stages.o: $(stages)
-	bmp2nes $(gfx0)
-	bmp2nes $(gfx1)
-	bmp2nes $(gfx2)
-	bmp2nes $(gfx3)
-	bmp2nes $(gfx4)
-	bmp2nes $(gfx5)
-	bmp2nes $(gfx6)
-	bmp2nes $(gfx7)
+	bmp2nes $(gfx_stages)
 	ca65 stages.asm
 
 8.o: $(8)
