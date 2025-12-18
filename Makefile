@@ -2,10 +2,10 @@ rom_obj := \
 	audio.o \
 	header.o \
 	home.o \
+	sprites.o \
 	stages.o \
 	8.o \
 	9.o \
-	10.o \
 	11.o \
 	13.o \
 	14.o
@@ -28,6 +28,9 @@ header := \
 home := \
 	home.asm \
 	home/*
+
+sprites := \
+	sprites/*
 
 stages := \
 	stages.asm \
@@ -60,10 +63,6 @@ stages := \
 	9/* \
 	screen/* \
 	gfx/9/*.bmp
-
-10 := \
-	10.asm \
-	10/*
 
 11 := \
 	11.asm \
@@ -116,6 +115,9 @@ header.o: $(header)
 home.o: $(home)
 	ca65 home.asm
 
+sprites.o: $(sprites)
+	ca65 sprites.asm
+
 stages.o: $(stages)
 	bmp2nes $(gfx_stages)
 	ca65 stages.asm
@@ -127,9 +129,6 @@ stages.o: $(stages)
 9.o: $(9)
 	bmp2nes $(gfx9)
 	ca65 9.asm
-
-10.o: $(10)
-	ca65 10.asm
 
 11.o: $(11)
 	bmp2nes $(gfx11)
