@@ -13,7 +13,7 @@
 	track_boss_show
 	track_boss_fighting
 	track_stage_select
-	track_title_screen
+	track_title
 	track_opening
 	track_game_over
 	track_password

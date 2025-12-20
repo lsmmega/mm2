@@ -1,12 +1,12 @@
-music_title_screen:
+music_title:
 	music_header
-	.WORD music_title_screen_pulse_1
-	.WORD music_title_screen_pulse_2
-	.WORD music_title_screen_triangle
-	.WORD music_title_screen_noise
-	.WORD music_title_screen_modulator
+	.WORD music_title_pulse_1
+	.WORD music_title_pulse_2
+	.WORD music_title_triangle
+	.WORD music_title_noise
+	.WORD music_title_modulator
 
-music_title_screen_pulse_1:
+music_title_pulse_1:
 	tempo 5
 
 @loop_1:
@@ -230,7 +230,7 @@ music_title_screen_pulse_1:
 	note C_5, 8
 	music_end
 
-music_title_screen_pulse_2:
+music_title_pulse_2:
 	tempo 5
 
 @loop_1:
@@ -447,7 +447,7 @@ music_title_screen_pulse_2:
 	note G_4, 8
 	music_end
 
-music_title_screen_triangle:
+music_title_triangle:
 	tempo 5
 	triangle_note_length $30
 	base_note B_2
@@ -576,7 +576,7 @@ music_title_screen_triangle:
 	note E_4, 8
 	music_end
 
-music_title_screen_noise:
+music_title_noise:
 	tempo 5
 	volume_envelope volume_decay, 10, 2
 	volume 15
@@ -611,6 +611,6 @@ music_title_screen_noise:
 	noise_note 12, 8
 	music_end
 
-music_title_screen_modulator:
+music_title_modulator:
 	modulator_set 0, 0, 0, volume_decay, 0, 0
 	modulator_set 3, 2, 2, volume_decay, 0, 0
