@@ -12,7 +12,7 @@ track_pointers:
 	.WORD music_boss_show
 	.WORD music_boss_fighting
 	.WORD music_stage_select
-	.WORD music_title_screen
+	.WORD music_title
 	.WORD music_opening
 	.WORD music_game_over
 	.WORD music_password
