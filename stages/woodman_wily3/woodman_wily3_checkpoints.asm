@@ -39,44 +39,44 @@
 	.BYTE $14
 
 ;woodman checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $09
-	hileftmapsetload $16
+	.HIBYTES mapset_wood_wily3_00 - $20
+	.HIBYTES mapset_wood_wily3_09 - $20
+	.HIBYTES mapset_wood_wily3_16 - $20
 
 ;wily3 checkpoint hileft mapset load
-	hileftmapsetload $18
-	hileftmapsetload $22
-	hileftmapsetload $22
+	.HIBYTES mapset_wood_wily3_18 - $20
+	.HIBYTES mapset_wood_wily3_22 - $20
+	.HIBYTES mapset_wood_wily3_22 - $20
 
 ;woodman checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $09
-	loleftmapsetload $16
+	.LOBYTES mapset_wood_wily3_00 - $20
+	.LOBYTES mapset_wood_wily3_09 - $20
+	.LOBYTES mapset_wood_wily3_16 - $20
 
 ;wily3 checkpoint loleft mapset load
-	loleftmapsetload $18
-	loleftmapsetload $22
-	loleftmapsetload $22
+	.LOBYTES mapset_wood_wily3_18 - $20
+	.LOBYTES mapset_wood_wily3_22 - $20
+	.LOBYTES mapset_wood_wily3_22 - $20
 
 ;woodman checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $09
-	hirightmapsetload $16
+	.HIBYTES mapset_wood_wily3_01 + $20
+	.HIBYTES mapset_wood_wily3_0a + $20
+	.HIBYTES mapset_wood_wily3_17 + $20
 
 ;wily3 checkpoint hiright mapset load
-	hirightmapsetload $18
-	hirightmapsetload $22
-	hirightmapsetload $22
+	.HIBYTES mapset_wood_wily3_19 + $20
+	.HIBYTES mapset_wood_wily3_23 + $20
+	.HIBYTES mapset_wood_wily3_23 + $20
 
 ;woodman checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $09
-	lorightmapsetload $16
+	.LOBYTES mapset_wood_wily3_01 + $20
+	.LOBYTES mapset_wood_wily3_0a + $20
+	.LOBYTES mapset_wood_wily3_17 + $20
 
 ;wily3 checkpoint loright mapset load
-	lorightmapsetload $18
-	lorightmapsetload $22
-	lorightmapsetload $22
+	.LOBYTES mapset_wood_wily3_19 + $20
+	.LOBYTES mapset_wood_wily3_23 + $20
+	.LOBYTES mapset_wood_wily3_23 + $20
 
 ;woodman checkpoint scrolling index
 	.BYTE $00

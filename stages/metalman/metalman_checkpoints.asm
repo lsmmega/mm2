@@ -39,44 +39,44 @@
 	.BYTE $09
 
 ;metalman checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $0B
-	hileftmapsetload $14
+	.HIBYTES mapset_metal_00 - $20
+	.HIBYTES mapset_metal_0b - $20
+	.HIBYTES mapset_metal_14 - $20
 
 ;unused checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $00
-	hileftmapsetload $00
+	.HIBYTES mapset_metal_00 - $20
+	.HIBYTES mapset_metal_00 - $20
+	.HIBYTES mapset_metal_00 - $20
 
 ;metalman checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $0B
-	loleftmapsetload $14
+	.LOBYTES mapset_metal_00 - $20
+	.LOBYTES mapset_metal_0b - $20
+	.LOBYTES mapset_metal_14 - $20
 
 ;unused checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $00
-	loleftmapsetload $00
+	.LOBYTES mapset_metal_00 - $20
+	.LOBYTES mapset_metal_00 - $20
+	.LOBYTES mapset_metal_00 - $20
 
 ;metalman checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $0B
-	hirightmapsetload $14
+	.HIBYTES mapset_metal_01 + $20
+	.HIBYTES mapset_metal_0c + $20
+	.HIBYTES mapset_metal_15 + $20
 
 ;unused checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $00
-	hirightmapsetload $00
+	.HIBYTES mapset_metal_01 + $20
+	.HIBYTES mapset_metal_01 + $20
+	.HIBYTES mapset_metal_01 + $20
 
 ;metalman checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $0B
-	lorightmapsetload $14
+	.LOBYTES mapset_metal_01 + $20
+	.LOBYTES mapset_metal_0c + $20
+	.LOBYTES mapset_metal_15 + $20
 
 ;unused checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $00
-	lorightmapsetload $00
+	.LOBYTES mapset_metal_01 + $20
+	.LOBYTES mapset_metal_01 + $20
+	.LOBYTES mapset_metal_01 + $20
 
 ;metalman checkpoint scrolling index
 	.BYTE $00

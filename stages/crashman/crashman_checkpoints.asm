@@ -39,44 +39,44 @@
 	.BYTE $09
 
 ;crashman checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $07
-	hileftmapsetload $12
+	.HIBYTES mapset_crash_00 - $20
+	.HIBYTES mapset_crash_07 - $20
+	.HIBYTES mapset_crash_12 - $20
 
 ;unused checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $00
-	hileftmapsetload $00
+	.HIBYTES mapset_crash_00 - $20
+	.HIBYTES mapset_crash_00 - $20
+	.HIBYTES mapset_crash_00 - $20
 
 ;crashman checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $07
-	loleftmapsetload $12
+	.LOBYTES mapset_crash_00 - $20
+	.LOBYTES mapset_crash_07 - $20
+	.LOBYTES mapset_crash_12 - $20
 
 ;unused checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $00
-	loleftmapsetload $00
+	.LOBYTES mapset_crash_00 - $20
+	.LOBYTES mapset_crash_00 - $20
+	.LOBYTES mapset_crash_00 - $20
 
 ;crashman checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $07
-	hirightmapsetload $12
+	.HIBYTES mapset_crash_01 + $20
+	.HIBYTES mapset_crash_08 + $20
+	.HIBYTES mapset_crash_13 + $20
 
 ;unused checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $00
-	hirightmapsetload $00
+	.HIBYTES mapset_crash_01 + $20
+	.HIBYTES mapset_crash_01 + $20
+	.HIBYTES mapset_crash_01 + $20
 
 ;crashman checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $07
-	lorightmapsetload $12
+	.LOBYTES mapset_crash_01 + $20
+	.LOBYTES mapset_crash_08 + $20
+	.LOBYTES mapset_crash_13 + $20
 
 ;unused checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $00
-	lorightmapsetload $00
+	.LOBYTES mapset_crash_01 + $20
+	.LOBYTES mapset_crash_01 + $20
+	.LOBYTES mapset_crash_01 + $20
 
 ;crashman checkpoint scrolling index
 	.BYTE $00

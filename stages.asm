@@ -5,7 +5,6 @@
 .INCLUDE "constants/palettes.asm"
 .INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "constants/scrolling.asm"
-.INCLUDE "macros/checkpoints.asm"
 .INCLUDE "macros/coords.asm"
 .INCLUDE "stages/heatman_wily1/heatman_wily1_tsa.asm"
 .INCLUDE "stages/heatman_wily1/heatman_wily1_mapset.asm"

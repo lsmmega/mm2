@@ -39,44 +39,44 @@
 	.BYTE $0C
 
 ;heatman checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $09
-	hileftmapsetload $16
+	.HIBYTES mapset_heat_wily1_00 - $20
+	.HIBYTES mapset_heat_wily1_09 - $20
+	.HIBYTES mapset_heat_wily1_16 - $20
 
 ;wily1 checkpoint hileft mapset load
-	hileftmapsetload $18
-	hileftmapsetload $21
-	hileftmapsetload $21
+	.HIBYTES mapset_heat_wily1_18 - $20
+	.HIBYTES mapset_heat_wily1_21 - $20
+	.HIBYTES mapset_heat_wily1_21 - $20
 
 ;heatman checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $09
-	loleftmapsetload $16
+	.LOBYTES mapset_heat_wily1_00 - $20
+	.LOBYTES mapset_heat_wily1_09 - $20
+	.LOBYTES mapset_heat_wily1_16 - $20
 
 ;wily1 checkpoint loleft mapset load
-	loleftmapsetload $18
-	loleftmapsetload $21
-	loleftmapsetload $21
+	.LOBYTES mapset_heat_wily1_18 - $20
+	.LOBYTES mapset_heat_wily1_21 - $20
+	.LOBYTES mapset_heat_wily1_21 - $20
 
 ;heatman checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $09
-	hirightmapsetload $16
+	.HIBYTES mapset_heat_wily1_01 + $20
+	.HIBYTES mapset_heat_wily1_0a + $20
+	.HIBYTES mapset_heat_wily1_16 + $20
 
 ;wily1 checkpoint hiright mapset load
-	hirightmapsetload $18
-	hirightmapsetload $21
-	hirightmapsetload $21
+	.HIBYTES mapset_heat_wily1_19 + $20
+	.HIBYTES mapset_heat_wily1_22 + $20
+	.HIBYTES mapset_heat_wily1_22 + $20
 
 ;heatman checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $09
-	lorightmapsetload $15
+	.LOBYTES mapset_heat_wily1_01 + $20
+	.LOBYTES mapset_heat_wily1_0a + $20
+	.LOBYTES mapset_heat_wily1_16 + $20
 
 ;wily1 checkpoint loright mapset load
-	lorightmapsetload $18
-	lorightmapsetload $21
-	lorightmapsetload $21
+	.LOBYTES mapset_heat_wily1_19 + $20
+	.LOBYTES mapset_heat_wily1_22 + $20
+	.LOBYTES mapset_heat_wily1_22 + $20
 
 ;heatman checkpoint scrolling index
 	.BYTE $00

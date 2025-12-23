@@ -39,44 +39,44 @@
 	.BYTE $14
 
 ;bubbleman checkpoint hileft mapset load
-	hileftmapsetload $00
-	hileftmapsetload $08
-	hileftmapsetload $14
+	.HIBYTES mapset_bubble_wily4_00 - $20
+	.HIBYTES mapset_bubble_wily4_08 - $20
+	.HIBYTES mapset_bubble_wily4_14 - $20
 
 ;wily4 checkpoint hileft mapset load
-	hileftmapsetload $16
-	hileftmapsetload $1C
-	hileftmapsetload $1C
+	.HIBYTES mapset_bubble_wily4_16 - $20
+	.HIBYTES mapset_bubble_wily4_1c - $20
+	.HIBYTES mapset_bubble_wily4_1c - $20
 
 ;bubbleman checkpoint loleft mapset load
-	loleftmapsetload $00
-	loleftmapsetload $08
-	loleftmapsetload $14
+	.LOBYTES mapset_bubble_wily4_00 - $20
+	.LOBYTES mapset_bubble_wily4_08 - $20
+	.LOBYTES mapset_bubble_wily4_14 - $20
 
 ;wily4 checkpoint loleft mapset load
-	loleftmapsetload $16
-	loleftmapsetload $1C
-	loleftmapsetload $1C
+	.LOBYTES mapset_bubble_wily4_16 - $20
+	.LOBYTES mapset_bubble_wily4_1c - $20
+	.LOBYTES mapset_bubble_wily4_1c - $20
 
 ;bubbleman checkpoint hiright mapset load
-	hirightmapsetload $00
-	hirightmapsetload $08
-	hirightmapsetload $14
+	.HIBYTES mapset_bubble_wily4_01 + $20
+	.HIBYTES mapset_bubble_wily4_09 + $20
+	.HIBYTES mapset_bubble_wily4_15 + $20
 
 ;wily4 checkpoint hiright mapset load
-	hirightmapsetload $16
-	hirightmapsetload $1C
-	hirightmapsetload $1C
+	.HIBYTES mapset_bubble_wily4_17 + $20
+	.HIBYTES mapset_bubble_wily4_1d + $20
+	.HIBYTES mapset_bubble_wily4_1d + $20
 
 ;bubbleman checkpoint loright mapset load
-	lorightmapsetload $00
-	lorightmapsetload $08
-	lorightmapsetload $14
+	.LOBYTES mapset_bubble_wily4_01 + $20
+	.LOBYTES mapset_bubble_wily4_09 + $20
+	.LOBYTES mapset_bubble_wily4_15 + $20
 
 ;wily4 checkpoint loright mapset load
-	lorightmapsetload $16
-	lorightmapsetload $1C
-	lorightmapsetload $1C
+	.LOBYTES mapset_bubble_wily4_17 + $20
+	.LOBYTES mapset_bubble_wily4_1d + $20
+	.LOBYTES mapset_bubble_wily4_1d + $20
 
 ;bubbleman checkpoint scrolling index
 	.BYTE $00
