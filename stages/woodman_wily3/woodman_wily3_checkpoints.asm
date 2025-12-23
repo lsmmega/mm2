@@ -9,14 +9,14 @@
 	checkpointycoord 8
 
 ;woodman checkpoint mapset
-	.BYTE $00
-	.BYTE $09
-	.BYTE $16
+	.BYTE (mapset_wood_wily3_00 - mapset_wood_wily3_00) / $40
+	.BYTE (mapset_wood_wily3_09 - mapset_wood_wily3_00) / $40
+	.BYTE (mapset_wood_wily3_16 - mapset_wood_wily3_00) / $40
 
 ;wily3 checkpoint mapset
-	.BYTE $18
-	.BYTE $22
-	.BYTE $22
+	.BYTE (mapset_wood_wily3_18 - mapset_wood_wily3_00) / $40
+	.BYTE (mapset_wood_wily3_22 - mapset_wood_wily3_00) / $40
+	.BYTE (mapset_wood_wily3_22 - mapset_wood_wily3_00) / $40
 
 ;woodman checkpoint enemies index
 	.BYTE $00

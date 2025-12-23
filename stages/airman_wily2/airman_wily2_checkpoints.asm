@@ -9,14 +9,14 @@
 	checkpointycoord 9
 
 ;airman checkpoint mapset
-	.BYTE $00
-	.BYTE $0A
-	.BYTE $14
+	.BYTE (mapset_air_wily2_00 - mapset_air_wily2_00) / $40
+	.BYTE (mapset_air_wily2_0a - mapset_air_wily2_00) / $40
+	.BYTE (mapset_air_wily2_14 - mapset_air_wily2_00) / $40
 
 ;wily2 checkpoint mapset
-	.BYTE $16
-	.BYTE $1F
-	.BYTE $1F
+	.BYTE (mapset_air_wily2_16 - mapset_air_wily2_00) / $40
+	.BYTE (mapset_air_wily2_1f - mapset_air_wily2_00) / $40
+	.BYTE (mapset_air_wily2_1f - mapset_air_wily2_00) / $40
 
 ;airman checkpoint enemies index
 	.BYTE $00

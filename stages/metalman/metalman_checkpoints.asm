@@ -9,9 +9,9 @@
 	checkpointycoord 10
 
 ;metalman checkpoint mapset
-	.BYTE $00
-	.BYTE $0B
-	.BYTE $14
+	.BYTE (mapset_metal_00 - mapset_metal_00) / $40
+	.BYTE (mapset_metal_0b - mapset_metal_00) / $40
+	.BYTE (mapset_metal_14 - mapset_metal_00) / $40
 
 ;unused checkpoint mapset
 	.BYTE $FF

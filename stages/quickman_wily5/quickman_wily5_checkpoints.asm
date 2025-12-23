@@ -9,14 +9,14 @@
 	checkpointycoord 9
 
 ;quickman checkpoint mapset
-	.BYTE $00
-	.BYTE $07
-	.BYTE $16
+	.BYTE (mapset_quick_wily5_00 - mapset_quick_wily5_00) / $40
+	.BYTE (mapset_quick_wily5_07 - mapset_quick_wily5_00) / $40
+	.BYTE (mapset_quick_wily5_16 - mapset_quick_wily5_00) / $40
 
 ;wily5 checkpoint mapset
-	.BYTE $18
-	.BYTE $28
-	.BYTE $28
+	.BYTE (mapset_quick_wily5_18 - mapset_quick_wily5_00) / $40
+	.BYTE (mapset_quick_wily5_28 - mapset_quick_wily5_00) / $40
+	.BYTE (mapset_quick_wily5_28 - mapset_quick_wily5_00) / $40
 
 ;quickman checkpoint enemies index
 	.BYTE $00

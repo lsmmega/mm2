@@ -9,9 +9,9 @@
 	checkpointycoord 11
 
 ;crashman checkpoint mapset
-	.BYTE $00
-	.BYTE $07
-	.BYTE $12
+	.BYTE (mapset_crash_00 - mapset_crash_00) / $40
+	.BYTE (mapset_crash_07 - mapset_crash_00) / $40
+	.BYTE (mapset_crash_12 - mapset_crash_00) / $40
 
 ;unused checkpoint mapset
 	.BYTE $FF

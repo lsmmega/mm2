@@ -9,14 +9,14 @@
 	checkpointycoord 11
 
 ;bubbleman checkpoint mapset
-	.BYTE $00
-	.BYTE $08
-	.BYTE $14
+	.BYTE (mapset_bubble_wily4_00 - mapset_bubble_wily4_00) / $40
+	.BYTE (mapset_bubble_wily4_08 - mapset_bubble_wily4_00) / $40
+	.BYTE (mapset_bubble_wily4_14 - mapset_bubble_wily4_00) / $40
 
 ;wily4 checkpoint mapset
-	.BYTE $16
-	.BYTE $1C
-	.BYTE $1C
+	.BYTE (mapset_bubble_wily4_16 - mapset_bubble_wily4_00) / $40
+	.BYTE (mapset_bubble_wily4_1c - mapset_bubble_wily4_00) / $40
+	.BYTE (mapset_bubble_wily4_1c - mapset_bubble_wily4_00) / $40
 
 ;bubbleman checkpoint enemies index
 	.BYTE $00

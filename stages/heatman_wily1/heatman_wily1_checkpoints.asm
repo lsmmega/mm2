@@ -9,14 +9,14 @@
 	checkpointycoord 11
 
 ;heatman checkpoint mapset
-	.BYTE $00
-	.BYTE $09
-	.BYTE $16
+	.BYTE (mapset_heat_wily1_00 - mapset_heat_wily1_00) / $40
+	.BYTE (mapset_heat_wily1_09 - mapset_heat_wily1_00) / $40
+	.BYTE (mapset_heat_wily1_16 - mapset_heat_wily1_00) / $40
 
 ;wily1 checkpoint mapset
-	.BYTE $18
-	.BYTE $21
-	.BYTE $21
+	.BYTE (mapset_heat_wily1_18 - mapset_heat_wily1_00) / $40
+	.BYTE (mapset_heat_wily1_21 - mapset_heat_wily1_00) / $40
+	.BYTE (mapset_heat_wily1_21 - mapset_heat_wily1_00) / $40
 
 ;heatman checkpoint enemies index
 	.BYTE $00

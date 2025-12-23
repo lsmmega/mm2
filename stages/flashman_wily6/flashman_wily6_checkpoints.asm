@@ -9,14 +9,14 @@
 	checkpointycoord 8
 
 ;flashman checkpoint mapset
-	.BYTE $00
-	.BYTE $08
-	.BYTE $12
+	.BYTE (mapset_flash_wily6_00 - mapset_flash_wily6_00) / $40
+	.BYTE (mapset_flash_wily6_08 - mapset_flash_wily6_00) / $40
+	.BYTE (mapset_flash_wily6_12 - mapset_flash_wily6_00) / $40
 
 ;wily6 checkpoint mapset
-	.BYTE $16
-	.BYTE $16
-	.BYTE $16
+	.BYTE (mapset_flash_wily6_16 - mapset_flash_wily6_00) / $40
+	.BYTE (mapset_flash_wily6_16 - mapset_flash_wily6_00) / $40
+	.BYTE (mapset_flash_wily6_16 - mapset_flash_wily6_00) / $40
 
 ;flashman checkpoint enemies index
 	.BYTE $00
