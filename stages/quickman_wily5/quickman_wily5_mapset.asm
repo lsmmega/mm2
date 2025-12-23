@@ -1,4 +1,4 @@
-mapset_quick_wily5_00:
+mapset_quickman_wily5_00:
 	.BYTE $09, $11, $09, $0D, $21, $19, $21, $21
 	.BYTE $72, $74, $69, $03, $39, $05, $33, $33
 	.BYTE $60, $60, $70, $69, $68, $18, $22, $22
@@ -8,7 +8,7 @@ mapset_quick_wily5_00:
 	.BYTE $68, $6A, $62, $72, $75, $0C, $12, $0A
 	.BYTE $0A, $12, $0A, $12, $0A, $0E, $22, $1A
 
-mapset_quick_wily5_01:
+mapset_quickman_wily5_01:
 	.BYTE $19, $19, $19, $19, $25, $09, $09, $09
 	.BYTE $08, $15, $38, $34, $3C, $6C, $72, $71
 	.BYTE $1A, $2A, $6B, $71, $72, $71, $0C, $12
@@ -18,7 +18,7 @@ mapset_quick_wily5_01:
 	.BYTE $0A, $0A, $12, $0E, $22, $1A, $1A, $22
 	.BYTE $1A, $1A, $22, $1A, $22, $1A, $1A, $22
 
-mapset_quick_wily5_02:
+mapset_quickman_wily5_02:
 	.BYTE $09, $09, $0D, $19, $19, $21, $19, $21
 	.BYTE $70, $71, $36, $19, $25, $11, $09, $11
 	.BYTE $2C, $6B, $3E, $08, $28, $6B, $60, $70
@@ -28,7 +28,7 @@ mapset_quick_wily5_02:
 	.BYTE $22, $2A, $6B, $71, $72, $0C, $12, $0A
 	.BYTE $22, $26, $12, $0A, $0A, $0E, $22, $1A
 
-mapset_quick_wily5_03:
+mapset_quickman_wily5_03:
 	.BYTE $21, $30, $40, $48, $10, $33, $33, $08
 	.BYTE $11, $1B, $41, $49, $0B, $11, $11, $09
 	.BYTE $71, $72, $73, $70, $72, $70, $71, $70
@@ -38,7 +38,7 @@ mapset_quick_wily5_03:
 	.BYTE $12, $2C, $42, $4A, $10, $08, $08, $33
 	.BYTE $22, $32, $40, $48, $18, $1A, $1A, $22
 
-mapset_quick_wily5_04:
+mapset_quickman_wily5_04:
 	.BYTE $2D, $09, $49, $27, $41, $13, $41, $01
 	.BYTE $23, $6B, $71, $72, $75, $72, $70, $70
 	.BYTE $70, $60, $70, $60, $70, $4B, $4C, $45
@@ -48,7 +48,7 @@ mapset_quick_wily5_04:
 	.BYTE $16, $02, $4A, $37, $42, $14, $42, $12
 	.BYTE $1A, $1A, $48, $1F, $40, $28, $40, $33
 
-mapset_quick_wily5_05:
+mapset_quickman_wily5_05:
 	.BYTE $01, $13, $41, $13, $41, $01, $11, $01
 	.BYTE $70, $70, $70, $72, $71, $70, $70, $70
 	.BYTE $45, $4D, $42, $1C, $6B, $07, $51, $3A
@@ -58,7 +58,7 @@ mapset_quick_wily5_05:
 	.BYTE $12, $2C, $46, $42, $02, $24, $42, $02
 	.BYTE $33, $29, $40, $40, $19, $31, $40, $08
 
-mapset_quick_wily5_06:
+mapset_quickman_wily5_06:
 	.BYTE $01, $11, $01, $01, $11, $11, $01, $01
 	.BYTE $70, $70, $70, $70, $70, $70, $60, $70
 	.BYTE $02, $52, $45, $45, $45, $54, $56, $57
@@ -68,7 +68,7 @@ mapset_quick_wily5_06:
 	.BYTE $02, $5E, $5F, $57, $57, $55, $43, $33
 	.BYTE $19, $19, $21, $19, $19, $21, $19, $19
 
-mapset_quick_wily5_07:
+mapset_quickman_wily5_07:
 	.BYTE $11, $09, $09, $11, $09, $11, $0D, $21
 	.BYTE $60, $60, $70, $60, $71, $77, $18, $22
 	.BYTE $5D, $6D, $71, $72, $77, $68, $20, $21
@@ -78,7 +78,7 @@ mapset_quick_wily5_07:
 	.BYTE $28, $63, $77, $6A, $77, $88, $10, $33
 	.BYTE $30, $76, $70, $69, $88, $74, $10, $33
 
-mapset_quick_wily5_08:
+mapset_quickman_wily5_08:
 	.BYTE $32, $6B, $70, $74, $70, $04, $06, $08
 	.BYTE $29, $6B, $60, $70, $71, $20, $19, $19
 	.BYTE $31, $6B, $72, $71, $04, $06, $08, $08
@@ -88,7 +88,7 @@ mapset_quick_wily5_08:
 	.BYTE $21, $30, $6B, $60, $70, $71, $20, $19
 	.BYTE $33, $28, $6B, $60, $70, $72, $10, $08
 
-mapset_quick_wily5_09:
+mapset_quickman_wily5_09:
 	.BYTE $22, $2A, $63, $71, $70, $0C, $0E, $1A
 	.BYTE $33, $28, $76, $6A, $77, $20, $19, $19
 	.BYTE $21, $30, $6B, $69, $0C, $0E, $1A, $1A
@@ -98,7 +98,7 @@ mapset_quick_wily5_09:
 	.BYTE $33, $28, $6B, $60, $60, $70, $18, $1A
 	.BYTE $22, $2A, $6B, $71, $72, $70, $10, $08
 
-mapset_quick_wily5_0a:
+mapset_quickman_wily5_0a:
 	.BYTE $33, $16, $24, $6B, $70, $0C, $0E, $1A
 	.BYTE $21, $19, $31, $6B, $70, $10, $08, $08
 	.BYTE $33, $08, $29, $6B, $70, $18, $1A, $1A
@@ -108,7 +108,7 @@ mapset_quick_wily5_0a:
 	.BYTE $33, $08, $29, $6B, $0C, $0E, $1A, $1A
 	.BYTE $22, $1A, $32, $6B, $10, $08, $08, $08
 
-mapset_quick_wily5_0b:
+mapset_quickman_wily5_0b:
 	.BYTE $33, $08, $29, $6B, $10, $08, $08, $48
 	.BYTE $22, $1A, $32, $6B, $18, $1A, $1A, $48
 	.BYTE $33, $08, $29, $6B, $20, $19, $19, $48
@@ -118,7 +118,7 @@ mapset_quick_wily5_0b:
 	.BYTE $22, $1A, $2E, $12, $0A, $12, $0A, $4A
 	.BYTE $33, $08, $33, $33, $08, $33, $08, $48
 
-mapset_quick_wily5_0c:
+mapset_quickman_wily5_0c:
 	.BYTE $6B, $70, $70, $72, $3E, $6B, $70, $73
 	.BYTE $6B, $70, $70, $70, $3E, $6B, $70, $70
 	.BYTE $6B, $70, $70, $70, $3E, $6B, $70, $70
@@ -128,7 +128,7 @@ mapset_quick_wily5_0c:
 	.BYTE $6B, $70, $2F, $70, $2F, $72, $71, $72
 	.BYTE $6B, $70, $2F, $70, $2F, $73, $73, $73
 
-mapset_quick_wily5_0d:
+mapset_quickman_wily5_0d:
 	.BYTE $73, $73, $2F, $75, $72, $70, $70, $70
 	.BYTE $75, $72, $2F, $70, $70, $70, $70, $70
 	.BYTE $71, $72, $58, $70, $70, $78, $70, $70
@@ -138,7 +138,7 @@ mapset_quick_wily5_0d:
 	.BYTE $70, $75, $2F, $70, $70, $70, $71, $72
 	.BYTE $75, $72, $2F, $71, $70, $72, $74, $73
 
-mapset_quick_wily5_0e:
+mapset_quickman_wily5_0e:
 	.BYTE $70, $70, $2F, $70, $70, $70, $71, $72
 	.BYTE $70, $70, $2F, $70, $70, $70, $70, $70
 	.BYTE $70, $70, $58, $70, $70, $70, $0C, $4A
@@ -148,7 +148,7 @@ mapset_quick_wily5_0e:
 	.BYTE $71, $70, $2F, $70, $71, $74, $10, $48
 	.BYTE $75, $72, $2F, $70, $72, $75, $18, $48
 
-mapset_quick_wily5_0f:
+mapset_quickman_wily5_0f:
 	.BYTE $71, $70, $3E, $40, $40, $6B, $70, $70
 	.BYTE $70, $70, $50, $40, $40, $6B, $70, $70
 	.BYTE $6B, $70, $70, $50, $40, $6B, $70, $70
@@ -158,7 +158,7 @@ mapset_quick_wily5_0f:
 	.BYTE $6B, $70, $72, $71, $72, $71, $20, $19
 	.BYTE $6B, $70, $71, $73, $73, $74, $10, $08
 
-mapset_quick_wily5_10:
+mapset_quickman_wily5_10:
 	.BYTE $71, $72, $70, $74, $70, $72, $70, $70
 	.BYTE $70, $70, $70, $70, $70, $71, $70, $70
 	.BYTE $70, $70, $71, $70, $72, $75, $70, $71
@@ -168,7 +168,7 @@ mapset_quick_wily5_10:
 	.BYTE $21, $19, $31, $40, $22, $48, $10, $48
 	.BYTE $33, $08, $29, $40, $33, $48, $10, $48
 
-mapset_quick_wily5_11:
+mapset_quickman_wily5_11:
 	.BYTE $75, $70, $3E, $48, $70, $70, $71, $75
 	.BYTE $72, $71, $3E, $48, $70, $71, $72, $70
 	.BYTE $71, $72, $3E, $48, $70, $70, $70, $72
@@ -178,7 +178,7 @@ mapset_quick_wily5_11:
 	.BYTE $6B, $70, $70, $70, $3E, $48, $72, $71
 	.BYTE $6B, $70, $70, $70, $3E, $48, $71, $72
 
-mapset_quick_wily5_12:
+mapset_quickman_wily5_12:
 	.BYTE $71, $72, $1F, $6B, $6F, $01, $39, $01
 	.BYTE $70, $71, $1F, $6B, $1F, $6B, $70, $70
 	.BYTE $70, $71, $1F, $6B, $1F, $6B, $0C, $12
@@ -188,7 +188,7 @@ mapset_quick_wily5_12:
 	.BYTE $71, $71, $6E, $6D, $6E, $6D, $20, $21
 	.BYTE $71, $72, $1F, $6B, $1F, $6B, $10, $33
 
-mapset_quick_wily5_13:
+mapset_quickman_wily5_13:
 	.BYTE $01, $39, $01, $01, $39, $01, $05, $08
 	.BYTE $70, $70, $71, $70, $72, $70, $10, $08
 	.BYTE $0A, $2C, $6B, $60, $70, $70, $18, $1A
@@ -198,7 +198,7 @@ mapset_quick_wily5_13:
 	.BYTE $19, $31, $89, $68, $68, $68, $10, $08
 	.BYTE $08, $29, $6B, $60, $70, $69, $20, $19
 
-mapset_quick_wily5_14:
+mapset_quickman_wily5_14:
 	.BYTE $08, $29, $6B, $60, $60, $70, $20, $19
 	.BYTE $19, $31, $6B, $60, $70, $70, $18, $1A
 	.BYTE $08, $29, $6B, $70, $71, $7A, $79, $08
@@ -208,7 +208,7 @@ mapset_quick_wily5_14:
 	.BYTE $19, $21, $30, $63, $72, $71, $18, $1A
 	.BYTE $08, $33, $28, $89, $68, $68, $20, $19
 
-mapset_quick_wily5_15:
+mapset_quickman_wily5_15:
 	.BYTE $08, $33, $28, $76, $70, $7A, $79, $08
 	.BYTE $19, $21, $30, $6B, $71, $72, $18, $1A
 	.BYTE $19, $21, $30, $6B, $72, $71, $20, $19
@@ -218,7 +218,7 @@ mapset_quick_wily5_15:
 	.BYTE $7B, $86, $85, $6C, $0C, $0E, $1A, $1A
 	.BYTE $7C, $7D, $7F, $87, $10, $08, $08, $08
 
-mapset_quick_wily5_16:
+mapset_quickman_wily5_16:
 	.BYTE $00, $1F, $6B, $70, $1F, $00, $00, $00
 	.BYTE $00, $1F, $6B, $70, $1F, $00, $00, $00
 	.BYTE $00, $1F, $6B, $70, $1F, $00, $00, $00
@@ -228,7 +228,7 @@ mapset_quick_wily5_16:
 	.BYTE $00, $1F, $6B, $70, $1F, $00, $00, $00
 	.BYTE $00, $1F, $7F, $87, $1F, $00, $00, $00
 
-mapset_quick_wily5_17:
+mapset_quickman_wily5_17:
 	.BYTE $47, $3C, $6C, $71, $80, $47, $82, $08
 	.BYTE $71, $72, $71, $72, $71, $91, $81, $08
 	.BYTE $72, $71, $72, $71, $72, $92, $08, $08
@@ -238,7 +238,7 @@ mapset_quick_wily5_17:
 	.BYTE $72, $71, $72, $71, $72, $94, $82, $08
 	.BYTE $57, $57, $57, $57, $57, $57, $81, $08
 
-mapset_quick_wily5_18:
+mapset_quickman_wily5_18:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -248,7 +248,7 @@ mapset_quick_wily5_18:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_19:
+mapset_quickman_wily5_19:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -258,7 +258,7 @@ mapset_quick_wily5_19:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_1a:
+mapset_quickman_wily5_1a:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -268,7 +268,7 @@ mapset_quick_wily5_1a:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_1b:
+mapset_quickman_wily5_1b:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -278,7 +278,7 @@ mapset_quick_wily5_1b:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_1c:
+mapset_quickman_wily5_1c:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -288,7 +288,7 @@ mapset_quick_wily5_1c:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_1d:
+mapset_quickman_wily5_1d:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -298,7 +298,7 @@ mapset_quick_wily5_1d:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_1e:
+mapset_quickman_wily5_1e:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -308,7 +308,7 @@ mapset_quick_wily5_1e:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_1f:
+mapset_quickman_wily5_1f:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -318,7 +318,7 @@ mapset_quick_wily5_1f:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_20:
+mapset_quickman_wily5_20:
 	.BYTE $B1, $B2, $B3, $B3, $B3, $B3, $B4, $B6
 	.BYTE $B1, $A0, $A6, $AC, $AC, $AC, $B5, $B6
 	.BYTE $B1, $A1, $A7, $AD, $AC, $AC, $B5, $B6
@@ -328,7 +328,7 @@ mapset_quick_wily5_20:
 	.BYTE $B1, $A5, $AB, $AC, $AC, $B9, $BB, $B6
 	.BYTE $B1, $B7, $B8, $B8, $B8, $BA, $BC, $B6
 
-mapset_quick_wily5_21:
+mapset_quickman_wily5_21:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -338,7 +338,7 @@ mapset_quick_wily5_21:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_22:
+mapset_quickman_wily5_22:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -348,7 +348,7 @@ mapset_quick_wily5_22:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_23:
+mapset_quickman_wily5_23:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -358,7 +358,7 @@ mapset_quick_wily5_23:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_24:
+mapset_quickman_wily5_24:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -368,7 +368,7 @@ mapset_quick_wily5_24:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_25:
+mapset_quickman_wily5_25:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -378,7 +378,7 @@ mapset_quick_wily5_25:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_26:
+mapset_quickman_wily5_26:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -388,7 +388,7 @@ mapset_quick_wily5_26:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_27:
+mapset_quickman_wily5_27:
 	.BYTE $EA, $EF, $F0, $F0, $E2, $F0, $E7, $EA
 	.BYTE $C2, $D8, $E0, $E0, $E3, $E0, $E8, $C2
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
@@ -398,7 +398,7 @@ mapset_quick_wily5_27:
 	.BYTE $C2, $D8, $E0, $E0, $E0, $E0, $C2, $C2
 	.BYTE $C5, $CD, $D5, $D5, $D5, $D5, $C5, $C5
 
-mapset_quick_wily5_28:
+mapset_quickman_wily5_28:
 	.BYTE $C0, $C8, $D0, $C8, $D0, $C8, $D0, $F8
 	.BYTE $C1, $C9, $D1, $D9, $E1, $E9, $F1, $F9
 	.BYTE $C2, $CA, $D2, $DA, $CA, $D2, $F2, $FA
@@ -408,7 +408,7 @@ mapset_quick_wily5_28:
 	.BYTE $C6, $CE, $D6, $DE, $E6, $EE, $F6, $FE
 	.BYTE $C7, $CF, $D7, $CF, $D7, $CF, $D7, $FF
 
-mapset_quick_wily5_29:
+mapset_quickman_wily5_29:
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
@@ -418,7 +418,7 @@ mapset_quick_wily5_29:
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 
-mapset_quick_wily5_2a:
+mapset_quickman_wily5_2a:
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
@@ -428,7 +428,7 @@ mapset_quick_wily5_2a:
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 	.BYTE $00, $00, $00, $00, $00, $00, $C3, $C3
 
-mapset_quick_wily5_2b:
+mapset_quickman_wily5_2b:
 	.BYTE $B1, $B2, $B3, $B3, $B3, $B3, $B4, $B6
 	.BYTE $B1, $A0, $A6, $AC, $AC, $AC, $B5, $B6
 	.BYTE $B1, $A1, $A7, $AD, $AC, $AC, $B5, $B6

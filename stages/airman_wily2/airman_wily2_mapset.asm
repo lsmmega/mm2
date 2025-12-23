@@ -1,4 +1,4 @@
-mapset_air_wily2_00:
+mapset_airman_wily2_00:
 	.BYTE $23, $28, $00, $00, $02, $2A, $23, $23
 	.BYTE $23, $24, $00, $00, $57, $2B, $23, $23
 	.BYTE $23, $39, $00, $00, $02, $2C, $2D, $23
@@ -8,7 +8,7 @@ mapset_air_wily2_00:
 	.BYTE $26, $25, $00, $00, $02, $00, $5A, $23
 	.BYTE $23, $29, $00, $00, $57, $00, $5D, $2D
 
-mapset_air_wily2_01:
+mapset_airman_wily2_01:
 	.BYTE $23, $29, $00, $00, $00, $00, $00, $2C
 	.BYTE $23, $60, $00, $11, $14, $17, $00, $00
 	.BYTE $32, $63, $00, $12, $15, $18, $00, $00
@@ -18,7 +18,7 @@ mapset_air_wily2_01:
 	.BYTE $25, $00, $00, $00, $6A, $72, $7A, $34
 	.BYTE $26, $25, $00, $00, $6B, $73, $7B, $35
 
-mapset_air_wily2_02:
+mapset_airman_wily2_02:
 	.BYTE $23, $29, $00, $00, $6C, $74, $7C, $00
 	.BYTE $23, $29, $00, $00, $00, $00, $00, $00
 	.BYTE $23, $29, $00, $03, $00, $00, $00, $00
@@ -28,7 +28,7 @@ mapset_air_wily2_02:
 	.BYTE $00, $00, $00, $00, $00, $00, $00, $34
 	.BYTE $00, $00, $8E, $00, $00, $00, $27, $23
 
-mapset_air_wily2_03:
+mapset_airman_wily2_03:
 	.BYTE $00, $00, $00, $00, $00, $00, $34, $23
 	.BYTE $00, $00, $00, $70, $78, $80, $34, $23
 	.BYTE $25, $00, $00, $71, $79, $81, $35, $23
@@ -38,7 +38,7 @@ mapset_air_wily2_03:
 	.BYTE $23, $29, $00, $85, $88, $8B, $00, $00
 	.BYTE $23, $36, $00, $86, $89, $8C, $00, $00
 
-mapset_air_wily2_04:
+mapset_airman_wily2_04:
 	.BYTE $23, $36, $00, $87, $8A, $8D, $00, $00
 	.BYTE $32, $31, $00, $01, $00, $00, $00, $00
 	.BYTE $31, $00, $00, $02, $00, $00, $00, $27
@@ -48,7 +48,7 @@ mapset_air_wily2_04:
 	.BYTE $00, $00, $00, $00, $00, $00, $35, $23
 	.BYTE $00, $00, $00, $00, $00, $00, $00, $35
 
-mapset_air_wily2_05:
+mapset_airman_wily2_05:
 	.BYTE $00, $00, $00, $00, $00, $00, $00, $00
 	.BYTE $00, $00, $00, $00, $00, $00, $00, $2F
 	.BYTE $00, $00, $00, $00, $00, $2F, $38, $30
@@ -58,7 +58,7 @@ mapset_air_wily2_05:
 	.BYTE $00, $00, $00, $5C, $30, $23, $23, $23
 	.BYTE $00, $00, $00, $5D, $2D, $23, $23, $23
 
-mapset_air_wily2_06:
+mapset_airman_wily2_06:
 	.BYTE $00, $00, $00, $00, $2A, $23, $23, $23
 	.BYTE $00, $00, $00, $00, $2C, $2D, $23, $23
 	.BYTE $00, $00, $00, $00, $00, $2A, $23, $23
@@ -68,7 +68,7 @@ mapset_air_wily2_06:
 	.BYTE $23, $66, $00, $00, $00, $00, $00, $3B
 	.BYTE $23, $65, $00, $00, $00, $00, $33, $23
 
-mapset_air_wily2_07:
+mapset_airman_wily2_07:
 	.BYTE $23, $24, $00, $00, $57, $00, $00, $34
 	.BYTE $28, $00, $00, $00, $02, $00, $33, $23
 	.BYTE $24, $00, $00, $00, $02, $00, $33, $23
@@ -78,7 +78,7 @@ mapset_air_wily2_07:
 	.BYTE $00, $00, $00, $68, $3D, $23, $23, $23
 	.BYTE $00, $00, $00, $5F, $3D, $23, $23, $23
 
-mapset_air_wily2_08:
+mapset_airman_wily2_08:
 	.BYTE $00, $00, $00, $35, $3D, $23, $23, $23
 	.BYTE $00, $00, $00, $00, $3F, $23, $23, $23
 	.BYTE $00, $00, $00, $00, $57, $5E, $23, $23
@@ -88,7 +88,7 @@ mapset_air_wily2_08:
 	.BYTE $23, $23, $39, $00, $02, $00, $33, $23
 	.BYTE $23, $23, $37, $00, $02, $00, $00, $34
 
-mapset_air_wily2_09:
+mapset_airman_wily2_09:
 	.BYTE $23, $23, $24, $00, $57, $00, $00, $35
 	.BYTE $23, $23, $39, $00, $02, $00, $00, $2F
 	.BYTE $23, $28, $00, $00, $02, $00, $2F, $30
@@ -98,7 +98,7 @@ mapset_air_wily2_09:
 	.BYTE $00, $00, $00, $2A, $46, $23, $23, $23
 	.BYTE $00, $00, $2F, $30, $23, $23, $23, $23
 
-mapset_air_wily2_0a:
+mapset_airman_wily2_0a:
 	.BYTE $49, $31, $00, $00, $33, $23, $23, $23
 	.BYTE $00, $00, $00, $01, $00, $35, $4B, $23
 	.BYTE $37, $00, $00, $00, $00, $00, $3F, $24
@@ -108,7 +108,7 @@ mapset_air_wily2_0a:
 	.BYTE $23, $23, $39, $02, $00, $2F, $45, $30
 	.BYTE $23, $23, $39, $02, $5C, $30, $3D, $23
 
-mapset_air_wily2_0b:
+mapset_airman_wily2_0b:
 	.BYTE $32, $31, $00, $27, $3D, $23, $23, $23
 	.BYTE $29, $00, $33, $23, $3D, $23, $23, $23
 	.BYTE $31, $00, $00, $35, $3D, $23, $23, $23
@@ -118,7 +118,7 @@ mapset_air_wily2_0b:
 	.BYTE $37, $00, $00, $69, $3D, $23, $23, $23
 	.BYTE $23, $39, $00, $00, $3F, $23, $23, $23
 
-mapset_air_wily2_0c:
+mapset_airman_wily2_0c:
 	.BYTE $23, $39, $00, $00, $00, $35, $23, $23
 	.BYTE $24, $00, $00, $11, $14, $17, $5E, $23
 	.BYTE $00, $00, $00, $12, $15, $18, $69, $23
@@ -128,7 +128,7 @@ mapset_air_wily2_0c:
 	.BYTE $00, $00, $1C, $1F, $22, $00, $00, $00
 	.BYTE $00, $00, $00, $00, $00, $00, $00, $00
 
-mapset_air_wily2_0d:
+mapset_airman_wily2_0d:
 	.BYTE $00, $00, $00, $00, $00, $00, $00, $00
 	.BYTE $25, $00, $00, $00, $58, $00, $00, $00
 	.BYTE $26, $25, $00, $00, $59, $00, $00, $00
@@ -138,7 +138,7 @@ mapset_air_wily2_0d:
 	.BYTE $32, $31, $00, $00, $03, $00, $27, $23
 	.BYTE $31, $00, $00, $00, $01, $33, $23, $23
 
-mapset_air_wily2_0e:
+mapset_airman_wily2_0e:
 	.BYTE $25, $00, $00, $00, $02, $33, $23, $23
 	.BYTE $29, $00, $00, $00, $57, $00, $34, $23
 	.BYTE $29, $00, $00, $00, $02, $00, $34, $23
@@ -148,7 +148,7 @@ mapset_air_wily2_0e:
 	.BYTE $00, $00, $59, $00, $00, $00, $00, $35
 	.BYTE $00, $00, $00, $00, $02, $00, $00, $00
 
-mapset_air_wily2_0f:
+mapset_airman_wily2_0f:
 	.BYTE $25, $00, $00, $00, $57, $00, $00, $00
 	.BYTE $26, $62, $00, $00, $02, $00, $00, $00
 	.BYTE $23, $61, $00, $00, $00, $00, $00, $00
@@ -158,7 +158,7 @@ mapset_air_wily2_0f:
 	.BYTE $23, $32, $31, $00, $58, $00, $2B, $23
 	.BYTE $23, $29, $00, $00, $59, $00, $2A, $23
 
-mapset_air_wily2_10:
+mapset_airman_wily2_10:
 	.BYTE $23, $29, $00, $00, $00, $00, $2A, $23
 	.BYTE $23, $26, $62, $00, $03, $00, $2A, $23
 	.BYTE $23, $32, $63, $00, $01, $00, $2E, $2D
@@ -168,7 +168,7 @@ mapset_air_wily2_10:
 	.BYTE $31, $00, $00, $01, $03, $2E, $2D, $23
 	.BYTE $00, $00, $00, $57, $00, $00, $2A, $23
 
-mapset_air_wily2_11:
+mapset_airman_wily2_11:
 	.BYTE $00, $00, $01, $03, $00, $00, $2E, $2D
 	.BYTE $00, $00, $57, $00, $00, $00, $00, $2E
 	.BYTE $00, $00, $02, $00, $00, $00, $00, $00
@@ -178,7 +178,7 @@ mapset_air_wily2_11:
 	.BYTE $00, $00, $00, $00, $02, $00, $00, $00
 	.BYTE $00, $00, $00, $00, $57, $00, $00, $00
 
-mapset_air_wily2_12:
+mapset_airman_wily2_12:
 	.BYTE $00, $00, $00, $01, $00, $00, $00, $00
 	.BYTE $00, $00, $00, $57, $00, $00, $00, $00
 	.BYTE $00, $00, $00, $03, $00, $00, $00, $00
@@ -188,7 +188,7 @@ mapset_air_wily2_12:
 	.BYTE $00, $00, $58, $00, $00, $00, $00, $00
 	.BYTE $00, $00, $59, $00, $00, $00, $00, $00
 
-mapset_air_wily2_13:
+mapset_airman_wily2_13:
 	.BYTE $00, $00, $00, $00, $02, $00, $00, $00
 	.BYTE $00, $00, $00, $00, $02, $00, $00, $00
 	.BYTE $00, $00, $00, $00, $02, $00, $00, $00
@@ -198,7 +198,7 @@ mapset_air_wily2_13:
 	.BYTE $04, $8F, $00, $00, $02, $00, $00, $00
 	.BYTE $05, $06, $07, $07, $02, $00, $00, $00
 
-mapset_air_wily2_14:
+mapset_airman_wily2_14:
 	.BYTE $00, $08, $00, $00, $08, $00, $00, $00
 	.BYTE $00, $08, $00, $00, $08, $00, $00, $00
 	.BYTE $00, $08, $00, $00, $08, $00, $00, $00
@@ -208,7 +208,7 @@ mapset_air_wily2_14:
 	.BYTE $00, $08, $00, $00, $08, $00, $00, $00
 	.BYTE $00, $08, $0A, $0A, $08, $00, $00, $00
 
-mapset_air_wily2_15:
+mapset_airman_wily2_15:
 	.BYTE $0C, $0C, $00, $00, $0C, $0C, $08, $08
 	.BYTE $37, $00, $00, $00, $00, $00, $08, $08
 	.BYTE $23, $66, $00, $00, $00, $00, $08, $08
@@ -218,7 +218,7 @@ mapset_air_wily2_15:
 	.BYTE $23, $23, $66, $00, $00, $00, $08, $08
 	.BYTE $0F, $0F, $10, $0E, $0E, $0E, $08, $08
 
-mapset_air_wily2_16:
+mapset_airman_wily2_16:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $91, $91, $92, $90, $90, $96, $9E, $90
@@ -228,7 +228,7 @@ mapset_air_wily2_16:
 	.BYTE $91, $91, $92, $90, $90, $97, $9F, $90
 	.BYTE $91, $91, $91, $93, $90, $90, $90, $90
 
-mapset_air_wily2_17:
+mapset_airman_wily2_17:
 	.BYTE $91, $91, $91, $92, $90, $96, $9E, $90
 	.BYTE $91, $91, $91, $92, $90, $97, $9F, $90
 	.BYTE $91, $91, $91, $91, $93, $90, $90, $90
@@ -238,7 +238,7 @@ mapset_air_wily2_17:
 	.BYTE $91, $91, $91, $91, $91, $93, $90, $90
 	.BYTE $91, $91, $91, $91, $91, $92, $90, $90
 
-mapset_air_wily2_18:
+mapset_airman_wily2_18:
 	.BYTE $91, $91, $91, $91, $91, $92, $90, $90
 	.BYTE $91, $91, $91, $91, $91, $91, $93, $90
 	.BYTE $91, $91, $91, $91, $91, $91, $93, $90
@@ -248,7 +248,7 @@ mapset_air_wily2_18:
 	.BYTE $91, $91, $91, $91, $91, $91, $94, $95
 	.BYTE $98, $98, $98, $98, $9A, $91, $94, $95
 
-mapset_air_wily2_19:
+mapset_airman_wily2_19:
 	.BYTE $99, $99, $99, $99, $9B, $91, $94, $95
 	.BYTE $99, $A5, $AD, $99, $9B, $91, $94, $95
 	.BYTE $99, $A6, $AE, $99, $9B, $91, $94, $95
@@ -258,7 +258,7 @@ mapset_air_wily2_19:
 	.BYTE $99, $A7, $AF, $99, $9B, $91, $94, $95
 	.BYTE $99, $A5, $AD, $99, $9B, $91, $94, $95
 
-mapset_air_wily2_1a:
+mapset_airman_wily2_1a:
 	.BYTE $99, $A6, $AE, $9B, $91, $91, $94, $95
 	.BYTE $99, $A7, $AF, $9B, $91, $91, $94, $95
 	.BYTE $99, $A5, $AD, $9B, $91, $91, $94, $95
@@ -268,7 +268,7 @@ mapset_air_wily2_1a:
 	.BYTE $99, $99, $99, $9B, $91, $91, $94, $95
 	.BYTE $9C, $9C, $9D, $A4, $91, $91, $94, $95
 
-mapset_air_wily2_1b:
+mapset_airman_wily2_1b:
 	.BYTE $91, $91, $93, $9B, $91, $91, $94, $95
 	.BYTE $91, $91, $93, $9B, $91, $91, $94, $95
 	.BYTE $91, $93, $90, $9B, $91, $91, $94, $95
@@ -278,7 +278,7 @@ mapset_air_wily2_1b:
 	.BYTE $91, $A3, $A3, $A3, $A3, $A3, $A3, $A3
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $A0, $A0
 
-mapset_air_wily2_1c:
+mapset_airman_wily2_1c:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $A1, $91, $B2, $B0, $AC, $AA, $B5, $B7
 	.BYTE $A1, $91, $A2, $AA, $A2, $AA, $A2, $AA
@@ -288,7 +288,7 @@ mapset_air_wily2_1c:
 	.BYTE $A3, $A3, $A3, $A3, $A3, $A3, $A3, $A3
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 
-mapset_air_wily2_1d:
+mapset_airman_wily2_1d:
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $A0, $A0
 	.BYTE $B7, $B7, $B7, $B7, $BA, $BC, $BE, $BA
 	.BYTE $91, $B2, $B0, $AC, $AA, $A1, $A2, $AA
@@ -298,7 +298,7 @@ mapset_air_wily2_1d:
 	.BYTE $B8, $AC, $AA, $B3, $B4, $B4, $B4, $B4
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $A0, $A0
 
-mapset_air_wily2_1e:
+mapset_airman_wily2_1e:
 	.BYTE $90, $90, $90, $90, $90, $C0, $94, $95
 	.BYTE $91, $91, $91, $91, $91, $91, $94, $95
 	.BYTE $91, $91, $91, $91, $91, $91, $C1, $C1
@@ -308,7 +308,7 @@ mapset_air_wily2_1e:
 	.BYTE $91, $91, $91, $C5, $C6, $91, $94, $95
 	.BYTE $90, $90, $90, $90, $90, $C0, $94, $95
 
-mapset_air_wily2_1f:
+mapset_airman_wily2_1f:
 	.BYTE $D0, $D0, $D0, $D0, $D0, $D0, $D0, $D0
 	.BYTE $D0, $D0, $D0, $D0, $D0, $D0, $D0, $D0
 	.BYTE $D1, $D1, $D1, $D1, $D1, $D3, $D0, $D0
@@ -318,7 +318,7 @@ mapset_air_wily2_1f:
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 
-mapset_air_wily2_20:
+mapset_airman_wily2_20:
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 	.BYTE $D0, $D0, $D0, $D6, $00, $D4, $D0, $D0
 	.BYTE $D0, $D0, $D0, $D6, $00, $D4, $D0, $D0
@@ -328,7 +328,7 @@ mapset_air_wily2_20:
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 	.BYTE $D0, $D0, $D0, $D6, $00, $D4, $D0, $D0
 
-mapset_air_wily2_21:
+mapset_airman_wily2_21:
 	.BYTE $D0, $D0, $D0, $D6, $00, $D4, $D0, $D0
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
@@ -338,7 +338,7 @@ mapset_air_wily2_21:
 	.BYTE $D0, $D0, $D0, $D6, $00, $D4, $D0, $D0
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 
-mapset_air_wily2_22:
+mapset_airman_wily2_22:
 	.BYTE $F7, $F7, $F7, $F8, $00, $F6, $F7, $F7
 	.BYTE $F7, $F7, $C9, $EB, $00, $CD, $F7, $F7
 	.BYTE $F7, $F7, $CA, $D5, $00, $C7, $CE, $F7
@@ -348,7 +348,7 @@ mapset_air_wily2_22:
 	.BYTE $00, $00, $D4, $D0, $DD, $E5, $ED, $D0
 	.BYTE $00, $00, $D4, $D0, $DE, $E6, $EE, $D0
 
-mapset_air_wily2_23:
+mapset_airman_wily2_23:
 	.BYTE $00, $00, $D4, $D0, $DF, $E7, $EF, $D0
 	.BYTE $00, $00, $D4, $DD, $E5, $ED, $D0, $D0
 	.BYTE $00, $00, $D4, $DE, $E6, $EE, $D0, $D0
@@ -358,7 +358,7 @@ mapset_air_wily2_23:
 	.BYTE $00, $00, $D4, $D0, $DF, $E7, $EF, $D0
 	.BYTE $00, $00, $D4, $DD, $E5, $ED, $D0, $D0
 
-mapset_air_wily2_24:
+mapset_airman_wily2_24:
 	.BYTE $00, $00, $D4, $DE, $E6, $EE, $D0, $D0
 	.BYTE $00, $00, $D4, $DF, $E7, $EF, $D0, $D0
 	.BYTE $00, $00, $D4, $D0, $D0, $D0, $D0, $D8
@@ -368,7 +368,7 @@ mapset_air_wily2_24:
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $E4, $EC
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $A0, $A0
 
-mapset_air_wily2_25:
+mapset_airman_wily2_25:
 	.BYTE $99, $99, $99, $99, $90, $90, $90, $90
 	.BYTE $99, $99, $E1, $E9, $00, $00, $F0, $A1
 	.BYTE $E0, $E8, $00, $00, $00, $00, $00, $00
@@ -378,7 +378,7 @@ mapset_air_wily2_25:
 	.BYTE $00, $00, $00, $00, $00, $00, $F0, $A1
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 
-mapset_air_wily2_26:
+mapset_airman_wily2_26:
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $A0, $A0
 	.BYTE $00, $00, $00, $00, $00, $00, $F3, $95
 	.BYTE $00, $00, $00, $E2, $00, $00, $F3, $95
@@ -388,7 +388,7 @@ mapset_air_wily2_26:
 	.BYTE $00, $00, $EA, $00, $00, $00, $F3, $95
 	.BYTE $A0, $A0, $A0, $A0, $A0, $A0, $A0, $A0
 
-mapset_air_wily2_27:
+mapset_airman_wily2_27:
 	.BYTE $F9, $00, $00, $00, $00, $00, $00, $00
 	.BYTE $F9, $FC, $FA, $FA, $FA, $FA, $F9, $00
 	.BYTE $F9, $F9, $00, $00, $00, $00, $F9, $00
@@ -398,7 +398,7 @@ mapset_air_wily2_27:
 	.BYTE $F9, $FD, $FB, $FB, $FB, $FB, $F9, $00
 	.BYTE $F9, $00, $00, $00, $00, $00, $00, $00
 
-mapset_air_wily2_28:
+mapset_airman_wily2_28:
 	.BYTE $F9, $00, $00, $00, $00, $00, $00, $00
 	.BYTE $F9, $FC, $FA, $FA, $FA, $FA, $F9, $00
 	.BYTE $F9, $F9, $00, $00, $00, $00, $F9, $00
@@ -408,7 +408,7 @@ mapset_air_wily2_28:
 	.BYTE $F9, $FD, $FB, $FB, $FB, $FB, $F9, $00
 	.BYTE $F9, $00, $00, $00, $00, $00, $00, $00
 
-mapset_air_wily2_29:
+mapset_airman_wily2_29:
 	.BYTE $F9, $00, $00, $00, $00, $00, $00, $00
 	.BYTE $F9, $FC, $FA, $FA, $FA, $FA, $F9, $00
 	.BYTE $F9, $F9, $00, $00, $00, $00, $F9, $00
@@ -418,7 +418,7 @@ mapset_air_wily2_29:
 	.BYTE $F9, $FD, $FB, $FB, $FB, $FB, $F9, $00
 	.BYTE $F9, $00, $00, $00, $00, $00, $00, $00
 
-mapset_air_wily2_2a:
+mapset_airman_wily2_2a:
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
@@ -428,7 +428,7 @@ mapset_air_wily2_2a:
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 
-mapset_air_wily2_2b:
+mapset_airman_wily2_2b:
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF

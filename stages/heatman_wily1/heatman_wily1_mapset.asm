@@ -1,4 +1,4 @@
-mapset_heat_wily1_00:
+mapset_heatman_wily1_00:
 	.BYTE $02, $02, $02, $02, $02, $8A, $0E, $01
 	.BYTE $04, $05, $06, $07, $08, $0C, $0D, $01
 	.BYTE $04, $05, $06, $07, $08, $11, $0E, $01
@@ -8,7 +8,7 @@ mapset_heat_wily1_00:
 	.BYTE $03, $05, $06, $07, $08, $0C, $0D, $00
 	.BYTE $03, $05, $06, $07, $08, $11, $0E, $00
 
-mapset_heat_wily1_01:
+mapset_heatman_wily1_01:
 	.BYTE $03, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $03, $05, $06, $07, $08, $10, $0E, $00
 	.BYTE $03, $05, $06, $07, $08, $12, $14, $00
@@ -18,7 +18,7 @@ mapset_heat_wily1_01:
 	.BYTE $03, $05, $06, $07, $08, $13, $15, $00
 	.BYTE $04, $05, $06, $07, $08, $12, $14, $00
 
-mapset_heat_wily1_02:
+mapset_heatman_wily1_02:
 	.BYTE $03, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $03, $05, $06, $07, $08, $10, $0E, $00
 	.BYTE $03, $05, $06, $07, $08, $0C, $0D, $00
@@ -28,7 +28,7 @@ mapset_heat_wily1_02:
 	.BYTE $03, $05, $06, $07, $08, $13, $15, $00
 	.BYTE $03, $05, $06, $17, $08, $5B, $0E, $00
 
-mapset_heat_wily1_03:
+mapset_heatman_wily1_03:
 	.BYTE $03, $05, $06, $07, $08, $20, $15, $00
 	.BYTE $03, $05, $06, $07, $08, $21, $14, $00
 	.BYTE $03, $05, $18, $07, $1B, $22, $0E, $00
@@ -38,7 +38,7 @@ mapset_heat_wily1_03:
 	.BYTE $03, $05, $06, $07, $1E, $25, $0E, $00
 	.BYTE $03, $05, $06, $1A, $1D, $22, $0E, $00
 
-mapset_heat_wily1_04:
+mapset_heatman_wily1_04:
 	.BYTE $03, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $03, $05, $16, $07, $27, $22, $0E, $00
 	.BYTE $03, $05, $06, $07, $08, $70, $0E, $00
@@ -48,7 +48,7 @@ mapset_heat_wily1_04:
 	.BYTE $03, $05, $06, $07, $27, $22, $0E, $00
 	.BYTE $03, $1F, $06, $07, $08, $70, $0E, $00
 
-mapset_heat_wily1_05:
+mapset_heatman_wily1_05:
 	.BYTE $03, $05, $06, $07, $29, $23, $0E, $00
 	.BYTE $03, $05, $06, $07, $27, $22, $0E, $00
 	.BYTE $03, $05, $16, $07, $08, $70, $0E, $00
@@ -58,7 +58,7 @@ mapset_heat_wily1_05:
 	.BYTE $03, $05, $16, $07, $27, $22, $0E, $00
 	.BYTE $03, $05, $06, $07, $08, $89, $2A, $2B
 
-mapset_heat_wily1_06:
+mapset_heatman_wily1_06:
 	.BYTE $04, $05, $06, $07, $29, $83, $0A, $00
 	.BYTE $04, $05, $06, $07, $86, $09, $0A, $00
 	.BYTE $04, $05, $85, $82, $08, $09, $0A, $00
@@ -68,7 +68,7 @@ mapset_heat_wily1_06:
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $04, $05, $06, $07, $08, $0F, $2E, $00
 
-mapset_heat_wily1_07:
+mapset_heatman_wily1_07:
 	.BYTE $03, $05, $06, $34, $37, $0F, $2F, $02
 	.BYTE $03, $05, $32, $34, $37, $0F, $2E, $00
 	.BYTE $03, $05, $32, $07, $08, $0F, $2E, $00
@@ -78,7 +78,7 @@ mapset_heat_wily1_07:
 	.BYTE $03, $05, $06, $07, $08, $2D, $30, $31
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 
-mapset_heat_wily1_08:
+mapset_heatman_wily1_08:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $04, $3B, $3C, $3D, $3D, $3D, $3D, $3D
 	.BYTE $04, $05, $06, $07, $27, $3E, $40, $02
@@ -88,7 +88,7 @@ mapset_heat_wily1_08:
 	.BYTE $8B, $42, $43, $44, $45, $3E, $40, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 
-mapset_heat_wily1_09:
+mapset_heatman_wily1_09:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $46, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
@@ -98,7 +98,7 @@ mapset_heat_wily1_09:
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $17, $08, $0F, $01, $02
 
-mapset_heat_wily1_0a:
+mapset_heatman_wily1_0a:
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $48, $26, $28, $8F, $50, $51
@@ -108,7 +108,7 @@ mapset_heat_wily1_0a:
 	.BYTE $03, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 
-mapset_heat_wily1_0b:
+mapset_heatman_wily1_0b:
 	.BYTE $03, $05, $06, $07, $55, $0F, $01, $02
 	.BYTE $03, $05, $06, $54, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
@@ -118,7 +118,7 @@ mapset_heat_wily1_0b:
 	.BYTE $03, $05, $48, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 
-mapset_heat_wily1_0c:
+mapset_heatman_wily1_0c:
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $03, $05, $49, $4A, $08, $8E, $01, $02
@@ -128,7 +128,7 @@ mapset_heat_wily1_0c:
 	.BYTE $03, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $03, $05, $06, $26, $28, $0F, $01, $02
 
-mapset_heat_wily1_0d:
+mapset_heatman_wily1_0d:
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
@@ -138,7 +138,7 @@ mapset_heat_wily1_0d:
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $03, $05, $06, $07, $08, $0F, $01, $02
 
-mapset_heat_wily1_0e:
+mapset_heatman_wily1_0e:
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $59, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $59, $0F, $01, $02
@@ -148,7 +148,7 @@ mapset_heat_wily1_0e:
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 
-mapset_heat_wily1_0f:
+mapset_heatman_wily1_0f:
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
@@ -158,7 +158,7 @@ mapset_heat_wily1_0f:
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $08, $21, $14, $00
 
-mapset_heat_wily1_10:
+mapset_heatman_wily1_10:
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
@@ -168,7 +168,7 @@ mapset_heat_wily1_10:
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
 
-mapset_heat_wily1_11:
+mapset_heatman_wily1_11:
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
 	.BYTE $04, $05, $06, $07, $08, $70, $0E, $00
@@ -178,7 +178,7 @@ mapset_heat_wily1_11:
 	.BYTE $04, $05, $06, $07, $08, $89, $2A, $2B
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
 
-mapset_heat_wily1_12:
+mapset_heatman_wily1_12:
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
@@ -188,7 +188,7 @@ mapset_heat_wily1_12:
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
 	.BYTE $04, $05, $06, $07, $08, $09, $0A, $00
 
-mapset_heat_wily1_13:
+mapset_heatman_wily1_13:
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
 	.BYTE $04, $05, $06, $07, $08, $0F, $01, $02
@@ -198,7 +198,7 @@ mapset_heat_wily1_13:
 	.BYTE $04, $05, $06, $07, $08, $2D, $5D, $31
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 
-mapset_heat_wily1_14:
+mapset_heatman_wily1_14:
 	.BYTE $5E, $0D, $01, $02, $02, $61, $8C, $01
 	.BYTE $61, $8C, $62, $63, $64, $65, $60, $5D
 	.BYTE $61, $8C, $06, $07, $08, $0C, $0D, $01
@@ -208,7 +208,7 @@ mapset_heat_wily1_14:
 	.BYTE $5F, $60, $43, $44, $45, $67, $8C, $00
 	.BYTE $5E, $0D, $01, $02, $02, $5E, $0D, $00
 
-mapset_heat_wily1_15:
+mapset_heatman_wily1_15:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $31, $66, $88, $63, $68, $69, $02, $02
 	.BYTE $02, $6A, $06, $07, $58, $01, $02, $02
@@ -218,7 +218,7 @@ mapset_heat_wily1_15:
 	.BYTE $6B, $6C, $6D, $07, $58, $01, $02, $02
 	.BYTE $8D, $6E, $6F, $71, $72, $01, $02, $02
 
-mapset_heat_wily1_16:
+mapset_heatman_wily1_16:
 	.BYTE $00, $00, $5A, $07, $58, $5A, $00, $00
 	.BYTE $00, $00, $5A, $07, $58, $5A, $00, $00
 	.BYTE $00, $00, $5A, $07, $58, $5A, $00, $00
@@ -228,7 +228,7 @@ mapset_heat_wily1_16:
 	.BYTE $00, $00, $5A, $07, $58, $5A, $00, $00
 	.BYTE $00, $00, $5A, $71, $72, $5A, $00, $00
 
-mapset_heat_wily1_17:
+mapset_heatman_wily1_17:
 	.BYTE $73, $75, $76, $07, $29, $77, $7D, $80
 	.BYTE $03, $05, $06, $07, $08, $0F, $7E, $81
 	.BYTE $03, $05, $06, $07, $08, $0F, $7D, $80
@@ -238,7 +238,7 @@ mapset_heat_wily1_17:
 	.BYTE $03, $05, $06, $07, $08, $0F, $7D, $80
 	.BYTE $74, $78, $79, $7A, $7B, $7C, $7E, $81
 
-mapset_heat_wily1_18:
+mapset_heatman_wily1_18:
 	.BYTE $E3, $EA, $91, $91, $91, $91, $92, $93
 	.BYTE $E4, $EB, $91, $91, $91, $91, $92, $93
 	.BYTE $E5, $91, $91, $91, $91, $91, $92, $93
@@ -248,7 +248,7 @@ mapset_heat_wily1_18:
 	.BYTE $E9, $91, $91, $91, $91, $91, $92, $93
 	.BYTE $E4, $91, $91, $91, $91, $91, $92, $93
 
-mapset_heat_wily1_19:
+mapset_heatman_wily1_19:
 	.BYTE $ED, $91, $91, $91, $91, $94, $93, $93
 	.BYTE $E6, $91, $91, $91, $91, $94, $93, $93
 	.BYTE $EE, $91, $91, $91, $91, $92, $93, $93
@@ -258,7 +258,7 @@ mapset_heat_wily1_19:
 	.BYTE $F1, $F2, $91, $91, $91, $91, $92, $93
 	.BYTE $EA, $EE, $91, $91, $91, $91, $92, $93
 
-mapset_heat_wily1_1a:
+mapset_heatman_wily1_1a:
 	.BYTE $E3, $EA, $91, $91, $91, $94, $93, $93
 	.BYTE $E4, $EB, $91, $91, $91, $94, $93, $93
 	.BYTE $E5, $91, $91, $91, $91, $91, $92, $93
@@ -268,7 +268,7 @@ mapset_heat_wily1_1a:
 	.BYTE $E9, $91, $91, $91, $91, $92, $93, $93
 	.BYTE $E4, $91, $91, $91, $91, $92, $93, $93
 
-mapset_heat_wily1_1b:
+mapset_heatman_wily1_1b:
 	.BYTE $ED, $91, $91, $91, $91, $94, $93, $93
 	.BYTE $E6, $91, $91, $91, $91, $94, $93, $93
 	.BYTE $EE, $91, $91, $91, $91, $91, $92, $93
@@ -278,7 +278,7 @@ mapset_heat_wily1_1b:
 	.BYTE $F1, $F2, $91, $91, $91, $91, $92, $93
 	.BYTE $EA, $EE, $91, $91, $91, $91, $92, $93
 
-mapset_heat_wily1_1c:
+mapset_heatman_wily1_1c:
 	.BYTE $E7, $EC, $91, $91, $91, $91, $92, $93
 	.BYTE $E4, $91, $91, $91, $91, $91, $92, $93
 	.BYTE $F0, $EC, $91, $91, $91, $91, $92, $93
@@ -288,7 +288,7 @@ mapset_heat_wily1_1c:
 	.BYTE $F4, $9C, $9A, $97, $AB, $98, $93, $93
 	.BYTE $EE, $91, $9B, $9D, $9E, $9E, $93, $93
 
-mapset_heat_wily1_1d:
+mapset_heatman_wily1_1d:
 	.BYTE $F5, $EA, $91, $91, $A0, $A1, $92, $93
 	.BYTE $ED, $E7, $91, $91, $A0, $A2, $92, $93
 	.BYTE $ED, $EE, $91, $91, $A0, $A4, $92, $93
@@ -298,7 +298,7 @@ mapset_heat_wily1_1d:
 	.BYTE $EF, $EE, $91, $91, $A0, $A6, $92, $93
 	.BYTE $E6, $91, $91, $91, $A0, $A4, $92, $93
 
-mapset_heat_wily1_1e:
+mapset_heatman_wily1_1e:
 	.BYTE $E3, $EA, $91, $91, $A0, $A7, $93, $93
 	.BYTE $E4, $EB, $91, $91, $A0, $A5, $93, $93
 	.BYTE $E5, $91, $91, $91, $A0, $92, $93, $93
@@ -308,7 +308,7 @@ mapset_heat_wily1_1e:
 	.BYTE $E9, $91, $91, $91, $A0, $92, $93, $93
 	.BYTE $E7, $91, $91, $91, $A0, $92, $93, $93
 
-mapset_heat_wily1_1f:
+mapset_heatman_wily1_1f:
 	.BYTE $E7, $EC, $91, $91, $A0, $A2, $92, $93
 	.BYTE $E4, $91, $91, $91, $A0, $A4, $92, $93
 	.BYTE $F0, $EC, $91, $91, $A0, $A4, $92, $93
@@ -318,7 +318,7 @@ mapset_heat_wily1_1f:
 	.BYTE $F4, $91, $9B, $9D, $9E, $9E, $93, $93
 	.BYTE $EE, $91, $91, $91, $A0, $A4, $92, $93
 
-mapset_heat_wily1_20:
+mapset_heatman_wily1_20:
 	.BYTE $F5, $DB, $AC, $AD, $A0, $A1, $92, $93
 	.BYTE $AF, $B0, $B1, $AE, $AF, $B6, $92, $93
 	.BYTE $B2, $B3, $B4, $B2, $B2, $B6, $92, $93
@@ -328,7 +328,7 @@ mapset_heat_wily1_20:
 	.BYTE $AF, $AF, $AF, $AF, $AF, $AF, $93, $93
 	.BYTE $B2, $B2, $B2, $B2, $B2, $B2, $93, $93
 
-mapset_heat_wily1_21:
+mapset_heatman_wily1_21:
 	.BYTE $91, $DB, $AC, $AD, $91, $91, $91, $91
 	.BYTE $AF, $B0, $B1, $BE, $AF, $AF, $AF, $AF
 	.BYTE $B2, $B3, $B4, $BF, $C7, $C7, $B2, $B2
@@ -338,7 +338,7 @@ mapset_heat_wily1_21:
 	.BYTE $AF, $AF, $AF, $AF, $AF, $AF, $AF, $AF
 	.BYTE $B2, $B2, $B2, $B2, $B2, $B2, $B2, $B2
 
-mapset_heat_wily1_22:
+mapset_heatman_wily1_22:
 	.BYTE $91, $91, $CB, $CD, $CF, $91, $91, $91
 	.BYTE $AF, $AF, $CC, $CE, $AF, $AF, $AF, $AF
 	.BYTE $CA, $CA, $B9, $BD, $B2, $B2, $B2, $B2
@@ -348,7 +348,7 @@ mapset_heat_wily1_22:
 	.BYTE $AF, $AF, $AF, $AF, $AF, $AF, $AF, $AF
 	.BYTE $B2, $B2, $B2, $B2, $B2, $B2, $B2, $B2
 
-mapset_heat_wily1_23:
+mapset_heatman_wily1_23:
 	.BYTE $91, $91, $91, $91, $91, $91, $B2, $B2
 	.BYTE $91, $91, $91, $91, $91, $91, $B2, $B2
 	.BYTE $91, $91, $91, $91, $91, $91, $CA, $CA
@@ -358,7 +358,7 @@ mapset_heat_wily1_23:
 	.BYTE $D0, $D0, $D0, $D0, $D1, $91, $AF, $AF
 	.BYTE $D2, $D2, $D2, $D2, $D2, $D2, $B2, $B2
 
-mapset_heat_wily1_24:
+mapset_heatman_wily1_24:
 	.BYTE $91, $91, $91, $91, $91, $91, $91, $91
 	.BYTE $D0, $D0, $91, $91, $91, $91, $91, $91
 	.BYTE $D2, $D4, $91, $91, $91, $91, $91, $91
@@ -368,7 +368,7 @@ mapset_heat_wily1_24:
 	.BYTE $D5, $D7, $91, $91, $91, $91, $D0, $D0
 	.BYTE $D8, $D9, $D2, $D2, $D2, $D2, $D2, $D2
 
-mapset_heat_wily1_25:
+mapset_heatman_wily1_25:
 	.BYTE $91, $91, $91, $91, $91, $91, $91, $91
 	.BYTE $D0, $D0, $D0, $D0, $D0, $D0, $D0, $D0
 	.BYTE $D2, $D2, $D2, $D2, $D2, $D2, $D2, $D2
@@ -378,7 +378,7 @@ mapset_heat_wily1_25:
 	.BYTE $DA, $D8, $D8, $DA, $DA, $D5, $D8, $DA
 	.BYTE $D5, $DA, $DA, $D5, $D5, $D8, $DA, $D5
 
-mapset_heat_wily1_26:
+mapset_heatman_wily1_26:
 	.BYTE $E3, $EA, $91, $91, $91, $91, $91, $91
 	.BYTE $E4, $EF, $91, $91, $91, $91, $D0, $D0
 	.BYTE $ED, $F6, $91, $91, $91, $91, $D2, $D2
@@ -388,7 +388,7 @@ mapset_heat_wily1_26:
 	.BYTE $E6, $F7, $91, $91, $91, $91, $D5, $D8
 	.BYTE $96, $96, $96, $96, $DC, $91, $D8, $DA
 
-mapset_heat_wily1_27:
+mapset_heatman_wily1_27:
 	.BYTE $98, $98, $98, $98, $DD, $B6, $DA, $D5
 	.BYTE $9E, $9E, $9E, $9E, $DE, $C9, $D5, $D5
 	.BYTE $A8, $A8, $A8, $B4, $A8, $A8, $D8, $D5
@@ -398,7 +398,7 @@ mapset_heat_wily1_27:
 	.BYTE $A8, $BD, $A8, $A8, $A8, $A8, $D5, $D5
 	.BYTE $A8, $A8, $A8, $A8, $B4, $A8, $DF, $DF
 
-mapset_heat_wily1_28:
+mapset_heatman_wily1_28:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $E0, $90
 	.BYTE $A8, $B4, $A8, $BD, $A8, $A8, $E1, $90
@@ -408,7 +408,7 @@ mapset_heat_wily1_28:
 	.BYTE $90, $90, $90, $90, $90, $90, $E0, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $E1, $90
 
-mapset_heat_wily1_29:
+mapset_heatman_wily1_29:
 	.BYTE $90, $90, $90, $90, $90, $90, $E1, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $E1, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $E1, $90
@@ -418,7 +418,7 @@ mapset_heat_wily1_29:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $E2, $90, $90, $90
 
-mapset_heat_wily1_2a:
+mapset_heatman_wily1_2a:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
@@ -428,7 +428,7 @@ mapset_heat_wily1_2a:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 
-mapset_heat_wily1_2b:
+mapset_heatman_wily1_2b:
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90
 	.BYTE $90, $90, $90, $90, $90, $90, $90, $90

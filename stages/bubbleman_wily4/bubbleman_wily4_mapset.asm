@@ -1,4 +1,4 @@
-mapset_bubble_wily4_00:
+mapset_bubbleman_wily4_00:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $04, $0A, $02, $02, $02
@@ -8,7 +8,7 @@ mapset_bubble_wily4_00:
 	.BYTE $02, $02, $02, $02, $02, $05, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $05, $02, $02
 
-mapset_bubble_wily4_01:
+mapset_bubbleman_wily4_01:
 	.BYTE $02, $02, $02, $02, $02, $05, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $05, $02, $02, $02
@@ -18,7 +18,7 @@ mapset_bubble_wily4_01:
 	.BYTE $02, $02, $02, $05, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $05, $02, $02, $02, $02
 
-mapset_bubble_wily4_02:
+mapset_bubbleman_wily4_02:
 	.BYTE $02, $02, $02, $05, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $06, $02, $02, $02, $02
@@ -28,7 +28,7 @@ mapset_bubble_wily4_02:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 
-mapset_bubble_wily4_03:
+mapset_bubbleman_wily4_03:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
@@ -38,7 +38,7 @@ mapset_bubble_wily4_03:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 
-mapset_bubble_wily4_04:
+mapset_bubbleman_wily4_04:
 	.BYTE $02, $02, $04, $0A, $02, $02, $02, $02
 	.BYTE $02, $02, $04, $0A, $02, $02, $02, $02
 	.BYTE $02, $02, $04, $0A, $02, $02, $02, $02
@@ -48,7 +48,7 @@ mapset_bubble_wily4_04:
 	.BYTE $0D, $0D, $0D, $0D, $0D, $0E, $0D, $0D
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 
-mapset_bubble_wily4_05:
+mapset_bubbleman_wily4_05:
 	.BYTE $0B, $0B, $0B, $0C, $24, $26, $0B, $0B
 	.BYTE $02, $02, $06, $04, $0A, $05, $02, $02
 	.BYTE $02, $02, $05, $04, $0A, $05, $02, $02
@@ -58,7 +58,7 @@ mapset_bubble_wily4_05:
 	.BYTE $02, $02, $02, $04, $0A, $02, $02, $02
 	.BYTE $0D, $0D, $0D, $2D, $2C, $0D, $0D, $0D
 
-mapset_bubble_wily4_06:
+mapset_bubbleman_wily4_06:
 	.BYTE $0B, $0B, $0B, $3E, $12, $12, $12, $12
 	.BYTE $02, $02, $02, $0F, $01, $01, $01, $01
 	.BYTE $02, $02, $02, $0F, $01, $01, $01, $01
@@ -68,7 +68,7 @@ mapset_bubble_wily4_06:
 	.BYTE $02, $04, $0A, $0F, $01, $01, $01, $01
 	.BYTE $0D, $2D, $2C, $3F, $2E, $2E, $2E, $2E
 
-mapset_bubble_wily4_07:
+mapset_bubbleman_wily4_07:
 	.BYTE $12, $12, $40, $12, $12, $12, $12, $12
 	.BYTE $01, $01, $4D, $01, $01, $01, $01, $01
 	.BYTE $01, $01, $4D, $01, $01, $4E, $01, $01
@@ -78,7 +78,7 @@ mapset_bubble_wily4_07:
 	.BYTE $01, $01, $01, $01, $4D, $4E, $01, $01
 	.BYTE $2E, $2E, $2E, $2E, $41, $42, $2E, $2E
 
-mapset_bubble_wily4_08:
+mapset_bubbleman_wily4_08:
 	.BYTE $12, $12, $12, $12, $12, $12, $54, $5C
 	.BYTE $01, $01, $01, $01, $01, $01, $50, $58
 	.BYTE $01, $01, $01, $01, $01, $01, $50, $58
@@ -88,7 +88,7 @@ mapset_bubble_wily4_08:
 	.BYTE $66, $18, $01, $01, $01, $01, $56, $5E
 	.BYTE $59, $4C, $49, $01, $01, $01, $51, $59
 
-mapset_bubble_wily4_09:
+mapset_bubbleman_wily4_09:
 	.BYTE $59, $4C, $49, $01, $01, $01, $51, $59
 	.BYTE $61, $18, $01, $01, $01, $01, $51, $59
 	.BYTE $5A, $18, $01, $01, $01, $28, $52, $5A
@@ -98,7 +98,7 @@ mapset_bubble_wily4_09:
 	.BYTE $60, $18, $01, $01, $01, $01, $50, $58
 	.BYTE $59, $4C, $49, $01, $01, $01, $51, $59
 
-mapset_bubble_wily4_0a:
+mapset_bubbleman_wily4_0a:
 	.BYTE $61, $18, $01, $01, $01, $01, $51, $59
 	.BYTE $59, $4C, $49, $01, $01, $01, $51, $59
 	.BYTE $5A, $19, $01, $01, $01, $01, $52, $5A
@@ -108,7 +108,7 @@ mapset_bubble_wily4_0a:
 	.BYTE $59, $61, $18, $01, $01, $51, $59, $59
 	.BYTE $44, $57, $18, $01, $01, $43, $44, $44
 
-mapset_bubble_wily4_0b:
+mapset_bubbleman_wily4_0b:
 	.BYTE $5B, $69, $01, $01, $53, $5B, $5B, $5B
 	.BYTE $5A, $18, $01, $01, $01, $52, $5A, $5A
 	.BYTE $60, $18, $01, $50, $58, $58, $58, $58
@@ -118,7 +118,7 @@ mapset_bubble_wily4_0b:
 	.BYTE $61, $18, $01, $51, $59, $59, $59, $59
 	.BYTE $57, $18, $01, $43, $44, $44, $44, $44
 
-mapset_bubble_wily4_0c:
+mapset_bubbleman_wily4_0c:
 	.BYTE $58, $1A, $01, $01, $50, $58, $58, $58
 	.BYTE $58, $60, $19, $01, $01, $50, $58, $58
 	.BYTE $58, $58, $1D, $01, $01, $01, $50, $58
@@ -128,7 +128,7 @@ mapset_bubble_wily4_0c:
 	.BYTE $5A, $5A, $5A, $68, $01, $52, $5A, $5A
 	.BYTE $58, $58, $58, $1A, $01, $50, $58, $58
 
-mapset_bubble_wily4_0d:
+mapset_bubbleman_wily4_0d:
 	.BYTE $60, $18, $01, $01, $01, $50, $58, $58
 	.BYTE $01, $01, $01, $51, $59, $59, $59, $59
 	.BYTE $01, $01, $50, $58, $58, $58, $58, $58
@@ -138,7 +138,7 @@ mapset_bubble_wily4_0d:
 	.BYTE $5A, $11, $1E, $1E, $1E, $01, $52, $5A
 	.BYTE $65, $18, $01, $01, $01, $01, $55, $5D
 
-mapset_bubble_wily4_0e:
+mapset_bubbleman_wily4_0e:
 	.BYTE $5A, $18, $01, $01, $01, $01, $52, $5A
 	.BYTE $57, $18, $01, $01, $01, $28, $43, $44
 	.BYTE $5A, $18, $01, $01, $21, $29, $52, $5A
@@ -148,7 +148,7 @@ mapset_bubble_wily4_0e:
 	.BYTE $59, $4C, $49, $01, $01, $5F, $67, $59
 	.BYTE $61, $18, $01, $5F, $67, $59, $59, $59
 
-mapset_bubble_wily4_0f:
+mapset_bubbleman_wily4_0f:
 	.BYTE $5A, $18, $01, $62, $64, $64, $6E, $5A
 	.BYTE $57, $18, $01, $01, $01, $01, $43, $44
 	.BYTE $58, $4A, $4B, $01, $01, $01, $50, $58
@@ -158,7 +158,7 @@ mapset_bubble_wily4_0f:
 	.BYTE $58, $58, $4A, $4B, $01, $50, $58, $58
 	.BYTE $58, $58, $4A, $4B, $01, $50, $58, $58
 
-mapset_bubble_wily4_10:
+mapset_bubbleman_wily4_10:
 	.BYTE $5A, $5A, $18, $01, $01, $52, $5A, $5A
 	.BYTE $59, $61, $18, $01, $51, $59, $59, $59
 	.BYTE $44, $57, $18, $01, $43, $44, $44, $44
@@ -168,7 +168,7 @@ mapset_bubble_wily4_10:
 	.BYTE $02, $02, $0F, $01, $52, $5A, $5A, $5A
 	.BYTE $02, $02, $6F, $58, $58, $58, $58, $58
 
-mapset_bubble_wily4_11:
+mapset_bubbleman_wily4_11:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $04, $0A, $02, $02, $02
 	.BYTE $02, $02, $02, $04, $0A, $02, $02, $02
@@ -178,7 +178,7 @@ mapset_bubble_wily4_11:
 	.BYTE $02, $02, $02, $04, $0A, $02, $02, $02
 	.BYTE $02, $02, $02, $04, $0A, $02, $02, $02
 
-mapset_bubble_wily4_12:
+mapset_bubbleman_wily4_12:
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $06, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $05, $02, $02, $02
@@ -188,7 +188,7 @@ mapset_bubble_wily4_12:
 	.BYTE $02, $02, $02, $09, $25, $02, $02, $02
 	.BYTE $02, $02, $08, $27, $02, $02, $02, $02
 
-mapset_bubble_wily4_13:
+mapset_bubbleman_wily4_13:
 	.BYTE $02, $02, $04, $0A, $02, $02, $02, $02
 	.BYTE $02, $02, $04, $0A, $02, $02, $02, $02
 	.BYTE $02, $02, $02, $02, $02, $02, $02, $02
@@ -198,7 +198,7 @@ mapset_bubble_wily4_13:
 	.BYTE $30, $10, $0F, $01, $13, $02, $02, $02
 	.BYTE $31, $32, $2F, $33, $51, $59, $59, $59
 
-mapset_bubble_wily4_14:
+mapset_bubbleman_wily4_14:
 	.BYTE $20, $57, $34, $35, $43, $20, $20, $20
 	.BYTE $20, $57, $34, $35, $43, $20, $20, $20
 	.BYTE $20, $57, $34, $35, $43, $20, $20, $20
@@ -208,7 +208,7 @@ mapset_bubble_wily4_14:
 	.BYTE $20, $57, $34, $35, $43, $20, $20, $20
 	.BYTE $20, $57, $36, $37, $43, $20, $20, $20
 
-mapset_bubble_wily4_15:
+mapset_bubbleman_wily4_15:
 	.BYTE $58, $38, $3C, $35, $3D, $39, $76, $58
 	.BYTE $61, $03, $35, $35, $35, $35, $51, $59
 	.BYTE $5A, $03, $35, $35, $35, $35, $52, $5A
@@ -218,7 +218,7 @@ mapset_bubble_wily4_15:
 	.BYTE $60, $03, $35, $35, $35, $35, $50, $58
 	.BYTE $59, $3A, $3B, $3B, $3B, $3B, $77, $59
 
-mapset_bubble_wily4_16:
+mapset_bubbleman_wily4_16:
 	.BYTE $81, $81, $82, $82, $82, $82, $82, $82
 	.BYTE $81, $81, $82, $82, $83, $86, $84, $82
 	.BYTE $82, $82, $82, $82, $83, $86, $84, $82
@@ -228,7 +228,7 @@ mapset_bubble_wily4_16:
 	.BYTE $81, $81, $82, $82, $83, $86, $84, $82
 	.BYTE $81, $81, $82, $82, $82, $82, $82, $82
 
-mapset_bubble_wily4_17:
+mapset_bubbleman_wily4_17:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $81
 	.BYTE $8C, $8C, $8C, $8C, $8D, $84, $82, $81
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
@@ -238,7 +238,7 @@ mapset_bubble_wily4_17:
 	.BYTE $91, $91, $91, $90, $88, $84, $82, $81
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $81
 
-mapset_bubble_wily4_18:
+mapset_bubbleman_wily4_18:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $96, $8C, $8C, $8C, $8C, $8C, $8C, $8C
 	.BYTE $82, $82, $83, $86, $84, $82, $82, $82
@@ -248,7 +248,7 @@ mapset_bubble_wily4_18:
 	.BYTE $81, $82, $83, $86, $97, $96, $95, $91
 	.BYTE $81, $82, $82, $82, $82, $82, $82, $82
 
-mapset_bubble_wily4_19:
+mapset_bubbleman_wily4_19:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $96, $8C, $8C, $8D, $85, $86, $95, $80
 	.BYTE $82, $98, $8D, $8D, $94, $86, $84, $82
@@ -258,7 +258,7 @@ mapset_bubble_wily4_19:
 	.BYTE $82, $98, $8D, $8D, $97, $96, $84, $81
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $81
 
-mapset_bubble_wily4_1a:
+mapset_bubbleman_wily4_1a:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $9A, $9A, $9B, $C5, $A2, $86, $95, $80
 	.BYTE $8D, $8D, $9C, $C5, $A2, $86, $84, $82
@@ -268,7 +268,7 @@ mapset_bubble_wily4_1a:
 	.BYTE $8D, $8D, $9E, $9F, $A0, $86, $84, $82
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 
-mapset_bubble_wily4_1b:
+mapset_bubbleman_wily4_1b:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $FA, $F2, $A3, $F2, $A3, $F2, $A3, $A1
 	.BYTE $83, $86, $85, $86, $85, $86, $85, $86
@@ -278,7 +278,7 @@ mapset_bubble_wily4_1b:
 	.BYTE $83, $86, $94, $86, $94, $86, $85, $86
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 
-mapset_bubble_wily4_1c:
+mapset_bubbleman_wily4_1c:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $81, $81, $81, $82, $83, $86, $8F, $89
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $82
@@ -288,7 +288,7 @@ mapset_bubble_wily4_1c:
 	.BYTE $82, $82, $82, $82, $83, $86, $84, $82
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $82
 
-mapset_bubble_wily4_1d:
+mapset_bubbleman_wily4_1d:
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $82
 	.BYTE $82, $82, $82, $82, $83, $86, $84, $98
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $98
@@ -298,7 +298,7 @@ mapset_bubble_wily4_1d:
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $98
 	.BYTE $82, $82, $82, $82, $83, $A4, $A5, $A5
 
-mapset_bubble_wily4_1e:
+mapset_bubbleman_wily4_1e:
 	.BYTE $82, $82, $BB, $84, $BB, $84, $82, $82
 	.BYTE $00, $A7, $AE, $B6, $00, $00, $A5, $A5
 	.BYTE $00, $A8, $AF, $B7, $BC, $BC, $C2, $A2
@@ -308,7 +308,7 @@ mapset_bubble_wily4_1e:
 	.BYTE $00, $AB, $B3, $00, $D3, $F4, $F6, $A2
 	.BYTE $A5, $AC, $B4, $BA, $BA, $C1, $C6, $C8
 
-mapset_bubble_wily4_1f:
+mapset_bubbleman_wily4_1f:
 	.BYTE $82, $82, $82, $C9, $D4, $D5, $D6, $D7
 	.BYTE $A5, $AC, $BA, $E5, $DB, $BF, $C3, $A2
 	.BYTE $BB, $CB, $BC, $BC, $BC, $FC, $FD, $A2
@@ -318,7 +318,7 @@ mapset_bubble_wily4_1f:
 	.BYTE $BB, $CD, $BA, $D0, $D1, $D1, $D8, $C8
 	.BYTE $CA, $BA, $BA, $BA, $BA, $BA, $A5, $A5
 
-mapset_bubble_wily4_20:
+mapset_bubbleman_wily4_20:
 	.BYTE $D9, $AD, $A6, $FE, $FF, $AD, $FB, $D7
 	.BYTE $BB, $DA, $DE, $E4, $F5, $CE, $C5, $A2
 	.BYTE $BB, $DB, $AE, $E2, $E5, $C0, $C5, $A2
@@ -328,7 +328,7 @@ mapset_bubble_wily4_20:
 	.BYTE $BB, $DD, $E0, $E4, $BD, $E8, $C3, $A2
 	.BYTE $A5, $AC, $E1, $D1, $D1, $BE, $D8, $C8
 
-mapset_bubble_wily4_21:
+mapset_bubbleman_wily4_21:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $82, $83, $00, $A7, $B6, $A5, $A5, $A5
 	.BYTE $82, $83, $DC, $E4, $F4, $F9, $C5, $A2
@@ -338,7 +338,7 @@ mapset_bubble_wily4_21:
 	.BYTE $BB, $F7, $DB, $AE, $AE, $AE, $C4, $A2
 	.BYTE $CA, $BA, $BA, $BA, $BA, $BA, $C6, $C8
 
-mapset_bubble_wily4_22:
+mapset_bubbleman_wily4_22:
 	.BYTE $82, $82, $82, $82, $82, $82, $82, $82
 	.BYTE $89, $FA, $F2, $8D, $8D, $8D, $84, $82
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
@@ -348,7 +348,7 @@ mapset_bubble_wily4_22:
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
 
-mapset_bubble_wily4_23:
+mapset_bubbleman_wily4_23:
 	.BYTE $82, $82, $82, $82, $83, $86, $84, $82
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $82
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $82
@@ -358,7 +358,7 @@ mapset_bubble_wily4_23:
 	.BYTE $81, $81, $81, $82, $83, $86, $84, $82
 	.BYTE $82, $82, $82, $82, $83, $86, $84, $82
 
-mapset_bubble_wily4_24:
+mapset_bubbleman_wily4_24:
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
@@ -368,7 +368,7 @@ mapset_bubble_wily4_24:
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
 	.BYTE $82, $83, $86, $8D, $8D, $8D, $84, $82
 
-mapset_bubble_wily4_25:
+mapset_bubbleman_wily4_25:
 	.BYTE $82, $82, $82, $83, $86, $8D, $84, $82
 	.BYTE $82, $82, $82, $83, $86, $8D, $84, $82
 	.BYTE $82, $82, $82, $83, $86, $8D, $84, $82
@@ -378,7 +378,7 @@ mapset_bubble_wily4_25:
 	.BYTE $82, $82, $82, $83, $86, $8D, $84, $82
 	.BYTE $82, $82, $82, $83, $EC, $ED, $84, $82
 
-mapset_bubble_wily4_26:
+mapset_bubbleman_wily4_26:
 	.BYTE $82, $82, $C9, $D2, $00, $00, $84, $82
 	.BYTE $82, $82, $BB, $CD, $00, $00, $84, $82
 	.BYTE $83, $00, $00, $00, $00, $00, $84, $82
@@ -388,7 +388,7 @@ mapset_bubble_wily4_26:
 	.BYTE $BB, $F7, $A6, $00, $85, $00, $84, $82
 	.BYTE $CA, $BA, $BA, $BA, $85, $BA, $84, $82
 
-mapset_bubble_wily4_27:
+mapset_bubbleman_wily4_27:
 	.BYTE $85, $85, $85, $85, $85, $85, $85, $85
 	.BYTE $8C, $8D, $8D, $8D, $77, $78, $9D, $96
 	.BYTE $8C, $99, $8C, $8D, $9F, $79, $99, $8B
@@ -398,7 +398,7 @@ mapset_bubble_wily4_27:
 	.BYTE $8C, $99, $8C, $8D, $7C, $7D, $99, $88
 	.BYTE $85, $85, $85, $85, $85, $85, $85, $89
 
-mapset_bubble_wily4_28:
+mapset_bubbleman_wily4_28:
 	.BYTE $85, $85, $85, $85, $85, $85, $85, $84
 	.BYTE $A5, $A6, $8D, $8D, $8D, $8D, $A9, $86
 	.BYTE $8B, $BF, $8D, $8D, $8D, $8D, $9F, $84
@@ -408,7 +408,7 @@ mapset_bubble_wily4_28:
 	.BYTE $88, $BF, $8D, $8D, $8D, $8D, $9F, $8B
 	.BYTE $89, $BF, $8D, $8D, $8D, $8D, $9F, $86
 
-mapset_bubble_wily4_29:
+mapset_bubbleman_wily4_29:
 	.BYTE $84, $BF, $8D, $8D, $8D, $8D, $9F, $84
 	.BYTE $86, $BF, $8D, $8D, $8D, $8D, $9F, $86
 	.BYTE $87, $BF, $8D, $8D, $8D, $8D, $9F, $84
@@ -418,7 +418,7 @@ mapset_bubble_wily4_29:
 	.BYTE $94, $9B, $BE, $BE, $BE, $BE, $A9, $8B
 	.BYTE $85, $85, $85, $85, $85, $85, $85, $86
 
-mapset_bubble_wily4_2a:
+mapset_bubbleman_wily4_2a:
 	.BYTE $85, $85, $85, $85, $85, $85, $85, $84
 	.BYTE $96, $97, $8D, $8D, $8D, $8D, $99, $8B
 	.BYTE $86, $8C, $8D, $8D, $8D, $8D, $99, $86
@@ -428,7 +428,7 @@ mapset_bubble_wily4_2a:
 	.BYTE $86, $8C, $8D, $8D, $8D, $8D, $9A, $94
 	.BYTE $85, $85, $85, $85, $85, $85, $85, $85
 
-mapset_bubble_wily4_2b:
+mapset_bubbleman_wily4_2b:
 	.BYTE $87, $00, $00, $00, $00, $A7, $84, $85
 	.BYTE $84, $00, $00, $00, $00, $AD, $8B, $84
 	.BYTE $8B, $00, $00, $00, $00, $AD, $8B, $86
