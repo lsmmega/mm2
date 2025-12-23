@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_quickman_wily5_00:
 	.BYTE $01
 	.BYTE $01
 	.BYTE $03
@@ -7,6 +8,8 @@
 	.BYTE $04
 	.BYTE $05
 	.BYTE $05
+
+enemy_objects_set_quickman_wily5_01:
 	.BYTE $08
 	.BYTE $08
 	.BYTE $09
@@ -22,6 +25,11 @@
 	.BYTE $12
 	.BYTE $13
 	.BYTE $14
+
+enemy_objects_set_quickman_wily5_02:
+enemy_objects_set_quickman_wily5_03:
+enemy_objects_set_quickman_wily5_04:
+enemy_objects_set_quickman_wily5_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF
@@ -1033,20 +1041,29 @@
 
 ;item group
 ;mapset
+item_objects_set_quickman_wily5_00:
 	.BYTE $00
 	.BYTE $06
 	.BYTE $06
 	.BYTE $06
+
+item_objects_set_quickman_wily5_01:
 	.BYTE $0E
 	.BYTE $10
 	.BYTE $10
 	.BYTE $12
 	.BYTE $15
 	.BYTE $15
+
+item_objects_set_quickman_wily5_02:
 	.BYTE $16
 	.BYTE $16
 	.BYTE $17
 	.BYTE $17
+
+item_objects_set_quickman_wily5_03:
+item_objects_set_quickman_wily5_04:
+item_objects_set_quickman_wily5_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF

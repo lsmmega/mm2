@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_heatman_wily1_00:
 	.BYTE $01
 	.BYTE $01
 	.BYTE $02
@@ -20,6 +21,8 @@
 	.BYTE $08
 	.BYTE $08
 	.BYTE $08
+
+enemy_objects_set_heatman_wily1_01:
 	.BYTE $09
 	.BYTE $09
 	.BYTE $0A
@@ -62,6 +65,9 @@
 	.BYTE $12
 	.BYTE $12
 	.BYTE $14
+
+enemy_objects_set_heatman_wily1_02:
+enemy_objects_set_heatman_wily1_03:
 	.BYTE $18
 	.BYTE $19
 	.BYTE $1B
@@ -73,6 +79,9 @@
 	.BYTE $1E
 	.BYTE $1F
 	.BYTE $20
+
+enemy_objects_set_heatman_wily1_04:
+enemy_objects_set_heatman_wily1_05:
 	.BYTE $21
 	.BYTE $22
 	.BYTE $23
@@ -1033,18 +1042,27 @@
 
 ;item group
 ;mapset
+item_objects_set_heatman_wily1_00:
+item_objects_set_heatman_wily1_01:
 	.BYTE $0B
 	.BYTE $0C
 	.BYTE $0C
 	.BYTE $11
 	.BYTE $15
 	.BYTE $15
+
+item_objects_set_heatman_wily1_02:
 	.BYTE $16
 	.BYTE $16
 	.BYTE $17
 	.BYTE $17
+
+item_objects_set_heatman_wily1_03:
 	.BYTE $20
 	.BYTE $21
+
+item_objects_set_heatman_wily1_04:
+item_objects_set_heatman_wily1_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF

@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_metalman_00:
 	.BYTE $02
 	.BYTE $02
 	.BYTE $03
@@ -9,6 +10,8 @@
 	.BYTE $04
 	.BYTE $05
 	.BYTE $07
+
+enemy_objects_set_metalman_01:
 	.BYTE $0C
 	.BYTE $0C
 	.BYTE $0D
@@ -22,6 +25,11 @@
 	.BYTE $12
 	.BYTE $13
 	.BYTE $13
+
+enemy_objects_set_metalman_02:
+enemy_objects_set_metalman_03:
+enemy_objects_set_metalman_04:
+enemy_objects_set_metalman_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF
@@ -1033,15 +1041,24 @@
 
 ;item group
 ;mapset
+item_objects_set_metalman_00:
 	.BYTE $01
 	.BYTE $09
+
+item_objects_set_metalman_01:
 	.BYTE $10
 	.BYTE $13
 	.BYTE $13
+
+item_objects_set_metalman_02:
 	.BYTE $14
 	.BYTE $14
 	.BYTE $15
 	.BYTE $15
+
+item_objects_set_metalman_03:
+item_objects_set_metalman_04:
+item_objects_set_metalman_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF

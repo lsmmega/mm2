@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_bubbleman_wily4_00:
 	.BYTE $01
 	.BYTE $01
 	.BYTE $02
@@ -14,6 +15,8 @@
 	.BYTE $07
 	.BYTE $07
 	.BYTE $07
+
+enemy_objects_set_bubbleman_wily4_01:
 	.BYTE $09
 	.BYTE $09
 	.BYTE $09
@@ -30,10 +33,16 @@
 	.BYTE $11
 	.BYTE $12
 	.BYTE $13
+
+enemy_objects_set_bubbleman_wily4_02:
+enemy_objects_set_bubbleman_wily4_03:
 	.BYTE $17
 	.BYTE $18
 	.BYTE $1B
 	.BYTE $1B
+
+enemy_objects_set_bubbleman_wily4_04:
+enemy_objects_set_bubbleman_wily4_05:
 	.BYTE $1E
 	.BYTE $1E
 	.BYTE $1E
@@ -1033,6 +1042,8 @@
 
 ;item group
 ;mapset
+item_objects_set_bubbleman_wily4_00:
+item_objects_set_bubbleman_wily4_01:
 	.BYTE $09
 	.BYTE $09
 	.BYTE $09
@@ -1045,14 +1056,21 @@
 	.BYTE $0E
 	.BYTE $13
 	.BYTE $13
+
+item_objects_set_bubbleman_wily4_02:
 	.BYTE $14
 	.BYTE $14
 	.BYTE $15
 	.BYTE $15
+
+item_objects_set_bubbleman_wily4_03:
 	.BYTE $16
 	.BYTE $16
 	.BYTE $17
 	.BYTE $1B
+
+item_objects_set_bubbleman_wily4_04:
+item_objects_set_bubbleman_wily4_05:
 	.BYTE $26
 	.BYTE $26
 	.BYTE $26

@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_airman_wily2_00:
 	.BYTE $01
 	.BYTE $01
 	.BYTE $02
@@ -12,6 +13,8 @@
 	.BYTE $06
 	.BYTE $06
 	.BYTE $07
+
+enemy_objects_set_airman_wily2_01:
 	.BYTE $0A
 	.BYTE $0A
 	.BYTE $0C
@@ -23,11 +26,17 @@
 	.BYTE $11
 	.BYTE $12
 	.BYTE $13
+
+enemy_objects_set_airman_wily2_02:
+enemy_objects_set_airman_wily2_03:
 	.BYTE $17
 	.BYTE $17
 	.BYTE $18
 	.BYTE $1D
 	.BYTE $1D
+
+enemy_objects_set_airman_wily2_04:
+enemy_objects_set_airman_wily2_05:
 	.BYTE $1F
 	.BYTE $20
 	.BYTE $20
@@ -1033,17 +1042,24 @@
 
 ;item group
 ;mapset
+item_objects_set_airman_wily2_00:
 	.BYTE $02
 	.BYTE $03
 	.BYTE $03
+
+item_objects_set_airman_wily2_01:
 	.BYTE $0A
 	.BYTE $0A
 	.BYTE $13
 	.BYTE $13
+
+item_objects_set_airman_wily2_02:
 	.BYTE $14
 	.BYTE $14
 	.BYTE $15
 	.BYTE $15
+
+item_objects_set_airman_wily2_03:
 	.BYTE $16
 	.BYTE $18
 	.BYTE $1B
@@ -1064,6 +1080,9 @@
 	.BYTE $1D
 	.BYTE $1D
 	.BYTE $1D
+
+item_objects_set_airman_wily2_04:
+item_objects_set_airman_wily2_05:
 	.BYTE $26
 	.BYTE $FF
 	.BYTE $FF

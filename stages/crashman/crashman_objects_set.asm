@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_crashman_00:
 	.BYTE $00
 	.BYTE $00
 	.BYTE $00
@@ -21,6 +22,8 @@
 	.BYTE $06
 	.BYTE $06
 	.BYTE $06
+
+enemy_objects_set_crashman_01:
 	.BYTE $08
 	.BYTE $0A
 	.BYTE $0A
@@ -34,6 +37,11 @@
 	.BYTE $10
 	.BYTE $11
 	.BYTE $11
+
+enemy_objects_set_crashman_02:
+enemy_objects_set_crashman_03:
+enemy_objects_set_crashman_04:
+enemy_objects_set_crashman_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF
@@ -1033,15 +1041,23 @@
 
 ;item group
 ;mapset
+item_objects_set_crashman_00:
+item_objects_set_crashman_01:
 	.BYTE $0E
 	.BYTE $0F
 	.BYTE $10
 	.BYTE $11
 	.BYTE $11
+
+item_objects_set_crashman_02:
 	.BYTE $12
 	.BYTE $12
 	.BYTE $13
 	.BYTE $13
+
+item_objects_set_crashman_03:
+item_objects_set_crashman_04:
+item_objects_set_crashman_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF

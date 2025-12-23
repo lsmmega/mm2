@@ -19,24 +19,24 @@
 	.BYTE (mapset_bubbleman_wily4_1c - mapset_bubbleman_wily4_00) / $40
 
 ;bubbleman checkpoint enemies index
-	.BYTE $00
-	.BYTE $0E
-	.BYTE $1E
+	.BYTE enemy_objects_set_bubbleman_wily4_00 - enemy_objects_set_bubbleman_wily4_00
+	.BYTE enemy_objects_set_bubbleman_wily4_01 - enemy_objects_set_bubbleman_wily4_00
+	.BYTE enemy_objects_set_bubbleman_wily4_02 - enemy_objects_set_bubbleman_wily4_00
 
 ;wily4 checkpoint enemies index
-	.BYTE $1E
-	.BYTE $22
-	.BYTE $22
+	.BYTE enemy_objects_set_bubbleman_wily4_03 - enemy_objects_set_bubbleman_wily4_00
+	.BYTE enemy_objects_set_bubbleman_wily4_04 - enemy_objects_set_bubbleman_wily4_00
+	.BYTE enemy_objects_set_bubbleman_wily4_05 - enemy_objects_set_bubbleman_wily4_00
 
 ;bubbleman checkpoint items index
-	.BYTE $00
-	.BYTE $00
-	.BYTE $0C
+	.BYTE item_objects_set_bubbleman_wily4_00 - item_objects_set_bubbleman_wily4_00
+	.BYTE item_objects_set_bubbleman_wily4_01 - item_objects_set_bubbleman_wily4_00
+	.BYTE item_objects_set_bubbleman_wily4_02 - item_objects_set_bubbleman_wily4_00
 
 ;wily4 checkpoint items index
-	.BYTE $10
-	.BYTE $14
-	.BYTE $14
+	.BYTE item_objects_set_bubbleman_wily4_03 - item_objects_set_bubbleman_wily4_00
+	.BYTE item_objects_set_bubbleman_wily4_04 - item_objects_set_bubbleman_wily4_00
+	.BYTE item_objects_set_bubbleman_wily4_05 - item_objects_set_bubbleman_wily4_00
 
 ;bubbleman checkpoint hileft mapset load
 	.HIBYTES mapset_bubbleman_wily4_00 - $20

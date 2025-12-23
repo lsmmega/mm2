@@ -19,24 +19,24 @@
 	.BYTE (mapset_airman_wily2_1f - mapset_airman_wily2_00) / $40
 
 ;airman checkpoint enemies index
-	.BYTE $00
-	.BYTE $0C
-	.BYTE $17
+	.BYTE enemy_objects_set_airman_wily2_00 - enemy_objects_set_airman_wily2_00
+	.BYTE enemy_objects_set_airman_wily2_01 - enemy_objects_set_airman_wily2_00
+	.BYTE enemy_objects_set_airman_wily2_02 - enemy_objects_set_airman_wily2_00
 
 ;wily2 checkpoint enemies index
-	.BYTE $17
-	.BYTE $1C
-	.BYTE $1C
+	.BYTE enemy_objects_set_airman_wily2_03 - enemy_objects_set_airman_wily2_00
+	.BYTE enemy_objects_set_airman_wily2_04 - enemy_objects_set_airman_wily2_00
+	.BYTE enemy_objects_set_airman_wily2_05 - enemy_objects_set_airman_wily2_00
 
 ;airman checkpoint items index
-	.BYTE $00
-	.BYTE $03
-	.BYTE $07
+	.BYTE item_objects_set_airman_wily2_00 - item_objects_set_airman_wily2_00
+	.BYTE item_objects_set_airman_wily2_01 - item_objects_set_airman_wily2_00
+	.BYTE item_objects_set_airman_wily2_02 - item_objects_set_airman_wily2_00
 
 ;wily2 checkpoint items index
-	.BYTE $0B
-	.BYTE $1F
-	.BYTE $1F
+	.BYTE item_objects_set_airman_wily2_03 - item_objects_set_airman_wily2_00
+	.BYTE item_objects_set_airman_wily2_04 - item_objects_set_airman_wily2_00
+	.BYTE item_objects_set_airman_wily2_05 - item_objects_set_airman_wily2_00
 
 ;airman checkpoint hileft mapset load
 	.HIBYTES mapset_airman_wily2_00 - $20

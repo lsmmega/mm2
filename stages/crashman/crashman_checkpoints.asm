@@ -19,24 +19,24 @@
 	.BYTE $00
 
 ;crashman checkpoint enemies index
-	.BYTE $00
-	.BYTE $15
-	.BYTE $22
+	.BYTE enemy_objects_set_crashman_00 - enemy_objects_set_crashman_00
+	.BYTE enemy_objects_set_crashman_01 - enemy_objects_set_crashman_00
+	.BYTE enemy_objects_set_crashman_02 - enemy_objects_set_crashman_00
 
 ;unused checkpoint enemies index
-	.BYTE $22
-	.BYTE $22
-	.BYTE $22
+	.BYTE enemy_objects_set_crashman_03 - enemy_objects_set_crashman_00
+	.BYTE enemy_objects_set_crashman_04 - enemy_objects_set_crashman_00
+	.BYTE enemy_objects_set_crashman_05 - enemy_objects_set_crashman_00
 
 ;crashman checkpoint items index
-	.BYTE $00
-	.BYTE $00
-	.BYTE $05
+	.BYTE item_objects_set_crashman_00 - item_objects_set_crashman_00
+	.BYTE item_objects_set_crashman_01 - item_objects_set_crashman_00
+	.BYTE item_objects_set_crashman_02 - item_objects_set_crashman_00
 
 ;unused checkpoint items index
-	.BYTE $09
-	.BYTE $09
-	.BYTE $09
+	.BYTE item_objects_set_crashman_03 - item_objects_set_crashman_00
+	.BYTE item_objects_set_crashman_04 - item_objects_set_crashman_00
+	.BYTE item_objects_set_crashman_05 - item_objects_set_crashman_00
 
 ;crashman checkpoint hileft mapset load
 	.HIBYTES mapset_crashman_00 - $20

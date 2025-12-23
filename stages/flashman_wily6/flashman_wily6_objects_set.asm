@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_flashman_wily6_00:
 	.BYTE $02
 	.BYTE $03
 	.BYTE $03
@@ -7,6 +8,8 @@
 	.BYTE $04
 	.BYTE $06
 	.BYTE $07
+
+enemy_objects_set_flashman_wily6_01:
 	.BYTE $08
 	.BYTE $0A
 	.BYTE $0A
@@ -15,6 +18,11 @@
 	.BYTE $0D
 	.BYTE $0F
 	.BYTE $11
+
+enemy_objects_set_flashman_wily6_02:
+enemy_objects_set_flashman_wily6_03:
+enemy_objects_set_flashman_wily6_04:
+enemy_objects_set_flashman_wily6_05:
 	.BYTE $1A
 	.BYTE $1A
 	.BYTE $1A
@@ -1033,12 +1041,15 @@
 
 ;item group
 ;mapset
+item_objects_set_flashman_wily6_00:
 	.BYTE $02
 	.BYTE $04
 	.BYTE $05
 	.BYTE $06
 	.BYTE $06
 	.BYTE $06
+
+item_objects_set_flashman_wily6_01:
 	.BYTE $09
 	.BYTE $09
 	.BYTE $0A
@@ -1047,10 +1058,16 @@
 	.BYTE $11
 	.BYTE $11
 	.BYTE $11
+
+item_objects_set_flashman_wily6_02:
 	.BYTE $12
 	.BYTE $12
 	.BYTE $13
 	.BYTE $13
+
+item_objects_set_flashman_wily6_03:
+item_objects_set_flashman_wily6_04:
+item_objects_set_flashman_wily6_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF

@@ -19,24 +19,24 @@
 	.BYTE $00
 
 ;metalman checkpoint enemies index
-	.BYTE $00
-	.BYTE $09
-	.BYTE $16
+	.BYTE enemy_objects_set_metalman_00 - enemy_objects_set_metalman_00
+	.BYTE enemy_objects_set_metalman_01 - enemy_objects_set_metalman_00
+	.BYTE enemy_objects_set_metalman_02 - enemy_objects_set_metalman_00
 
 ;unused checkpoint enemies index
-	.BYTE $16
-	.BYTE $16
-	.BYTE $16
+	.BYTE enemy_objects_set_metalman_03 - enemy_objects_set_metalman_00
+	.BYTE enemy_objects_set_metalman_04 - enemy_objects_set_metalman_00
+	.BYTE enemy_objects_set_metalman_05 - enemy_objects_set_metalman_00
 
 ;metalman checkpoint items index
-	.BYTE $00
-	.BYTE $02
-	.BYTE $05
+	.BYTE item_objects_set_metalman_00 - item_objects_set_metalman_00
+	.BYTE item_objects_set_metalman_01 - item_objects_set_metalman_00
+	.BYTE item_objects_set_metalman_02 - item_objects_set_metalman_00
 
 ;unused checkpoint items index
-	.BYTE $09
-	.BYTE $09
-	.BYTE $09
+	.BYTE item_objects_set_metalman_03 - item_objects_set_metalman_00
+	.BYTE item_objects_set_metalman_04 - item_objects_set_metalman_00
+	.BYTE item_objects_set_metalman_05 - item_objects_set_metalman_00
 
 ;metalman checkpoint hileft mapset load
 	.HIBYTES mapset_metalman_00 - $20

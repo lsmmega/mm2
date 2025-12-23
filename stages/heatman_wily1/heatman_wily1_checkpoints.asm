@@ -19,24 +19,24 @@
 	.BYTE (mapset_heatman_wily1_21 - mapset_heatman_wily1_00) / $40
 
 ;heatman checkpoint enemies index
-	.BYTE $00
-	.BYTE $14
-	.BYTE $3E
+	.BYTE enemy_objects_set_heatman_wily1_00 - enemy_objects_set_heatman_wily1_00
+	.BYTE enemy_objects_set_heatman_wily1_01 - enemy_objects_set_heatman_wily1_00
+	.BYTE enemy_objects_set_heatman_wily1_02 - enemy_objects_set_heatman_wily1_00
 
 ;wily1 checkpoint enemies index
-	.BYTE $3E
-	.BYTE $49
-	.BYTE $49
+	.BYTE enemy_objects_set_heatman_wily1_03 - enemy_objects_set_heatman_wily1_00
+	.BYTE enemy_objects_set_heatman_wily1_04 - enemy_objects_set_heatman_wily1_00
+	.BYTE enemy_objects_set_heatman_wily1_05 - enemy_objects_set_heatman_wily1_00
 
 ;heatman checkpoint items index
-	.BYTE $00
-	.BYTE $00
-	.BYTE $06
+	.BYTE item_objects_set_heatman_wily1_00 - item_objects_set_heatman_wily1_00
+	.BYTE item_objects_set_heatman_wily1_01 - item_objects_set_heatman_wily1_00
+	.BYTE item_objects_set_heatman_wily1_02 - item_objects_set_heatman_wily1_00
 
 ;wily1 checkpoint items index
-	.BYTE $0A
-	.BYTE $0C
-	.BYTE $0C
+	.BYTE item_objects_set_heatman_wily1_03 - item_objects_set_heatman_wily1_00
+	.BYTE item_objects_set_heatman_wily1_04 - item_objects_set_heatman_wily1_00
+	.BYTE item_objects_set_heatman_wily1_05 - item_objects_set_heatman_wily1_00
 
 ;heatman checkpoint hileft mapset load
 	.HIBYTES mapset_heatman_wily1_00 - $20

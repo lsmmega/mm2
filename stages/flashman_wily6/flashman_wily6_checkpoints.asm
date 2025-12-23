@@ -19,24 +19,24 @@
 	.BYTE (mapset_flashman_wily6_16 - mapset_flashman_wily6_00) / $40
 
 ;flashman checkpoint enemies index
-	.BYTE $00
-	.BYTE $07
-	.BYTE $0F
+	.BYTE enemy_objects_set_flashman_wily6_00 - enemy_objects_set_flashman_wily6_00
+	.BYTE enemy_objects_set_flashman_wily6_01 - enemy_objects_set_flashman_wily6_00
+	.BYTE enemy_objects_set_flashman_wily6_02 - enemy_objects_set_flashman_wily6_00
 
 ;wily6 checkpoint enemies index
-	.BYTE $0F
-	.BYTE $0F
-	.BYTE $0F
+	.BYTE enemy_objects_set_flashman_wily6_03 - enemy_objects_set_flashman_wily6_00
+	.BYTE enemy_objects_set_flashman_wily6_04 - enemy_objects_set_flashman_wily6_00
+	.BYTE enemy_objects_set_flashman_wily6_05 - enemy_objects_set_flashman_wily6_00
 
 ;flashman checkpoint items index
-	.BYTE $00
-	.BYTE $06
-	.BYTE $0E
+	.BYTE item_objects_set_flashman_wily6_00 - item_objects_set_flashman_wily6_00
+	.BYTE item_objects_set_flashman_wily6_01 - item_objects_set_flashman_wily6_00
+	.BYTE item_objects_set_flashman_wily6_02 - item_objects_set_flashman_wily6_00
 
 ;wily6 checkpoint items index
-	.BYTE $12
-	.BYTE $12
-	.BYTE $12
+	.BYTE item_objects_set_flashman_wily6_03 - item_objects_set_flashman_wily6_00
+	.BYTE item_objects_set_flashman_wily6_04 - item_objects_set_flashman_wily6_00
+	.BYTE item_objects_set_flashman_wily6_05 - item_objects_set_flashman_wily6_00
 
 ;flashman checkpoint hileft mapset load
 	.HIBYTES mapset_flashman_wily6_00 - $20

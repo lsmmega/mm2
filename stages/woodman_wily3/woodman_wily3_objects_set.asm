@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_woodman_wily3_00:
 	.BYTE $01
 	.BYTE $01
 	.BYTE $01
@@ -19,6 +20,8 @@
 	.BYTE $06
 	.BYTE $07
 	.BYTE $08
+
+enemy_objects_set_woodman_wily3_01:
 	.BYTE $0A
 	.BYTE $0A
 	.BYTE $0C
@@ -36,9 +39,15 @@
 	.BYTE $14
 	.BYTE $14
 	.BYTE $15
+
+enemy_objects_set_woodman_wily3_02:
+enemy_objects_set_woodman_wily3_03:
 	.BYTE $1A
 	.BYTE $1D
 	.BYTE $1E
+
+enemy_objects_set_woodman_wily3_04:
+enemy_objects_set_woodman_wily3_05:
 	.BYTE $25
 	.BYTE $25
 	.BYTE $26
@@ -1033,18 +1042,25 @@
 
 ;item group
 ;mapset
+item_objects_set_woodman_wily3_00:
 	.BYTE $06
 	.BYTE $06
 	.BYTE $07
 	.BYTE $07
 	.BYTE $08
 	.BYTE $08
+
+item_objects_set_woodman_wily3_01:
 	.BYTE $15
 	.BYTE $15
+
+item_objects_set_woodman_wily3_02:
 	.BYTE $16
 	.BYTE $16
 	.BYTE $17
 	.BYTE $17
+
+item_objects_set_woodman_wily3_03:
 	.BYTE $19
 	.BYTE $19
 	.BYTE $19
@@ -1053,6 +1069,9 @@
 	.BYTE $19
 	.BYTE $1A
 	.BYTE $1A
+
+item_objects_set_woodman_wily3_04:
+item_objects_set_woodman_wily3_05:
 	.BYTE $FF
 	.BYTE $FF
 	.BYTE $FF

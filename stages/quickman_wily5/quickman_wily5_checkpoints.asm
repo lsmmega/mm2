@@ -19,24 +19,24 @@
 	.BYTE (mapset_quickman_wily5_28 - mapset_quickman_wily5_00) / $40
 
 ;quickman checkpoint enemies index
-	.BYTE $00
-	.BYTE $07
-	.BYTE $16
+	.BYTE enemy_objects_set_quickman_wily5_00 - enemy_objects_set_quickman_wily5_00
+	.BYTE enemy_objects_set_quickman_wily5_01 - enemy_objects_set_quickman_wily5_00
+	.BYTE enemy_objects_set_quickman_wily5_02 - enemy_objects_set_quickman_wily5_00
 
 ;wily5 checkpoint enemies index
-	.BYTE $16
-	.BYTE $16
-	.BYTE $16
+	.BYTE enemy_objects_set_quickman_wily5_03 - enemy_objects_set_quickman_wily5_00
+	.BYTE enemy_objects_set_quickman_wily5_04 - enemy_objects_set_quickman_wily5_00
+	.BYTE enemy_objects_set_quickman_wily5_05 - enemy_objects_set_quickman_wily5_00
 
 ;quickman checkpoint items index
-	.BYTE $00
-	.BYTE $04
-	.BYTE $0A
+	.BYTE item_objects_set_quickman_wily5_00 - item_objects_set_quickman_wily5_00
+	.BYTE item_objects_set_quickman_wily5_01 - item_objects_set_quickman_wily5_00
+	.BYTE item_objects_set_quickman_wily5_02 - item_objects_set_quickman_wily5_00
 
 ;wily5 checkpoint items index
-	.BYTE $0E
-	.BYTE $0E
-	.BYTE $0E
+	.BYTE item_objects_set_quickman_wily5_03 - item_objects_set_quickman_wily5_00
+	.BYTE item_objects_set_quickman_wily5_04 - item_objects_set_quickman_wily5_00
+	.BYTE item_objects_set_quickman_wily5_05 - item_objects_set_quickman_wily5_00
 
 ;quickman checkpoint hileft mapset load
 	.HIBYTES mapset_quickman_wily5_00 - $20

@@ -19,24 +19,24 @@
 	.BYTE (mapset_woodman_wily3_22 - mapset_woodman_wily3_00) / $40
 
 ;woodman checkpoint enemies index
-	.BYTE $00
-	.BYTE $13
-	.BYTE $24
+	.BYTE enemy_objects_set_woodman_wily3_00 - enemy_objects_set_woodman_wily3_00
+	.BYTE enemy_objects_set_woodman_wily3_01 - enemy_objects_set_woodman_wily3_00
+	.BYTE enemy_objects_set_woodman_wily3_02 - enemy_objects_set_woodman_wily3_00
 
 ;wily3 checkpoint enemies index
-	.BYTE $24
-	.BYTE $27
-	.BYTE $27
+	.BYTE enemy_objects_set_woodman_wily3_03 - enemy_objects_set_woodman_wily3_00
+	.BYTE enemy_objects_set_woodman_wily3_04 - enemy_objects_set_woodman_wily3_00
+	.BYTE enemy_objects_set_woodman_wily3_05 - enemy_objects_set_woodman_wily3_00
 
 ;woodman checkpoint items index
-	.BYTE $00
-	.BYTE $06
-	.BYTE $08
+	.BYTE item_objects_set_woodman_wily3_00 - item_objects_set_woodman_wily3_00
+	.BYTE item_objects_set_woodman_wily3_01 - item_objects_set_woodman_wily3_00
+	.BYTE item_objects_set_woodman_wily3_02 - item_objects_set_woodman_wily3_00
 
 ;wily3 checkpoint items index
-	.BYTE $0C
-	.BYTE $14
-	.BYTE $14
+	.BYTE item_objects_set_woodman_wily3_03 - item_objects_set_woodman_wily3_00
+	.BYTE item_objects_set_woodman_wily3_04 - item_objects_set_woodman_wily3_00
+	.BYTE item_objects_set_woodman_wily3_05 - item_objects_set_woodman_wily3_00
 
 ;woodman checkpoint hileft mapset load
 	.HIBYTES mapset_woodman_wily3_00 - $20
