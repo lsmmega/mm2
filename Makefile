@@ -30,6 +30,8 @@ home := \
 	home/*
 
 sprites := \
+	constants/* \
+	sprites/pointers/* \
 	sprites/*
 
 stages := \
