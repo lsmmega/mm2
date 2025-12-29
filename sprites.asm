@@ -2,6 +2,7 @@
 .INCLUDE "constants/oam.asm"
 .INCLUDE "sprites/pointers/oam_sprites_pointers.asm"
 .INCBIN  "sprites/sprites_0.bin"
+.INCLUDE "sprites/oamxcoord_table.asm"
 .INCLUDE "sprites/oam_sprites.asm"
 .INCBIN  "sprites/sprites_1.bin"
 .INCLUDE "sprites/unused/unused.asm"
