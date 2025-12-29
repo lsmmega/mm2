@@ -32,7 +32,8 @@ home := \
 sprites := \
 	constants/* \
 	sprites/pointers/* \
-	sprites/*
+	sprites/* \
+	sprites/unused/* \
 
 stages := \
 	stages.asm \

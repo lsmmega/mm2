@@ -4,3 +4,4 @@
 .INCBIN  "sprites/sprites_0.bin"
 .INCLUDE "sprites/oam_sprites.asm"
 .INCBIN  "sprites/sprites_1.bin"
+.INCLUDE "sprites/unused/unused.asm"
