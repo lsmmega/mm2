@@ -27,7 +27,10 @@ header := \
 
 home := \
 	home.asm \
-	home/*
+	home/* \
+	home/unused/* \
+	sprites/pointers/* \
+	sprites/*
 
 sprites := \
 	constants/* \
