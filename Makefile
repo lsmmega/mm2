@@ -1,14 +1,10 @@
 rom_obj := \
 	audio.o \
 	header.o \
-	home.o \
+	main.o \
 	sprites.o \
 	stages.o \
-	8.o \
-	9.o \
-	11.o \
-	13.o \
-	14.o
+	8.o
 
 cfg := \
 	mm2.cfg
@@ -65,6 +61,7 @@ stages := \
 
 9 := \
 	9.asm \
+	macros/* \
 	constants/* \
 	9/* \
 	screen/* \
@@ -118,8 +115,9 @@ audio.o: $(audio)
 header.o: $(header)
 	ca65 header.asm
 
-home.o: $(home)
-	ca65 home.asm
+main.o: $(home) $(9) $(11) $(13) $(14)
+	bmp2nes $(gfx9) $(gfx11)
+	ca65 main.asm
 
 sprites.o: $(sprites)
 	ca65 sprites.asm
@@ -132,19 +130,8 @@ stages.o: $(stages)
 	bmp2nes $(gfx8)
 	ca65 8.asm
 
-9.o: $(9)
-	bmp2nes $(gfx9)
-	ca65 9.asm
-
-11.o: $(11)
-	bmp2nes $(gfx11)
-	ca65 11.asm
-
 13.o: $(13)
 	ca65 13.asm
-
-14.o: $(14)
-	ca65 14.asm
 
 clean:
 	$(RM) $(rom_obj) \
