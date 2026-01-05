@@ -9,5 +9,6 @@ boss_ai:
 
 boss_init:
 .INCBIN  "11/11_1.bin"
+.INCLUDE "unused/unused_2eac0.asm"
 .INCLUDE "screen/stage_select.asm"
 .INCBIN  "gfx/11/11.chr"

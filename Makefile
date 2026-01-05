@@ -71,17 +71,20 @@ stages := \
 	11.asm \
 	constants/* \
 	11/* \
+	unused/* \
 	screen/* \
 	gfx/11/*.bmp
 
 13 := \
 	13.asm \
 	13/* \
-	screen/*
+	screen/* \
+	unused/*
 
 14 := \
 	14.asm \
-	14/*
+	14/* \
+	unused/*
 
 gfx_stages := \
 	gfx/0/0.bmp gfx/0/0.chr \

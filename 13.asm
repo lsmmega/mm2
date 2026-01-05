@@ -42,3 +42,4 @@ ending:
 
 get_weapon:
 .INCBIN  "13/13_6.bin"
+.INCLUDE "unused/unused_37f87.asm"
