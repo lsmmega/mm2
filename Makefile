@@ -69,7 +69,9 @@ stages := \
 
 11 := \
 	11.asm \
+	constants/* \
 	11/* \
+	screen/* \
 	gfx/11/*.bmp
 
 13 := \

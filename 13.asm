@@ -1,5 +1,4 @@
 .SEGMENT "BANK0D"
-.INCLUDE "constants/ppu_attributes.asm"
 
 _stage_select:
 	JMP stage_select
