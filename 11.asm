@@ -11,4 +11,6 @@ boss_init:
 .INCBIN  "11/11_1.bin"
 .INCLUDE "unused/unused_2eac0.asm"
 .INCLUDE "screen/stage_select.asm"
-.INCBIN  "gfx/11/11.chr"
+.INCBIN  "gfx/guts_tank/guts_tank_1.chr"
+.INCBIN  "gfx/guts_tank/guts_tank_2.chr"
+.INCLUDE "unused/unused_2ff20.asm"
