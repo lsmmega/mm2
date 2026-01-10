@@ -185,3 +185,8 @@
 .MACRO sfx_note_tied
 	.DBYT $8FFF
 .ENDMACRO
+
+.MACRO track_queue b
+	LDA #b
+	JSR _track_queue
+.ENDMACRO

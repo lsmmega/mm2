@@ -108,6 +108,7 @@ stages := \
 11 := \
 	11.asm \
 	constants/* \
+	macros/* \
 	11/* \
 	unused/* \
 	screen/* \

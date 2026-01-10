@@ -3,57 +3,60 @@
 _bankswitch:
 .INCBIN  "home/home_0.bin"
 
-	farjsr _wily_castle
-
+_track_queue:
 .INCBIN  "home/home_1.bin"
 
-	farjsr _game_over
+	farjsr _wily_castle
 
 .INCBIN  "home/home_2.bin"
 
-	farjsr _get_weapon
+	farjsr _game_over
 
 .INCBIN  "home/home_3.bin"
 
-	farjsr _ending
+	farjsr _get_weapon
 
 .INCBIN  "home/home_4.bin"
 
-	farjsr _intro
+	farjsr _ending
 
 .INCBIN  "home/home_5.bin"
 
-	farjsr _stage_select
+	farjsr _intro
 
 .INCBIN  "home/home_6.bin"
 
-	farjsr _open_menu
+	farjsr _stage_select
 
 .INCBIN  "home/home_7.bin"
+
+	farjsr _open_menu
+
+.INCBIN  "home/home_8.bin"
 	
 	farjsr boss_ai
 
-.INCBIN  "home/home_8.bin"
+.INCBIN  "home/home_9.bin"
 
 	farjsr _boss_init
 
-.INCBIN  "home/home_9.bin"
+.INCBIN  "home/home_10.bin"
 	
 	farjsr __ending_
 
-.INCBIN  "home/home_10.bin"
+.INCBIN  "home/home_11.bin"
 
 	farjsr _staff_roll
 
-.INCBIN  "home/home_11.bin"
+.INCBIN  "home/home_12.bin"
 
 	farjsr _credit_init
 
-.INCBIN  "home/home_12.bin"
+.INCBIN  "home/home_13.bin"
 
 	farjsr _credit
 
-.INCBIN  "home/home_13.bin"
+.INCBIN  "home/home_14.bin"
 
 	farjmp _init
 
@@ -61,7 +64,7 @@ _bankswitch:
 .INCLUDE "sprites/pointers/oam_frameset_pointers.asm"
 .INCLUDE "sprites/oam_frameset.asm"
 .INCLUDE "home/unused/unused_3ff97.asm"
-.INCBIN  "home/home_14.bin"
+.INCBIN  "home/home_15.bin"
 ;.INCLUDE "home/reset.asm"
 ;.INCLUDE "home/nmi.asm"
 ;.INCLUDE "home/vectors.asm"
