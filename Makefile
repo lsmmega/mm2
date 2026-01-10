@@ -116,6 +116,8 @@ stages := \
 
 13 := \
 	13.asm \
+	constants/* \
+	macros/* \
 	13/* \
 	screen/* \
 	unused/*
@@ -334,9 +336,6 @@ stages.o: $(stages)
 8.o: $(8)
 	bmp2nes $(gfx8)
 	ca65 8.asm
-
-13.o: $(13)
-	ca65 13.asm
 
 clean:
 	$(RM) $(rom_obj) \
