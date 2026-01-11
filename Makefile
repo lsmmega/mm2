@@ -121,6 +121,7 @@ stages := \
 	constants/* \
 	macros/* \
 	13/* \
+	data/password/* \
 	screen/* \
 	unused/*
 
