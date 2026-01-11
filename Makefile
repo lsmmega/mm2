@@ -23,6 +23,8 @@ header := \
 
 home := \
 	home.asm \
+	constants/* \
+	macros/* \
 	home/* \
 	home/unused/* \
 	sprites/pointers/* \
@@ -124,6 +126,8 @@ stages := \
 
 14 := \
 	14.asm \
+	constants/* \
+	macros/* \
 	14/* \
 	unused/*
 
