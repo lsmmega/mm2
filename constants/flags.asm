@@ -25,6 +25,7 @@
 	rematch_crashman_done  = 1 << 7
 
 ;stage clear flags
+	no_stage_clear        = 0
 	stage_heatman_clear   = 1 << 0
 	stage_airman_clear    = 1 << 1
 	stage_woodman_clear   = 1 << 2
@@ -33,3 +34,9 @@
 	stage_flashman_clear  = 1 << 5
 	stage_metalman_clear  = 1 << 6
 	stage_crashman_clear  = 1 << 7
+
+;stage clear in password
+.ENUM
+	stage_clear_yes
+	stage_clear_no
+.ENDENUM

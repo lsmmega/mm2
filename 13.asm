@@ -1,4 +1,5 @@
 .SEGMENT "BANK0D"
+.INCLUDE "constants/flags.asm"
 
 _stage_select:
 	JMP stage_select
@@ -108,50 +109,52 @@ intro:
 	track_queue track_1up
 
 .INCBIN  "13/13_22.bin"
+.INCLUDE "data/password/password.asm"
+.INCBIN  "13/13_23.bin"
 
 game_over:
-.INCBIN  "13/13_23.bin"
+.INCBIN  "13/13_24.bin"
 
 	track_queue track_game_over
 
-.INCBIN  "13/13_24.bin"
+.INCBIN  "13/13_25.bin"
 
 	track_queue track_password
 
-.INCBIN  "13/13_25.bin"
+.INCBIN  "13/13_26.bin"
 
 	track_queue track_select
 
-.INCBIN  "13/13_26.bin"
+.INCBIN  "13/13_27.bin"
 
 	track_queue track_1up
 
-.INCBIN  "13/13_27.bin"
+.INCBIN  "13/13_28.bin"
 .INCLUDE "screen/title.asm"
 
 ending:
-.INCBIN  "13/13_28.bin"
+.INCBIN  "13/13_29.bin"
 
 	track_queue track_ending
 
-.INCBIN  "13/13_29.bin"
+.INCBIN  "13/13_30.bin"
 
 	track_queue track_title
 
-.INCBIN  "13/13_30.bin"
+.INCBIN  "13/13_31.bin"
 
 	track_queue track_staff_roll
 
-.INCBIN  "13/13_31.bin"
+.INCBIN  "13/13_32.bin"
 
 get_weapon:
-.INCBIN  "13/13_32.bin"
+.INCBIN  "13/13_33.bin"
 
 	track_queue track_get_weapon
 
-.INCBIN  "13/13_33.bin"
+.INCBIN  "13/13_34.bin"
 
 	track_queue track_select
 
-.INCBIN  "13/13_34.bin"
+.INCBIN  "13/13_35.bin"
 .INCLUDE "unused/unused_37f87.asm"
