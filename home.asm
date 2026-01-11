@@ -10,53 +10,174 @@ _track_queue:
 
 .INCBIN  "home/home_2.bin"
 
-	farjsr _game_over
+	track_queue track_death
 
 .INCBIN  "home/home_3.bin"
 
-	farjsr _get_weapon
+	farjsr _game_over
 
 .INCBIN  "home/home_4.bin"
 
-	farjsr _ending
+	farjsr _get_weapon
 
 .INCBIN  "home/home_5.bin"
 
-	farjsr _intro
+	farjsr _ending
 
 .INCBIN  "home/home_6.bin"
 
-	farjsr _stage_select
+	farjsr _intro
 
 .INCBIN  "home/home_7.bin"
 
-	farjsr _open_menu
+	farjsr _stage_select
 
 .INCBIN  "home/home_8.bin"
+
+	track_queue track_open_menu
+	farjsr _open_menu
+
+.INCBIN  "home/home_9.bin"
 	
 	farjsr boss_ai
 
-.INCBIN  "home/home_9.bin"
-
-	farjsr _boss_init
-
 .INCBIN  "home/home_10.bin"
-	
-	farjsr __ending_
+
+	track_queue track_teleport_in
 
 .INCBIN  "home/home_11.bin"
 
-	farjsr _staff_roll
+	farjsr _boss_init
 
 .INCBIN  "home/home_12.bin"
 
-	farjsr _credit_init
+	track_queue track_megaman_hit
 
 .INCBIN  "home/home_13.bin"
+	
+	farjsr __ending_
+
+.INCBIN  "home/home_14.bin"
+
+	farjsr _staff_roll
+
+.INCBIN  "home/home_15.bin"
+
+	farjsr _credit_init
+
+.INCBIN  "home/home_16.bin"
 
 	farjsr _credit
 
-.INCBIN  "home/home_14.bin"
+.INCBIN  "home/home_17.bin"
+
+	track_queue track_mega_buster
+
+.INCBIN  "home/home_18.bin"
+
+	track_queue track_air_shooter
+
+.INCBIN  "home/home_19.bin"
+
+	track_queue track_mega_buster
+
+.INCBIN  "home/home_20.bin"
+
+	track_queue track_mega_buster
+
+.INCBIN  "home/home_21.bin"
+
+	track_queue track_mega_buster
+
+.INCBIN  "home/home_22.bin"
+
+	track_queue track_metal_blade
+
+.INCBIN  "home/home_23.bin"
+
+	track_queue track_time_stopper
+
+.INCBIN  "home/home_24.bin"
+
+	track_queue track_atomic_fire_release
+
+.INCBIN  "home/home_25.bin"
+
+	track_queue track_leaf_shield
+
+.INCBIN  "home/home_26.bin"
+
+	track_queue track_crash_bomber_grab
+
+.INCBIN  "home/home_27.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_28.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_29.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_30.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_31.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_32.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_33.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_34.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_35.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_36.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_37.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_38.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_39.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_40.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_41.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_42.bin"
+
+	track_queue track_enemy_hit
+
+.INCBIN  "home/home_43.bin"
+
+	track_queue track_enemy_immune
+
+.INCBIN  "home/home_44.bin"
 
 	farjmp _init
 
@@ -64,7 +185,7 @@ _track_queue:
 .INCLUDE "sprites/pointers/oam_frameset_pointers.asm"
 .INCLUDE "sprites/oam_frameset.asm"
 .INCLUDE "home/unused/unused_3ff97.asm"
-.INCBIN  "home/home_15.bin"
+.INCBIN  "home/home_45.bin"
 ;.INCLUDE "home/reset.asm"
 ;.INCLUDE "home/nmi.asm"
 ;.INCLUDE "home/vectors.asm"
