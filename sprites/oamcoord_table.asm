@@ -1,4 +1,4 @@
-;oam xcoord table
+;oamcoord table
 	.FEATURE FORCE_RANGE
 	.BYTE -8
 	.BYTE -9
