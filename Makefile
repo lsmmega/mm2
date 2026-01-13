@@ -41,54 +41,54 @@ stages := \
 	constants/* \
 	macros/* \
 	stages/heatman_wily1/* \
-	gfx/sprites/miscellaneous/* \
-	gfx/sprites/bar/* \
-	gfx/sprites/items/* \
-	gfx/sprites/menus/* \
-	gfx/sprites/title/* \
-	gfx/sprites/password/* \
-	gfx/sprites/enemies/* \
-	gfx/stages/regular/* \
-	gfx/stages/wily/* \
+	gfx/sprites/miscellaneous/*.bmp \
+	gfx/sprites/bar/*.bmp \
+	gfx/sprites/items/*.bmp \
+	gfx/sprites/menus/*.bmp \
+	gfx/sprites/title/*.bmp \
+	gfx/sprites/password/*.bmp \
+	gfx/sprites/enemies/*.bmp \
+	gfx/stages/regular/*.bmp \
+	gfx/stages/wily/*.bmp \
 	stages/airman_wily2/* \
 	stages/woodman_wily3/* \
-	gfx/sprites/unknown/* \
-	gfx/sprites/ending/megaman/* \
-	gfx/sprites/wily_lab/* \
-	gfx/sprites/get_weapon/* \
-	gfx/sprites/enemies/red_liquid/* \
+	gfx/sprites/unknown/*.bmp \
+	gfx/sprites/ending/megaman/*.bmp \
+	gfx/sprites/wily_lab/*.bmp \
+	gfx/sprites/get_weapon/*.bmp \
+	gfx/sprites/enemies/red_liquid/*.bmp \
 	stages/bubbleman_wily4/* \
 	gfx/sprites/enemies/goblin/*.bmp \
 	gfx/sprites/enemies/friender/*.bmp \
-	gfx/sprites/ending/* \
-	gfx/sprites/ending/spring/* \
+	gfx/sprites/ending/*.bmp \
+	gfx/sprites/ending/spring/*.bmp \
 	screen/* \
 	gfx/sprites/bosses/metalman/*.bmp \
 	stages/quickman_wily5/* \
 	stages/flashman_wily6/* \
-	gfx/sprites/stage_select/* \
-	gfx/sprites/boss_show/* \
-	gfx/sprites/bosses/wily_machine_2/* \
-	gfx/sprites/weapon/* \
-	gfx/sprites/bosses/* \
+	gfx/sprites/stage_select/*.bmp \
+	gfx/sprites/boss_show/*.bmp \
+	gfx/sprites/bosses/wily_machine_2/*.bmp \
+	gfx/sprites/weapon/*.bmp \
+	gfx/sprites/bosses/*.bmp \
 	stages/metalman/* \
-	gfx/sprites/bosses/airman/* \
-	gfx/sprites/wily_castle/* \
-	gfx/sprites/bosses/flashman/* \
-	gfx/sprites/bosses/bubbleman/* \
+	gfx/sprites/bosses/airman/*.bmp \
+	gfx/sprites/wily_castle/*.bmp \
+	gfx/sprites/bosses/flashman/*.bmp \
+	gfx/sprites/bosses/bubbleman/*.bmp \
 	stages/crashman/* \
-	gfx/ending/*
+	gfx/ending/*.bmp
 
 8 := \
 	8.asm \
-	gfx/password_get_weapon/* \
-	gfx/font/* \
-	gfx/stage_select/* \
-	gfx/wily_lab/* \
-	gfx/ending/* \
-	gfx/wily_machine_2/* \
-	gfx/sprites/dr_wily/* \
-	gfx/sprites/bosses/wily_machine_2/* \
+	gfx/password_get_weapon/*.bmp \
+	gfx/font/*.bmp \
+	gfx/stage_select/*.bmp \
+	gfx/wily_lab/*.bmp \
+	gfx/ending/*.bmp \
+	gfx/wily_machine_2/*.bmp \
+	gfx/sprites/dr_wily/*.bmp \
+	gfx/sprites/bosses/wily_machine_2/*.bmp \
 	unused/*
 
 9 := \
@@ -97,15 +97,15 @@ stages := \
 	constants/* \
 	9/* \
 	screen/* \
-	gfx/stages/* \
-	gfx/menus/* \
-	gfx/sprites/miscellaneous/* \
+	gfx/stages/*.bmp \
+	gfx/menus/*.bmp \
+	gfx/sprites/miscellaneous/*.bmp \
 	unused/* \
-	gfx/font/* \
-	gfx/wily_castle/* \
-	gfx/opening/* \
-	gfx/title/* \
-	gfx/mecha_dragon/*
+	gfx/font/*.bmp \
+	gfx/wily_castle/*.bmp \
+	gfx/opening/*.bmp \
+	gfx/title/*.bmp \
+	gfx/mecha_dragon/*.bmp
 
 11 := \
 	11.asm \
@@ -114,7 +114,7 @@ stages := \
 	11/* \
 	unused/* \
 	screen/* \
-	gfx/guts_tank/*
+	gfx/guts_tank/*.bmp
 
 13 := \
 	13.asm \
