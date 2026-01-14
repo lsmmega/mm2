@@ -2,7 +2,7 @@
 .INCLUDE "constants/oam.asm"
 .INCLUDE "macros/oam.asm"
 .INCLUDE "sprites/pointers/oam_sprites_pointers.asm"
-.INCLUDE "sprites/pointers/oamcoord_index_pointers.asm"
+.INCLUDE "sprites/pointers/oamcoord_pointers.asm"
 .INCLUDE "sprites/oamcoord_table.asm"
 .INCLUDE "sprites/oam_sprites.asm"
 .INCLUDE "sprites/oamcoord.asm"

@@ -1,5 +1,5 @@
-;oamcoord index, ycoord, xcoord, each 2 bytes
-oamcoord_index_00:
+;oamcoord, ycoord, xcoord, each 2 bytes
+oamcoord_00:
 	.FEATURE FORCE_RANGE
 	oamcoord  -4,  -4
 	oamcoord -12,  +4
@@ -16,7 +16,7 @@ oamcoord_index_00:
 	oamcoord  +4,  -4
 	oamcoord  +4, -15
 
-oamcoord_index_01:
+oamcoord_01:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +0
@@ -28,7 +28,7 @@ oamcoord_index_01:
 	oamcoord  -4, -16
 	oamcoord  -4,  +8
 
-oamcoord_index_02:
+oamcoord_02:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +0
@@ -39,7 +39,7 @@ oamcoord_index_02:
 	oamcoord  -2,  -3
 	oamcoord  -2,  +8
 
-oamcoord_index_03:
+oamcoord_03:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +8
@@ -51,7 +51,7 @@ oamcoord_index_03:
 	oamcoord -12,  -8
 	oamcoord  -2,  -3
 
-oamcoord_index_04:
+oamcoord_04:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +0
@@ -64,7 +64,7 @@ oamcoord_index_04:
 	oamcoord  -2,  -3
 	oamcoord  +3,  +8
 
-oamcoord_index_05:
+oamcoord_05:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -3,  +8
@@ -77,7 +77,7 @@ oamcoord_index_05:
 	oamcoord -20,  -6
 	oamcoord  -2,  -3
 
-oamcoord_index_06:
+oamcoord_06:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +0
@@ -90,7 +90,7 @@ oamcoord_index_06:
 	oamcoord  -2,  -3
 	oamcoord  -2,  +8
 
-oamcoord_index_07:
+oamcoord_07:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  -4,  +4
@@ -102,7 +102,7 @@ oamcoord_index_07:
 	oamcoord -12, -12
 	oamcoord  -2,  +1
 
-oamcoord_index_08:
+oamcoord_08:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +0
@@ -113,7 +113,7 @@ oamcoord_index_08:
 	oamcoord  -4,  +8
 	oamcoord  -4,  -3
 
-oamcoord_index_09:
+oamcoord_09:
 	oamcoord +12,  -4
 	oamcoord  +4,  -4
 	oamcoord  -4,  -4
@@ -125,7 +125,7 @@ oamcoord_index_09:
 	oamcoord  -4, -12
 	oamcoord -12, -12
 
-oamcoord_index_0a:
+oamcoord_0a:
 	oamcoord  +4, +0
 	oamcoord  +4, -8
 	oamcoord  -4, +0
@@ -134,7 +134,7 @@ oamcoord_index_0a:
 	oamcoord -12, +0
 	oamcoord -20, -8
 
-oamcoord_index_0b:
+oamcoord_0b:
 	oamcoord  +4, +0
 	oamcoord  +4, -8
 	oamcoord  -4, +0
@@ -145,7 +145,7 @@ oamcoord_index_0b:
 	oamcoord  -2, -3
 	oamcoord  -4, +8
 
-oamcoord_index_0c:
+oamcoord_0c:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  -4, +12
@@ -158,14 +158,14 @@ oamcoord_index_0c:
 	oamcoord  -3, -12
 	oamcoord  -2,  +1
 
-oamcoord_index_0d:
+oamcoord_0d:
 	oamcoord +12,  +8
 	oamcoord +16,  -4
 	oamcoord +12, -16
 
-oamcoord_index_0e:
-oamcoord_index_0f:
-oamcoord_index_10:
+oamcoord_0e:
+oamcoord_0f:
+oamcoord_10:
 	oamcoord +12, +12
 	oamcoord +12,  +4
 	oamcoord  +4, +12
@@ -186,7 +186,7 @@ oamcoord_index_10:
 	oamcoord -20, -20
 	oamcoord  +1,  +8
 
-oamcoord_index_11:
+oamcoord_11:
 	oamcoord +12, +12
 	oamcoord +12,  +4
 	oamcoord +12,  -4
@@ -206,7 +206,7 @@ oamcoord_index_11:
 	oamcoord -20, -12
 	oamcoord  +4,  +5
 
-oamcoord_index_12:
+oamcoord_12:
 	oamcoord +12,  +4
 	oamcoord +12,  -4
 	oamcoord  +4,  +4
@@ -226,7 +226,7 @@ oamcoord_index_12:
 	oamcoord  +1,  +3
 	oamcoord -18, +12
 
-oamcoord_index_13:
+oamcoord_13:
 	oamcoord +12,  +4
 	oamcoord +12,  -4
 	oamcoord +12, -12
@@ -244,7 +244,7 @@ oamcoord_index_13:
 	oamcoord  +4,  -2
 	oamcoord -10, -12
 
-oamcoord_index_14:
+oamcoord_14:
 	oamcoord +12,  +4
 	oamcoord +12,  -4
 	oamcoord +12, -12
@@ -264,7 +264,7 @@ oamcoord_index_14:
 	oamcoord  +4, -17
 	oamcoord  -4, -12
 
-oamcoord_index_15:
+oamcoord_15:
 	oamcoord  +8,  -4
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
@@ -277,7 +277,7 @@ oamcoord_index_15:
 	oamcoord -16,  -8
 	oamcoord  -5,  -4
 
-oamcoord_index_16:
+oamcoord_16:
 	oamcoord  +8,  -8
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
@@ -290,7 +290,7 @@ oamcoord_index_16:
 	oamcoord -14, -16
 	oamcoord  -5,  -2
 
-oamcoord_index_17:
+oamcoord_17:
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
 	oamcoord  -8,  +0
@@ -314,14 +314,14 @@ oamcoord_index_17:
 	oamcoord  +1,  +0
 	oamcoord  +9,  +2
 
-oamcoord_index_18:
+oamcoord_18:
 	oamcoord +0, +0
 	oamcoord -8, +0
 	oamcoord +0, -8
 	oamcoord -8, -8
 	oamcoord -6, +2
 
-oamcoord_index_19:
+oamcoord_19:
 	oamcoord +19,  +0
 	oamcoord +19,  -8
 	oamcoord +11,  +1
@@ -343,7 +343,7 @@ oamcoord_index_19:
 	oamcoord -29,  +8
 	oamcoord  -2,  +1
 
-oamcoord_index_1a:
+oamcoord_1a:
 	oamcoord +16,  +0
 	oamcoord +16,  -8
 	oamcoord  +8,  +0
@@ -365,7 +365,7 @@ oamcoord_index_1a:
 	oamcoord -32,  +0
 	oamcoord  -5,  -7
 
-oamcoord_index_1b:
+oamcoord_1b:
 	oamcoord +19,  +0
 	oamcoord +19,  -8
 	oamcoord +11,  +0
@@ -387,7 +387,7 @@ oamcoord_index_1b:
 	oamcoord -29,  -8
 	oamcoord  -2, -15
 
-oamcoord_index_1c:
+oamcoord_1c:
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
 	oamcoord  +0,  +8
@@ -409,7 +409,7 @@ oamcoord_index_1c:
 	oamcoord  -1, +16
 	oamcoord -24,  -5
 
-oamcoord_index_1d:
+oamcoord_1d:
 	oamcoord  +4, +16
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
@@ -425,7 +425,7 @@ oamcoord_index_1d:
 	oamcoord -12, -16
 	oamcoord  -3,  -1
 
-oamcoord_index_1e:
+oamcoord_1e:
 	oamcoord  +4, +16
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
@@ -441,7 +441,7 @@ oamcoord_index_1e:
 	oamcoord -14, -16
 	oamcoord  -5,  -1
 
-oamcoord_index_1f:
+oamcoord_1f:
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
@@ -457,7 +457,7 @@ oamcoord_index_1f:
 	oamcoord -20,  +8
 	oamcoord  -5,  -1
 
-oamcoord_index_20:
+oamcoord_20:
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
@@ -481,7 +481,7 @@ oamcoord_index_20:
 	oamcoord  +0,  +8
 	oamcoord  +0,  +0
 
-oamcoord_index_21:
+oamcoord_21:
 	oamcoord +8,  +0
 	oamcoord +8,  -8
 	oamcoord +0,  +0
@@ -494,7 +494,7 @@ oamcoord_index_21:
 	oamcoord -8, -16
 	oamcoord +0,  -4
 
-oamcoord_index_22:
+oamcoord_22:
 	oamcoord  +0,  +0
 	oamcoord  -8,  +0
 	oamcoord  -8,  -8
@@ -507,7 +507,7 @@ oamcoord_index_22:
 	oamcoord -16,  -8
 	oamcoord  -8,  -4
 
-oamcoord_index_23:
+oamcoord_23:
 	oamcoord +8,  +8
 	oamcoord +8,  +0
 	oamcoord +8,  -8
@@ -518,7 +518,7 @@ oamcoord_index_23:
 	oamcoord -8,  +2
 	oamcoord -8,  -6
 
-oamcoord_index_24:
+oamcoord_24:
 	oamcoord +12, +4
 	oamcoord +12, -4
 	oamcoord  +4, +8
@@ -528,7 +528,7 @@ oamcoord_index_24:
 	oamcoord  -4, -6
 	oamcoord -12, +0
 
-oamcoord_index_25:
+oamcoord_25:
 	oamcoord +12,  +4
 	oamcoord +12,  -4
 	oamcoord  +4,  +4
@@ -542,7 +542,7 @@ oamcoord_index_25:
 	oamcoord -20,  +2
 	oamcoord -20,  -6
 
-oamcoord_index_26:
+oamcoord_26:
 	oamcoord +16,  +8
 	oamcoord +16,  +0
 	oamcoord  +8,  +8
@@ -561,7 +561,7 @@ oamcoord_index_26:
 	oamcoord -16, -16
 	oamcoord  +1,  +7
 
-oamcoord_index_27:
+oamcoord_27:
 	oamcoord +16,  +8
 	oamcoord +16,  +0
 	oamcoord  +8,  +8
@@ -580,7 +580,7 @@ oamcoord_index_27:
 	oamcoord -16, -16
 	oamcoord  -1,  +7
 
-oamcoord_index_28:
+oamcoord_28:
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
@@ -600,7 +600,7 @@ oamcoord_index_28:
 	oamcoord -24, -14
 	oamcoord  +1,  +7
 
-oamcoord_index_29:
+oamcoord_29:
 	oamcoord  +7,  +8
 	oamcoord  +7,  +0
 	oamcoord  +7,  -8
@@ -617,11 +617,11 @@ oamcoord_index_29:
 	oamcoord -17,  -8
 	oamcoord -17, -16
 
-oamcoord_index_2a:
+oamcoord_2a:
 	oamcoord  -4, -4
 	oamcoord -11, -8
 
-oamcoord_index_2b:
+oamcoord_2b:
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
 	oamcoord  +0,  +8
@@ -639,7 +639,7 @@ oamcoord_index_2b:
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
 
-oamcoord_index_2c:
+oamcoord_2c:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +0,  +0
@@ -652,7 +652,7 @@ oamcoord_index_2c:
 	oamcoord  -8, -24
 	oamcoord  +0,  -6
 
-oamcoord_index_2d:
+oamcoord_2d:
 	oamcoord  +4,  -4
 	oamcoord  -4,  -4
 	oamcoord -12,  -4
@@ -669,7 +669,7 @@ oamcoord_index_2d:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 
-oamcoord_index_2e:
+oamcoord_2e:
 	oamcoord  +8,   +0
 	oamcoord  +8,   -8
 	oamcoord  +0,   +0
@@ -717,13 +717,13 @@ oamcoord_index_2e:
 	oamcoord  -8,   -8
 	oamcoord -16,   -8
 
-oamcoord_index_2f:
+oamcoord_2f:
 	oamcoord  -4,  +4
 	oamcoord  -4,  -4
 	oamcoord  -4, -12
 	oamcoord -12,  -4
 
-oamcoord_index_30:
+oamcoord_30:
 	oamcoord +20,  +8
 	oamcoord +20,  +0
 	oamcoord +20,  -8
@@ -756,7 +756,7 @@ oamcoord_index_30:
 	oamcoord -28, -13
 	oamcoord -28, -21
 
-oamcoord_index_31:
+oamcoord_31:
 	oamcoord +16,  +8
 	oamcoord +16,  +0
 	oamcoord +16,  -8
@@ -789,7 +789,7 @@ oamcoord_index_31:
 	oamcoord -28, -21
 	oamcoord -11, -32
 
-oamcoord_index_32:
+oamcoord_32:
 	oamcoord +20,  +8
 	oamcoord +20,  +0
 	oamcoord +20,  -8
@@ -825,7 +825,7 @@ oamcoord_index_32:
 	oamcoord -36, -13
 	oamcoord -36, -21
 
-oamcoord_index_33:
+oamcoord_33:
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
@@ -841,7 +841,7 @@ oamcoord_index_33:
 	oamcoord  -2,  -4
 	oamcoord +12,  +3
 
-oamcoord_index_34:
+oamcoord_34:
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
 	oamcoord  -8,  +1
@@ -850,7 +850,7 @@ oamcoord_index_34:
 	oamcoord -16,  +0
 	oamcoord -16,  -8
 
-oamcoord_index_35:
+oamcoord_35:
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
 	oamcoord  -4,  +4
@@ -861,7 +861,7 @@ oamcoord_index_35:
 	oamcoord -12, -12
 	oamcoord -12,  +1
 
-oamcoord_index_36:
+oamcoord_36:
 	oamcoord +4,  -4
 	oamcoord +4, -12
 	oamcoord -4,  +4
@@ -869,7 +869,7 @@ oamcoord_index_36:
 	oamcoord -4, -12
 	oamcoord -4,  +1
 
-oamcoord_index_37:
+oamcoord_37:
 	oamcoord +4,  -4
 	oamcoord +4, -12
 	oamcoord -4,  -4
@@ -877,7 +877,7 @@ oamcoord_index_37:
 	oamcoord -3,  +4
 	oamcoord -3,  +1
 
-oamcoord_index_38:
+oamcoord_38:
 	oamcoord  -4,  +0
 	oamcoord -12,  +0
 	oamcoord -12,  -8
@@ -888,7 +888,7 @@ oamcoord_index_38:
 	oamcoord -20, -16
 	oamcoord -28, -12
 
-oamcoord_index_39:
+oamcoord_39:
 	oamcoord +0,  +6
 	oamcoord +0,  -2
 	oamcoord +0, -10
@@ -896,7 +896,7 @@ oamcoord_index_39:
 	oamcoord -8,  +0
 	oamcoord -8,  -8
 
-oamcoord_index_3a:
+oamcoord_3a:
 	oamcoord +16, +0
 	oamcoord +16, -8
 	oamcoord  +8, +0
@@ -918,7 +918,7 @@ oamcoord_index_3a:
 	oamcoord +24, +0
 	oamcoord +24, -8
 
-oamcoord_index_3b:
+oamcoord_3b:
 	oamcoord +16,  +2
 	oamcoord +16,  -6
 	oamcoord  +8,  +2
@@ -936,7 +936,7 @@ oamcoord_index_3b:
 	oamcoord -40,  -2
 	oamcoord -40, -10
 
-oamcoord_index_3c:
+oamcoord_3c:
 	oamcoord +16,  -2
 	oamcoord +16, -10
 	oamcoord  +8,  -2
@@ -954,7 +954,7 @@ oamcoord_index_3c:
 	oamcoord -40,  +2
 	oamcoord -40,  -6
 
-oamcoord_index_3d:
+oamcoord_3d:
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
@@ -977,7 +977,7 @@ oamcoord_index_3d:
 	oamcoord  -1,  -8
 	oamcoord +16,  -7
 
-oamcoord_index_3e:
+oamcoord_3e:
 	oamcoord  +8, +16
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
@@ -1003,7 +1003,7 @@ oamcoord_index_3e:
 	oamcoord -16, +24
 	oamcoord +16,  +4
 
-oamcoord_index_3f:
+oamcoord_3f:
 	oamcoord +28,  +8
 	oamcoord +28,  +0
 	oamcoord +28,  -8
@@ -1047,7 +1047,7 @@ oamcoord_index_3f:
 	oamcoord -36,  +0
 	oamcoord +17,  +3
 
-oamcoord_index_40:
+oamcoord_40:
 	oamcoord +28,  +8
 	oamcoord +28,  +0
 	oamcoord +28,  -8
@@ -1094,11 +1094,11 @@ oamcoord_index_40:
 	oamcoord -36, -24
 	oamcoord +15,  +6
 
-oamcoord_index_41:
+oamcoord_41:
 	oamcoord +0, -4
 	oamcoord -8, -4
 
-oamcoord_index_42:
+oamcoord_42:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1113,7 +1113,7 @@ oamcoord_index_42:
 	oamcoord -20, -12
 	oamcoord  -4,  -4
 
-oamcoord_index_43:
+oamcoord_43:
 	oamcoord  +0,  +8
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
@@ -1125,7 +1125,7 @@ oamcoord_index_43:
 	oamcoord -16,  +1
 	oamcoord -16,  -7
 
-oamcoord_index_44:
+oamcoord_44:
 	oamcoord  -2,  +0
 	oamcoord -24, -15
 	oamcoord -24, -23
@@ -1135,11 +1135,11 @@ oamcoord_index_44:
 	oamcoord -32, -31
 	oamcoord -16, -32
 
-oamcoord_index_45:
+oamcoord_45:
 	oamcoord  -2, -2
 	oamcoord -10, -8
 
-oamcoord_index_46:
+oamcoord_46:
 	oamcoord  -8, -26
 	oamcoord  -8, -34
 	oamcoord -16, -26
@@ -1163,7 +1163,7 @@ oamcoord_index_46:
 	oamcoord -12, -10
 	oamcoord  +4, -10
 
-oamcoord_index_47:
+oamcoord_47:
 	oamcoord  -8, -26
 	oamcoord  -8, -34
 	oamcoord -16, -26
@@ -1189,7 +1189,7 @@ oamcoord_index_47:
 	oamcoord -23, -10
 	oamcoord  +1, -10
 
-oamcoord_index_48:
+oamcoord_48:
 	oamcoord  +1, -38
 	oamcoord  -7, -30
 	oamcoord  -7, -38
@@ -1214,7 +1214,7 @@ oamcoord_index_48:
 	oamcoord -12, -10
 	oamcoord  +4, -10
 
-oamcoord_index_49:
+oamcoord_49:
 	oamcoord  +0, -35
 	oamcoord  +0, -43
 	oamcoord  -8, -35
@@ -1239,7 +1239,7 @@ oamcoord_index_49:
 	oamcoord -12, -10
 	oamcoord  +4, -10
 
-oamcoord_index_4a:
+oamcoord_4a:
 	oamcoord +12, +11
 	oamcoord +12,  +3
 	oamcoord +12,  -5
@@ -1248,7 +1248,7 @@ oamcoord_index_4a:
 	oamcoord  +4,  -5
 	oamcoord  -4,  -4
 
-oamcoord_index_4b:
+oamcoord_4b:
 	oamcoord +20, +3
 	oamcoord +20, -5
 	oamcoord +12, +3
@@ -1257,7 +1257,7 @@ oamcoord_index_4b:
 	oamcoord  +4, -5
 	oamcoord  -4, -4
 
-oamcoord_index_4c:
+oamcoord_4c:
 	oamcoord +0, +16
 	oamcoord +0,  +8
 	oamcoord +0,  +0
@@ -1275,7 +1275,7 @@ oamcoord_index_4c:
 	oamcoord -8, +24
 	oamcoord -8, -32
 
-oamcoord_index_4d:
+oamcoord_4d:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +0,  +0
@@ -1305,7 +1305,7 @@ oamcoord_index_4d:
 	oamcoord +16,  -8
 	oamcoord +16, -16
 
-oamcoord_index_4e:
+oamcoord_4e:
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
 	oamcoord  +0,  +8
@@ -1326,7 +1326,7 @@ oamcoord_index_4e:
 	oamcoord  +1,  +0
 	oamcoord  -1, +16
 
-oamcoord_index_4f:
+oamcoord_4f:
 	oamcoord  +0,  +8
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
@@ -1349,7 +1349,7 @@ oamcoord_index_4f:
 	oamcoord +88,  -4
 	oamcoord +96,  -4
 
-oamcoord_index_50:
+oamcoord_50:
 	oamcoord  +0, +1
 	oamcoord  +0, -7
 	oamcoord  -8, +0
@@ -1357,7 +1357,7 @@ oamcoord_index_50:
 	oamcoord -16, +0
 	oamcoord -16, -8
 
-oamcoord_index_51:
+oamcoord_51:
 	oamcoord  +0, -1
 	oamcoord  +0, -9
 	oamcoord  -8, +0
@@ -1365,7 +1365,7 @@ oamcoord_index_51:
 	oamcoord -16, +0
 	oamcoord -16, -8
 
-oamcoord_index_52:
+oamcoord_52:
 	oamcoord  +8, +8
 	oamcoord  +8, +0
 	oamcoord  +0, +8
@@ -1376,7 +1376,7 @@ oamcoord_index_52:
 	oamcoord -16, +0
 	oamcoord -16, -8
 
-oamcoord_index_53:
+oamcoord_53:
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
 	oamcoord  +0,  +0
@@ -1387,32 +1387,32 @@ oamcoord_index_53:
 	oamcoord -16,  +0
 	oamcoord -16,  -8
 
-oamcoord_index_54:
+oamcoord_54:
 	oamcoord -4,  +0
 	oamcoord -4,  -8
 	oamcoord -4,  +8
 	oamcoord -4, -16
 
-oamcoord_index_55:
+oamcoord_55:
 	oamcoord -8, -6
 
-oamcoord_index_56:
+oamcoord_56:
 	oamcoord -8, -2
 
-oamcoord_index_57:
+oamcoord_57:
 	oamcoord -8, -4
 
-oamcoord_index_58:
+oamcoord_58:
 	oamcoord +0, -7
 	oamcoord -8, +1
 	oamcoord -8, -7
 
-oamcoord_index_59:
+oamcoord_59:
 	oamcoord +0, -1
 	oamcoord -8, -1
 	oamcoord -8, -9
 
-oamcoord_index_5a:
+oamcoord_5a:
 	oamcoord  +0,  +0
 	oamcoord  +0,  -8
 	oamcoord  -8,  +0
@@ -1426,7 +1426,7 @@ oamcoord_index_5a:
 	oamcoord  -8, +16
 	oamcoord  -8,  +8
 
-oamcoord_index_5b:
+oamcoord_5b:
 	oamcoord +88,  +88
 	oamcoord +56,  +64
 	oamcoord +88,  -16
@@ -1437,7 +1437,7 @@ oamcoord_index_5b:
 	oamcoord -72, -112
 	oamcoord -88,  +96
 
-oamcoord_index_5c:
+oamcoord_5c:
 	oamcoord +32, +104
 	oamcoord +40,  +88
 	oamcoord +56,  -88
@@ -1448,7 +1448,7 @@ oamcoord_index_5c:
 	oamcoord -96,  +24
 	oamcoord -88,  -72
 
-oamcoord_index_5d:
+oamcoord_5d:
 	oamcoord +96,  -80
 	oamcoord +72,  +56
 	oamcoord +64,  -40
@@ -1459,13 +1459,13 @@ oamcoord_index_5d:
 	oamcoord -72,  -80
 	oamcoord -96,  -96
 
-oamcoord_index_5e:
+oamcoord_5e:
 	oamcoord +12, +12
 	oamcoord +12, -20
 	oamcoord -20, +12
 	oamcoord -20, -20
 
-oamcoord_index_5f:
+oamcoord_5f:
 	oamcoord +16,  -4
 	oamcoord  -4, -24
 	oamcoord -24,  -4
@@ -1475,19 +1475,19 @@ oamcoord_index_5f:
 	oamcoord -24, -12
 	oamcoord  -4,  +8
 
-oamcoord_index_60:
+oamcoord_60:
 	oamcoord +14,  +4
 	oamcoord  +4, -22
 	oamcoord -22, -12
 	oamcoord -12, +14
 
-oamcoord_index_61:
+oamcoord_61:
 	oamcoord +14, -12
 	oamcoord -12, -22
 	oamcoord -22,  +4
 	oamcoord  +4, +14
 
-oamcoord_index_62:
+oamcoord_62:
 	oamcoord +0,  +4
 	oamcoord +0,  -4
 	oamcoord +0, -12
@@ -1495,19 +1495,19 @@ oamcoord_index_62:
 	oamcoord -8,  -4
 	oamcoord -8, -12
 
-oamcoord_index_63:
+oamcoord_63:
 	oamcoord  -4,  +4
 	oamcoord  -4,  -4
 	oamcoord  -4, -12
 	oamcoord -12,  -2
 
-oamcoord_index_64:
+oamcoord_64:
 	oamcoord  -4,  +4
 	oamcoord  -4,  -4
 	oamcoord  -4, -12
 	oamcoord -12,  -6
 
-oamcoord_index_65:
+oamcoord_65:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +8
@@ -1527,7 +1527,7 @@ oamcoord_index_65:
 	oamcoord +12,  -8
 	oamcoord +12, -16
 
-oamcoord_index_66:
+oamcoord_66:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1541,7 +1541,7 @@ oamcoord_index_66:
 	oamcoord +12,  -2
 	oamcoord +12, -12
 
-oamcoord_index_67:
+oamcoord_67:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +0,  +4
@@ -1554,7 +1554,7 @@ oamcoord_index_67:
 	oamcoord -16, -12
 	oamcoord  -1,  -2
 
-oamcoord_index_68:
+oamcoord_68:
 	oamcoord +12,  -4
 	oamcoord  +4,  -2
 	oamcoord  +4, -10
@@ -1567,7 +1567,7 @@ oamcoord_index_68:
 	oamcoord -12, -12
 	oamcoord  -4,  -4
 
-oamcoord_index_69:
+oamcoord_69:
 	oamcoord +12,  +0
 	oamcoord +12,  -8
 	oamcoord  +4,  +2
@@ -1581,7 +1581,7 @@ oamcoord_index_69:
 	oamcoord -12, -16
 	oamcoord  -4,  +1
 
-oamcoord_index_6a:
+oamcoord_6a:
 	oamcoord +12, +0
 	oamcoord +12, -8
 	oamcoord  +4, +0
@@ -1595,7 +1595,7 @@ oamcoord_index_6a:
 	oamcoord -20, +0
 	oamcoord -20, -8
 
-oamcoord_index_6b:
+oamcoord_6b:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1609,7 +1609,7 @@ oamcoord_index_6b:
 	oamcoord +12,  +4
 	oamcoord +12, -12
 
-oamcoord_index_6c:
+oamcoord_6c:
 	oamcoord +12,  +8
 	oamcoord +12,  -8
 	oamcoord  +4, +12
@@ -1623,7 +1623,7 @@ oamcoord_index_6c:
 	oamcoord -12, -12
 	oamcoord  +0,  +0
 
-oamcoord_index_6d:
+oamcoord_6d:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1639,7 +1639,7 @@ oamcoord_index_6d:
 	oamcoord  -4, +12
 	oamcoord -20,  -5
 
-oamcoord_index_6e:
+oamcoord_6e:
 	oamcoord +12,  +5
 	oamcoord +12, -11
 	oamcoord  +4,  +5
@@ -1653,7 +1653,7 @@ oamcoord_index_6e:
 	oamcoord -12, -12
 	oamcoord  +0,  -3
 
-oamcoord_index_6f:
+oamcoord_6f:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1667,7 +1667,7 @@ oamcoord_index_6f:
 	oamcoord +12,  -1
 	oamcoord +12,  -9
 
-oamcoord_index_70:
+oamcoord_70:
 	oamcoord +12,  +5
 	oamcoord +12, -11
 	oamcoord  +4,  +6
@@ -1681,7 +1681,7 @@ oamcoord_index_70:
 	oamcoord -20,  -5
 	oamcoord  +0,  -3
 
-oamcoord_index_71:
+oamcoord_71:
 	oamcoord +12,  -4
 	oamcoord  +4,  +2
 	oamcoord  +4,  -6
@@ -1696,7 +1696,7 @@ oamcoord_index_71:
 	oamcoord -12, -16
 	oamcoord  +1,  -3
 
-oamcoord_index_72:
+oamcoord_72:
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
@@ -1711,7 +1711,7 @@ oamcoord_index_72:
 	oamcoord -12, -16
 	oamcoord  -1,  -5
 
-oamcoord_index_73:
+oamcoord_73:
 	oamcoord +12,  +0
 	oamcoord  -1, +16
 	oamcoord  -1,  +8
@@ -1726,7 +1726,7 @@ oamcoord_index_73:
 	oamcoord -12, -16
 	oamcoord  +0,  -1
 
-oamcoord_index_74:
+oamcoord_74:
 	oamcoord +12,  +1
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
@@ -1741,7 +1741,7 @@ oamcoord_index_74:
 	oamcoord  +2,  +2
 	oamcoord -20,  +5
 
-oamcoord_index_75:
+oamcoord_75:
 	oamcoord +12,  +1
 	oamcoord  +3, +11
 	oamcoord  +4,  +3
@@ -1753,7 +1753,7 @@ oamcoord_index_75:
 	oamcoord -12,  +0
 	oamcoord -12,  -8
 
-oamcoord_index_76:
+oamcoord_76:
 	oamcoord +12,  +7
 	oamcoord +12,  -6
 	oamcoord  +4,  +8
@@ -1771,7 +1771,7 @@ oamcoord_index_76:
 	oamcoord -20,  +0
 	oamcoord -20,  -8
 
-oamcoord_index_77:
+oamcoord_77:
 	oamcoord +12,  +0
 	oamcoord  +4,  +1
 	oamcoord  +4,  -7
@@ -1783,7 +1783,7 @@ oamcoord_index_77:
 	oamcoord -12,  -8
 	oamcoord -12, -16
 
-oamcoord_index_78:
+oamcoord_78:
 	oamcoord +12,  +6
 	oamcoord +12,  -2
 	oamcoord  +4,  +8
@@ -1797,7 +1797,7 @@ oamcoord_index_78:
 	oamcoord -12,  -8
 	oamcoord -12, -16
 
-oamcoord_index_79:
+oamcoord_79:
 	oamcoord +12,  +0
 	oamcoord  +4,  +5
 	oamcoord  +4,  -3
@@ -1811,7 +1811,7 @@ oamcoord_index_79:
 	oamcoord -12,  -8
 	oamcoord -12, -16
 
-oamcoord_index_7a:
+oamcoord_7a:
 	oamcoord +12,  -1
 	oamcoord  +4,  +7
 	oamcoord  +4,  -1
@@ -1825,7 +1825,7 @@ oamcoord_index_7a:
 	oamcoord -20,  +1
 	oamcoord -20,  -7
 
-oamcoord_index_7b:
+oamcoord_7b:
 	oamcoord  +8,  -1
 	oamcoord  +0,  +7
 	oamcoord  +0,  -1
@@ -1838,7 +1838,7 @@ oamcoord_index_7b:
 	oamcoord -16,  -2
 	oamcoord -16, -10
 
-oamcoord_index_7c:
+oamcoord_7c:
 	oamcoord +12,  +7
 	oamcoord  +4,  +7
 	oamcoord  +4,  -1
@@ -1851,7 +1851,7 @@ oamcoord_index_7c:
 	oamcoord -12,  -8
 	oamcoord -12, -16
 
-oamcoord_index_7d:
+oamcoord_7d:
 	oamcoord  +8,  -1
 	oamcoord  +0,  +4
 	oamcoord  +0,  -4
@@ -1866,7 +1866,7 @@ oamcoord_index_7d:
 	oamcoord -24,  +4
 	oamcoord -24, -14
 
-oamcoord_index_7e:
+oamcoord_7e:
 	oamcoord +12,  -1
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
@@ -1880,7 +1880,7 @@ oamcoord_index_7e:
 	oamcoord -20,  -2
 	oamcoord -20, -10
 
-oamcoord_index_7f:
+oamcoord_7f:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +4
@@ -1892,7 +1892,7 @@ oamcoord_index_7f:
 	oamcoord  +3,  -1
 	oamcoord -20,  -2
 
-oamcoord_index_80:
+oamcoord_80:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1906,7 +1906,7 @@ oamcoord_index_80:
 	oamcoord  +2,  +2
 	oamcoord -20,  -4
 
-oamcoord_index_81:
+oamcoord_81:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  +4, -12
@@ -1917,7 +1917,7 @@ oamcoord_index_81:
 	oamcoord -12,  -4
 	oamcoord -12, -12
 
-oamcoord_index_82:
+oamcoord_82:
 	oamcoord +12,  -4
 	oamcoord +12, -12
 	oamcoord  +4,  -2
@@ -1931,7 +1931,7 @@ oamcoord_index_82:
 	oamcoord -20,  -6
 	oamcoord  +3,  -3
 
-oamcoord_index_83:
+oamcoord_83:
 	oamcoord  +4,  +4
 	oamcoord  +4,  -4
 	oamcoord  -4,  +4
@@ -1943,7 +1943,7 @@ oamcoord_index_83:
 	oamcoord  +1,  +1
 	oamcoord  -4, +12
 
-oamcoord_index_84:
+oamcoord_84:
 	oamcoord  +4, +6
 	oamcoord  +4, -2
 	oamcoord  -4, +4
@@ -1952,7 +1952,7 @@ oamcoord_index_84:
 	oamcoord -12, -2
 	oamcoord  +2, +3
 
-oamcoord_index_85:
+oamcoord_85:
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
@@ -1971,7 +1971,7 @@ oamcoord_index_85:
 	oamcoord -16, -16
 	oamcoord  +6,  -3
 
-oamcoord_index_86:
+oamcoord_86:
 	oamcoord  +8,  +2
 	oamcoord  +8,  -6
 	oamcoord  +8, -14
@@ -1991,7 +1991,7 @@ oamcoord_index_86:
 	oamcoord -16, -16
 	oamcoord  +4,  -3
 
-oamcoord_index_87:
+oamcoord_87:
 	oamcoord  +8,  +2
 	oamcoord  +8,  -6
 	oamcoord  +8, -14
@@ -2012,7 +2012,7 @@ oamcoord_index_87:
 	oamcoord -24, -13
 	oamcoord  +4,  -3
 
-oamcoord_index_88:
+oamcoord_88:
 	oamcoord  +8,  +4
 	oamcoord  +8,  -4
 	oamcoord  +8, -12
@@ -2031,7 +2031,7 @@ oamcoord_index_88:
 	oamcoord -16, -16
 	oamcoord  +4,  -1
 
-oamcoord_index_89:
+oamcoord_89:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +8
@@ -2045,7 +2045,7 @@ oamcoord_index_89:
 	oamcoord  -1,  -2
 	oamcoord  +4, -16
 
-oamcoord_index_8a:
+oamcoord_8a:
 	oamcoord +12,  +8
 	oamcoord +12,  +0
 	oamcoord  +4,  +8
@@ -2060,7 +2060,7 @@ oamcoord_index_8a:
 	oamcoord -12, -16
 	oamcoord  -1,  -1
 
-oamcoord_index_8b:
+oamcoord_8b:
 	oamcoord  +4,  +8
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
@@ -2075,7 +2075,7 @@ oamcoord_index_8b:
 	oamcoord -12, -16
 	oamcoord  -1,  -4
 
-oamcoord_index_8c:
+oamcoord_8c:
 	oamcoord  +4, +10
 	oamcoord  +4,  +2
 	oamcoord  +4,  -6
@@ -2091,7 +2091,7 @@ oamcoord_index_8c:
 	oamcoord -20,  -8
 	oamcoord  -1,  -2
 
-oamcoord_index_8d:
+oamcoord_8d:
 	oamcoord  +4,  +2
 	oamcoord  +4,  -6
 	oamcoord  +4, -14
@@ -2105,7 +2105,7 @@ oamcoord_index_8d:
 	oamcoord -20,  -6
 	oamcoord  -1,  -3
 
-oamcoord_index_8e:
+oamcoord_8e:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +0
@@ -2120,7 +2120,7 @@ oamcoord_index_8e:
 	oamcoord -14,  +8
 	oamcoord  -5,  -2
 
-oamcoord_index_8f:
+oamcoord_8f:
 	oamcoord +12,  -6
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
@@ -2130,7 +2130,7 @@ oamcoord_index_8f:
 	oamcoord -12, -10
 	oamcoord  +0,  -2
 
-oamcoord_index_90:
+oamcoord_90:
 	oamcoord  +4,  +0
 	oamcoord  +4,  -8
 	oamcoord  -4,  +2
@@ -2141,7 +2141,7 @@ oamcoord_index_90:
 	oamcoord -12, -14
 	oamcoord  -1,  -2
 
-oamcoord_index_91:
+oamcoord_91:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
@@ -2184,7 +2184,7 @@ oamcoord_index_91:
 	oamcoord +16,  -8
 	oamcoord +16, -16
 
-oamcoord_index_92:
+oamcoord_92:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
@@ -2202,7 +2202,7 @@ oamcoord_index_92:
 	oamcoord -16, -16
 	oamcoord  +0,  -2
 
-oamcoord_index_93:
+oamcoord_93:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +8, -16
@@ -2219,7 +2219,7 @@ oamcoord_index_93:
 	oamcoord -16, -16
 	oamcoord  +0,  -2
 
-oamcoord_index_94:
+oamcoord_94:
 	oamcoord  +8,  +0
 	oamcoord  +8,  -8
 	oamcoord  +0,  +8
@@ -2236,7 +2236,7 @@ oamcoord_index_94:
 	oamcoord -16, -16
 	oamcoord  -3,  -3
 
-oamcoord_index_95:
+oamcoord_95:
 	oamcoord  +8, +16
 	oamcoord  +8,  +8
 	oamcoord  +8,  +0
@@ -2255,7 +2255,7 @@ oamcoord_index_95:
 	oamcoord -16, -16
 	oamcoord  +0,  +0
 
-oamcoord_index_96:
+oamcoord_96:
 	oamcoord +16, +16
 	oamcoord +16,  +8
 	oamcoord  +8, +16
@@ -2273,7 +2273,7 @@ oamcoord_index_96:
 	oamcoord -24, -16
 	oamcoord -24, -24
 
-oamcoord_index_97:
+oamcoord_97:
 	oamcoord  -8, +20
 	oamcoord  -8, +12
 	oamcoord -16, +20
@@ -2291,7 +2291,7 @@ oamcoord_index_97:
 	oamcoord  +0, -20
 	oamcoord  +0, -28
 
-oamcoord_index_98:
+oamcoord_98:
 	oamcoord  +0, +22
 	oamcoord  +0, +14
 	oamcoord  -8, +22
@@ -2309,7 +2309,7 @@ oamcoord_index_98:
 	oamcoord  -8, -22
 	oamcoord  -8, -30
 
-oamcoord_index_99:
+oamcoord_99:
 	oamcoord  +8, +20
 	oamcoord  +8, +12
 	oamcoord  +0, +20
@@ -2327,7 +2327,7 @@ oamcoord_index_99:
 	oamcoord -16, -20
 	oamcoord -16, -28
 
-oamcoord_index_9a:
+oamcoord_9a:
 	oamcoord +40, +17
 	oamcoord +40,  +1
 	oamcoord +32, +25
@@ -2342,7 +2342,7 @@ oamcoord_index_9a:
 	oamcoord +16, +17
 	oamcoord +16,  +0
 
-oamcoord_index_9b:
+oamcoord_9b:
 	oamcoord +25, +21
 	oamcoord +25, +13
 	oamcoord +25,  +5
@@ -2354,7 +2354,7 @@ oamcoord_index_9b:
 	oamcoord  +9, +13
 	oamcoord +16,  +0
 
-oamcoord_index_9c:
+oamcoord_9c:
 	oamcoord  -8,  +0
 	oamcoord  -8,  -8
 	oamcoord -16, +32
@@ -2369,7 +2369,7 @@ oamcoord_index_9c:
 	oamcoord -24,  +8
 	oamcoord -24,  +0
 
-oamcoord_index_9d:
+oamcoord_9d:
 	oamcoord  -8,  +0
 	oamcoord  -8,  -8
 	oamcoord -16,  +0
@@ -2384,7 +2384,7 @@ oamcoord_index_9d:
 	oamcoord -48, +16
 	oamcoord -48,  +8
 
-oamcoord_index_9e:
+oamcoord_9e:
 	oamcoord  +0,  -4
 	oamcoord  +4, -32
 	oamcoord  -4, -32
@@ -2401,7 +2401,7 @@ oamcoord_index_9e:
 	oamcoord -36,  -8
 	oamcoord -36, -16
 
-oamcoord_index_9f:
+oamcoord_9f:
 	oamcoord  +0,  -4
 	oamcoord  +4, -32
 	oamcoord  -4, -32
@@ -2419,7 +2419,7 @@ oamcoord_index_9f:
 	oamcoord -44,  -8
 	oamcoord -44, -16
 
-oamcoord_index_a0:
+oamcoord_a0:
 	oamcoord  -4,  +5
 	oamcoord  -4,  -3
 	oamcoord  -4, -11
@@ -2428,11 +2428,11 @@ oamcoord_index_a0:
 	oamcoord -12,  -8
 	oamcoord -12, -16
 
-oamcoord_index_a1:
+oamcoord_a1:
 	oamcoord  -4, +0
 	oamcoord  -4, -8
 	oamcoord -12, +0
 	oamcoord -12, -8
 
-oamcoord_index_a2:
-oamcoord_index_a3:
+oamcoord_a2:
+oamcoord_a3:
