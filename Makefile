@@ -32,6 +32,7 @@ home := \
 
 sprites := \
 	constants/* \
+	macros/* \
 	sprites/pointers/* \
 	sprites/* \
 	sprites/unused/* \
