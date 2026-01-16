@@ -1,4 +1,4 @@
-;oamcoord index pointers
+;oamcoord pointers
 ;lo
 	.LOBYTES oamcoord_00 - 2
 	.LOBYTES oamcoord_01 - 2
