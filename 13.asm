@@ -1,5 +1,6 @@
 .SEGMENT "BANK0D"
 .INCLUDE "constants/flags.asm"
+.INCLUDE "constants/oam.asm"
 
 _stage_select:
 	JMP stage_select
@@ -40,6 +41,9 @@ stage_select:
 	track_queue track_boss_show
 
 .INCBIN  "13/13_4.bin"
+.INCLUDE "data/boss_show/oam_frameset.asm"
+.INCLUDE "data/boss_show/oam_sprites_pointers.asm"
+.INCLUDE "data/boss_show/oam_sprites.asm"
 
 open_menu:
 .INCBIN  "13/13_5.bin"
