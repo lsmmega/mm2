@@ -25,6 +25,7 @@ home := \
 	home.asm \
 	constants/* \
 	macros/* \
+	ram/* \
 	home/* \
 	home/unused/* \
 	sprites/pointers/* \

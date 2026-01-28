@@ -1,4 +1,5 @@
 .SEGMENT "HOME"
+.INCLUDE "ram/ram.asm"
 
 _bankswitch:
 .INCBIN  "home/home_0.bin"
@@ -49,7 +50,9 @@ _track_queue:
 
 	farjsr _boss_init
 
-.INCBIN  "home/home_12.bin"
+.INCBIN  "home/home_12_0.bin"
+.INCLUDE "home/init_sprites.asm"
+.INCBIN  "home/home_12_1.bin"
 
 	track_queue track_megaman_hit
 
