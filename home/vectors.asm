@@ -1,3 +1,3 @@
-	;.WORD NMI
-	;.WORD RESET
-	;.WORD IRQ
+	.WORD nmi
+	.WORD reset
+	.WORD irq

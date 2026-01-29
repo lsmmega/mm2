@@ -1,8 +1,7 @@
-RESET:
-IRQ:
-	.ORG $FFE0
-
+reset:
+irq:
 	SEI
-label_1
-	INC label_1
-	JMP $F2D1
+
+_reset:
+	INC _reset
+	JMP __reset

@@ -1,6 +1,8 @@
 .SEGMENT "BANK0E"
+.INCLUDE "constants/mmc1.asm"
+.INCLUDE "macros/stack.asm"
 
-_init:
+.INCLUDE "engine/init.asm"
 .INCBIN  "14/14_0.bin"
 
 	track_queue track_refill

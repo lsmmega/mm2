@@ -9,6 +9,13 @@
 	PPU_DATA
 .ENDENUM
 
+;ppu ctrl
+	background_table_right = 1 << 4
+
+;ppu mask
+	background_leftmost_enable = 1 << 1
+	sprites_leftmost_enable    = 1 << 2
+
 	DMC_FREQ          = $4010
 	OAM_DMA           = $4014
 	APU_STATUS        = $4015

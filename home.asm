@@ -1,4 +1,5 @@
 .SEGMENT "HOME"
+.INCLUDE "constants/nes.asm"
 .INCLUDE "ram/ram.asm"
 
 _bankswitch:
@@ -6,6 +7,7 @@ _bankswitch:
 
 _track_queue:
 .INCBIN  "home/home_1.bin"
+.INCLUDE "home/mmc1_control.asm"
 
 	farjsr _wily_castle
 
@@ -53,6 +55,9 @@ _track_queue:
 .INCBIN  "home/home_12_0.bin"
 .INCLUDE "home/init_sprites.asm"
 .INCBIN  "home/home_12_1.bin"
+
+nmi:
+.INCBIN  "home/home_12_2.bin"
 
 	track_queue track_megaman_hit
 
@@ -181,14 +186,12 @@ _track_queue:
 	track_queue track_enemy_immune
 
 .INCBIN  "home/home_44.bin"
-
-	farjmp _init
-
+.INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"
 .INCLUDE "sprites/pointers/oam_frameset_pointers.asm"
 .INCLUDE "sprites/oam_frameset.asm"
 .INCLUDE "home/unused/unused_3ff97.asm"
-.INCBIN  "home/home_45.bin"
-;.INCLUDE "home/reset.asm"
+.INCLUDE "home/reset.asm"
+.INCLUDE "home/unused/unused_3fff7.asm"
 ;.INCLUDE "home/nmi.asm"
-;.INCLUDE "home/vectors.asm"
+.INCLUDE "home/vectors.asm"

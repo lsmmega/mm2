@@ -132,6 +132,7 @@ stages := \
 	14.asm \
 	constants/* \
 	macros/* \
+	engine/* \
 	14/* \
 	unused/*
 
