@@ -3,7 +3,12 @@
 .INCLUDE "macros/stack.asm"
 
 .INCLUDE "engine/init.asm"
-.INCBIN  "14/14_0.bin"
+.INCBIN  "14/14_0_0.bin"
+
+_farintro:
+	JSR _homeintro
+
+.INCBIN  "14/14_0_1.bin"
 
 	track_queue track_refill
 

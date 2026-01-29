@@ -31,9 +31,9 @@ _track_queue:
 
 .INCBIN  "home/home_6.bin"
 
+_homeintro:
 	farjsr _intro
-	bankswitch $0E
-	RTS
+	farrts _farintro
 
 	farjsr _stage_select
 	bankswitch $0E
