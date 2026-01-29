@@ -10,6 +10,8 @@ _track_queue:
 .INCLUDE "home/mmc1_control.asm"
 
 	farjsr _wily_castle
+	bankswitch $0E
+	RTS
 
 .INCBIN  "home/home_2.bin"
 
@@ -30,10 +32,12 @@ _track_queue:
 .INCBIN  "home/home_6.bin"
 
 	farjsr _intro
-
-.INCBIN  "home/home_7.bin"
+	bankswitch $0E
+	RTS
 
 	farjsr _stage_select
+	bankswitch $0E
+	RTS
 
 .INCBIN  "home/home_8.bin"
 
@@ -53,6 +57,10 @@ _track_queue:
 	farjsr _boss_init
 
 .INCBIN  "home/home_12_0.bin"
+
+	bankswitch $0B
+	RTS
+
 .INCLUDE "home/init_sprites.asm"
 .INCBIN  "home/home_12_1.bin"
 
@@ -64,8 +72,8 @@ nmi:
 .INCBIN  "home/home_13.bin"
 	
 	farjsr __ending_
-
-.INCBIN  "home/home_14.bin"
+	bankswitch $0D
+	RTS
 
 	farjsr _staff_roll
 
