@@ -9,24 +9,24 @@ ___ending:
 	JMP ____ending
 
 _staff_roll:
-	JMP staff_roll
+	JMP __staff_roll
 
 _credit_init:
-	JMP credit_init
+	JMP __credit_init
 
 _credit:
-	JMP credit
+	JMP __credit
 
 ____ending:
 .INCBIN  "9/9_0.bin"
 
-staff_roll:
+__staff_roll:
 .INCBIN  "9/9_1.bin"
 
-credit_init:
+__credit_init:
 .INCBIN  "9/9_2.bin"
 
-credit:
+__credit:
 .INCBIN  "9/9_3.bin"
 .INCLUDE "screen/staff_roll_1.asm"
 .INCBIN  "9/9_4.bin"

@@ -3,27 +3,27 @@
 .INCLUDE "constants/oam.asm"
 
 _stage_select:
-	JMP stage_select
+	JMP __stage_select
 
 _open_menu:
-	JMP open_menu
+	JMP __open_menu
 
 _wily_castle:
-	JMP wily_castle
+	JMP __wily_castle
 
 _intro:
-	JMP intro
+	JMP __intro
 
 _game_over:
-	JMP game_over
+	JMP __game_over
 
 _ending:
-	JMP ending
+	JMP __ending
 
 _get_weapon:
-	JMP get_weapon
+	JMP __get_weapon
 
-stage_select:
+__stage_select:
 .INCBIN  "13/13_0.bin"
 
 	track_queue track_stage_select
@@ -45,7 +45,7 @@ stage_select:
 .INCLUDE "data/boss_show/oam_sprites_pointers.asm"
 .INCLUDE "data/boss_show/oam_sprites.asm"
 
-open_menu:
+__open_menu:
 .INCBIN  "13/13_5.bin"
 
 	track_queue track_select
@@ -60,7 +60,7 @@ open_menu:
 
 .INCBIN  "13/13_8.bin"
 
-wily_castle:
+__wily_castle:
 .INCBIN  "13/13_9.bin"
 
 	track_queue track_wily_ufo
@@ -79,7 +79,7 @@ wily_castle:
 
 .INCBIN  "13/13_13.bin"
 
-intro:
+__intro:
 .INCBIN  "13/13_14.bin"
 
 	track_queue track_opening
@@ -116,7 +116,7 @@ intro:
 .INCLUDE "data/password/password.asm"
 .INCBIN  "13/13_23.bin"
 
-game_over:
+__game_over:
 .INCBIN  "13/13_24.bin"
 
 	track_queue track_game_over
@@ -136,7 +136,7 @@ game_over:
 .INCBIN  "13/13_28.bin"
 .INCLUDE "screen/title.asm"
 
-ending:
+__ending:
 .INCBIN  "13/13_29.bin"
 
 	track_queue track_ending
@@ -151,7 +151,7 @@ ending:
 
 .INCBIN  "13/13_32.bin"
 
-get_weapon:
+__get_weapon:
 .INCBIN  "13/13_33.bin"
 
 	track_queue track_get_weapon

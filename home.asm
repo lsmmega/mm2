@@ -42,7 +42,7 @@ _homeintro:
 
 .INCBIN  "home/home_9.bin"
 	
-	farjsr boss_ai
+	farjsr _boss_ai
 
 .INCBIN  "home/home_10.bin"
 
