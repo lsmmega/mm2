@@ -1,5 +1,4 @@
 rom_obj := \
-	audio.o \
 	header.o \
 	main.o \
 	sprites.o \
@@ -325,13 +324,10 @@ mm2: mm2.nes
 %.nes: $(rom_obj) $(cfg)
 	ld65 -C $(cfg) $(rom_obj) -o $@ -m $*.map
 
-audio.o: $(audio)
-	ca65 audio.asm
-
 header.o: $(header)
 	ca65 header.asm
 
-main.o: $(home) $(9) $(11) $(13) $(14)
+main.o: $(home) $(9) $(11) $(audio) $(13) $(14)
 	bmp2nes $(gfx9) $(gfx11)
 	ca65 main.asm
 

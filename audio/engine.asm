@@ -1,4 +1,11 @@
-.INCBIN "audio/engine.bin"
+_nmi_audio_processing:
+	JMP _audio_processing
+
+_nmi_audio_track_queue:
+.INCBIN "audio/engine_0.bin"
+
+_audio_processing:
+.INCBIN "audio/engine_1.bin"
 
 base_note_table:
 	.WORD nC_0

@@ -1,6 +1,7 @@
 .INCLUDE "macros/far.asm"
 .INCLUDE "9.asm"
 .INCLUDE "11.asm"
+.INCLUDE "audio.asm"
 .INCLUDE "13.asm"
 .INCLUDE "14.asm"
 .INCLUDE "home.asm"

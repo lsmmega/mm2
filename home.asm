@@ -1,12 +1,8 @@
 .SEGMENT "HOME"
 .INCLUDE "constants/nes.asm"
 .INCLUDE "ram/ram.asm"
-
-_bankswitch:
-.INCBIN  "home/home_0.bin"
-
-_track_queue:
-.INCBIN  "home/home_1.bin"
+.INCLUDE "home/bankswitch.asm"
+.INCLUDE "home/track_queue.asm"
 .INCLUDE "home/mmc1_control.asm"
 
 	farjsr _wily_castle
