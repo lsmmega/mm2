@@ -67,7 +67,7 @@ nmi:
 
 .INCBIN  "home/home_13.bin"
 	
-	farjsr __ending_
+	farjsr ___ending
 	bankswitch $0D
 	RTS
 
