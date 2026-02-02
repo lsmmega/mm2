@@ -9,6 +9,7 @@
 	bankswitch $0E
 	RTS
 
+.INCLUDE "home/nmi_wait.asm"
 .INCBIN  "home/home_2.bin"
 
 	track_queue track_death
@@ -25,7 +26,9 @@
 
 	farjsr _ending
 
-.INCBIN  "home/home_6.bin"
+.INCBIN  "home/home_6_0.bin"
+.INCLUDE "home/background_palette.asm"
+.INCBIN  "home/home_6_1.bin"
 
 _homeintro:
 	farjsr _intro
@@ -62,6 +65,8 @@ _homeintro:
 
 nmi:
 .INCBIN  "home/home_12_2.bin"
+.INCLUDE "home/joy.asm"
+.INCBIN  "home/home_12_3.bin"
 
 	track_queue track_megaman_hit
 
