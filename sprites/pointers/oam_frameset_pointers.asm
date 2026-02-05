@@ -1,5 +1,5 @@
 ;oam frameset pointers
-;lo
+oam_megaman_frameset_pointers_lo:
 	.LOBYTES oam_frameset_00
 	.LOBYTES oam_frameset_01
 	.LOBYTES oam_frameset_02
@@ -128,6 +128,8 @@
 	.LOBYTES oam_frameset_7d
 	.LOBYTES oam_frameset_7e
 	.LOBYTES oam_frameset_7f
+
+oam_enemies_frameset_pointers_lo:
 	.LOBYTES oam_frameset_80
 	.LOBYTES oam_frameset_81
 	.LOBYTES oam_frameset_82
@@ -257,7 +259,7 @@
 	.LOBYTES oam_frameset_fe
 	.LOBYTES oam_frameset_ff
 
-;hi
+oam_megaman_frameset_pointers_hi:
 	.HIBYTES oam_frameset_00
 	.HIBYTES oam_frameset_01
 	.HIBYTES oam_frameset_02
@@ -386,6 +388,8 @@
 	.HIBYTES oam_frameset_7d
 	.HIBYTES oam_frameset_7e
 	.HIBYTES oam_frameset_7f
+
+oam_enemies_frameset_pointers_hi:
 	.HIBYTES oam_frameset_80
 	.HIBYTES oam_frameset_81
 	.HIBYTES oam_frameset_82

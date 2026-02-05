@@ -1,6 +1,5 @@
 .SEGMENT "BANK0D"
 .INCLUDE "constants/flags.asm"
-.INCLUDE "constants/oam.asm"
 
 _stage_select:
 	JMP __stage_select

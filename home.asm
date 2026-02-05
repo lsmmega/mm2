@@ -1,5 +1,6 @@
 .SEGMENT "HOME"
 .INCLUDE "constants/nes.asm"
+.INCLUDE "constants/stage.asm"
 .INCLUDE "ram/ram.asm"
 .INCLUDE "home/bankswitch.asm"
 .INCLUDE "home/track_queue.asm"
@@ -61,12 +62,12 @@ _homeintro:
 	RTS
 
 .INCLUDE "home/init_sprites.asm"
-.INCBIN  "home/home_12_1.bin"
+.INCLUDE "home/sprites.asm"
 
 nmi:
-.INCBIN  "home/home_12_2.bin"
+.INCBIN  "home/home_12_1.bin"
 .INCLUDE "home/joy.asm"
-.INCBIN  "home/home_12_3.bin"
+.INCBIN  "home/home_12_2.bin"
 
 	track_queue track_megaman_hit
 

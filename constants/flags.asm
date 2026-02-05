@@ -14,6 +14,10 @@
 	got_metal_blade     = 1 << 6
 	got_crash_bomber    = 1 << 7
 
+;objects default flags set
+	objects_invisible = 1 << 5
+	objects_right     = 1 << 6
+
 ;rematch flags
 	rematch_heatman_done   = 1 << 0
 	rematch_airman_done    = 1 << 1
@@ -40,3 +44,8 @@
 	stage_clear_yes
 	stage_clear_no
 .ENDENUM
+
+;time stopper flags
+	time_stopper_used  = 1 << 0
+	not_megaman_frozen = 1 << 1
+	megaman_frozen     = 1 << 2

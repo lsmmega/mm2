@@ -1,5 +1,4 @@
-;oamcoord pointers
-;lo
+oamcoord_lo_pointers:
 	.LOBYTES oamcoord_00 - 2
 	.LOBYTES oamcoord_01 - 2
 	.LOBYTES oamcoord_02 - 2
@@ -179,7 +178,7 @@
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF
 
-;hi
+oamcoord_hi_pointers:
 	.HIBYTES oamcoord_00 - 2
 	.HIBYTES oamcoord_01 - 2
 	.HIBYTES oamcoord_02 - 2

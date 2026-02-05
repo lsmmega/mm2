@@ -1,5 +1,4 @@
-;oam sprites set pointers
-;1, lo
+oam_sprites_lo_pointers:
 	.LOBYTES oam_sprites_00
 	.LOBYTES oam_sprites_01
 	.LOBYTES oam_sprites_02
@@ -231,7 +230,7 @@
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 
-;2, lo
+oam_enemies_sprites_lo_pointers:
 	.LOBYTES oam_sprites_100
 	.LOBYTES oam_sprites_101
 	.LOBYTES oam_sprites_102
@@ -477,7 +476,7 @@
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 
-;1, hi
+oam_sprites_hi_pointers:
 	.HIBYTES oam_sprites_00
 	.HIBYTES oam_sprites_01
 	.HIBYTES oam_sprites_02
@@ -709,7 +708,7 @@
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 	.BYTE $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 
-;2, hi
+oam_enemies_sprites_hi_pointers:
 	.HIBYTES oam_sprites_100
 	.HIBYTES oam_sprites_101
 	.HIBYTES oam_sprites_102
