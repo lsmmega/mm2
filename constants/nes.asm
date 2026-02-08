@@ -15,6 +15,8 @@
 ;ppu mask
 	background_leftmost_enable = 1 << 1
 	sprites_leftmost_enable    = 1 << 2
+	background_enable          = 1 << 3
+	sprite_enable              = 1 << 4
 
 	DMC_FREQ          = $4010
 	OAM_DMA           = $4014

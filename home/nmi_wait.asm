@@ -45,3 +45,29 @@ _nmi_wait_0d:
 	STA z:zjoy2_pressed_bits
 	bankswitch $0D
 	RTS
+
+_nmi_wait_water:
+	LDA z:zjoy1_pressed
+	PHA
+	LDA z:zjoy2_pressed
+	PHA
+	LDA z:zjoy1_pressed_bits
+	PHA
+	LDA #background_leftmost_enable | sprites_leftmost_enable | background_enable | sprite_enable
+	ORA z:zppu_mask
+	STA z:zppu_mask
+	STA PPU_MASK
+	LDA #$00
+	STA z:znmi_wait
+
+@loop:
+	LDA z:znmi_wait
+	BEQ @loop
+	PLA
+	STA z:zjoy1_pressed_bits
+	PLA
+	STA z:zjoy2_pressed
+	PLA
+	STA z:zjoy1_pressed
+	bankswitch $0E
+	RTS
