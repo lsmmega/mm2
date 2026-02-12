@@ -1,0 +1,19 @@
+_palette_update:
+	LDY #$3F
+	STY PPU_ADDRESS
+	LDX #$00
+	STX PPU_ADDRESS
+
+@loop:
+	LDA acurrent_background_palette, X
+	STA PPU_DATA
+	INX
+	CPX #$20
+	BNE @loop
+	STY PPU_ADDRESS
+	LDA #$00
+	STA PPU_ADDRESS
+	STA PPU_ADDRESS
+	STA PPU_ADDRESS
+	STA z3A
+	RTS
