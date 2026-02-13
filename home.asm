@@ -39,11 +39,7 @@ _homeintro:
 	bankswitch $0E
 	RTS
 
-.INCBIN  "home/home_8.bin"
-
-	track_queue track_open_menu
-	farjsr _open_menu
-
+.INCLUDE "home/open_menu.asm"
 .INCBIN  "home/home_9.bin"
 	
 	farjsr _boss_ai
