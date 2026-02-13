@@ -1,5 +1,5 @@
 _load_copipi_tile:
-	bankswitch _load_copipi_chr
+	bankswitch <.BANK (_load_copipi_chr)
 	LDX #$1F
 
 @loop:

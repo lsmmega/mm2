@@ -48,6 +48,7 @@ _homeintro:
 .INCLUDE "home/load_cutscene_screen.asm"
 .INCLUDE "home/load_cutscene_tile.asm"
 .INCLUDE "home/load_boss_tile.asm"
+.INCLUDE "home/load_copipi_tile.asm"
 .INCBIN  "home/home_10_1.bin"
 
 	track_queue track_teleport_in
