@@ -33,7 +33,8 @@
 
 _homeintro:
 	farjsr _intro
-	farrts _farintro
+	bankswitch $0E
+	RTS
 
 	farjsr _stage_select
 	bankswitch $0E

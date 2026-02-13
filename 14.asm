@@ -5,7 +5,6 @@
 .INCLUDE "engine/init.asm"
 .INCBIN  "14/14_0_0.bin"
 
-_farintro:
 	JSR _homeintro
 
 .INCBIN  "14/14_0_1.bin"

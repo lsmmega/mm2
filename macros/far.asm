@@ -14,9 +14,3 @@
 	JSR _bankswitch
 	JSR b
 .ENDMACRO
-
-.MACRO farrts b
-	LDA #<.BANK (b)
-	JSR _bankswitch
-	RTS
-.ENDMACRO
