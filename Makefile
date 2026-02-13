@@ -24,6 +24,7 @@ home := \
 	macros/* \
 	ram/* \
 	home/* \
+	stages/heatman_wily1/* \
 	gfx/sprites/enemies/*.bmp \
 	home/unused/* \
 	sprites/pointers/* \
