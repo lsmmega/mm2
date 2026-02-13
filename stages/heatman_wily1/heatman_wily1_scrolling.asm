@@ -1,5 +1,6 @@
 ;running right room, then scroll direction
 ;heatman scroll set
+_stage_scrolling:
 scrolling_heatman_wily_00:
 	.BYTE 7  | scroll_down
 	.BYTE 0  | scroll_down
