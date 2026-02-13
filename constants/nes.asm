@@ -10,7 +10,10 @@
 .ENDENUM
 
 ;ppu ctrl
+	all_nametable          = 3
+	draw_vertical          = 1 << 2
 	background_table_right = 1 << 4
+	nmi_enable             = 1 << 7
 
 ;ppu mask
 	background_leftmost_enable = 1 << 1

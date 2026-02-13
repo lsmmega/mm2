@@ -130,6 +130,7 @@ stages := \
 	14.asm \
 	constants/* \
 	macros/* \
+	ram/* \
 	engine/* \
 	14/* \
 	unused/*

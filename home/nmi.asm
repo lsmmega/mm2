@@ -1,147 +1,134 @@
-NMI:
-	.ORG $CFF0
-
+nmi:
 	PHA
 	PHP
-	TXA
-	PHA
-	TYA
-	PHA
-	LDA $1D
-	BEQ label_1
-	JMP label_2
-label_1
-	LDA $F7
-	AND #$7C
-	STA $F7
+	PHX
+	PHY
+	LDA z:znmi_wait
+	BEQ @yes
+	JMP @no
+
+@yes:
+	LDA z:zppu_ctrl
+	AND #~(all_nametable | nmi_enable)
+	STA z:zppu_ctrl
 	STA PPU_CTRL
-	LDA $F8
-	AND #$E7
-	STA $F8
+	LDA z:zppu_mask
+	AND #~(background_enable | sprite_enable)
+	STA z:zppu_mask
 	STA PPU_MASK
 	LDA PPU_STATUS
 	LDA #$00
 	STA PPU_OAM_ADDR
-	LDA #$02
+	LDA #oam_hi_addr
 	STA OAM_DMA
-	LDA $1B
-	BEQ label_3
-	JSR $D11B
-label_3
-	JSR $D0F5
-	LDA $47
-	BEQ label_4
-	JSR $D1DF
-label_4
-	LDA $51
-	BEQ label_5
-	JSR $D1F9
-label_5
+	LDA z:zscreen_update_flag
+	BEQ @no_screen_update
+	JSR _screen_update
+
+@no_screen_update:
+	JSR _palette_update
+	LDA z:zobject_tile_update_size
+	BEQ @no_object_tile_update
+	JSR _object_tile_update
+
+@no_object_tile_update:
+	LDA z:zdraw_other_flag
+	BEQ @no_other_draw
+	JSR _draw_other
+
+@no_other_draw:
 	LDA PPU_STATUS
 	LDA #$00
-	STA $01
-	LDA $1F
-	STA $00
-	LDA $B8
-	BEQ label_6
+	STA z:z01
+	LDA z:zscreen_xcoord
+	STA z:z00
+	LDA z:zmecha_dragon_xcoord
+	BEQ @no_screen_xcoord_move
 	SEC
-	LDA $00
-	SBC $B8
-	STA $00
+	LDA z:z00
+	SBC z:zmecha_dragon_xcoord
+	STA z:z00
 	LDA #$00
-	SBC $B9
-	AND #$01
-	STA $01
-label_6
-	LDA $00
+	SBC z:zmecha_dragon_screen
+	AND #%00000001
+	STA z:z01
+
+@no_screen_xcoord_move:
+	LDA z:z00
 	STA PPU_SCROLL
-	LDA $22
-	STA $00
-	LDA $B6
-	BEQ label_7
+	LDA z:zscreen_ycoord
+	STA z:z00
+	LDA z:zmecha_dragon_ycoord
+	BEQ @no_screen_ycoord_move
 	SEC
-	LDA $00
-	SBC $B6
-	STA $00
-label_7
-	LDA $00
+	LDA z:z00
+	SBC z:zmecha_dragon_ycoord
+	STA z:z00
+
+@no_screen_ycoord_move:
+	LDA z:z00
 	STA PPU_SCROLL
-	LDA $F8
-	ORA #$1E
-	STA $F8
+	LDA z:zppu_mask
+	ORA #background_leftmost_enable | sprites_leftmost_enable | background_enable | sprite_enable
+	STA z:zppu_mask
 	STA PPU_MASK
-	LDA $F7
-	ORA #$80
-	STA $F7
-	LDA $20
-	EOR $01
-	AND #$01
-	ORA $F7
-	ORA $AE
-	STA $F7
+	LDA z:zppu_ctrl
+	ORA #nmi_enable
+	STA z:zppu_ctrl
+	LDA z:zscreen_id
+	EOR z:z01
+	AND #%00000001
+	ORA z:zppu_ctrl
+	ORA z:zopening_nametable
+	STA z:zppu_ctrl
 	STA PPU_CTRL
-	STA $1D
-	INC $1C
-label_2
-	LDA $68
-	BEQ label_8
-	INC $67
-	BNE label_9
-label_8
-	LDA #$0C
-	STA $FFF0
+	STA z:znmi_wait
+	INC z:znmi_frame
+
+@no:
+	LDA z:zbankswitch_status
+	BEQ @no_bankswitch_process
+	INC z:zdelay_track_queue
+	BNE @skip_track_queue
+
+@no_bankswitch_process:
+	LDA #<.BANK (_nmi_audio_processing)
+	STA mmc1_prg_bank
 	LSR
-	STA $FFF0
+	STA mmc1_prg_bank
 	LSR
-	STA $FFF0
+	STA mmc1_prg_bank
 	LSR
-	STA $FFF0
+	STA mmc1_prg_bank
 	LSR
-	STA $FFF0
-	JSR $8000
-label_12
-	LDX $66
-	BEQ label_10
-	LDA $057F,X
-	CMP #$FD
-	BNE label_11
+	STA mmc1_prg_bank
+	JSR _nmi_audio_processing
+
+@loop:
+	LDX z:ztrack_queue_pointer
+	BEQ @no_queue
+	LDA atrack_queue - 1, X
+	CMP #music_fade_out
+	BNE @not_fade_out_queue
 	LDY #$A0
-label_11
-	JSR $8003
-	DEC $66
-	BNE label_12
-label_10
-	LDA $29
-	JSR $C000
-label_9
-	LDA $0480
-	EOR $4A
-	ADC $1C
+
+@not_fade_out_queue:
+	JSR _nmi_audio_track_queue
+	DEC z:ztrack_queue_pointer
+	BNE @loop
+
+@no_queue:
+	LDA z:zcurrent_bankswitch
+	JSR _bankswitch
+
+@skip_track_queue:
+	LDA aobject_xcoord_fraction
+	EOR z:zrandom
+	ADC z:znmi_frame
 	LSR
-	STA $4A
-	PLA
-	TAY
-	PLA
-	TAX
+	STA z:zrandom
+	PLY
+	PLX
 	PLP
 	PLA
 	RTI
-	LDX #$01
-	STX JOY1
-	DEX
-	STX JOY1
-	INX
-label_14
-	LDY #$08
-label_13
-	LDA JOY1,X
-	STA $27
-	LSR
-	ORA $27
-	LSR
-	ROR $23,X
-	DEY
-	BNE label_13
-	DEX
-	BPL label_14
-	RTS

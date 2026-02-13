@@ -67,4 +67,7 @@
 	track_40
 	track_death
 	track_1up
+	music_fade_out = $FD
+	mute_sfx
+	mute_music
 .ENDENUM

@@ -17,12 +17,8 @@ _farintro:
 	track_queue track_refill
 
 .INCBIN  "14/14_2.bin"
-
-	track_queue track_1up
-
-.INCBIN  "14/14_3.bin"
-
-	track_queue track_1up
+.INCLUDE "engine/e_tank.asm"
+.INCLUDE "engine/1up.asm"
 
 .INCBIN  "14/14_4.bin"
 

@@ -1,7 +1,6 @@
 .SEGMENT "HOME"
 .INCLUDE "constants/nes.asm"
 .INCLUDE "constants/stage.asm"
-.INCLUDE "ram/ram.asm"
 .INCLUDE "home/bankswitch.asm"
 .INCLUDE "home/track_queue.asm"
 .INCLUDE "home/mmc1_control.asm"
@@ -63,11 +62,13 @@ _homeintro:
 
 .INCLUDE "home/init_sprites.asm"
 .INCLUDE "home/sprites.asm"
-
-nmi:
-.INCBIN  "home/home_12_1.bin"
+.INCLUDE "home/nmi.asm"
 .INCLUDE "home/joy.asm"
-.INCBIN  "home/home_12_2.bin"
+.INCLUDE "home/palette.asm"
+.INCLUDE "home/screen.asm"
+.INCLUDE "home/object_tile.asm"
+.INCLUDE "home/draw_other.asm"
+.INCBIN  "home/home_12_1.bin"
 
 	track_queue track_megaman_hit
 
@@ -203,5 +204,4 @@ nmi:
 .INCLUDE "home/unused/unused_3ff97.asm"
 .INCLUDE "home/reset.asm"
 .INCLUDE "home/unused/unused_3fff7.asm"
-;.INCLUDE "home/nmi.asm"
 .INCLUDE "home/vectors.asm"
