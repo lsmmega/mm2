@@ -41,7 +41,7 @@ _homeintro:
 
 .INCLUDE "home/open_menu.asm"
 .INCBIN  "home/home_9.bin"
-	
+
 	farjsr _boss_ai
 
 .INCBIN  "home/home_10_0.bin"
@@ -74,7 +74,7 @@ _homeintro:
 	track_queue track_megaman_hit
 
 .INCBIN  "home/home_13.bin"
-	
+
 	farjsr ___ending
 	bankswitch $0D
 	RTS

@@ -45,6 +45,9 @@
 .INCBIN  "gfx/sprites/enemies/pierrobot.chr"
 .INCBIN  "gfx/sprites/enemies/monking.chr"
 .INCBIN  "gfx/sprites/enemies/pipi.chr"
+
+_load_copipi_chr:
+.INCBIN  "gfx/sprites/enemies/copipi.chr"
 .INCBIN  "gfx/sprites/enemies/kaminari_goro.chr"
 .INCBIN  "gfx/stages/regular/airman.chr"
 .INCBIN  "gfx/stages/wily/common.chr"

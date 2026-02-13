@@ -24,6 +24,7 @@ home := \
 	macros/* \
 	ram/* \
 	home/* \
+	gfx/sprites/enemies/*.bmp \
 	home/unused/* \
 	sprites/pointers/* \
 	sprites/*
@@ -162,6 +163,7 @@ gfx_stages := \
 	gfx/sprites/enemies/pierrobot.bmp gfx/sprites/enemies/pierrobot.chr \
 	gfx/sprites/enemies/monking.bmp gfx/sprites/enemies/monking.chr \
 	gfx/sprites/enemies/pipi.bmp gfx/sprites/enemies/pipi.chr \
+	gfx/sprites/enemies/copipi.bmp gfx/sprites/enemies/copipi.chr \
 	gfx/sprites/enemies/kaminari_goro.bmp gfx/sprites/enemies/kaminari_goro.chr \
 	gfx/stages/regular/airman.bmp gfx/stages/regular/airman.chr \
 	gfx/stages/wily/common.bmp gfx/stages/wily/common.chr \
