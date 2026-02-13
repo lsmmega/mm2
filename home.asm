@@ -44,7 +44,10 @@ _homeintro:
 	
 	farjsr _boss_ai
 
-.INCBIN  "home/home_10.bin"
+.INCBIN  "home/home_10_0.bin"
+.INCLUDE "home/load_cutscene_screen.asm"
+.INCLUDE "home/load_cutscene_tile.asm"
+.INCBIN  "home/home_10_1.bin"
 
 	track_queue track_teleport_in
 
