@@ -1,7 +1,6 @@
 rom_obj := \
 	header.o \
 	main.o \
-	stages.o \
 	8.o
 
 cfg := \
@@ -327,13 +326,9 @@ mm2: mm2.nes
 header.o: $(header)
 	ca65 header.asm
 
-main.o: $(audio) $(home) $(sprites) $(9) $(11) $(13) $(14)
-	bmp2nes $(gfx9) $(gfx11)
+main.o: $(audio) $(home) $(sprites) $(stages) $(9) $(11) $(13) $(14)
+	bmp2nes $(gfx_stages) $(gfx9) $(gfx11)
 	ca65 main.asm
-
-stages.o: $(stages)
-	bmp2nes $(gfx_stages)
-	ca65 stages.asm
 
 8.o: $(8)
 	bmp2nes $(gfx8)

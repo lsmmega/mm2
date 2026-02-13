@@ -1,5 +1,4 @@
 .SEGMENT "BANK0B"
-.INCLUDE "constants/ppu_attributes.asm"
 .INCLUDE "constants/track.asm"
 .INCLUDE "macros/audio.asm"
 

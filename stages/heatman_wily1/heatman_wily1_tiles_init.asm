@@ -1,3 +1,4 @@
+_tiles_init:
 heatman_tiles_init:
 	.BYTE (@end - @start) / 3
 

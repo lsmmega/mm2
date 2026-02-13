@@ -28,6 +28,7 @@
 
 .INCBIN  "home/home_6_0.bin"
 .INCLUDE "home/background_palette.asm"
+.INCLUDE "home/init_stage.asm"
 .INCBIN  "home/home_6_1.bin"
 
 _homeintro:

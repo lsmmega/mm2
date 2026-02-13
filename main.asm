@@ -1,5 +1,6 @@
 .INCLUDE "macros/far.asm"
 .INCLUDE "ram/ram.asm"
+.INCLUDE "stages.asm"
 .INCLUDE "9.asm"
 .INCLUDE "sprites.asm"
 .INCLUDE "11.asm"
