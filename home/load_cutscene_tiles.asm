@@ -1,9 +1,9 @@
-_load_cutscene_tile:
+_load_cutscene_tiles:
 	STA z:z00
 	TAX
-	LDA @tile_table_mainloop_length, X
+	LDA @tiles_table_mainloop_length, X
 	STA z:z01
-	LDA @load_tile_table_pointer, X
+	LDA @load_tiles_table_pointer, X
 	STA z:z02
 	LDA #$00
 	STA z:z08
@@ -12,11 +12,11 @@ _load_cutscene_tile:
 
 @loop_2:
 	LDX z:z02
-	LDA @tile_hiaddress_table, X
+	LDA @tiles_hiaddress_table, X
 	STA z:z09
-	LDA @tile_table_loop_length, X
+	LDA @tiles_table_loop_length, X
 	STA z:z03
-	LDA @tile_bankswitch_table, X
+	LDA @tiles_bankswitch_table, X
 	JSR _bankswitch
 	LDY #$00
 
@@ -34,25 +34,25 @@ _load_cutscene_tile:
 	bankswitch $0D
 	RTS
 
-@tile_table_mainloop_length:
-	.BYTE @tile_table_length_01 - @tile_table_length_00
-	.BYTE @tile_table_length_02 - @tile_table_length_01
-	.BYTE @tile_table_length_03 - @tile_table_length_02
-	.BYTE @tile_table_length_04 - @tile_table_length_03
-	.BYTE @tile_table_length_05 - @tile_table_length_04
-	.BYTE @tile_table_length_06 - @tile_table_length_05
-	.BYTE @tile_table_length_end - @tile_table_length_06
+@tiles_table_mainloop_length:
+	.BYTE @tiles_table_length_01 - @tiles_table_length_00
+	.BYTE @tiles_table_length_02 - @tiles_table_length_01
+	.BYTE @tiles_table_length_03 - @tiles_table_length_02
+	.BYTE @tiles_table_length_04 - @tiles_table_length_03
+	.BYTE @tiles_table_length_05 - @tiles_table_length_04
+	.BYTE @tiles_table_length_06 - @tiles_table_length_05
+	.BYTE @tiles_table_length_end - @tiles_table_length_06
 
-@load_tile_table_pointer:
-	.BYTE @tile_table_length_00 - @tile_table_length_00
-	.BYTE @tile_table_length_01 - @tile_table_length_00
-	.BYTE @tile_table_length_02 - @tile_table_length_00
-	.BYTE @tile_table_length_03 - @tile_table_length_00
-	.BYTE @tile_table_length_04 - @tile_table_length_00
-	.BYTE @tile_table_length_05 - @tile_table_length_00
-	.BYTE @tile_table_length_06 - @tile_table_length_00
+@load_tiles_table_pointer:
+	.BYTE @tiles_table_length_00 - @tiles_table_length_00
+	.BYTE @tiles_table_length_01 - @tiles_table_length_00
+	.BYTE @tiles_table_length_02 - @tiles_table_length_00
+	.BYTE @tiles_table_length_03 - @tiles_table_length_00
+	.BYTE @tiles_table_length_04 - @tiles_table_length_00
+	.BYTE @tiles_table_length_05 - @tiles_table_length_00
+	.BYTE @tiles_table_length_06 - @tiles_table_length_00
 
-@tile_bankswitch_table:
+@tiles_bankswitch_table:
 ;00
 	.BYTE bank_05
 	.BYTE bank_08
@@ -106,7 +106,7 @@ _load_cutscene_tile:
 	.BYTE bank_02
 	.BYTE bank_09
 
-@tile_hiaddress_table:
+@tiles_hiaddress_table:
 ;00
 	.BYTE bank_internal_hiaddress_10
 	.BYTE bank_internal_hiaddress_08
@@ -160,26 +160,26 @@ _load_cutscene_tile:
 	.BYTE bank_internal_hiaddress_14
 	.BYTE bank_internal_hiaddress_2c
 
-@tile_table_loop_length:
-@tile_table_length_00:
+@tiles_table_loop_length:
+@tiles_table_length_00:
 	.BYTE $10, $10
 
-@tile_table_length_01:
+@tiles_table_length_01:
 	.BYTE $10, $10
 
-@tile_table_length_02:
+@tiles_table_length_02:
 	.BYTE $08, $08, $10
 
-@tile_table_length_03:
+@tiles_table_length_03:
 	.BYTE $0E, $02, $04, $02, $04, $06
 
-@tile_table_length_04:
+@tiles_table_length_04:
 	.BYTE $02, $01, $01, $01, $02, $01, $01, $02
 	.BYTE $01, $01, $01, $02, $0C, $02
 
-@tile_table_length_05:
+@tiles_table_length_05:
 	.BYTE $10, $03, $01, $0C
 
-@tile_table_length_06:
+@tiles_table_length_06:
 	.BYTE $08, $01, $01, $01, $01, $01, $01, $02
-@tile_table_length_end:
+@tiles_table_length_end:

@@ -35,7 +35,7 @@
 	z3A                         = $3A
 	zcurrent_palette_no         = $43
 	zpalette_animation_timer    = $44
-	zobject_tile_update_size    = $47
+	zobject_tiles_update_size   = $47
 	zrandom                     = $4A
 	zmegaman_invincibility_time = $4B
 	zdraw_other_flag            = $51
@@ -64,7 +64,7 @@
 ;oam
 	oam_hi_addr     = 2
 	aoam_y          = oam_hi_addr << 8 + 0
-	aoam_tile       = oam_hi_addr << 8 + 1
+	aoam_tiles      = oam_hi_addr << 8 + 1
 	aoam_attributes = oam_hi_addr << 8 + 2
 	aoam_x          = oam_hi_addr << 8 + 3
 

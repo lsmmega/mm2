@@ -1,4 +1,4 @@
-_load_boss_tile:
+_load_boss_tiles:
 	JSR _bankswitch
 	LDY #$1F
 
@@ -8,6 +8,6 @@ _load_boss_tile:
 	DEY
 	BPL @loop
 	LDA #$20
-	STA z:zobject_tile_update_size
+	STA z:zobject_tiles_update_size
 	bankswitch $0D
 	RTS

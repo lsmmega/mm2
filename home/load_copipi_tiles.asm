@@ -1,4 +1,4 @@
-_load_copipi_tile:
+_load_copipi_tiles:
 	bankswitch <.BANK (_load_copipi_chr)
 	LDX #$1F
 
@@ -12,6 +12,6 @@ _load_copipi_tile:
 	LDA #$00
 	STA aobject_ppu_address + 1
 	LDA #$20
-	STA z:zobject_tile_update_size
+	STA z:zobject_tiles_update_size
 	bankswitch $0D
 	RTS

@@ -344,7 +344,7 @@ _object_common:
 	LDX z:z06
 	LDY z:z07
 	LDA (z08), Y
-	STA aoam_tile, X
+	STA aoam_tiles, X
 	CLC
 	LDA (z0A), Y
 	ADC z:z01
@@ -549,7 +549,7 @@ _draw_bar_tile:
 	LDA #vertical_bar_4_tile
 
 @mod4:
-	STA aoam_tile, X
+	STA aoam_tiles, X
 	LDA z:z02
 	STA aoam_attributes, X
 	LDA z:z01

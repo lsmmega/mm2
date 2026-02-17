@@ -7,11 +7,11 @@ _home_open_menu:
 	DEX
 	CPX #$01
 	BNE @loop
-	LDA z:zobject_tile_update_size
-	BEQ @no_object_tile_update
+	LDA z:zobject_tiles_update_size
+	BEQ @no_object_tiles_update
 	JSR _nmi_wait_0e
 
-@no_object_tile_update:
+@no_object_tiles_update:
 	LDA aobject_ppu_address
 	PHA
 	LDA aobject_ppu_address + 1

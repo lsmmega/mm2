@@ -47,9 +47,9 @@ _homeintro:
 
 .INCBIN  "home/home_10_0.bin"
 .INCLUDE "home/load_cutscene_screen.asm"
-.INCLUDE "home/load_cutscene_tile.asm"
-.INCLUDE "home/load_boss_tile.asm"
-.INCLUDE "home/load_copipi_tile.asm"
+.INCLUDE "home/load_cutscene_tiles.asm"
+.INCLUDE "home/load_boss_tiles.asm"
+.INCLUDE "home/load_copipi_tiles.asm"
 .INCBIN  "home/home_10_1.bin"
 .INCLUDE "home/load_stage_scrolling.asm"
 .INCBIN  "home/home_10_2.bin"
@@ -71,7 +71,7 @@ _homeintro:
 .INCLUDE "home/joy.asm"
 .INCLUDE "home/palette.asm"
 .INCLUDE "home/screen.asm"
-.INCLUDE "home/object_tile.asm"
+.INCLUDE "home/object_tiles.asm"
 .INCLUDE "home/draw_other.asm"
 .INCBIN  "home/home_12_1.bin"
 

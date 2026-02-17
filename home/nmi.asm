@@ -27,11 +27,11 @@ nmi:
 
 @no_screen_update:
 	JSR _palette_update
-	LDA z:zobject_tile_update_size
-	BEQ @no_object_tile_update
-	JSR _object_tile_update
+	LDA z:zobject_tiles_update_size
+	BEQ @no_object_tiles_update
+	JSR _object_tiles_update
 
-@no_object_tile_update:
+@no_object_tiles_update:
 	LDA z:zdraw_other_flag
 	BEQ @no_other_draw
 	JSR _draw_other
