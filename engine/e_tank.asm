@@ -1,9 +1,9 @@
-_increase_e_tank:
+_get_e_tank:
 	LDA z:ze_tank
 	CMP #4
-	BCS @e_tank_l4
+	BCS @max
 	INC z:ze_tank
 
-@e_tank_l4:
+@max:
 	track_queue track_1up
 	RTS
