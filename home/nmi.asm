@@ -108,11 +108,11 @@ nmi:
 	LDX z:ztrack_queue_pointer
 	BEQ @no_queue
 	LDA atrack_queue - 1, X
-	CMP #music_fade_out
-	BNE @not_fade_out_queue
+	CMP #music_fade_in_out
+	BNE @not_fade_in_out_queue
 	LDY #$A0
 
-@not_fade_out_queue:
+@not_fade_in_out_queue:
 	JSR _nmi_audio_track_queue
 	DEC z:ztrack_queue_pointer
 	BNE @loop
