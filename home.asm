@@ -1,5 +1,4 @@
 .SEGMENT "HOME"
-.INCLUDE "constants/nes.asm"
 .INCLUDE "constants/stage.asm"
 .INCLUDE "home/bankswitch.asm"
 .INCLUDE "home/track_queue.asm"
