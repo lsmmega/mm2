@@ -41,6 +41,7 @@ _stage_select:
 
 .INCBIN  "13/13_4_0.bin"
 .INCLUDE "engine/init_miscellaneous_sprites.asm"
+.INCLUDE "engine/init_miscellaneous_ram.asm"
 .INCBIN  "13/13_4_1.bin"
 .INCLUDE "data/boss_show/oam_frameset.asm"
 .INCLUDE "data/boss_show/oam_sprites_pointers.asm"
