@@ -5,28 +5,28 @@
 .INCBIN  "gfx/sprites/miscellaneous/ready_font.chr"
 .INCLUDE "unused/unused_244c0.asm"
 
-___ending:
-	JMP ____ending
+__ending_jmp:
+	JMP __ending
 
-_staff_roll:
-	JMP __staff_roll
+_staff_roll_jmp:
+	JMP _staff_roll
 
-_credit_init:
-	JMP __credit_init
+_credit_init_jmp:
+	JMP _credit_init
 
-_credit:
-	JMP __credit
+_credit_jmp:
+	JMP _credit
 
-____ending:
+__ending:
 .INCBIN  "9/9_0.bin"
 
-__staff_roll:
+_staff_roll:
 .INCBIN  "9/9_1.bin"
 
-__credit_init:
+_credit_init:
 .INCBIN  "9/9_2.bin"
 
-__credit:
+_credit:
 .INCBIN  "9/9_3.bin"
 .INCLUDE "screen/staff_roll_1.asm"
 .INCBIN  "9/9_4.bin"

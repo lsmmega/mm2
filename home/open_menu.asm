@@ -17,7 +17,7 @@ _home_open_menu:
 	LDA aobject_ppu_address + 1
 	PHA
 	track_queue track_open_menu
-	farjsr _open_menu
+	farjsr _open_menu_jmp
 	PLA
 	STA aobject_ppu_address + 1
 	PLA

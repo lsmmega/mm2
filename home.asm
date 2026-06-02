@@ -4,7 +4,7 @@
 .INCLUDE "home/track_queue.asm"
 .INCLUDE "home/mmc1_control.asm"
 
-	farjsr _wily_castle
+	farjsr _wily_castle_jmp
 	bankswitch $0E
 	RTS
 
@@ -15,15 +15,15 @@
 
 .INCBIN  "home/home_3.bin"
 
-	farjsr _game_over
+	farjsr _game_over_jmp
 
 .INCBIN  "home/home_4.bin"
 
-	farjsr _get_weapon
+	farjsr _get_weapon_jmp
 
 .INCBIN  "home/home_5.bin"
 
-	farjsr _ending
+	farjsr _ending_jmp
 
 .INCBIN  "home/home_6_0.bin"
 .INCLUDE "home/background_palette.asm"
@@ -31,18 +31,18 @@
 .INCBIN  "home/home_6_1.bin"
 
 _homeintro:
-	farjsr _intro
+	farjsr _intro_jmp
 	bankswitch $0E
 	RTS
 
-	farjsr _stage_select
+	farjsr _stage_select_jmp
 	bankswitch $0E
 	RTS
 
 .INCLUDE "home/open_menu.asm"
 .INCBIN  "home/home_9.bin"
 
-	farjsr _boss_ai
+	farjsr _boss_ai_jmp
 
 .INCBIN  "home/home_10_0.bin"
 .INCLUDE "home/load_cutscene_screen.asm"
@@ -57,7 +57,7 @@ _homeintro:
 
 .INCBIN  "home/home_11.bin"
 
-	farjsr _boss_init
+	farjsr _boss_init_jmp
 
 .INCBIN  "home/home_12_0.bin"
 
@@ -78,19 +78,19 @@ _homeintro:
 
 .INCBIN  "home/home_13.bin"
 
-	farjsr ___ending
+	farjsr __ending_jmp
 	bankswitch $0D
 	RTS
 
-	farjsr _staff_roll
+	farjsr _staff_roll_jmp
 
 .INCBIN  "home/home_15.bin"
 
-	farjsr _credit_init
+	farjsr _credit_init_jmp
 
 .INCBIN  "home/home_16.bin"
 
-	farjsr _credit
+	farjsr _credit_jmp
 
 .INCBIN  "home/home_17.bin"
 

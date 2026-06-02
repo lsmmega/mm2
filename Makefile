@@ -123,6 +123,7 @@ stages := \
 	constants/* \
 	macros/* \
 	13/* \
+	engine/* \
 	data/boss_show/* \
 	data/password/* \
 	screen/* \

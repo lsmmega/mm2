@@ -2,10 +2,10 @@
 .INCLUDE "constants/track.asm"
 .INCLUDE "macros/audio.asm"
 
-_boss_init:
-	JMP __boss_init
+_boss_init_jmp:
+	JMP _boss_init
 
-_boss_ai:
+_boss_ai_jmp:
 .INCBIN  "11/11_0.bin"
 
 	track_queue track_refill
@@ -80,7 +80,7 @@ _boss_ai:
 
 .INCBIN  "11/11_18.bin"
 
-__boss_init:
+_boss_init:
 .INCBIN  "11/11_19.bin"
 
 	track_queue track_enemy_hit
