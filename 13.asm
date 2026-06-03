@@ -40,6 +40,7 @@ _stage_select:
 	track_queue track_boss_show
 
 .INCBIN  "13/13_4_0.bin"
+.INCLUDE "engine/init_miscellaneous_xcoord.asm"
 .INCLUDE "engine/init_miscellaneous_sprites.asm"
 .INCLUDE "engine/init_miscellaneous_ram.asm"
 .INCBIN  "13/13_4_1.bin"
