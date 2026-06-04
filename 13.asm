@@ -40,10 +40,13 @@ _stage_select:
 	track_queue track_boss_show
 
 .INCBIN  "13/13_4_0.bin"
+.INCLUDE "engine/load_stage_select.asm"
 .INCLUDE "engine/init_miscellaneous_xcoord.asm"
 .INCLUDE "engine/init_miscellaneous_sprites.asm"
 .INCLUDE "engine/init_miscellaneous_ram.asm"
-.INCBIN  "13/13_4_1.bin"
+.INCBIN  "13/13_4_1_0.bin"
+.INCLUDE "data/boss_show/screen.asm"
+.INCBIN  "13/13_4_1_1.bin"
 .INCLUDE "data/boss_show/oam_frameset.asm"
 .INCLUDE "data/boss_show/oam_sprites_pointers.asm"
 .INCLUDE "data/boss_show/oam_sprites.asm"

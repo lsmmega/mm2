@@ -1,4 +1,4 @@
-;stage select screen set
+stage_select_screen_set:
 ;y0
 	.BYTE $20 ;x0
 	.BYTE $20 ;x1
