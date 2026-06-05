@@ -39,11 +39,14 @@ _stage_select:
 
 	track_queue track_boss_show
 
-.INCBIN  "13/13_4_0.bin"
+.INCBIN  "13/13_4_0_0.bin"
+.INCLUDE "engine/flash_palettes.asm"
+.INCBIN  "13/13_4_0_1.bin"
 .INCLUDE "engine/load_stage_select.asm"
 .INCLUDE "engine/init_miscellaneous_xcoord.asm"
 .INCLUDE "engine/init_miscellaneous_sprites.asm"
 .INCLUDE "engine/init_miscellaneous_ram.asm"
+.INCLUDE "data/flash_stage_select_palettes.asm"
 .INCBIN  "13/13_4_1_0.bin"
 .INCLUDE "data/boss_show/screen.asm"
 .INCBIN  "13/13_4_1_1.bin"

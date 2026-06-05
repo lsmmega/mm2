@@ -124,6 +124,7 @@ stages := \
 	macros/* \
 	13/* \
 	engine/* \
+	data/* \
 	data/boss_show/* \
 	data/password/* \
 	screen/* \
