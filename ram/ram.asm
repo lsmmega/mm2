@@ -110,7 +110,7 @@
 	adoor_attribute                          = $3CE
 	adoor_attribute_bitwise                  = $3D4
 	aobject_pointer                          = $400
-	aobject_attributes                       = $420
+	aobject_flag                             = $420
 	aobject_screen                           = $440
 	aobject_xcoord                           = $460
 	aobject_xcoord_fraction                  = $480

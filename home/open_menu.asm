@@ -2,7 +2,7 @@ _home_open_menu:
 	LDX #$0F
 
 @loop:
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	BMI @weapon_object_exist
 	DEX
 	CPX #$01

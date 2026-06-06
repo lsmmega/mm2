@@ -185,7 +185,7 @@ _time_stopper_flag_set:
 
 _draw_megaman_without_animation:
 	LDX z:zsprites_pointer
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	BMI @exist
 	CLC
 	RTS
@@ -205,12 +205,12 @@ _draw_megaman_without_animation:
 	JMP _is_megaman_object
 
 @not_object:
-	LSR aobject_attributes, X
+	LSR aobject_flag, X
 	RTS
 
 _draw_enemies_without_animation:
 	LDX z:zsprites_pointer
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	BMI @exist
 	CLC
 	RTS
@@ -230,12 +230,12 @@ _draw_enemies_without_animation:
 	JMP _is_enemies_object
 
 @not_object:
-	LSR aobject_attributes, X
+	LSR aobject_flag, X
 	RTS
 
 _draw_megaman_with_animation:
 	LDX z:zsprites_pointer
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	BMI @exist
 	CLC
 	RTS
@@ -270,7 +270,7 @@ _draw_megaman_with_animation:
 	TAY
 	LDA (z08), Y
 	BNE @is_object
-	LSR aobject_attributes, X
+	LSR aobject_flag, X
 	RTS
 
 @is_object:
@@ -334,7 +334,7 @@ _object_common:
 	SBC z:zscreen_id
 	LDA aobject_ycoord, X
 	STA z:z01
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	AND #objects_right
 	STA z:z02
 	LDA #2
@@ -413,7 +413,7 @@ _draw_max:
 
 _draw_enemies_with_animation:
 	LDX z:zsprites_pointer
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	BMI @exist
 	CLC
 	RTS
@@ -448,13 +448,13 @@ _draw_enemies_with_animation:
 	TAY
 	LDA (z08), Y
 	BNE @is_object
-	LSR aobject_attributes, X
+	LSR aobject_flag, X
 	RTS
 
 @is_object:
 _is_enemies_object:
 	TAY
-	LDA aobject_attributes, X
+	LDA aobject_flag, X
 	AND #objects_invisible
 	BNE @yes
 	LDA oam_enemies_sprites_lo_pointers, Y
