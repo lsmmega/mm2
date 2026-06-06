@@ -3,11 +3,7 @@
 .INCLUDE "home/bankswitch.asm"
 .INCLUDE "home/track_queue.asm"
 .INCLUDE "home/mmc1_control.asm"
-
-	farjsr _wily_castle_jmp
-	bankswitch $0E
-	RTS
-
+.INCLUDE "home/wily_castle.asm"
 .INCLUDE "home/nmi_wait.asm"
 .INCBIN  "home/home_2.bin"
 
