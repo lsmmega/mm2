@@ -5,7 +5,7 @@
 .INCLUDE "home/mmc1_control.asm"
 .INCLUDE "home/wily_castle.asm"
 .INCLUDE "home/nmi_wait.asm"
-.INCBIN  "home/home_2.bin"
+.INCLUDE "home/unused/unknown_3c110.asm"
 
 	track_queue track_death
 
