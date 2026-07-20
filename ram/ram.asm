@@ -46,6 +46,7 @@
 	zdelay_track_queue            = $67
 	zbankswitch_status            = $68
 	zundo_bankswitch              = $69
+	zgot_weapon_flag              = $9A
 	zatomic_fire                  = $9C
 	ze_tank                       = $A7
 	z1up                          = $A8

@@ -98,11 +98,12 @@ stages := \
 	macros/* \
 	constants/* \
 	9/* \
+	unused/* \
+	data/ending/* \
 	screen/* \
 	gfx/stages/*.bmp \
 	gfx/menus/*.bmp \
 	gfx/sprites/miscellaneous/*.bmp \
-	unused/* \
 	gfx/font/*.bmp \
 	gfx/wily_castle/*.bmp \
 	gfx/opening/*.bmp \

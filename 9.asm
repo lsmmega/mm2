@@ -28,6 +28,8 @@ _credit_init:
 
 _credit:
 .INCBIN  "9/9_3.bin"
+.INCLUDE "data/ending/oam_pointers.asm"
+.INCLUDE "data/ending/oam.asm"
 .INCLUDE "screen/staff_roll_1.asm"
 .INCBIN  "9/9_4.bin"
 .INCLUDE "screen/staff_roll_2.asm"
