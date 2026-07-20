@@ -2,7 +2,7 @@
 ;@start length, oamcoord index, oam set
 oam_sprites_00:
 oam_sprites_01:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $01
 
 @start:
@@ -19,7 +19,7 @@ oam_sprites_01:
 @end:
 
 oam_sprites_02:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $01
 
 @start:
@@ -35,7 +35,7 @@ oam_sprites_02:
 @end:
 
 oam_sprites_03:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $02
 
 @start:
@@ -50,7 +50,7 @@ oam_sprites_03:
 @end:
 
 oam_sprites_04:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -67,7 +67,7 @@ oam_sprites_04:
 @end:
 
 oam_sprites_05:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -84,7 +84,7 @@ oam_sprites_05:
 @end:
 
 oam_sprites_06:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -101,7 +101,7 @@ oam_sprites_06:
 @end:
 
 oam_sprites_07:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $05
 
 @start:
@@ -119,7 +119,7 @@ oam_sprites_07:
 @end:
 
 oam_sprites_08:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $04
 
 @start:
@@ -137,7 +137,7 @@ oam_sprites_08:
 @end:
 
 oam_sprites_09:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $07
 
 @start:
@@ -154,7 +154,7 @@ oam_sprites_09:
 @end:
 
 oam_sprites_0a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $01
 
 @start:
@@ -171,7 +171,7 @@ oam_sprites_0a:
 @end:
 
 oam_sprites_0b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $08
 
 @start:
@@ -187,7 +187,7 @@ oam_sprites_0b:
 @end:
 
 oam_sprites_0c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $02
 
 @start:
@@ -203,7 +203,7 @@ oam_sprites_0c:
 @end:
 
 oam_sprites_0d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $01
 
 @start:
@@ -219,7 +219,7 @@ oam_sprites_0d:
 @end:
 
 oam_sprites_0e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $01
 
 @start:
@@ -234,7 +234,7 @@ oam_sprites_0e:
 @end:
 
 oam_sprites_0f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $02
 
 @start:
@@ -249,7 +249,7 @@ oam_sprites_0f:
 @end:
 
 oam_sprites_10:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -266,7 +266,7 @@ oam_sprites_10:
 @end:
 
 oam_sprites_11:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -283,7 +283,7 @@ oam_sprites_11:
 @end:
 
 oam_sprites_12:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -300,7 +300,7 @@ oam_sprites_12:
 @end:
 
 oam_sprites_13:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $04
 
 @start:
@@ -317,7 +317,7 @@ oam_sprites_13:
 @end:
 
 oam_sprites_14:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $06
 
 @start:
@@ -335,7 +335,7 @@ oam_sprites_14:
 @end:
 
 oam_sprites_15:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0A
 
 @start:
@@ -349,7 +349,7 @@ oam_sprites_15:
 @end:
 
 oam_sprites_16:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0B
 
 @start:
@@ -363,7 +363,7 @@ oam_sprites_16:
 @end:
 
 oam_sprites_17:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0B
 
 @start:
@@ -375,7 +375,7 @@ oam_sprites_17:
 @end:
 
 oam_sprites_18:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -391,7 +391,7 @@ oam_sprites_18:
 @end:
 
 oam_sprites_19:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0B
 
 @start:
@@ -407,7 +407,7 @@ oam_sprites_19:
 @end:
 
 oam_sprites_1a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $03
 
 @start:
@@ -424,7 +424,7 @@ oam_sprites_1a:
 @end:
 
 oam_sprites_1b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $09
 
 @start:
@@ -435,7 +435,7 @@ oam_sprites_1b:
 @end:
 
 oam_sprites_1c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $09
 
 @start:
@@ -452,7 +452,7 @@ oam_sprites_1c:
 @end:
 
 oam_sprites_1d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -463,7 +463,7 @@ oam_sprites_1d:
 @end:
 
 oam_sprites_1e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $06
 
 @start:
@@ -481,7 +481,7 @@ oam_sprites_1e:
 @end:
 
 oam_sprites_1f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0B
 
 @start:
@@ -497,7 +497,7 @@ oam_sprites_1f:
 @end:
 
 oam_sprites_20:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0C
 
 @start:
@@ -515,7 +515,7 @@ oam_sprites_20:
 @end:
 
 oam_sprites_21:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0A
 
 @start:
@@ -527,7 +527,7 @@ oam_sprites_21:
 @end:
 
 oam_sprites_22:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -535,7 +535,7 @@ oam_sprites_22:
 @end:
 
 oam_sprites_23:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0D
 
 @start:
@@ -545,7 +545,7 @@ oam_sprites_23:
 @end:
 
 oam_sprites_24:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0D
 
 @start:
@@ -555,7 +555,7 @@ oam_sprites_24:
 @end:
 
 oam_sprites_25:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $0D
 
 @start:
@@ -565,7 +565,7 @@ oam_sprites_25:
 @end:
 
 oam_sprites_26:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -576,7 +576,7 @@ oam_sprites_26:
 @end:
 
 oam_sprites_27:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -587,7 +587,7 @@ oam_sprites_27:
 @end:
 
 oam_sprites_28:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -598,7 +598,7 @@ oam_sprites_28:
 @end:
 
 oam_sprites_29:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -606,7 +606,7 @@ oam_sprites_29:
 @end:
 
 oam_sprites_2a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -617,7 +617,7 @@ oam_sprites_2a:
 @end:
 
 oam_sprites_2b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -628,7 +628,7 @@ oam_sprites_2b:
 @end:
 
 oam_sprites_2c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -639,7 +639,7 @@ oam_sprites_2c:
 @end:
 
 oam_sprites_2d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -651,7 +651,7 @@ oam_sprites_2d:
 
 oam_sprites_2e:
 oam_sprites_2f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -659,7 +659,7 @@ oam_sprites_2f:
 @end:
 
 oam_sprites_30:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5B
 
 @start:
@@ -675,7 +675,7 @@ oam_sprites_30:
 @end:
 
 oam_sprites_31:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5B
 
 @start:
@@ -691,7 +691,7 @@ oam_sprites_31:
 @end:
 
 oam_sprites_32:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5B
 
 @start:
@@ -707,7 +707,7 @@ oam_sprites_32:
 @end:
 
 oam_sprites_33:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5C
 
 @start:
@@ -723,7 +723,7 @@ oam_sprites_33:
 @end:
 
 oam_sprites_34:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5C
 
 @start:
@@ -739,7 +739,7 @@ oam_sprites_34:
 @end:
 
 oam_sprites_35:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5C
 
 @start:
@@ -755,7 +755,7 @@ oam_sprites_35:
 @end:
 
 oam_sprites_36:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5D
 
 @start:
@@ -771,7 +771,7 @@ oam_sprites_36:
 @end:
 
 oam_sprites_37:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5D
 
 @start:
@@ -787,7 +787,7 @@ oam_sprites_37:
 @end:
 
 oam_sprites_38:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5D
 
 @start:
@@ -803,7 +803,7 @@ oam_sprites_38:
 @end:
 
 oam_sprites_39:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -814,7 +814,7 @@ oam_sprites_39:
 @end:
 
 oam_sprites_3a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -825,7 +825,7 @@ oam_sprites_3a:
 @end:
 
 oam_sprites_3b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -836,7 +836,7 @@ oam_sprites_3b:
 @end:
 
 oam_sprites_3c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -844,7 +844,7 @@ oam_sprites_3c:
 @end:
 
 oam_sprites_3d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -855,7 +855,7 @@ oam_sprites_3d:
 @end:
 
 oam_sprites_3e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -866,7 +866,7 @@ oam_sprites_3e:
 @end:
 
 oam_sprites_3f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -877,7 +877,7 @@ oam_sprites_3f:
 @end:
 
 oam_sprites_40:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -888,7 +888,7 @@ oam_sprites_40:
 @end:
 
 oam_sprites_41:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -899,7 +899,7 @@ oam_sprites_41:
 @end:
 
 oam_sprites_42:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -910,7 +910,7 @@ oam_sprites_42:
 @end:
 
 oam_sprites_43:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -921,7 +921,7 @@ oam_sprites_43:
 @end:
 
 oam_sprites_44:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -929,7 +929,7 @@ oam_sprites_44:
 @end:
 
 oam_sprites_45:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -937,7 +937,7 @@ oam_sprites_45:
 @end:
 
 oam_sprites_46:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -945,7 +945,7 @@ oam_sprites_46:
 @end:
 
 oam_sprites_47:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -953,7 +953,7 @@ oam_sprites_47:
 @end:
 
 oam_sprites_48:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -964,7 +964,7 @@ oam_sprites_48:
 @end:
 
 oam_sprites_49:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -975,7 +975,7 @@ oam_sprites_49:
 @end:
 
 oam_sprites_4a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -986,7 +986,7 @@ oam_sprites_4a:
 @end:
 
 oam_sprites_4b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -997,7 +997,7 @@ oam_sprites_4b:
 @end:
 
 oam_sprites_4c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -1008,7 +1008,7 @@ oam_sprites_4c:
 @end:
 
 oam_sprites_4d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1016,7 +1016,7 @@ oam_sprites_4d:
 @end:
 
 oam_sprites_4e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1024,7 +1024,7 @@ oam_sprites_4e:
 @end:
 
 oam_sprites_4f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -1035,7 +1035,7 @@ oam_sprites_4f:
 @end:
 
 oam_sprites_50:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -1046,7 +1046,7 @@ oam_sprites_50:
 @end:
 
 oam_sprites_51:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1062,7 +1062,7 @@ oam_sprites_51:
 @end:
 
 oam_sprites_52:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1078,7 +1078,7 @@ oam_sprites_52:
 @end:
 
 oam_sprites_53:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1086,7 +1086,7 @@ oam_sprites_53:
 @end:
 
 oam_sprites_54:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5F
 
 @start:
@@ -1101,7 +1101,7 @@ oam_sprites_54:
 @end:
 
 oam_sprites_55:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5F
 
 @start:
@@ -1116,7 +1116,7 @@ oam_sprites_55:
 @end:
 
 oam_sprites_56:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5E
 
 @start:
@@ -1127,7 +1127,7 @@ oam_sprites_56:
 @end:
 
 oam_sprites_57:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5F
 
 @start:
@@ -1138,7 +1138,7 @@ oam_sprites_57:
 @end:
 
 oam_sprites_58:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $61
 
 @start:
@@ -1149,7 +1149,7 @@ oam_sprites_58:
 @end:
 
 oam_sprites_59:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $60
 
 @start:
@@ -1160,7 +1160,7 @@ oam_sprites_59:
 @end:
 
 oam_sprites_5a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $63
 
 @start:
@@ -1171,7 +1171,7 @@ oam_sprites_5a:
 @end:
 
 oam_sprites_5b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $64
 
 @start:
@@ -1182,7 +1182,7 @@ oam_sprites_5b:
 @end:
 
 oam_sprites_5c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -1193,7 +1193,7 @@ oam_sprites_5c:
 @end:
 
 oam_sprites_5d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -1204,7 +1204,7 @@ oam_sprites_5d:
 @end:
 
 oam_sprites_5e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $62
 
 @start:
@@ -1217,7 +1217,7 @@ oam_sprites_5e:
 @end:
 
 oam_sprites_5f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $62
 
 @start:
@@ -1230,7 +1230,7 @@ oam_sprites_5f:
 @end:
 
 oam_sprites_60:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $65
 
 @start:
@@ -1251,7 +1251,7 @@ oam_sprites_60:
 @end:
 
 oam_sprites_61:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $66
 
 @start:
@@ -1270,7 +1270,7 @@ oam_sprites_61:
 @end:
 
 oam_sprites_62:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $65
 
 @start:
@@ -1287,7 +1287,7 @@ oam_sprites_62:
 @end:
 
 oam_sprites_63:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $65
 
 @start:
@@ -1312,7 +1312,7 @@ oam_sprites_63:
 @end:
 
 oam_sprites_64:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $65
 
 @start:
@@ -1337,7 +1337,7 @@ oam_sprites_64:
 @end:
 
 oam_sprites_65:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $67
 
 @start:
@@ -1355,7 +1355,7 @@ oam_sprites_65:
 @end:
 
 oam_sprites_66:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $68
 
 @start:
@@ -1373,7 +1373,7 @@ oam_sprites_66:
 @end:
 
 oam_sprites_67:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $69
 
 @start:
@@ -1392,7 +1392,7 @@ oam_sprites_67:
 @end:
 
 oam_sprites_68:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3A
 
 @start:
@@ -1411,7 +1411,7 @@ oam_sprites_68:
 @end:
 
 oam_sprites_69:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6A
 
 @start:
@@ -1430,7 +1430,7 @@ oam_sprites_69:
 @end:
 
 oam_sprites_6a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5A
 
 @start:
@@ -1449,7 +1449,7 @@ oam_sprites_6a:
 @end:
 
 oam_sprites_6b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4C
 
 @start:
@@ -1468,7 +1468,7 @@ oam_sprites_6b:
 @end:
 
 oam_sprites_6c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4C
 
 @start:
@@ -1487,7 +1487,7 @@ oam_sprites_6c:
 @end:
 
 oam_sprites_6d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4C
 
 @start:
@@ -1506,7 +1506,7 @@ oam_sprites_6d:
 @end:
 
 oam_sprites_6e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6B
 
 @start:
@@ -1525,7 +1525,7 @@ oam_sprites_6e:
 @end:
 
 oam_sprites_6f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6C
 
 @start:
@@ -1544,7 +1544,7 @@ oam_sprites_6f:
 @end:
 
 oam_sprites_70:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1563,7 +1563,7 @@ oam_sprites_70:
 @end:
 
 oam_sprites_71:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1582,7 +1582,7 @@ oam_sprites_71:
 @end:
 
 oam_sprites_72:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1602,7 +1602,7 @@ oam_sprites_72:
 @end:
 
 oam_sprites_73:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1622,7 +1622,7 @@ oam_sprites_73:
 @end:
 
 oam_sprites_74:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1643,7 +1643,7 @@ oam_sprites_74:
 @end:
 
 oam_sprites_75:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1662,7 +1662,7 @@ oam_sprites_75:
 @end:
 
 oam_sprites_76:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6D
 
 @start:
@@ -1682,7 +1682,7 @@ oam_sprites_76:
 @end:
 
 oam_sprites_77:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -1701,7 +1701,7 @@ oam_sprites_77:
 @end:
 
 oam_sprites_78:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6E
 
 @start:
@@ -1720,7 +1720,7 @@ oam_sprites_78:
 @end:
 
 oam_sprites_79:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6E
 
 @start:
@@ -1739,7 +1739,7 @@ oam_sprites_79:
 @end:
 
 oam_sprites_7a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6F
 
 @start:
@@ -1758,7 +1758,7 @@ oam_sprites_7a:
 @end:
 
 oam_sprites_7b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6D
 
 @start:
@@ -1779,7 +1779,7 @@ oam_sprites_7b:
 @end:
 
 oam_sprites_7c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $70
 
 @start:
@@ -1798,7 +1798,7 @@ oam_sprites_7c:
 @end:
 
 oam_sprites_7d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $71
 
 @start:
@@ -1818,7 +1818,7 @@ oam_sprites_7d:
 @end:
 
 oam_sprites_7e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $76
 
 @start:
@@ -1839,7 +1839,7 @@ oam_sprites_7e:
 @end:
 
 oam_sprites_7f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $72
 
 @start:
@@ -1859,7 +1859,7 @@ oam_sprites_7f:
 @end:
 
 oam_sprites_80:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $72
 
 @start:
@@ -1879,7 +1879,7 @@ oam_sprites_80:
 @end:
 
 oam_sprites_81:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $72
 
 @start:
@@ -1899,7 +1899,7 @@ oam_sprites_81:
 @end:
 
 oam_sprites_82:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $72
 
 @start:
@@ -1919,7 +1919,7 @@ oam_sprites_82:
 @end:
 
 oam_sprites_83:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $73
 
 @start:
@@ -1939,7 +1939,7 @@ oam_sprites_83:
 @end:
 
 oam_sprites_84:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $76
 
 @start:
@@ -1962,7 +1962,7 @@ oam_sprites_84:
 @end:
 
 oam_sprites_85:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $74
 
 @start:
@@ -1982,7 +1982,7 @@ oam_sprites_85:
 @end:
 
 oam_sprites_86:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $75
 
 @start:
@@ -1999,7 +1999,7 @@ oam_sprites_86:
 @end:
 
 oam_sprites_87:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $74
 
 @start:
@@ -2018,7 +2018,7 @@ oam_sprites_87:
 @end:
 
 oam_sprites_88:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5B
 
 @start:
@@ -2034,7 +2034,7 @@ oam_sprites_88:
 @end:
 
 oam_sprites_89:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5B
 
 @start:
@@ -2050,7 +2050,7 @@ oam_sprites_89:
 @end:
 
 oam_sprites_8a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5B
 
 @start:
@@ -2066,7 +2066,7 @@ oam_sprites_8a:
 @end:
 
 oam_sprites_8b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5C
 
 @start:
@@ -2082,7 +2082,7 @@ oam_sprites_8b:
 @end:
 
 oam_sprites_8c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5C
 
 @start:
@@ -2098,7 +2098,7 @@ oam_sprites_8c:
 @end:
 
 oam_sprites_8d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5C
 
 @start:
@@ -2114,7 +2114,7 @@ oam_sprites_8d:
 @end:
 
 oam_sprites_8e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5D
 
 @start:
@@ -2130,7 +2130,7 @@ oam_sprites_8e:
 @end:
 
 oam_sprites_8f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5D
 
 @start:
@@ -2146,7 +2146,7 @@ oam_sprites_8f:
 @end:
 
 oam_sprites_90:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5D
 
 @start:
@@ -2162,7 +2162,7 @@ oam_sprites_90:
 @end:
 
 oam_sprites_91:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $77
 
 @start:
@@ -2179,7 +2179,7 @@ oam_sprites_91:
 @end:
 
 oam_sprites_92:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $78
 
 @start:
@@ -2198,7 +2198,7 @@ oam_sprites_92:
 @end:
 
 oam_sprites_93:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $79
 
 @start:
@@ -2217,7 +2217,7 @@ oam_sprites_93:
 @end:
 
 oam_sprites_94:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7A
 
 @start:
@@ -2236,7 +2236,7 @@ oam_sprites_94:
 @end:
 
 oam_sprites_95:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7B
 
 @start:
@@ -2254,7 +2254,7 @@ oam_sprites_95:
 @end:
 
 oam_sprites_96:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7C
 
 @start:
@@ -2272,7 +2272,7 @@ oam_sprites_96:
 @end:
 
 oam_sprites_97:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7D
 
 @start:
@@ -2292,7 +2292,7 @@ oam_sprites_97:
 @end:
 
 oam_sprites_98:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7E
 
 @start:
@@ -2311,7 +2311,7 @@ oam_sprites_98:
 @end:
 
 oam_sprites_99:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7F
 
 @start:
@@ -2327,7 +2327,7 @@ oam_sprites_99:
 @end:
 
 oam_sprites_9a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $80
 
 @start:
@@ -2345,7 +2345,7 @@ oam_sprites_9a:
 @end:
 
 oam_sprites_9b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $81
 
 @start:
@@ -2361,7 +2361,7 @@ oam_sprites_9b:
 @end:
 
 oam_sprites_9c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $7F
 
 @start:
@@ -2378,7 +2378,7 @@ oam_sprites_9c:
 @end:
 
 oam_sprites_9d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $82
 
 @start:
@@ -2397,7 +2397,7 @@ oam_sprites_9d:
 @end:
 
 oam_sprites_9e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $80
 
 @start:
@@ -2416,7 +2416,7 @@ oam_sprites_9e:
 @end:
 
 oam_sprites_9f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $83
 
 @start:
@@ -2433,7 +2433,7 @@ oam_sprites_9f:
 @end:
 
 oam_sprites_a0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $84
 
 @start:
@@ -2447,7 +2447,7 @@ oam_sprites_a0:
 @end:
 
 oam_sprites_a1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $83
 
 @start:
@@ -2463,7 +2463,7 @@ oam_sprites_a1:
 @end:
 
 oam_sprites_a2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $85
 
 @start:
@@ -2487,7 +2487,7 @@ oam_sprites_a2:
 @end:
 
 oam_sprites_a3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $86
 
 @start:
@@ -2512,7 +2512,7 @@ oam_sprites_a3:
 @end:
 
 oam_sprites_a4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $86
 
 @start:
@@ -2537,7 +2537,7 @@ oam_sprites_a4:
 @end:
 
 oam_sprites_a5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $87
 
 @start:
@@ -2563,7 +2563,7 @@ oam_sprites_a5:
 @end:
 
 oam_sprites_a6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $88
 
 @start:
@@ -2587,7 +2587,7 @@ oam_sprites_a6:
 @end:
 
 oam_sprites_a7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $89
 
 @start:
@@ -2605,7 +2605,7 @@ oam_sprites_a7:
 @end:
 
 oam_sprites_a8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $8A
 
 @start:
@@ -2625,7 +2625,7 @@ oam_sprites_a8:
 @end:
 
 oam_sprites_a9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $8B
 
 @start:
@@ -2645,7 +2645,7 @@ oam_sprites_a9:
 @end:
 
 oam_sprites_aa:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $8C
 
 @start:
@@ -2666,7 +2666,7 @@ oam_sprites_aa:
 @end:
 
 oam_sprites_ab:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $8D
 
 @start:
@@ -2685,7 +2685,7 @@ oam_sprites_ab:
 @end:
 
 oam_sprites_ac:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $8E
 
 @start:
@@ -2705,7 +2705,7 @@ oam_sprites_ac:
 @end:
 
 oam_sprites_ad:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $89
 
 @start:
@@ -2724,7 +2724,7 @@ oam_sprites_ad:
 @end:
 
 oam_sprites_ae:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $8F
 
 @start:
@@ -2739,7 +2739,7 @@ oam_sprites_ae:
 @end:
 
 oam_sprites_af:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $90
 
 @start:
@@ -2755,7 +2755,7 @@ oam_sprites_af:
 @end:
 
 oam_sprites_b0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $91
 
 @start:
@@ -2778,7 +2778,7 @@ oam_sprites_b0:
 @end:
 
 oam_sprites_b1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $93
 
 @start:
@@ -2800,7 +2800,7 @@ oam_sprites_b1:
 @end:
 
 oam_sprites_b2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $92
 
 @start:
@@ -2823,7 +2823,7 @@ oam_sprites_b2:
 @end:
 
 oam_sprites_b3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $92
 
 @start:
@@ -2846,7 +2846,7 @@ oam_sprites_b3:
 @end:
 
 oam_sprites_b4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $91
 
 @start:
@@ -2870,7 +2870,7 @@ oam_sprites_b4:
 @end:
 
 oam_sprites_b5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $94
 
 @start:
@@ -2892,7 +2892,7 @@ oam_sprites_b5:
 @end:
 
 oam_sprites_b6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $95
 
 @start:
@@ -2916,7 +2916,7 @@ oam_sprites_b6:
 @end:
 
 oam_sprites_b7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $38
 
 @start:
@@ -2932,7 +2932,7 @@ oam_sprites_b7:
 @end:
 
 oam_sprites_b8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $38
 
 @start:
@@ -2946,7 +2946,7 @@ oam_sprites_b8:
 @end:
 
 oam_sprites_b9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $9E
 
 @start:
@@ -2968,7 +2968,7 @@ oam_sprites_b9:
 @end:
 
 oam_sprites_ba:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $9F
 
 @start:
@@ -2991,7 +2991,7 @@ oam_sprites_ba:
 @end:
 
 oam_sprites_bb:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -3002,7 +3002,7 @@ oam_sprites_bb:
 @end:
 
 oam_sprites_bc:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2E
 
 @start:
@@ -3045,7 +3045,7 @@ oam_sprites_bc:
 @end:
 
 oam_sprites_bd:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2E
 
 @start:
@@ -3088,7 +3088,7 @@ oam_sprites_bd:
 @end:
 
 oam_sprites_be:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2E
 
 @start:
@@ -3143,7 +3143,7 @@ oam_sprites_be:
 	.BYTE $C2, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip
 
 oam_sprites_bf:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2E
 
 @start:
@@ -3198,7 +3198,7 @@ oam_sprites_bf:
 	.BYTE $C2, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip
 
 oam_sprites_c0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -3233,7 +3233,7 @@ oam_sprites_c0:
 @end:
 
 oam_sprites_c1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -3268,7 +3268,7 @@ oam_sprites_c1:
 @end:
 
 oam_sprites_c2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -3303,7 +3303,7 @@ oam_sprites_c2:
 @end:
 
 oam_sprites_c3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -3314,7 +3314,7 @@ oam_sprites_c3:
 @end:
 
 oam_sprites_c4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -3325,7 +3325,7 @@ oam_sprites_c4:
 @end:
 
 oam_sprites_c5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -3340,7 +3340,7 @@ oam_sprites_c5:
 @end:
 
 oam_sprites_c6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -3355,7 +3355,7 @@ oam_sprites_c6:
 @end:
 
 oam_sprites_c7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $23
 
 @start:
@@ -3371,7 +3371,7 @@ oam_sprites_c7:
 @end:
 
 oam_sprites_c8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $23
 
 @start:
@@ -3387,7 +3387,7 @@ oam_sprites_c8:
 @end:
 
 oam_sprites_c9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $24
 
 @start:
@@ -3402,7 +3402,7 @@ oam_sprites_c9:
 @end:
 
 oam_sprites_ca:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $78
 
 @start:
@@ -3419,7 +3419,7 @@ oam_sprites_ca:
 @end:
 
 oam_sprites_cb:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $25
 
 @start:
@@ -3438,7 +3438,7 @@ oam_sprites_cb:
 @end:
 
 oam_sprites_cc:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -3460,7 +3460,7 @@ oam_sprites_cc:
 @end:
 
 oam_sprites_cd:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -3482,7 +3482,7 @@ oam_sprites_cd:
 @end:
 
 oam_sprites_ce:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $62
 
 @start:
@@ -3495,7 +3495,7 @@ oam_sprites_ce:
 @end:
 
 oam_sprites_cf:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $62
 
 @start:
@@ -3508,7 +3508,7 @@ oam_sprites_cf:
 @end:
 
 oam_sprites_d0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -3524,7 +3524,7 @@ oam_sprites_d0:
 @end:
 
 oam_sprites_d1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A0
 
 @start:
@@ -3538,7 +3538,7 @@ oam_sprites_d1:
 @end:
 
 oam_sprites_d2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A0
 
 @start:
@@ -3552,7 +3552,7 @@ oam_sprites_d2:
 @end:
 
 oam_sprites_d3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $85
 
 @start:
@@ -3575,7 +3575,7 @@ oam_sprites_d3:
 @end:
 
 oam_sprites_d4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $85
 
 @start:
@@ -3610,7 +3610,7 @@ oam_sprites_de:
 oam_sprites_df:
 oam_sprites_100:
 oam_sprites_101:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $10
 
 @start:
@@ -3636,7 +3636,7 @@ oam_sprites_101:
 @end:
 
 oam_sprites_102:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $11
 
 @start:
@@ -3661,7 +3661,7 @@ oam_sprites_102:
 @end:
 
 oam_sprites_103:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $12
 
 @start:
@@ -3686,7 +3686,7 @@ oam_sprites_103:
 @end:
 
 oam_sprites_104:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3697,7 +3697,7 @@ oam_sprites_104:
 @end:
 
 oam_sprites_105:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3708,7 +3708,7 @@ oam_sprites_105:
 @end:
 
 oam_sprites_106:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3719,7 +3719,7 @@ oam_sprites_106:
 @end:
 
 oam_sprites_107:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3730,7 +3730,7 @@ oam_sprites_107:
 @end:
 
 oam_sprites_108:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3741,7 +3741,7 @@ oam_sprites_108:
 @end:
 
 oam_sprites_109:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3752,7 +3752,7 @@ oam_sprites_109:
 @end:
 
 oam_sprites_10a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3763,7 +3763,7 @@ oam_sprites_10a:
 @end:
 
 oam_sprites_10b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3774,7 +3774,7 @@ oam_sprites_10b:
 @end:
 
 oam_sprites_10c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3785,7 +3785,7 @@ oam_sprites_10c:
 @end:
 
 oam_sprites_10d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $13
 
 @start:
@@ -3808,7 +3808,7 @@ oam_sprites_10d:
 @end:
 
 oam_sprites_10e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $13
 
 @start:
@@ -3831,7 +3831,7 @@ oam_sprites_10e:
 @end:
 
 oam_sprites_10f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $14
 
 @start:
@@ -3856,7 +3856,7 @@ oam_sprites_10f:
 @end:
 
 oam_sprites_110:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $14
 
 @start:
@@ -3881,7 +3881,7 @@ oam_sprites_110:
 @end:
 
 oam_sprites_111:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $15
 
 @start:
@@ -3899,7 +3899,7 @@ oam_sprites_111:
 @end:
 
 oam_sprites_112:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $16
 
 @start:
@@ -3917,7 +3917,7 @@ oam_sprites_112:
 @end:
 
 oam_sprites_113:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -3940,7 +3940,7 @@ oam_sprites_113:
 @end:
 
 oam_sprites_114:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -3963,7 +3963,7 @@ oam_sprites_114:
 @end:
 
 oam_sprites_115:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3975,7 +3975,7 @@ oam_sprites_115:
 @end:
 
 oam_sprites_116:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3987,7 +3987,7 @@ oam_sprites_116:
 @end:
 
 oam_sprites_117:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -3999,7 +3999,7 @@ oam_sprites_117:
 @end:
 
 oam_sprites_118:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -4010,7 +4010,7 @@ oam_sprites_118:
 @end:
 
 oam_sprites_119:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -4020,7 +4020,7 @@ oam_sprites_119:
 
 oam_sprites_11a:
 oam_sprites_11b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -4028,7 +4028,7 @@ oam_sprites_11b:
 @end:
 
 oam_sprites_11c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -4036,7 +4036,7 @@ oam_sprites_11c:
 @end:
 
 oam_sprites_11d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $19
 
 @start:
@@ -4063,7 +4063,7 @@ oam_sprites_11d:
 @end:
 
 oam_sprites_11e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1A
 
 @start:
@@ -4090,7 +4090,7 @@ oam_sprites_11e:
 @end:
 
 oam_sprites_11f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1B
 
 @start:
@@ -4117,7 +4117,7 @@ oam_sprites_11f:
 @end:
 
 oam_sprites_120:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1A
 
 @start:
@@ -4144,7 +4144,7 @@ oam_sprites_120:
 @end:
 
 oam_sprites_121:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4E
 
 @start:
@@ -4170,7 +4170,7 @@ oam_sprites_121:
 @end:
 
 oam_sprites_122:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1C
 
 @start:
@@ -4197,7 +4197,7 @@ oam_sprites_122:
 @end:
 
 oam_sprites_123:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1D
 
 @start:
@@ -4218,7 +4218,7 @@ oam_sprites_123:
 @end:
 
 oam_sprites_124:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1E
 
 @start:
@@ -4239,7 +4239,7 @@ oam_sprites_124:
 @end:
 
 oam_sprites_125:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1F
 
 @start:
@@ -4260,7 +4260,7 @@ oam_sprites_125:
 @end:
 
 oam_sprites_126:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $18
 
 @start:
@@ -4271,7 +4271,7 @@ oam_sprites_126:
 @end:
 
 oam_sprites_127:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $43
 
 @start:
@@ -4288,7 +4288,7 @@ oam_sprites_127:
 @end:
 
 oam_sprites_128:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $43
 
 @start:
@@ -4305,7 +4305,7 @@ oam_sprites_128:
 @end:
 
 oam_sprites_129:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -4334,7 +4334,7 @@ oam_sprites_129:
 @end:
 
 oam_sprites_12a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $20
 
 @start:
@@ -4363,7 +4363,7 @@ oam_sprites_12a:
 @end:
 
 oam_sprites_12b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $20
 
 @start:
@@ -4392,7 +4392,7 @@ oam_sprites_12b:
 @end:
 
 oam_sprites_12c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $21
 
 @start:
@@ -4405,7 +4405,7 @@ oam_sprites_12c:
 @end:
 
 oam_sprites_12d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $21
 
 @start:
@@ -4423,7 +4423,7 @@ oam_sprites_12d:
 @end:
 
 oam_sprites_12e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $21
 
 @start:
@@ -4441,7 +4441,7 @@ oam_sprites_12e:
 @end:
 
 oam_sprites_12f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $21
 
 @start:
@@ -4459,7 +4459,7 @@ oam_sprites_12f:
 @end:
 
 oam_sprites_130:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $22
 
 @start:
@@ -4477,7 +4477,7 @@ oam_sprites_130:
 @end:
 
 oam_sprites_131:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $22
 
 @start:
@@ -4495,7 +4495,7 @@ oam_sprites_131:
 @end:
 
 oam_sprites_132:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $22
 
 @start:
@@ -4513,7 +4513,7 @@ oam_sprites_132:
 @end:
 
 oam_sprites_133:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -4524,7 +4524,7 @@ oam_sprites_133:
 @end:
 
 oam_sprites_134:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -4543,7 +4543,7 @@ oam_sprites_134:
 @end:
 
 oam_sprites_135:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -4562,7 +4562,7 @@ oam_sprites_135:
 @end:
 
 oam_sprites_136:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -4581,7 +4581,7 @@ oam_sprites_136:
 @end:
 
 oam_sprites_137:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6B
 
 @start:
@@ -4597,7 +4597,7 @@ oam_sprites_137:
 @end:
 
 oam_sprites_138:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $6B
 
 @start:
@@ -4614,7 +4614,7 @@ oam_sprites_138:
 @end:
 
 oam_sprites_139:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $42
 
 @start:
@@ -4634,7 +4634,7 @@ oam_sprites_139:
 @end:
 
 oam_sprites_13a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $42
 
 @start:
@@ -4654,7 +4654,7 @@ oam_sprites_13a:
 @end:
 
 oam_sprites_13b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $26
 
 @start:
@@ -4678,7 +4678,7 @@ oam_sprites_13b:
 @end:
 
 oam_sprites_13c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $27
 
 @start:
@@ -4702,7 +4702,7 @@ oam_sprites_13c:
 @end:
 
 oam_sprites_13d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $28
 
 @start:
@@ -4727,7 +4727,7 @@ oam_sprites_13d:
 @end:
 
 oam_sprites_13e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -4749,7 +4749,7 @@ oam_sprites_13e:
 @end:
 
 oam_sprites_13f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $29
 
 @start:
@@ -4771,7 +4771,7 @@ oam_sprites_13f:
 @end:
 
 oam_sprites_140:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $29
 
 @start:
@@ -4793,7 +4793,7 @@ oam_sprites_140:
 @end:
 
 oam_sprites_141:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $29
 
 @start:
@@ -4815,7 +4815,7 @@ oam_sprites_141:
 @end:
 
 oam_sprites_142:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -4837,7 +4837,7 @@ oam_sprites_142:
 @end:
 
 oam_sprites_143:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2A
 
 @start:
@@ -4845,7 +4845,7 @@ oam_sprites_143:
 @end:
 
 oam_sprites_144:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2A
 
 @start:
@@ -4854,7 +4854,7 @@ oam_sprites_144:
 @end:
 
 oam_sprites_145:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2B
 
 @start:
@@ -4875,7 +4875,7 @@ oam_sprites_145:
 @end:
 
 oam_sprites_146:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2B
 
 @start:
@@ -4896,7 +4896,7 @@ oam_sprites_146:
 @end:
 
 oam_sprites_147:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2B
 
 @start:
@@ -4919,7 +4919,7 @@ oam_sprites_147:
 @end:
 
 oam_sprites_148:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2C
 
 @start:
@@ -4937,7 +4937,7 @@ oam_sprites_148:
 @end:
 
 oam_sprites_149:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -4947,7 +4947,7 @@ oam_sprites_149:
 @end:
 
 oam_sprites_14a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -4957,7 +4957,7 @@ oam_sprites_14a:
 @end:
 
 oam_sprites_14b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -4967,7 +4967,7 @@ oam_sprites_14b:
 @end:
 
 oam_sprites_14c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -4977,7 +4977,7 @@ oam_sprites_14c:
 @end:
 
 oam_sprites_14d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -4987,7 +4987,7 @@ oam_sprites_14d:
 @end:
 
 oam_sprites_14e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:
@@ -4997,7 +4997,7 @@ oam_sprites_14e:
 @end:
 
 oam_sprites_14f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $41
 
 @start:
@@ -5006,7 +5006,7 @@ oam_sprites_14f:
 @end:
 
 oam_sprites_150:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $41
 
 @start:
@@ -5015,7 +5015,7 @@ oam_sprites_150:
 @end:
 
 oam_sprites_151:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $41
 
 @start:
@@ -5024,7 +5024,7 @@ oam_sprites_151:
 @end:
 
 oam_sprites_152:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $30
 
 @start:
@@ -5062,7 +5062,7 @@ oam_sprites_152:
 @end:
 
 oam_sprites_153:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $31
 
 @start:
@@ -5100,7 +5100,7 @@ oam_sprites_153:
 @end:
 
 oam_sprites_154:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $32
 
 @start:
@@ -5141,7 +5141,7 @@ oam_sprites_154:
 @end:
 
 oam_sprites_155:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -5157,7 +5157,7 @@ oam_sprites_155:
 @end:
 
 oam_sprites_156:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -5173,7 +5173,7 @@ oam_sprites_156:
 @end:
 
 oam_sprites_157:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -5193,7 +5193,7 @@ oam_sprites_157:
 @end:
 
 oam_sprites_158:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -5213,7 +5213,7 @@ oam_sprites_158:
 @end:
 
 oam_sprites_159:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -5233,7 +5233,7 @@ oam_sprites_159:
 @end:
 
 oam_sprites_15a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -5253,7 +5253,7 @@ oam_sprites_15a:
 @end:
 
 oam_sprites_15b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -5274,7 +5274,7 @@ oam_sprites_15b:
 @end:
 
 oam_sprites_15c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $33
 
 @start:
@@ -5295,7 +5295,7 @@ oam_sprites_15c:
 @end:
 
 oam_sprites_15d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $34
 
 @start:
@@ -5307,7 +5307,7 @@ oam_sprites_15d:
 @end:
 
 oam_sprites_15e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $34
 
 @start:
@@ -5319,7 +5319,7 @@ oam_sprites_15e:
 @end:
 
 oam_sprites_15f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $34
 
 @start:
@@ -5333,7 +5333,7 @@ oam_sprites_15f:
 @end:
 
 oam_sprites_160:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $34
 
 @start:
@@ -5347,7 +5347,7 @@ oam_sprites_160:
 @end:
 
 oam_sprites_161:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $35
 
 @start:
@@ -5363,7 +5363,7 @@ oam_sprites_161:
 @end:
 
 oam_sprites_162:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $35
 
 @start:
@@ -5379,7 +5379,7 @@ oam_sprites_162:
 @end:
 
 oam_sprites_163:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $36
 
 @start:
@@ -5392,7 +5392,7 @@ oam_sprites_163:
 @end:
 
 oam_sprites_164:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $37
 
 @start:
@@ -5405,7 +5405,7 @@ oam_sprites_164:
 @end:
 
 oam_sprites_165:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4F
 
 @start:
@@ -5433,7 +5433,7 @@ oam_sprites_165:
 @end:
 
 oam_sprites_166:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5444,7 +5444,7 @@ oam_sprites_166:
 @end:
 
 oam_sprites_167:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $09
 
 @start:
@@ -5452,7 +5452,7 @@ oam_sprites_167:
 @end:
 
 oam_sprites_168:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5463,7 +5463,7 @@ oam_sprites_168:
 @end:
 
 oam_sprites_169:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $39
 
 @start:
@@ -5476,7 +5476,7 @@ oam_sprites_169:
 @end:
 
 oam_sprites_16a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $1C
 
 @start:
@@ -5492,7 +5492,7 @@ oam_sprites_16a:
 @end:
 
 oam_sprites_16b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3A
 
 @start:
@@ -5515,7 +5515,7 @@ oam_sprites_16b:
 @end:
 
 oam_sprites_16c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3B
 
 @start:
@@ -5538,7 +5538,7 @@ oam_sprites_16c:
 @end:
 
 oam_sprites_16d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3C
 
 @start:
@@ -5561,7 +5561,7 @@ oam_sprites_16d:
 @end:
 
 oam_sprites_16e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3A
 
 @start:
@@ -5584,7 +5584,7 @@ oam_sprites_16e:
 @end:
 
 oam_sprites_16f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5595,7 +5595,7 @@ oam_sprites_16f:
 @end:
 
 oam_sprites_170:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5606,7 +5606,7 @@ oam_sprites_170:
 @end:
 
 oam_sprites_171:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3D
 
 @start:
@@ -5634,7 +5634,7 @@ oam_sprites_171:
 @end:
 
 oam_sprites_172:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3D
 
 @start:
@@ -5661,7 +5661,7 @@ oam_sprites_172:
 @end:
 
 oam_sprites_173:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3E
 
 @start:
@@ -5692,7 +5692,7 @@ oam_sprites_173:
 @end:
 
 oam_sprites_174:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3E
 
 @start:
@@ -5719,7 +5719,7 @@ oam_sprites_174:
 @end:
 
 oam_sprites_175:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5730,7 +5730,7 @@ oam_sprites_175:
 @end:
 
 oam_sprites_176:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5741,7 +5741,7 @@ oam_sprites_176:
 @end:
 
 oam_sprites_177:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3F
 
 @start:
@@ -5790,7 +5790,7 @@ oam_sprites_177:
 @end:
 
 oam_sprites_178:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $40
 
 @start:
@@ -5842,7 +5842,7 @@ oam_sprites_178:
 @end:
 
 oam_sprites_179:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5853,7 +5853,7 @@ oam_sprites_179:
 @end:
 
 oam_sprites_17a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5864,7 +5864,7 @@ oam_sprites_17a:
 @end:
 
 oam_sprites_17b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -5875,7 +5875,7 @@ oam_sprites_17b:
 @end:
 
 oam_sprites_17c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -5883,7 +5883,7 @@ oam_sprites_17c:
 @end:
 
 oam_sprites_17d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -5899,7 +5899,7 @@ oam_sprites_17d:
 @end:
 
 oam_sprites_17e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -5907,7 +5907,7 @@ oam_sprites_17e:
 @end:
 
 oam_sprites_17f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -5915,7 +5915,7 @@ oam_sprites_17f:
 @end:
 
 oam_sprites_180:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $43
 
 @start:
@@ -5930,7 +5930,7 @@ oam_sprites_180:
 @end:
 
 oam_sprites_181:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $43
 
 @start:
@@ -5945,7 +5945,7 @@ oam_sprites_181:
 @end:
 
 oam_sprites_182:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $44
 
 @start:
@@ -5960,7 +5960,7 @@ oam_sprites_182:
 @end:
 
 oam_sprites_183:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $44
 
 @start:
@@ -5975,7 +5975,7 @@ oam_sprites_183:
 @end:
 
 oam_sprites_184:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2F
 
 @start:
@@ -5986,7 +5986,7 @@ oam_sprites_184:
 @end:
 
 oam_sprites_185:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2F
 
 @start:
@@ -5997,7 +5997,7 @@ oam_sprites_185:
 @end:
 
 oam_sprites_186:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $43
 
 @start:
@@ -6012,7 +6012,7 @@ oam_sprites_186:
 @end:
 
 oam_sprites_187:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6023,7 +6023,7 @@ oam_sprites_187:
 @end:
 
 oam_sprites_188:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $45
 
 @start:
@@ -6032,7 +6032,7 @@ oam_sprites_188:
 @end:
 
 oam_sprites_189:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $46
 
 @start:
@@ -6061,7 +6061,7 @@ oam_sprites_189:
 @end:
 
 oam_sprites_18a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $47
 
 @start:
@@ -6092,7 +6092,7 @@ oam_sprites_18a:
 @end:
 
 oam_sprites_18b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $48
 
 @start:
@@ -6122,7 +6122,7 @@ oam_sprites_18b:
 @end:
 
 oam_sprites_18c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $49
 
 @start:
@@ -6152,7 +6152,7 @@ oam_sprites_18c:
 @end:
 
 oam_sprites_18d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4A
 
 @start:
@@ -6166,7 +6166,7 @@ oam_sprites_18d:
 @end:
 
 oam_sprites_18e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4B
 
 @start:
@@ -6180,7 +6180,7 @@ oam_sprites_18e:
 @end:
 
 oam_sprites_18f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6191,7 +6191,7 @@ oam_sprites_18f:
 @end:
 
 oam_sprites_190:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6202,7 +6202,7 @@ oam_sprites_190:
 @end:
 
 oam_sprites_191:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $3A
 
 @start:
@@ -6229,7 +6229,7 @@ oam_sprites_191:
 @end:
 
 oam_sprites_192:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4C
 
 @start:
@@ -6252,7 +6252,7 @@ oam_sprites_192:
 @end:
 
 oam_sprites_193:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -6283,7 +6283,7 @@ oam_sprites_193:
 @end:
 
 oam_sprites_194:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $4D
 
 @start:
@@ -6298,7 +6298,7 @@ oam_sprites_194:
 @end:
 
 oam_sprites_195:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6306,7 +6306,7 @@ oam_sprites_195:
 @end:
 
 oam_sprites_196:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $09
 
 @start:
@@ -6314,7 +6314,7 @@ oam_sprites_196:
 @end:
 
 oam_sprites_197:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $09
 
 @start:
@@ -6322,7 +6322,7 @@ oam_sprites_197:
 @end:
 
 oam_sprites_198:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6333,7 +6333,7 @@ oam_sprites_198:
 @end:
 
 oam_sprites_199:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6344,7 +6344,7 @@ oam_sprites_199:
 @end:
 
 oam_sprites_19a:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $50
 
 @start:
@@ -6357,7 +6357,7 @@ oam_sprites_19a:
 @end:
 
 oam_sprites_19b:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $52
 
 @start:
@@ -6373,7 +6373,7 @@ oam_sprites_19b:
 @end:
 
 oam_sprites_19c:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $51
 
 @start:
@@ -6386,7 +6386,7 @@ oam_sprites_19c:
 @end:
 
 oam_sprites_19d:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $53
 
 @start:
@@ -6402,7 +6402,7 @@ oam_sprites_19d:
 @end:
 
 oam_sprites_19e:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -6411,7 +6411,7 @@ oam_sprites_19e:
 @end:
 
 oam_sprites_19f:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $57
 
 @start:
@@ -6419,7 +6419,7 @@ oam_sprites_19f:
 @end:
 
 oam_sprites_1a0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $55
 
 @start:
@@ -6427,7 +6427,7 @@ oam_sprites_1a0:
 @end:
 
 oam_sprites_1a1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $58
 
 @start:
@@ -6437,7 +6437,7 @@ oam_sprites_1a1:
 @end:
 
 oam_sprites_1a2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $56
 
 @start:
@@ -6445,7 +6445,7 @@ oam_sprites_1a2:
 @end:
 
 oam_sprites_1a3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $59
 
 @start:
@@ -6455,7 +6455,7 @@ oam_sprites_1a3:
 @end:
 
 oam_sprites_1a4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5A
 
 @start:
@@ -6468,7 +6468,7 @@ oam_sprites_1a4:
 @end:
 
 oam_sprites_1a5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5A
 
 @start:
@@ -6481,7 +6481,7 @@ oam_sprites_1a5:
 @end:
 
 oam_sprites_1a6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5A
 
 @start:
@@ -6494,7 +6494,7 @@ oam_sprites_1a6:
 @end:
 
 oam_sprites_1a7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5A
 
 @start:
@@ -6507,7 +6507,7 @@ oam_sprites_1a7:
 @end:
 
 oam_sprites_1a8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $5A
 
 @start:
@@ -6520,7 +6520,7 @@ oam_sprites_1a8:
 @end:
 
 oam_sprites_1a9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6531,7 +6531,7 @@ oam_sprites_1a9:
 @end:
 
 oam_sprites_1aa:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6542,7 +6542,7 @@ oam_sprites_1aa:
 @end:
 
 oam_sprites_1ab:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6550,7 +6550,7 @@ oam_sprites_1ab:
 @end:
 
 oam_sprites_1ac:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6558,7 +6558,7 @@ oam_sprites_1ac:
 @end:
 
 oam_sprites_1ad:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6569,7 +6569,7 @@ oam_sprites_1ad:
 @end:
 
 oam_sprites_1ae:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6580,7 +6580,7 @@ oam_sprites_1ae:
 @end:
 
 oam_sprites_1af:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6588,7 +6588,7 @@ oam_sprites_1af:
 @end:
 
 oam_sprites_1b0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6596,7 +6596,7 @@ oam_sprites_1b0:
 @end:
 
 oam_sprites_1b1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6607,7 +6607,7 @@ oam_sprites_1b1:
 @end:
 
 oam_sprites_1b2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6618,7 +6618,7 @@ oam_sprites_1b2:
 @end:
 
 oam_sprites_1b3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6629,7 +6629,7 @@ oam_sprites_1b3:
 @end:
 
 oam_sprites_1b4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6637,7 +6637,7 @@ oam_sprites_1b4:
 @end:
 
 oam_sprites_1b5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6645,7 +6645,7 @@ oam_sprites_1b5:
 @end:
 
 oam_sprites_1b6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6653,7 +6653,7 @@ oam_sprites_1b6:
 @end:
 
 oam_sprites_1b7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6661,7 +6661,7 @@ oam_sprites_1b7:
 @end:
 
 oam_sprites_1b8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6669,7 +6669,7 @@ oam_sprites_1b8:
 @end:
 
 oam_sprites_1b9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6677,7 +6677,7 @@ oam_sprites_1b9:
 @end:
 
 oam_sprites_1ba:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -6685,7 +6685,7 @@ oam_sprites_1ba:
 @end:
 
 oam_sprites_1bb:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -6694,7 +6694,7 @@ oam_sprites_1bb:
 @end:
 
 oam_sprites_1bc:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -6703,7 +6703,7 @@ oam_sprites_1bc:
 @end:
 
 oam_sprites_1bd:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -6712,7 +6712,7 @@ oam_sprites_1bd:
 @end:
 
 oam_sprites_1be:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6723,7 +6723,7 @@ oam_sprites_1be:
 @end:
 
 oam_sprites_1bf:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6734,7 +6734,7 @@ oam_sprites_1bf:
 @end:
 
 oam_sprites_1c0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6745,7 +6745,7 @@ oam_sprites_1c0:
 @end:
 
 oam_sprites_1c1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6756,7 +6756,7 @@ oam_sprites_1c1:
 @end:
 
 oam_sprites_1c2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6767,7 +6767,7 @@ oam_sprites_1c2:
 @end:
 
 oam_sprites_1c3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6778,7 +6778,7 @@ oam_sprites_1c3:
 @end:
 
 oam_sprites_1c4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6789,7 +6789,7 @@ oam_sprites_1c4:
 @end:
 
 oam_sprites_1c5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6800,7 +6800,7 @@ oam_sprites_1c5:
 @end:
 
 oam_sprites_1c6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6811,7 +6811,7 @@ oam_sprites_1c6:
 @end:
 
 oam_sprites_1c7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6822,7 +6822,7 @@ oam_sprites_1c7:
 @end:
 
 oam_sprites_1c8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6833,7 +6833,7 @@ oam_sprites_1c8:
 @end:
 
 oam_sprites_1c9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $96
 
 @start:
@@ -6856,7 +6856,7 @@ oam_sprites_1c9:
 @end:
 
 oam_sprites_1ca:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $99
 
 @start:
@@ -6879,7 +6879,7 @@ oam_sprites_1ca:
 @end:
 
 oam_sprites_1cb:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $98
 
 @start:
@@ -6902,7 +6902,7 @@ oam_sprites_1cb:
 @end:
 
 oam_sprites_1cc:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $97
 
 @start:
@@ -6925,7 +6925,7 @@ oam_sprites_1cc:
 @end:
 
 oam_sprites_1cd:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6936,7 +6936,7 @@ oam_sprites_1cd:
 @end:
 
 oam_sprites_1ce:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6947,7 +6947,7 @@ oam_sprites_1ce:
 @end:
 
 oam_sprites_1cf:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $54
 
 @start:
@@ -6956,7 +6956,7 @@ oam_sprites_1cf:
 @end:
 
 oam_sprites_1d0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6967,7 +6967,7 @@ oam_sprites_1d0:
 @end:
 
 oam_sprites_1d1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6978,7 +6978,7 @@ oam_sprites_1d1:
 @end:
 
 oam_sprites_1d2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -6989,7 +6989,7 @@ oam_sprites_1d2:
 @end:
 
 oam_sprites_1d3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $9A
 
 @start:
@@ -7009,7 +7009,7 @@ oam_sprites_1d3:
 @end:
 
 oam_sprites_1d4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $9B
 
 @start:
@@ -7026,7 +7026,7 @@ oam_sprites_1d4:
 @end:
 
 oam_sprites_1d5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $9C
 
 @start:
@@ -7046,7 +7046,7 @@ oam_sprites_1d5:
 @end:
 
 oam_sprites_1d6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $9D
 
 @start:
@@ -7068,7 +7068,7 @@ oam_sprites_1d6:
 	.BYTE $B8, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip
 
 oam_sprites_1d7:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $62
 
 @start:
@@ -7081,7 +7081,7 @@ oam_sprites_1d7:
 @end:
 
 oam_sprites_1d8:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $62
 
 @start:
@@ -7094,7 +7094,7 @@ oam_sprites_1d8:
 @end:
 
 oam_sprites_1d9:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $17
 
 @start:
@@ -7115,7 +7115,7 @@ oam_sprites_1d9:
 @end:
 
 oam_sprites_1da:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $41
 
 @start:
@@ -7124,7 +7124,7 @@ oam_sprites_1da:
 @end:
 
 oam_sprites_1db:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $41
 
 @start:
@@ -7133,7 +7133,7 @@ oam_sprites_1db:
 @end:
 
 oam_sprites_1dc:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -7141,7 +7141,7 @@ oam_sprites_1dc:
 @end:
 
 oam_sprites_1dd:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -7149,7 +7149,7 @@ oam_sprites_1dd:
 @end:
 
 oam_sprites_1de:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $00
 
 @start:
@@ -7157,7 +7157,7 @@ oam_sprites_1de:
 @end:
 
 oam_sprites_1df:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7166,7 +7166,7 @@ oam_sprites_1df:
 @end:
 
 oam_sprites_1e0:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7175,7 +7175,7 @@ oam_sprites_1e0:
 @end:
 
 oam_sprites_1e1:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7184,7 +7184,7 @@ oam_sprites_1e1:
 @end:
 
 oam_sprites_1e2:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7197,7 +7197,7 @@ oam_sprites_1e2:
 	.BYTE $AF, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip
 
 oam_sprites_1e3:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7210,7 +7210,7 @@ oam_sprites_1e3:
 	.BYTE $BA, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip
 
 oam_sprites_1e4:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7219,7 +7219,7 @@ oam_sprites_1e4:
 @end:
 
 oam_sprites_1e5:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $A1
 
 @start:
@@ -7228,7 +7228,7 @@ oam_sprites_1e5:
 @end:
 
 oam_sprites_1e6:
-	.BYTE (@end - @start) / 2
+	.BYTE (@end - @start) >> 1
 	.BYTE $2D
 
 @start:

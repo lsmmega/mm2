@@ -1,6 +1,6 @@
 boss_show_oam_sprites_00:
 	.FEATURE FORCE_RANGE
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -6
@@ -20,7 +20,7 @@ boss_show_oam_sprites_00:
 @end:
 
 boss_show_oam_sprites_01:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AD, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -6
@@ -38,7 +38,7 @@ boss_show_oam_sprites_01:
 @end:
 
 boss_show_oam_sprites_02:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B7, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -54,7 +54,7 @@ boss_show_oam_sprites_02:
 @end:
 
 boss_show_oam_sprites_03:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $DC, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -71,7 +71,7 @@ boss_show_oam_sprites_03:
 @end:
 
 boss_show_oam_sprites_04:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -87,7 +87,7 @@ boss_show_oam_sprites_04:
 @end:
 
 boss_show_oam_sprites_05:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AA, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -14
@@ -105,7 +105,7 @@ boss_show_oam_sprites_05:
 @end:
 
 boss_show_oam_sprites_06:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $B6, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -123,7 +123,7 @@ boss_show_oam_sprites_06:
 @end:
 
 boss_show_oam_sprites_07:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -12
@@ -141,7 +141,7 @@ boss_show_oam_sprites_07:
 @end:
 
 boss_show_oam_sprites_08:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -159,7 +159,7 @@ boss_show_oam_sprites_08:
 @end:
 
 boss_show_oam_sprites_09:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AB, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  +4
@@ -177,7 +177,7 @@ boss_show_oam_sprites_09:
 @end:
 
 boss_show_oam_sprites_0a:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AB, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  +4
@@ -195,7 +195,7 @@ boss_show_oam_sprites_0a:
 @end:
 
 boss_show_oam_sprites_0b:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AB, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  +4
@@ -214,7 +214,7 @@ boss_show_oam_sprites_0b:
 @end:
 
 boss_show_oam_sprites_0c:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $C5, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip,  +4
@@ -233,7 +233,7 @@ boss_show_oam_sprites_0c:
 @end:
 
 boss_show_oam_sprites_0d:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $C6, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip,  +4
@@ -252,7 +252,7 @@ boss_show_oam_sprites_0d:
 @end:
 
 boss_show_oam_sprites_0e:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $C8, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip,  +4
@@ -270,7 +270,7 @@ boss_show_oam_sprites_0e:
 @end:
 
 boss_show_oam_sprites_0f:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -13
@@ -288,7 +288,7 @@ boss_show_oam_sprites_0f:
 @end:
 
 boss_show_oam_sprites_10:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -4
@@ -307,7 +307,7 @@ boss_show_oam_sprites_10:
 @end:
 
 boss_show_oam_sprites_11:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AC, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -15
@@ -327,7 +327,7 @@ boss_show_oam_sprites_11:
 @end:
 
 boss_show_oam_sprites_12:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B8, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -346,7 +346,7 @@ boss_show_oam_sprites_12:
 @end:
 
 boss_show_oam_sprites_13:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B8, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -365,7 +365,7 @@ boss_show_oam_sprites_13:
 @end:
 
 boss_show_oam_sprites_14:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B8, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -384,7 +384,7 @@ boss_show_oam_sprites_14:
 @end:
 
 boss_show_oam_sprites_15:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B8, oam_palette_2 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -403,7 +403,7 @@ boss_show_oam_sprites_15:
 @end:
 
 boss_show_oam_sprites_16:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AC, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -15
@@ -423,7 +423,7 @@ boss_show_oam_sprites_16:
 @end:
 
 boss_show_oam_sprites_17:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $A1, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -438,7 +438,7 @@ boss_show_oam_sprites_17:
 @end:
 
 boss_show_oam_sprites_18:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $A9, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -12
@@ -455,7 +455,7 @@ boss_show_oam_sprites_18:
 @end:
 
 boss_show_oam_sprites_19:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B3, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -12
@@ -470,7 +470,7 @@ boss_show_oam_sprites_19:
 @end:
 
 boss_show_oam_sprites_1a:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $A1, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -486,7 +486,7 @@ boss_show_oam_sprites_1a:
 @end:
 
 boss_show_oam_sprites_1b:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -509,7 +509,7 @@ boss_show_oam_sprites_1b:
 @end:
 
 boss_show_oam_sprites_1c:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $B0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -10
@@ -533,7 +533,7 @@ boss_show_oam_sprites_1c:
 @end:
 
 boss_show_oam_sprites_1d:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $B0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -10
@@ -557,7 +557,7 @@ boss_show_oam_sprites_1d:
 @end:
 
 boss_show_oam_sprites_1e:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $B0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -10
@@ -582,7 +582,7 @@ boss_show_oam_sprites_1e:
 @end:
 
 boss_show_oam_sprites_1f:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -599,7 +599,7 @@ boss_show_oam_sprites_1f:
 @end:
 
 boss_show_oam_sprites_20:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AA, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -618,7 +618,7 @@ boss_show_oam_sprites_20:
 @end:
 
 boss_show_oam_sprites_21:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B6, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -637,7 +637,7 @@ boss_show_oam_sprites_21:
 @end:
 
 boss_show_oam_sprites_22:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -24, $B6, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -18
@@ -657,7 +657,7 @@ boss_show_oam_sprites_22:
 @end:
 
 boss_show_oam_sprites_23:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -679,7 +679,7 @@ boss_show_oam_sprites_23:
 @end:
 
 boss_show_oam_sprites_24:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AE, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -700,7 +700,7 @@ boss_show_oam_sprites_24:
 @end:
 
 boss_show_oam_sprites_25:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $AE, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -722,7 +722,7 @@ boss_show_oam_sprites_25:
 @end:
 
 boss_show_oam_sprites_26:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $A0, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip,  -8
@@ -745,7 +745,7 @@ boss_show_oam_sprites_26:
 @end:
 
 boss_show_oam_sprites_27:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $C1, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
@@ -768,7 +768,7 @@ boss_show_oam_sprites_27:
 @end:
 
 boss_show_oam_sprites_28:
-	.BYTE (@end - @start) / 4
+	.BYTE (@end - @start) >> 2
 
 @start:                         
 	.BYTE -32, $CE, oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip, -16
