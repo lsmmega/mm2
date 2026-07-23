@@ -99,6 +99,7 @@ stages := \
 	constants/* \
 	9/* \
 	unused/* \
+	engine/* \
 	data/ending/* \
 	screen/* \
 	gfx/stages/*.bmp \

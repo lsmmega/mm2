@@ -5,8 +5,8 @@
 .INCBIN  "gfx/sprites/miscellaneous/ready_font.chr"
 .INCLUDE "unused/unused_244c0.asm"
 
-__ending_jmp:
-	JMP __ending
+_ending_oam_jmp:
+	JMP _ending_oam
 
 _staff_roll_jmp:
 	JMP _staff_roll
@@ -17,8 +17,7 @@ _credit_init_jmp:
 _credit_jmp:
 	JMP _credit
 
-__ending:
-.INCBIN  "9/9_0.bin"
+.INCLUDE "engine/ending_oam.asm"
 
 _staff_roll:
 .INCBIN  "9/9_1.bin"

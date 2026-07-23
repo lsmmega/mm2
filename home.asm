@@ -74,7 +74,7 @@ _homeintro:
 
 .INCBIN  "home/home_13.bin"
 
-	farjsr __ending_jmp
+	farjsr _ending_oam_jmp
 	bankswitch $0D
 	RTS
 
