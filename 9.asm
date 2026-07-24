@@ -18,9 +18,7 @@ _credit_jmp:
 	JMP _credit
 
 .INCLUDE "engine/ending_oam.asm"
-
-_staff_roll:
-.INCBIN  "9/9_1.bin"
+.INCLUDE "engine/staff_roll.asm"
 
 _credit_init:
 .INCBIN  "9/9_2.bin"
@@ -29,7 +27,7 @@ _credit:
 .INCBIN  "9/9_3.bin"
 .INCLUDE "data/ending/oam_pointers.asm"
 .INCLUDE "data/ending/oam.asm"
-.INCLUDE "screen/staff_roll_1.asm"
+.INCLUDE "screen/staff_roll.asm"
 .INCBIN  "9/9_4.bin"
 .INCLUDE "screen/staff_roll_2.asm"
 .INCBIN  "gfx/wily_castle/wily_castle.chr"
