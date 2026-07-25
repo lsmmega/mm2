@@ -93,20 +93,18 @@ stages := \
 	gfx/sprites/bosses/wily_machine_2/*.bmp \
 	unused/*
 
-9 := \
-	9.asm \
-	macros/* \
+miscellaneous := \
+	miscellaneous.asm \
 	constants/* \
-	9/* \
+	gfx/stages/*.bmp \
+	gfx/menus/*.bmp \
+	gfx/sprites/miscellaneous/*.bmp \
 	unused/* \
 	engine/* \
 	data/ending/* \
 	screen/* \
-	gfx/stages/*.bmp \
-	gfx/menus/*.bmp \
-	gfx/sprites/miscellaneous/*.bmp \
-	gfx/font/*.bmp \
 	gfx/wily_castle/*.bmp \
+	gfx/font/*.bmp \
 	gfx/opening/*.bmp \
 	gfx/title/*.bmp \
 	gfx/mecha_dragon/*.bmp
@@ -334,7 +332,7 @@ mm2: mm2.nes
 header.o: $(header)
 	ca65 header.asm
 
-main.o: $(audio) $(home) $(sprites) $(stages) $(9) $(11) $(13) $(14)
+main.o: $(audio) $(home) $(miscellaneous) $(sprites) $(stages) $(11) $(13) $(14)
 	bmp2nes $(gfx_stages) $(gfx9) $(gfx11)
 	ca65 main.asm
 

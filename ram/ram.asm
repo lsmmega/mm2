@@ -60,6 +60,7 @@
 	zmecha_dragon_xcoord_fraction = $B7
 	zmecha_dragon_xcoord          = $B8
 	zmecha_dragon_screen          = $B9
+	zcredit_pointer               = $DE
 	zaudio_header                 = $E0
 	zsfx_channel                  = $E1
 	ztrack_pointers               = $E2

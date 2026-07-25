@@ -4,32 +4,14 @@
 .INCBIN  "gfx/menus/border.chr"
 .INCBIN  "gfx/sprites/miscellaneous/ready_font.chr"
 .INCLUDE "unused/unused_244c0.asm"
-
-_ending_oam_jmp:
-	JMP _ending_oam
-
-_staff_roll_jmp:
-	JMP _staff_roll
-
-_credit_init_jmp:
-	JMP _credit_init
-
-_credit_jmp:
-	JMP _credit
-
+.INCLUDE "engine/credit_jmp.asm"
 .INCLUDE "engine/ending_oam.asm"
 .INCLUDE "engine/staff_roll.asm"
-
-_credit_init:
-.INCBIN  "9/9_2.bin"
-
-_credit:
-.INCBIN  "9/9_3.bin"
+.INCLUDE "engine/credit.asm"
 .INCLUDE "data/ending/oam_pointers.asm"
 .INCLUDE "data/ending/oam.asm"
 .INCLUDE "screen/staff_roll.asm"
-.INCBIN  "9/9_4.bin"
-.INCLUDE "screen/staff_roll_2.asm"
+.INCLUDE "screen/credit.asm"
 .INCBIN  "gfx/wily_castle/wily_castle.chr"
 .INCBIN  "gfx/font/font_2.chr"
 .INCBIN  "gfx/opening/opening_1.chr"
