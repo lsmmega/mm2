@@ -197,6 +197,8 @@ _homeintro:
 	track_queue track_enemy_immune
 
 .INCBIN  "home/home_44.bin"
+.INCLUDE "home/difficulty_calc_enemies.asm"
+.INCBIN  "home/home_45.bin"
 .INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"
 .INCLUDE "sprites/pointers/oam_frameset_pointers.asm"

@@ -114,6 +114,7 @@ miscellaneous := \
 	constants/* \
 	macros/* \
 	11/* \
+	engine/* \
 	unused/* \
 	screen/* \
 	gfx/guts_tank/*.bmp

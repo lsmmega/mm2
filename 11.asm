@@ -146,6 +146,8 @@ _boss_init:
 	track_queue track_enemy_immune
 
 .INCBIN  "11/11_35.bin"
+.INCLUDE "engine/difficulty_calc_bosses.asm"
+.INCBIN  "11/11_36.bin"
 
 .INCLUDE "unused/unused_2eac0.asm"
 .INCLUDE "screen/stage_select.asm"
