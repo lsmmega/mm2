@@ -55,7 +55,9 @@ _homeintro:
 
 	farjsr _boss_init_jmp
 
-.INCBIN  "home/home_12_0.bin"
+.INCBIN  "home/home_12_0_0.bin"
+.INCLUDE "home/divide_mod.asm"
+.INCBIN  "home/home_12_0_1.bin"
 
 	bankswitch $0B
 	RTS
