@@ -85,7 +85,7 @@
 	zppu_mask                     = $F8
 	zout_of_screen                = $F9
 
-	aenemies_flag               = $100
+	aenemies_flag = $100
 
 ;oam
 	oam_hi_addr     = 2

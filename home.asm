@@ -90,7 +90,9 @@ _homeintro:
 
 	farjsr _credit_jmp
 
-.INCBIN  "home/home_17.bin"
+.INCBIN  "home/home_17_0.bin"
+.INCLUDE "home/check_object.asm"
+.INCBIN  "home/home_17_1.bin"
 
 	track_queue track_mega_buster
 

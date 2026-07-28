@@ -10,8 +10,15 @@
 .ENDENUM
 
 ;ppu ctrl
+	background_table_left  = 0
+	draw_horizontal        = 0
+	nametable_top_left     = 0
+	nametable_top_right    = 1
+	nametable_bottom_left  = 2
+	nametable_bottom_right = 3
 	all_nametable          = 3
 	draw_vertical          = 1 << 2
+	sprites_table_right    = 1 << 3
 	background_table_right = 1 << 4
 	nmi_enable             = 1 << 7
 
