@@ -75,21 +75,7 @@ _homeintro:
 	track_queue track_megaman_hit
 
 .INCBIN  "home/home_13.bin"
-
-	farjsr _ending_oam_jmp
-	bankswitch $0D
-	RTS
-
-	farjsr _staff_roll_jmp
-
-.INCBIN  "home/home_15.bin"
-
-	farjsr _credit_init_jmp
-
-.INCBIN  "home/home_16.bin"
-
-	farjsr _credit_jmp
-
+.INCLUDE "home/credit_far.asm"
 .INCBIN  "home/home_17_0.bin"
 .INCLUDE "home/check_object.asm"
 .INCBIN  "home/home_17_1.bin"
