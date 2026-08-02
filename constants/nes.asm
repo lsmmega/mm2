@@ -18,7 +18,7 @@
 	nametable_bottom_right = 3
 	all_nametable          = 3
 	draw_vertical          = 1 << 2
-	sprites_table_right    = 1 << 3
+	sprite_table_right     = 1 << 3
 	background_table_right = 1 << 4
 	nmi_enable             = 1 << 7
 
