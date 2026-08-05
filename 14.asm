@@ -2,7 +2,7 @@
 .INCLUDE "constants/mmc1.asm"
 .INCLUDE "macros/stack.asm"
 .INCLUDE "engine/init.asm"
-.INCLUDE "engine/title_jmp.asm"
+.INCLUDE "engine/title_loop.asm"
 .INCBIN  "14/14_0_1.bin"
 
 	track_queue track_refill
