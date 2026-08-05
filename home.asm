@@ -70,7 +70,7 @@ _homeintro:
 .INCLUDE "home/screen.asm"
 .INCLUDE "home/object_tiles.asm"
 .INCLUDE "home/draw_other.asm"
-.INCBIN  "home/home_12_1.bin"
+.INCLUDE "home/weapon_palette.asm"
 
 	track_queue track_megaman_hit
 
