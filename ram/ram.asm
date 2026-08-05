@@ -33,6 +33,8 @@
 	zcurrent_bankswitch           = $29
 	zcurrent_stage                = $2A
 	zsprites_pointer              = $2B
+	zmegaman_status               = $2C
+	ztimer                        = $36
 	z3A                           = $3A
 	zpause                        = $41 ;used for mega man 1
 	zcurrent_palette_no           = $43
@@ -53,6 +55,7 @@
 	zcurrent_weapon               = $A9
 	ztime_stopper_flag            = $AA
 	zopening_nametable            = $AE
+	zcheckpoint_pointer           = $B0
 	zboss_ai_pointer              = $B1
 	zcurrent_boss                 = $B3
 	zmecha_dragon_ycoord_fraction = $B5
@@ -60,6 +63,7 @@
 	zmecha_dragon_xcoord_fraction = $B7
 	zmecha_dragon_xcoord          = $B8
 	zmecha_dragon_screen          = $B9
+	ztitle_flag                   = $BE
 	zdifficulty                   = $CB
 	zcredit_pointer               = $DE
 	zaudio_header                 = $E0
@@ -84,6 +88,7 @@
 	zppu_ctrl                     = $F7
 	zppu_mask                     = $F8
 	zout_of_screen                = $F9
+	zFD                           = $FD
 
 	aenemies_flag = $100
 
@@ -122,6 +127,10 @@
 	amodulation_pointers                     = $57C
 	atrack_queue                             = $580
 	aboss_invincibility_time                 = $5A8
+	aobject_xcoord_speed                     = $600
+	aobject_xcoord_speed_fraction            = $620
+	aobject_ycoord_speed                     = $640
+	aobject_ycoord_speed_fraction            = $660
 	aobject_frameset_lower_timer             = $680
 	aobject_frameset_upper_timer             = $6A0
 	amegaman_hp                              = $6C0

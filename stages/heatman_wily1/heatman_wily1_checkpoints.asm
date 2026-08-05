@@ -89,6 +89,7 @@
 	.BYTE scrolling_heatman_wily_05 - scrolling_heatman_wily_00
 
 ;heatman checkpoint start scrolling mapset, see `stages_name`_scrolling.asm
+stage_checkpoint_pointer:
 	.BYTE $00
 	.BYTE $09
 	.BYTE $16
