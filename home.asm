@@ -58,6 +58,8 @@ _homeintro:
 .INCBIN  "home/home_12_0_0.bin"
 .INCLUDE "home/divide_mod.asm"
 .INCBIN  "home/home_12_0_1.bin"
+.INCLUDE "home/object_palette.asm"
+.INCBIN  "home/home_12_0_2.bin"
 
 	bankswitch $0B
 	RTS

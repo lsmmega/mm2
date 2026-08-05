@@ -1,4 +1,5 @@
 ;screen sprites index
+stage_object_index:
 	.BYTE 0 * $12
 	.BYTE 2 * $12
 	.BYTE 2 * $12
@@ -30,6 +31,8 @@
 	.BYTE bank_internal_hiaddress_17, bank_03
 	.BYTE bank_internal_hiaddress_13, bank_01
 	.BYTE bank_internal_hiaddress_1f, bank_03
+
+stage_object_palette:
 	.BYTE black, light_azure,      pale_gray
 	.BYTE black, white_chartreuse, pale_orange
 
