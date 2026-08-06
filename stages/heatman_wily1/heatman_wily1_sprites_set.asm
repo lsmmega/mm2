@@ -25,6 +25,7 @@ stage_object_index:
 
 ;sprites set
 ;0
+stage_sprites_tiles_set:
 	.BYTE bank_internal_hiaddress_14, bank_01
 	.BYTE bank_internal_hiaddress_15, bank_01
 	.BYTE bank_internal_hiaddress_16, bank_01

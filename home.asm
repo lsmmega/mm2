@@ -24,7 +24,7 @@
 .INCBIN  "home/home_6_0.bin"
 .INCLUDE "home/background_palette.asm"
 .INCLUDE "home/init_stage.asm"
-.INCBIN  "home/home_6_1.bin"
+.INCLUDE "home/init_checkpoint.asm"
 .INCLUDE "home/intro.asm"
 .INCLUDE "home/stage_select.asm"
 .INCLUDE "home/open_menu.asm"
