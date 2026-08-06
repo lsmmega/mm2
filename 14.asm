@@ -51,7 +51,9 @@
 
 	track_queue track_door
 
-.INCBIN  "14/14_13.bin"
+.INCBIN  "14/14_13_0.bin"
+.INCLUDE "engine/scroll_right_background_palette.asm"
+.INCBIN  "14/14_13_1.bin"
 
 	track_queue track_enemy_hit
 

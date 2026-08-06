@@ -35,6 +35,7 @@
 	zsprites_pointer              = $2B
 	zmegaman_status               = $2C
 	ztimer                        = $36
+	zscroll_index                 = $38
 	z3A                           = $3A
 	zpause                        = $41 ;used for mega man 1
 	zcurrent_palette_no           = $43
