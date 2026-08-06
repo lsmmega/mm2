@@ -98,6 +98,7 @@
 	zppu_mask                       = $F8
 	zout_of_screen                  = $F9
 	zFD                             = $FD
+	zFE                             = $FE
 
 	aenemies_flag = $100
 

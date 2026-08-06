@@ -21,6 +21,8 @@
 .INCBIN  "gfx/title/II_2.chr"
 .INCBIN  "gfx/font/font_3.chr"
 .INCBIN  "gfx/opening/opening_2.chr"
+
+_load_title_chr:
 .INCBIN  "gfx/title/title.chr"
 .INCBIN  "gfx/mecha_dragon/mecha_dragon_1.chr"
 .INCBIN  "gfx/mecha_dragon/mecha_dragon_2.chr"

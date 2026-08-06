@@ -37,6 +37,7 @@
 .INCLUDE "home/load_cutscene_tiles.asm"
 .INCLUDE "home/load_boss_tiles.asm"
 .INCLUDE "home/load_copipi_tiles.asm"
+.INCLUDE "home/load_title_tiles.asm"
 .INCBIN  "home/home_10_1.bin"
 .INCLUDE "home/load_stage_scrolling.asm"
 .INCBIN  "home/home_10_2.bin"
