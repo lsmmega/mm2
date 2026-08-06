@@ -26,11 +26,7 @@
 .INCLUDE "home/init_stage.asm"
 .INCBIN  "home/home_6_1.bin"
 .INCLUDE "home/intro.asm"
-
-	farjsr _stage_select_jmp
-	bankswitch $0E
-	RTS
-
+.INCLUDE "home/stage_select.asm"
 .INCLUDE "home/open_menu.asm"
 .INCBIN  "home/home_9.bin"
 
