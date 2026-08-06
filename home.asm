@@ -25,11 +25,7 @@
 .INCLUDE "home/background_palette.asm"
 .INCLUDE "home/init_stage.asm"
 .INCBIN  "home/home_6_1.bin"
-
-_homeintro:
-	farjsr _intro_jmp
-	bankswitch $0E
-	RTS
+.INCLUDE "home/intro.asm"
 
 	farjsr _stage_select_jmp
 	bankswitch $0E
