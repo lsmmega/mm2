@@ -40,10 +40,7 @@
 .INCLUDE "home/load_title_tiles.asm"
 .INCBIN  "home/home_10_1.bin"
 .INCLUDE "home/load_stage_scrolling.asm"
-.INCBIN  "home/home_10_2.bin"
-
-	track_queue track_teleport_in
-
+.INCLUDE "home/megaman_beam_down.asm"
 .INCBIN  "home/home_11.bin"
 
 	farjsr _boss_init_jmp

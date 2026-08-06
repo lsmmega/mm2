@@ -41,7 +41,10 @@
 	ztimer                          = $36
 	zscroll_index                   = $38
 	z3A                             = $3A
+	zslip_speed_fraction            = $3E
+	zslip_speed                     = $3F
 	zpause                          = $41 ;used for mega man 1
+	ztoward                         = $42
 	zcurrent_palette_no             = $43
 	zpalette_animation_timer        = $44
 	zobject_tiles_update_size       = $47

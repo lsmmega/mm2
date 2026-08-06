@@ -1,4 +1,5 @@
 ;heatman checkpoint ycoord
+stage_checkpoint_ycoord:
 	checkpointycoord 10
 	checkpointycoord 11
 	checkpointycoord 9
