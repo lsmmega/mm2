@@ -47,7 +47,9 @@
 
 .INCBIN  "home/home_12_0_0.bin"
 .INCLUDE "home/divide_mod.asm"
-.INCBIN  "home/home_12_0_1.bin"
+.INCBIN  "home/home_12_0_1_0.bin"
+.INCLUDE "home/draw_menu.asm"
+.INCBIN  "home/home_12_0_1_1.bin"
 .INCLUDE "home/object_palette.asm"
 .INCBIN  "home/home_12_0_2.bin"
 
