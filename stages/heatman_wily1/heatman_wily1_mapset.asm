@@ -1,3 +1,4 @@
+stage_mapset_pointer:
 mapset_heatman_wily1_00:
 	.BYTE $02, $02, $02, $02, $02, $8A, $0E, $01
 	.BYTE $04, $05, $06, $07, $08, $0C, $0D, $01

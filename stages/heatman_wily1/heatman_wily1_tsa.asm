@@ -257,6 +257,7 @@
 	.BYTE $3F | 2 << 6, $16 | 0 << 6, $3F | 2 << 6, $16 | 0 << 6 ;FF
 
 ;attributes
+stage_32x32_attributes:
 	.BYTE topleft_palette_0 | topright_palette_0 | bottomleft_palette_0 | bottomright_palette_0 ;00
 	.BYTE topleft_palette_0 | topright_palette_0 | bottomleft_palette_0 | bottomright_palette_0 ;01
 	.BYTE topleft_palette_0 | topright_palette_0 | bottomleft_palette_0 | bottomright_palette_0 ;02

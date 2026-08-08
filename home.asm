@@ -50,7 +50,7 @@
 .INCBIN  "home/home_12_0_1_0.bin"
 .INCLUDE "home/draw_menu.asm"
 .INCLUDE "home/draw_other_on_screen.asm"
-.INCBIN  "home/home_12_0_1_1.bin"
+.INCLUDE "home/scrolling.asm"
 .INCLUDE "home/scrolling_object_tiles.asm"
 .INCLUDE "home/object_palette.asm"
 .INCBIN  "home/home_12_0_2.bin"

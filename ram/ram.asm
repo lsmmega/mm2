@@ -21,6 +21,7 @@
 	zend_scrolling_mapset           = $15
 	zleft_mapset_pointer            = $16
 	zright_mapset_pointer           = $18
+	zcurrent_handle_32x32_attribute = $1A
 	zscreen_update_flag             = $1B
 	znmi_frame                      = $1C
 	znmi_wait                       = $1D
@@ -40,6 +41,7 @@
 	zmegaman_status                 = $2C
 	ztimer                          = $36
 	zscroll_index                   = $38
+	zscroll_down_process            = $39
 	z3A                             = $3A
 	zslip_speed_fraction            = $3E
 	zslip_speed                     = $3F
