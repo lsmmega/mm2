@@ -14,6 +14,9 @@
 	got_metal_blade     = 1 << 6
 	got_crash_bomber    = 1 << 7
 
+;objects default flags zero set
+	objects_left = 0
+
 ;objects default flags set
 	objects_invisible = 1 << 5
 	objects_right     = 1 << 6

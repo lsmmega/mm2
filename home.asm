@@ -22,6 +22,7 @@
 	farjsr _ending_jmp
 
 .INCBIN  "home/home_6_0.bin"
+.INCLUDE "home/create_explosion.asm"
 .INCLUDE "home/background_palette.asm"
 .INCLUDE "home/init_stage.asm"
 .INCLUDE "home/init_checkpoint.asm"
