@@ -18,9 +18,10 @@
 	objects_left = 0
 
 ;objects default flags set
-	objects_invisible = 1 << 5
-	objects_right     = 1 << 6
-	objects_exist     = 1 << 7
+	objects_appearing_block = 1 << 4
+	objects_invisible       = 1 << 5
+	objects_right           = 1 << 6
+	objects_exist           = 1 << 7
 
 ;rematch flags
 	rematch_heatman_done   = 1 << 0

@@ -58,6 +58,8 @@
 	zright_checkpoint_items_index   = $4D
 	zdraw_other_flag                = $51
 	zdraw_door                      = $54
+	zno_of_appearing_block          = $55
+	zappearing_block_index          = $56
 	ztrack_queue_pointer            = $66
 	zdelay_track_queue              = $67
 	zbankswitch_status              = $68
@@ -138,6 +140,8 @@
 	aobject_xcoord                           = $460
 	aobject_xcoord_fraction                  = $480
 	aobject_ycoord                           = $4A0
+	aobject_ycoord_fraction                  = $4C0
+	aobject_tsa                              = $4E0
 	aaudio_ram                               = $500
 	amodulation_pointers                     = $57C
 	atrack_queue                             = $580

@@ -1,5 +1,6 @@
 .SEGMENT "HOME"
 .INCLUDE "constants/stage.asm"
+.INCLUDE "constants/tsa.asm"
 .INCLUDE "home/bankswitch.asm"
 .INCLUDE "home/track_queue.asm"
 .INCLUDE "home/mmc1_control.asm"
@@ -54,6 +55,8 @@
 .INCLUDE "home/scrolling.asm"
 .INCLUDE "home/scrolling_object_tiles.asm"
 .INCLUDE "home/object_palette.asm"
+.INCLUDE "home/appearing_block.asm"
+.INCLUDE "home/tsa_collision.asm"
 .INCBIN  "home/home_12_0_2.bin"
 
 	bankswitch $0B
