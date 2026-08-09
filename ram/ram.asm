@@ -146,6 +146,7 @@
 	aaudio_ram                               = $500
 	amodulation_pointers                     = $57C
 	atrack_queue                             = $580
+	aweapon_collision_index                  = $590
 	aboss_invincibility_time                 = $5A8
 	aobject_xcoord_speed                     = $600
 	aobject_xcoord_speed_fraction            = $620
