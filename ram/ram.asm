@@ -43,6 +43,7 @@
 	zscroll_index                   = $38
 	zscroll_down_process            = $39
 	z3A                             = $3A
+	zmegaman_hit_type               = $3D
 	zslip_speed_fraction            = $3E
 	zslip_speed                     = $3F
 	zpause                          = $41 ;used for mega man 1

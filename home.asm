@@ -71,9 +71,7 @@
 .INCLUDE "home/object_tiles.asm"
 .INCLUDE "home/draw_other.asm"
 .INCLUDE "home/weapon_palette.asm"
-
-	track_queue track_megaman_hit
-
+.INCLUDE "home/megaman_hit.asm"
 .INCBIN  "home/home_13.bin"
 .INCLUDE "home/credit_far.asm"
 .INCBIN  "home/home_17_0.bin"
