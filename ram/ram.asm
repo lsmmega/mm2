@@ -154,5 +154,4 @@
 	aobject_ycoord_speed_fraction            = $660
 	aobject_frameset_lower_timer             = $680
 	aobject_frameset_upper_timer             = $6A0
-	amegaman_hp                              = $6C0
-	aboss_hp                                 = $6C1
+	aobject_hp                               = $6C0

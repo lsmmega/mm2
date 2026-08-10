@@ -43,7 +43,7 @@ _create_weapon:
 	STA aobject_frameset_upper_timer, X
 	STA aobject_frameset_lower_timer, X
 	STA aobject_tsa, X
-	STA amegaman_hp, X
+	STA aobject_hp, X
 	RTS
 
 @object_id_table:

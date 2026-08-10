@@ -482,7 +482,7 @@ _is_enemies_object:
 .ENDENUM
 
 _draw_bar:
-	LDA amegaman_hp
+	LDA aobject_hp
 	STA z:z00
 	LDX z:z06
 	LDA #oam_palette_1 | oam_priority_foreground | no_x_flip | no_y_flip
@@ -505,7 +505,7 @@ _draw_bar:
 @buster:
 	LDA z:zboss_ai_pointer
 	BEQ @no_boss
-	LDA aboss_hp
+	LDA aobject_hp + 1
 	STA z:z00
 	LDA #oam_palette_3 | oam_priority_foreground | no_x_flip | no_y_flip
 	LDY z:zcurrent_boss
