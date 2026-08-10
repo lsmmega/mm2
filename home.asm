@@ -73,6 +73,7 @@
 .INCLUDE "home/weapon_palette.asm"
 .INCLUDE "home/megaman_hit.asm"
 .INCLUDE "home/create_weapon.asm"
+.INCLUDE "home/weapon_collision_table.asm"
 .INCBIN  "home/home_13.bin"
 .INCLUDE "home/credit_far.asm"
 .INCBIN  "home/home_17_0.bin"
