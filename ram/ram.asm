@@ -145,7 +145,7 @@
 	aobject_xcoord_fraction                  = $480
 	aobject_ycoord                           = $4A0
 	aobject_ycoord_fraction                  = $4C0
-	aobject_tsa                              = $4E0
+	aobject_temp                             = $4E0
 	aaudio_ram                               = $500
 	amodulation_pointers                     = $57C
 	atrack_queue                             = $580

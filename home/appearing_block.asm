@@ -31,6 +31,6 @@ _appearing_block_collision:
 	AND aobject_xcoord_speed_fraction + $10, X
 	CMP aobject_ycoord_speed_fraction + $10, X
 	BNE @loop
-	LDA aobject_tsa + $10, X
+	LDA aobject_temp + $10, X
 	STA z:z00
 	RTS

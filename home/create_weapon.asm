@@ -42,7 +42,7 @@ _create_weapon:
 	LDA #$00
 	STA aobject_frameset_upper_timer, X
 	STA aobject_frameset_lower_timer, X
-	STA aobject_tsa, X
+	STA aobject_temp, X
 	STA aobject_hp, X
 	RTS
 
