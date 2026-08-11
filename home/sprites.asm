@@ -461,7 +461,7 @@ _is_enemies_object:
 	STA z:z08
 	LDA oam_enemies_sprites_hi_pointers, Y
 	STA z:z09
-	LDA aenemies_flag, X
+	LDA aenemies_index, X
 	STA z:z03
 	JMP _object_common
 
