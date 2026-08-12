@@ -493,7 +493,7 @@ _draw_bar:
 	BCS @max
 	LDY z:zcurrent_weapon
 	BEQ @buster
-	LDA a:zatomic_fire - 1, Y
+	LDA a:zweapon_energy - 1, Y
 	STA z:z00
 	LDA #oam_palette_0 | oam_priority_foreground | no_x_flip | no_y_flip
 	STA z:z02
