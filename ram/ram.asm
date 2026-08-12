@@ -69,11 +69,13 @@
 	zbankswitch_status                = $68
 	zundo_bankswitch                  = $69
 	zgot_weapon_flag                  = $9A
-	zatomic_fire                      = $9C
+	zgot_item_flag                    = $9B
+	zweapon_energy                    = $9C
 	ze_tank                           = $A7
 	z1up                              = $A8
 	zcurrent_weapon                   = $A9
 	ztime_stopper_flag                = $AA
+	zitem                             = $AD
 	zopening_nametable                = $AE
 	zcheckpoint_pointer               = $B0
 	zboss_ai_pointer                  = $B1
@@ -83,6 +85,7 @@
 	zmecha_dragon_xcoord_fraction     = $B7
 	zmecha_dragon_xcoord              = $B8
 	zmecha_dragon_screen              = $B9
+	zcant_collision_flag              = $BD
 	ztitle_flag                       = $BE
 	zdifficulty                       = $CB
 	zcredit_pointer                   = $DE
@@ -111,8 +114,11 @@
 	zFD                               = $FD
 	zFE                               = $FE
 
-	aenemies_index    = $100
-	aenemies_hit_flag = $110
+	aenemies_index      = $100
+	aenemies_hit_flag   = $110
+	aenemies_temp       = $120
+	aitems_index        = $130
+	aitems_respawn_flag = $140
 
 ;oam
 	oam_hi_addr     = 2

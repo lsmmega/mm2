@@ -8,6 +8,7 @@
 .INCLUDE "home/nmi_wait.asm"
 .INCLUDE "home/unused/unknown_3c110.asm"
 
+_megaman_death:
 	track_queue track_death
 
 .INCBIN  "home/home_3.bin"
@@ -123,9 +124,11 @@
 	track_queue track_enemy_hit
 
 .INCBIN  "home/home_28.bin"
+.INCLUDE "home/object_hit.asm"
 .INCLUDE "home/check_weapon_collision.asm"
 .INCLUDE "home/weapon_damage.asm"
 .INCLUDE "home/weapon_damage_table.asm"
+.INCLUDE "home/enemies_hit_damage.asm"
 .INCBIN  "home/home_45.bin"
 .INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"
