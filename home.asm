@@ -123,71 +123,9 @@
 	track_queue track_enemy_hit
 
 .INCBIN  "home/home_28.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_29.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_30.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_31.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_32.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_33.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_34.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_35.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_36.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_37.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_38.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_39.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_40.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_41.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_42.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_43.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "home/home_44.bin"
-.INCLUDE "home/difficulty_calc_enemies.asm"
+.INCLUDE "home/check_weapon_collision.asm"
+.INCLUDE "home/weapon_damage.asm"
+.INCLUDE "home/weapon_damage_table.asm"
 .INCBIN  "home/home_45.bin"
 .INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"

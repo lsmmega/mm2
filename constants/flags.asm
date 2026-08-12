@@ -21,6 +21,7 @@
 	can_collide             = 1
 	cant_recoiled           = 1 << 1
 	objects_with_gravity    = 1 << 2
+	objects_can_recoiled    = 1 << 3
 	objects_appearing_block = 1 << 4
 	objects_invisible       = 1 << 5
 	objects_right           = 1 << 6

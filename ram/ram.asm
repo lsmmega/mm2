@@ -111,7 +111,8 @@
 	zFD                               = $FD
 	zFE                               = $FE
 
-	aenemies_index = $100
+	aenemies_index    = $100
+	aenemies_hit_flag = $110
 
 ;oam
 	oam_hi_addr     = 2
