@@ -4,16 +4,6 @@
 	got_item_2  = 1 << 1
 	got_item_3  = 1 << 2
 
-;got weapon flags
-	got_atomic_fire     = 1 << 0
-	got_air_shooter     = 1 << 1
-	got_leaf_shield     = 1 << 2
-	got_bubble_lead     = 1 << 3
-	got_quick_boomerang = 1 << 4
-	got_time_stopper    = 1 << 5
-	got_metal_blade     = 1 << 6
-	got_crash_bomber    = 1 << 7
-
 ;objects default flags zero set
 	objects_left = 0
 
@@ -27,31 +17,21 @@
 	objects_right           = 1 << 6
 	objects_exist           = 1 << 7
 
-;rematch flags
-	rematch_heatman_done   = 1 << 0
-	rematch_airman_done    = 1 << 1
-	rematch_woodman_done   = 1 << 2
-	rematch_bubbleman_done = 1 << 3
-	rematch_quickman_done  = 1 << 4
-	rematch_flashman_done  = 1 << 5
-	rematch_metalman_done  = 1 << 6
-	rematch_crashman_done  = 1 << 7
+;boss clear flags
+	no_boss_clear        = 0
+	boss_heatman_clear   = 1 << 0
+	boss_airman_clear    = 1 << 1
+	boss_woodman_clear   = 1 << 2
+	boss_bubbleman_clear = 1 << 3
+	boss_quickman_clear  = 1 << 4
+	boss_flashman_clear  = 1 << 5
+	boss_metalman_clear  = 1 << 6
+	boss_crashman_clear  = 1 << 7
 
-;stage clear flags
-	no_stage_clear        = 0
-	stage_heatman_clear   = 1 << 0
-	stage_airman_clear    = 1 << 1
-	stage_woodman_clear   = 1 << 2
-	stage_bubbleman_clear = 1 << 3
-	stage_quickman_clear  = 1 << 4
-	stage_flashman_clear  = 1 << 5
-	stage_metalman_clear  = 1 << 6
-	stage_crashman_clear  = 1 << 7
-
-;stage clear in password
+;boss clear in password
 .ENUM
-	stage_clear_yes
-	stage_clear_no
+	boss_clear_yes
+	boss_clear_no
 .ENDENUM
 
 ;time stopper flags

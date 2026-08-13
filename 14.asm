@@ -4,33 +4,11 @@
 .INCLUDE "engine/init.asm"
 .INCLUDE "engine/title_loop.asm"
 .INCBIN  "14/14_0_1.bin"
-
-	track_queue track_refill
-
-.INCBIN  "14/14_1.bin"
-
-	track_queue track_refill
-
-.INCBIN  "14/14_2.bin"
-.INCLUDE "engine/e_tank.asm"
-.INCLUDE "engine/1up.asm"
-
-.INCBIN  "14/14_4.bin"
-
-	track_queue track_boss_fighting
-
-.INCBIN  "14/14_5.bin"
-
-	track_queue track_teleport_in
-
-.INCBIN  "14/14_6.bin"
-
-	track_queue track_wily3_4_5
-
-.INCBIN  "14/14_7.bin"
-
-	track_queue track_boss_fighting
-
+.INCLUDE "engine/teleport_to_coord.asm"
+.INCBIN  "14/14_0_2.bin"
+.INCLUDE "data/teleport_coord_table.asm"
+.INCBIN  "14/14_0_3.bin"
+.INCLUDE "engine/megaman_hit_item.asm"
 .INCBIN  "14/14_8.bin"
 
 	track_queue track_landing
@@ -51,9 +29,13 @@
 
 	track_queue track_door
 
-.INCBIN  "14/14_13_0.bin"
+.INCBIN  "14/14_13_0_0.bin"
+.INCLUDE "engine/draw_screen_instant.asm"
+.INCBIN  "14/14_13_0_1.bin"
 .INCLUDE "engine/scroll_right_background_palette.asm"
 .INCBIN  "14/14_13_1.bin"
+.INCLUDE "engine/clean_object_in_teleporting.asm"
+.INCBIN  "14/14_13_2.bin"
 
 	track_queue track_enemy_hit
 

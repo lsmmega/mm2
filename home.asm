@@ -24,6 +24,8 @@ _megaman_death:
 	farjsr _ending_jmp
 
 .INCBIN  "home/home_6_0.bin"
+.INCLUDE "home/clear_flag.asm"
+.INCBIN  "home/home_6_1.bin"
 .INCLUDE "home/create_explosion.asm"
 .INCLUDE "home/background_palette.asm"
 .INCLUDE "home/init_stage.asm"
@@ -44,8 +46,11 @@ _megaman_death:
 .INCBIN  "home/home_10_1.bin"
 .INCLUDE "home/load_stage_scrolling.asm"
 .INCLUDE "home/megaman_beam_down.asm"
+
+_run_bosses_init:
 .INCBIN  "home/home_11.bin"
 
+_run_bosses_init_common:
 	farjsr _boss_init_jmp
 
 .INCBIN  "home/home_12_0_0.bin"
@@ -130,6 +135,9 @@ _megaman_death:
 .INCLUDE "home/weapon_damage_table.asm"
 .INCLUDE "home/enemies_hit_damage.asm"
 .INCBIN  "home/home_45.bin"
+
+_generate_teleport:
+.INCBIN  "home/home_46.bin"
 .INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"
 .INCLUDE "sprites/pointers/oam_frameset_pointers.asm"

@@ -138,6 +138,7 @@ miscellaneous := \
 	ram/* \
 	engine/* \
 	14/* \
+	data/* \
 	unused/*
 
 gfx_stages := \

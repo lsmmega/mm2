@@ -85,6 +85,8 @@
 	zmecha_dragon_xcoord_fraction     = $B7
 	zmecha_dragon_xcoord              = $B8
 	zmecha_dragon_screen              = $B9
+	zcurrent_refighting_boss          = $BA
+	zrefighting_flag                  = $BC
 	zcant_collision_flag              = $BD
 	ztitle_flag                       = $BE
 	zdifficulty                       = $CB
@@ -114,11 +116,13 @@
 	zFD                               = $FD
 	zFE                               = $FE
 
-	aenemies_index      = $100
-	aenemies_hit_flag   = $110
-	aenemies_temp       = $120
-	aitems_index        = $130
-	aitems_respawn_flag = $140
+	aenemies_index       = $100
+	aenemies_hit_flag    = $110
+	aenemies_temp        = $120
+	aitems_index         = $130
+	aitems_respawn_flag  = $140
+	aobject_stand_xcoord = $160
+	aobject_stand_ycoord = $170
 
 ;oam
 	oam_hi_addr     = 2
@@ -157,6 +161,8 @@
 	amodulation_pointers                     = $57C
 	atrack_queue                             = $580
 	aweapon_collision_index                  = $590
+	aweapon_stand_xcoord                     = $5A0
+	aweapon_stand_ycoord                     = $5A3
 	aboss_invincibility_time                 = $5A8
 	aobject_xcoord_speed                     = $600
 	aobject_xcoord_speed_fraction            = $620

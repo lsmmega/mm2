@@ -5,7 +5,7 @@ _megaman_hit:
 	STA z:ztimer
 	LDA #$02
 	STA z:zmegaman_status
-	JSR @check_status
+	JSR _check_megaman_hit_status
 	LDA #$01
 	STA aobject_frameset_upper_timer
 	LDA #$6F
@@ -52,7 +52,7 @@ _megaman_hit:
 	STA aobject_frameset_upper_timer, X
 	RTS
 
-@check_status:
+_check_megaman_hit_status:
 	LDX z:zmegaman_status
 	CLC
 	LDA @megaman_hit_object_table, X
