@@ -1,4 +1,4 @@
-_check_weapon_collision:
+_check_weapon_enemies_collision:
 	LDA aobject_ycoord, X
 	STA z:z00
 	LDA aobject_collision_xcoord, X

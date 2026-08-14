@@ -130,7 +130,7 @@ _run_bosses_init_common:
 
 .INCBIN  "home/home_28.bin"
 .INCLUDE "home/object_hit.asm"
-.INCLUDE "home/check_weapon_collision.asm"
+.INCLUDE "home/check_weapon_enemies_collision.asm"
 .INCLUDE "home/weapon_damage.asm"
 .INCLUDE "home/weapon_damage_table.asm"
 .INCLUDE "home/enemies_hit_damage.asm"
