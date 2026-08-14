@@ -80,6 +80,7 @@
 	zcheckpoint_pointer               = $B0
 	zboss_ai_pointer                  = $B1
 	zcurrent_boss                     = $B3
+	zboss_hit_flag                    = $B4
 	zmecha_dragon_ycoord_fraction     = $B5
 	zmecha_dragon_ycoord              = $B6
 	zmecha_dragon_xcoord_fraction     = $B7

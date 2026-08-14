@@ -82,73 +82,12 @@ _boss_ai_jmp:
 
 _boss_init:
 .INCBIN  "11/11_19.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_20.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_21.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_22.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_23.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_24.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_25.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_26.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_27.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_28.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_29.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_30.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_31.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_32.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_33.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "11/11_34.bin"
-
-	track_queue track_enemy_immune
-
-.INCBIN  "11/11_35.bin"
-.INCLUDE "engine/difficulty_calc_bosses.asm"
+.INCLUDE "engine/boss_hit.asm"
+.INCLUDE "engine/check_weapon_bosses_collision.asm"
+.INCLUDE "engine/weapons_bosses_damage.asm"
+.INCLUDE "data/weapons_bosses_damage_table.asm"
+.INCLUDE "data/bosses_hit_damage_table.asm"
 .INCBIN  "11/11_36.bin"
-
 .INCLUDE "unused/unused_2eac0.asm"
 .INCLUDE "screen/stage_select.asm"
 .INCBIN  "gfx/guts_tank/guts_tank_1.chr"
