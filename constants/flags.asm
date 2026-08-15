@@ -5,17 +5,28 @@
 	got_item_3  = 1 << 2
 
 ;objects default flags zero set
-	objects_left = 0
+	cant_collide_megaman        = 0
+	cant_collide_megaman_bullet = 0
+	objects_cant_recoiled       = 0
+	objects_without_gravity     = 0
+	not_objects_block           = 0
+	objects_visible             = 0
+	objects_left                = 0
+	objects_hidden              = 0
 
 ;objects default flags set
-	can_collide             = 1
-	cant_recoiled           = 1 << 1
-	objects_with_gravity    = 1 << 2
-	objects_can_recoiled    = 1 << 3
-	objects_appearing_block = 1 << 4
-	objects_invisible       = 1 << 5
-	objects_right           = 1 << 6
-	objects_exist           = 1 << 7
+	can_collide_megaman        = 1 << 0
+	can_collide_megaman_bullet = 1 << 1
+	objects_with_gravity       = 1 << 2
+	objects_can_recoiled       = 1 << 3
+	objects_block              = 1 << 4
+	objects_invisible          = 1 << 5
+	objects_right              = 1 << 6
+	objects_exist              = 1 << 7
+
+;weapon objects default flags set
+	can_collide_enemies   = 1 << 0
+	enemies_cant_recoiled = 1 << 1
 
 ;boss clear flags
 	no_boss_clear        = 0

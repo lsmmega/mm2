@@ -5,7 +5,7 @@ _appearing_block:
 @loop:
 	LDA aobject_flag + $10, X
 	BPL @skip
-	AND #objects_appearing_block
+	AND #objects_block
 	BEQ @skip
 	STX z:zappearing_block_index, Y
 	INY

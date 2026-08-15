@@ -52,20 +52,20 @@ _create_weapon:
 	.BYTE $79, $7C
 
 @object_flag_table:
-	.BYTE can_collide | objects_exist
-	.BYTE can_collide | cant_recoiled | objects_exist
-	.BYTE can_collide | cant_recoiled | objects_exist
-	.BYTE cant_recoiled | objects_exist
-	.BYTE can_collide | cant_recoiled | objects_with_gravity | objects_exist
-	.BYTE can_collide | cant_recoiled | objects_exist
-	.BYTE can_collide | cant_recoiled | objects_exist
-	.BYTE can_collide | objects_exist
-	.BYTE cant_recoiled | objects_exist
-	.BYTE cant_recoiled | objects_exist
-	.BYTE cant_recoiled | objects_exist
-	.BYTE cant_recoiled | objects_with_gravity | objects_exist
-	.BYTE can_collide | objects_exist
-	.BYTE cant_recoiled | objects_exist
+	.BYTE can_collide_enemies | objects_exist
+	.BYTE can_collide_enemies | enemies_cant_recoiled | objects_exist
+	.BYTE can_collide_enemies | enemies_cant_recoiled | objects_exist
+	.BYTE enemies_cant_recoiled | objects_exist
+	.BYTE can_collide_enemies | enemies_cant_recoiled | objects_with_gravity | objects_exist
+	.BYTE can_collide_enemies | enemies_cant_recoiled | objects_exist
+	.BYTE can_collide_enemies | enemies_cant_recoiled | objects_exist
+	.BYTE can_collide_enemies | objects_exist
+	.BYTE enemies_cant_recoiled | objects_exist
+	.BYTE enemies_cant_recoiled | objects_exist
+	.BYTE enemies_cant_recoiled | objects_exist
+	.BYTE enemies_cant_recoiled | objects_with_gravity | objects_exist
+	.BYTE can_collide_enemies | objects_exist
+	.BYTE enemies_cant_recoiled | objects_exist
 	.BYTE objects_exist
 	.BYTE objects_exist
 	.BYTE objects_exist

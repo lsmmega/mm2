@@ -44,7 +44,7 @@
 @immune_1:
 	LDA aobject_flag, X
 	EOR #objects_right
-	AND #~can_collide
+	AND #~can_collide_enemies
 	STA aobject_flag, X
 	LDA #$05
 	STA aobject_ycoord_speed, X
@@ -162,7 +162,7 @@
 	LDA #$02
 	STA z:z02
 	LDA aobject_flag, X
-	AND #~can_collide
+	AND #~can_collide_enemies
 	STA aobject_flag, X
 	LDA #$3D
 	STA aobject_pointer, X
@@ -207,7 +207,7 @@
 	LDA #$02
 	STA z:z02
 	LDA aobject_flag, X
-	AND #~(can_collide | objects_with_gravity | objects_can_recoiled)
+	AND #~(can_collide_enemies | objects_with_gravity | objects_can_recoiled)
 	STA aobject_flag, X
 	LDA #$3B
 	STA aobject_pointer, X
@@ -424,7 +424,7 @@
 	LDA #$87
 	STA aobject_xcoord_speed_fraction, X
 	LDA aobject_flag, X
-	AND #objects_appearing_block | objects_invisible | objects_right | objects_exist
+	AND #objects_block | objects_invisible | objects_right | objects_exist
 	STA aobject_flag, X
 	track_queue track_enemy_immune
 	LDA #$02
