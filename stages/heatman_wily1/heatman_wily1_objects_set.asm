@@ -1,5 +1,6 @@
 ;enemy group
 ;mapset id
+enemy_objects_set_screen:
 enemy_objects_set_heatman_wily1_00:
 	.BYTE $01
 	.BYTE $01
@@ -267,6 +268,7 @@ enemy_objects_set_heatman_wily1_05:
 	.BYTE $FF
 
 ;xcoord
+enemy_objects_set_xcoord:
 	.BYTE $70
 	.BYTE $F0
 	.BYTE $90
@@ -525,6 +527,7 @@ enemy_objects_set_heatman_wily1_05:
 	.BYTE $FF
 
 ;ycoord
+enemy_objects_set_ycoord:
 	.BYTE $10
 	.BYTE $10
 	.BYTE $10
@@ -783,6 +786,7 @@ enemy_objects_set_heatman_wily1_05:
 	.BYTE $FF
 
 ;object
+enemy_objects_set:
 	.BYTE objects_fly_boy
 	.BYTE objects_fly_boy
 	.BYTE objects_fly_boy
@@ -1042,6 +1046,7 @@ enemy_objects_set_heatman_wily1_05:
 
 ;item group
 ;mapset
+item_objects_set_screen:
 item_objects_set_heatman_wily1_00:
 item_objects_set_heatman_wily1_01:
 	.BYTE $0B
@@ -1117,6 +1122,7 @@ item_objects_set_heatman_wily1_05:
 	.BYTE $FF
 
 ;xcoord
+item_objects_set_xcoord:
 	.BYTE $B8
 	.BYTE $58
 	.BYTE $E8
@@ -1183,6 +1189,7 @@ item_objects_set_heatman_wily1_05:
 	.BYTE $FF
 
 ;ycoord
+item_objects_set_ycoord:
 	.BYTE $AF
 	.BYTE $8F
 	.BYTE $AF
@@ -1249,6 +1256,7 @@ item_objects_set_heatman_wily1_05:
 	.BYTE $FF
 
 ;object
+item_objects_set:
 	.BYTE objects_destroyed_block_2d
 	.BYTE objects_destroyed_block_2d
 	.BYTE objects_destroyed_block_2d

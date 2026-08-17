@@ -7,8 +7,8 @@
 ;objects default flags zero set
 	cant_collide_megaman        = 0
 	cant_collide_megaman_bullet = 0
-	objects_cant_recoiled       = 0
 	objects_without_gravity     = 0
+	objects_cant_recoiled	    = 0
 	not_objects_block           = 0
 	objects_visible             = 0
 	objects_left                = 0

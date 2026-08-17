@@ -82,7 +82,11 @@ _run_bosses_init_common:
 .INCLUDE "home/weapon_collision_table.asm"
 .INCBIN  "home/home_13.bin"
 .INCLUDE "home/credit_far.asm"
-.INCBIN  "home/home_17_0.bin"
+.INCLUDE "home/find_objects.asm"
+.INCLUDE "home/objects_default_flags.asm"
+.INCLUDE "home/objects_coord_speed_index.asm"
+.INCLUDE "home/objects_collision_xcoord.asm"
+.INCLUDE "home/objects_coord_speed_init_table.asm"
 .INCLUDE "home/check_object.asm"
 .INCBIN  "home/home_17_1.bin"
 
