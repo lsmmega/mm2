@@ -141,6 +141,7 @@ _run_bosses_init_common:
 .INCBIN  "home/home_45.bin"
 .INCLUDE "home/enemies_to_items.asm"
 .INCBIN  "home/home_46.bin"
+.INCLUDE "home/kill_drops.asm"
 .INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"
 .INCLUDE "sprites/pointers/oam_frameset_pointers.asm"
