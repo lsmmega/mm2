@@ -139,8 +139,7 @@ _run_bosses_init_common:
 .INCLUDE "home/weapons_enemies_damage_table.asm"
 .INCLUDE "home/enemies_hit_damage.asm"
 .INCBIN  "home/home_45.bin"
-
-_generate_teleport:
+.INCLUDE "home/enemies_to_items.asm"
 .INCBIN  "home/home_46.bin"
 .INCLUDE "home/_reset.asm"
 .INCLUDE "home/unused/unused_3f2f3.asm"
