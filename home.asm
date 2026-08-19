@@ -54,8 +54,7 @@ _run_bosses_init_common:
 	farjsr _boss_init_jmp
 
 .INCBIN  "home/home_12_0_0.bin"
-.INCLUDE "home/divide_mod.asm"
-.INCBIN  "home/home_12_0_1_0.bin"
+.INCLUDE "home/divide.asm"
 .INCLUDE "home/draw_menu.asm"
 .INCLUDE "home/draw_other_on_screen.asm"
 .INCLUDE "home/scrolling.asm"

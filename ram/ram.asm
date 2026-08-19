@@ -15,6 +15,8 @@
 	z0D
 	z0E
 	z0F
+	z10
+	z11
 .ENDENUM
 
 	zstart_scrolling_mapset           = $14
