@@ -8,14 +8,7 @@
 .INCLUDE "home/wily_castle.asm"
 .INCLUDE "home/nmi_wait.asm"
 .INCLUDE "home/unused/unknown_3c110.asm"
-
-_megaman_death:
-	track_queue track_death
-
-.INCBIN  "home/home_3.bin"
-
-	farjsr _game_over_jmp
-
+.INCLUDE "home/megaman_death.asm"
 .INCBIN  "home/home_4.bin"
 
 	farjsr _get_weapon_jmp
