@@ -1,4 +1,4 @@
-_use_weapons: ;da51
+_use_weapons:
 	LDA z:zout_of_screen
 	BNE @skip_1
 	LDX z:zcurrent_weapon
@@ -45,7 +45,7 @@ _use_weapons: ;da51
 	STA z:zmegaman_hit_type
 	LDX z:zmegaman_status
 	CLC
-	ADC $D3D4, X
+	ADC megaman_hit_object_table, X
 	STA aobject_pointer
 	CLC
 	RTS
@@ -61,7 +61,7 @@ _use_weapons: ;da51
 	LDX #$02
 	LDY #$01
 	JSR _create_weapon
-	LDA #$82
+	LDA #can_collide_megaman_bullet | objects_exist
 	STA aobject_flag, X
 
 @skip_3:

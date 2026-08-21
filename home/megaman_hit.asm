@@ -55,7 +55,7 @@ _megaman_hit:
 _check_megaman_hit_status:
 	LDX z:zmegaman_status
 	CLC
-	LDA @megaman_hit_object_table, X
+	LDA megaman_hit_object_table, X
 	ADC z:zmegaman_hit_type
 	CMP aobject_pointer
 	BEQ @same
@@ -74,10 +74,10 @@ _check_megaman_hit_status:
 	LDA #$00
 	STA z:zmegaman_hit_type
 	LDX z:zmegaman_status
-	LDA @megaman_hit_object_table, X
+	LDA megaman_hit_object_table, X
 	STA aobject_pointer
 	RTS
 
-@megaman_hit_object_table:
+megaman_hit_object_table:
 	.BYTE $1A, $19, $18, $00, $04, $08, $0C, $10
 	.BYTE $14, $1B, $1F, $26
