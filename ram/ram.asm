@@ -77,6 +77,8 @@
 	z1up                              = $A8
 	zcurrent_weapon                   = $A9
 	ztime_stopper_flag                = $AA
+	zquick_boomerang_autofire_timer   = $AB
+	zweapon_consume_fraction          = $AC
 	zitem                             = $AD
 	zopening_nametable                = $AE
 	zcheckpoint_pointer               = $B0
@@ -166,6 +168,7 @@
 	aweapon_collision_index                  = $590
 	aweapon_stand_xcoord                     = $5A0
 	aweapon_stand_ycoord                     = $5A3
+	atime_stopper_damage_timer               = $5A6
 	aboss_invincibility_time                 = $5A8
 	aobject_xcoord_speed                     = $600
 	aobject_xcoord_speed_fraction            = $620

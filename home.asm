@@ -1,4 +1,5 @@
 .SEGMENT "HOME"
+.INCLUDE "constants/button.asm"
 .INCLUDE "constants/stage.asm"
 .INCLUDE "constants/tsa.asm"
 .INCLUDE "home/bankswitch.asm"
@@ -87,34 +88,7 @@ _run_bosses_init_common:
 .INCLUDE "home/objects_collision_xcoord.asm"
 .INCLUDE "home/objects_coord_speed_init_table.asm"
 .INCLUDE "home/check_object.asm"
-.INCBIN  "home/home_17_1.bin"
-
-	track_queue track_mega_buster
-
-.INCBIN  "home/home_18.bin"
-
-	track_queue track_air_shooter
-
-.INCBIN  "home/home_19.bin"
-
-	track_queue track_mega_buster
-
-.INCBIN  "home/home_20.bin"
-
-	track_queue track_mega_buster
-
-.INCBIN  "home/home_21.bin"
-
-	track_queue track_mega_buster
-
-.INCBIN  "home/home_22.bin"
-
-	track_queue track_metal_blade
-
-.INCBIN  "home/home_23.bin"
-
-	track_queue track_time_stopper
-
+.INCLUDE "home/weapons.asm"
 .INCBIN  "home/home_24.bin"
 
 	track_queue track_atomic_fire_release
