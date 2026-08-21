@@ -27,6 +27,8 @@ _megaman_death:
 .INCBIN  "home/home_6_0.bin"
 .INCLUDE "home/clear_flag.asm"
 .INCBIN  "home/home_6_1.bin"
+.INCLUDE "home/run_megaman_death.asm"
+.INCBIN  "home/home_6_2.bin"
 .INCLUDE "home/create_explosion.asm"
 .INCLUDE "home/background_palette.asm"
 .INCLUDE "home/init_stage.asm"
@@ -34,6 +36,8 @@ _megaman_death:
 .INCLUDE "home/intro.asm"
 .INCLUDE "home/stage_select.asm"
 .INCLUDE "home/open_menu.asm"
+
+_run_bosses_ai:
 .INCBIN  "home/home_9.bin"
 
 	farjsr _boss_ai_jmp
@@ -89,6 +93,8 @@ _run_bosses_init_common:
 .INCLUDE "home/objects_coord_speed_init_table.asm"
 .INCLUDE "home/check_object.asm"
 .INCLUDE "home/weapons.asm"
+
+_run_weapons_ai:
 .INCBIN  "home/home_24.bin"
 
 	track_queue track_atomic_fire_release

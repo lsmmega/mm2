@@ -35,6 +35,8 @@
 .INCLUDE "engine/scroll_right_background_palette.asm"
 .INCBIN  "14/14_13_1.bin"
 .INCLUDE "engine/clean_object_in_teleporting.asm"
+
+_run_enemies_ai:
 .INCBIN  "14/14_13_2.bin"
 
 	track_queue track_enemy_hit

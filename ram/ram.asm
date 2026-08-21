@@ -118,6 +118,8 @@
 	zppu_ctrl                         = $F7
 	zppu_mask                         = $F8
 	zout_of_screen                    = $F9
+	zwater                            = $FB
+	zwater_timer                      = $FC
 	zFD                               = $FD
 	zFE                               = $FE
 
