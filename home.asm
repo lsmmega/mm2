@@ -22,12 +22,7 @@
 .INCLUDE "home/intro.asm"
 .INCLUDE "home/stage_select.asm"
 .INCLUDE "home/open_menu.asm"
-
-_run_bosses_ai:
-.INCBIN  "home/home_9.bin"
-
-	farjsr _boss_ai_jmp
-
+.INCLUDE "home/run_bosses_ai.asm"
 .INCBIN  "home/home_10_0.bin"
 .INCLUDE "home/load_cutscene_screen.asm"
 .INCLUDE "home/load_cutscene_tiles.asm"
