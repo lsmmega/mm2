@@ -171,7 +171,10 @@
 	aweapon_stand_xcoord                     = $5A0
 	aweapon_stand_ycoord                     = $5A3
 	atime_stopper_damage_timer               = $5A6
+	aboss_defeated_timer_1                   = $5A7
 	aboss_invincibility_time                 = $5A8
+	aboss_defeated_timer_2                   = $5A9
+	aregular_boss_defeated_flag              = $5AA
 	aobject_xcoord_speed                     = $600
 	aobject_xcoord_speed_fraction            = $620
 	aobject_ycoord_speed                     = $640

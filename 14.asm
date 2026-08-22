@@ -18,6 +18,8 @@ _continue_stage_regular:
 .INCLUDE "data/teleport_coord_table.asm"
 .INCBIN  "14/14_0_3.bin"
 .INCLUDE "engine/megaman_hit_item.asm"
+
+_run_megaman:
 .INCBIN  "14/14_8.bin"
 
 	track_queue track_landing

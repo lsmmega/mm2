@@ -44,14 +44,7 @@ _run_bosses_ai:
 .INCBIN  "home/home_10_1.bin"
 .INCLUDE "home/load_stage_scrolling.asm"
 .INCLUDE "home/megaman_beam_down.asm"
-
-_run_bosses_init:
-.INCBIN  "home/home_11.bin"
-
-_run_bosses_init_common:
-	farjsr _boss_init_jmp
-
-.INCBIN  "home/home_12_0_0.bin"
+.INCLUDE "home/run_bosses_init.asm"
 .INCLUDE "home/divide.asm"
 .INCLUDE "home/draw_menu.asm"
 .INCLUDE "home/draw_other_on_screen.asm"
