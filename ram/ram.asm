@@ -45,6 +45,7 @@
 	zobject_in_process_coord          = $2E
 	zobject_in_process_coord_fraction = $2F
 	ztimer                            = $36
+	zscroll_direction                 = $37
 	zscroll_index                     = $38
 	zscroll_down_process              = $39
 	z3A                               = $3A

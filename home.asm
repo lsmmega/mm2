@@ -19,6 +19,7 @@
 
 .INCBIN  "home/home_6_0.bin"
 .INCLUDE "home/clear_flag.asm"
+.INCLUDE "home/clear_bosses_flag.asm"
 .INCBIN  "home/home_6_1.bin"
 .INCLUDE "home/run_megaman_death.asm"
 .INCBIN  "home/home_6_2.bin"
