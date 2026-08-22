@@ -6,7 +6,13 @@
 .INCBIN  "14/14_0_1_0.bin"
 
 _game_over_to_stage_select:
-.INCBIN  "14/14_0_1_1.bin"
+.INCBIN  "14/14_0_1_1_0.bin"
+
+_get_weapons_to_stage_select:
+.INCBIN  "14/14_0_1_1_1.bin"
+
+_bosses_defeated_to_continue_stage:
+.INCBIN  "14/14_0_1_1_2.bin"
 
 _game_over_to_continue_stage:
 .INCBIN  "14/14_0_1_2.bin"

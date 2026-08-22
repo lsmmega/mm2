@@ -9,15 +9,7 @@
 .INCLUDE "home/nmi_wait.asm"
 .INCLUDE "home/unused/unknown_3c110.asm"
 .INCLUDE "home/megaman_death.asm"
-.INCBIN  "home/home_4.bin"
-
-	farjsr _get_weapon_jmp
-
-.INCBIN  "home/home_5.bin"
-
-	farjsr _ending_jmp
-
-.INCBIN  "home/home_6_0.bin"
+.INCLUDE "home/bosses_defeated.asm"
 .INCLUDE "home/clear_flag.asm"
 .INCLUDE "home/clear_bosses_flag.asm"
 .INCBIN  "home/home_6_1.bin"

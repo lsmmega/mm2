@@ -6,6 +6,7 @@ _run_bosses_init_common:
 	farjsr _boss_init_jmp
 	bankswitch $0E
 
+_run_bosses_defeated:
 @ready:
 	LDA #$00
 	STA z:zjoy1_pressed
