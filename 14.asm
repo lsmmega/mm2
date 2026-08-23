@@ -1,27 +1,17 @@
 .SEGMENT "BANK0E"
 .INCLUDE "constants/mmc1.asm"
 .INCLUDE "macros/stack.asm"
-.INCLUDE "engine/init.asm"
-.INCLUDE "engine/title_loop.asm"
-.INCBIN  "14/14_0_1_0.bin"
-
-_game_over_to_stage_select:
-.INCBIN  "14/14_0_1_1_0.bin"
-
-_get_weapons_to_stage_select:
-.INCBIN  "14/14_0_1_1_1.bin"
-
-_bosses_defeated_to_continue_stage:
-.INCBIN  "14/14_0_1_1_2.bin"
-
-_game_over_to_continue_stage:
-.INCBIN  "14/14_0_1_2.bin"
-
-_continue_stage_regular:
+.INCLUDE "engine/main.asm"
 .INCBIN  "14/14_0_1_3.bin"
+.INCLUDE "data/ready_oam_coord.asm"
+.INCLUDE "data/stages/tracks.asm"
 .INCLUDE "engine/teleport_to_coord.asm"
+
+_run_stage_wily_5:
 .INCBIN  "14/14_0_2.bin"
 .INCLUDE "data/teleport_coord_table.asm"
+
+_check_scroll:
 .INCBIN  "14/14_0_3.bin"
 .INCLUDE "engine/megaman_hit_item.asm"
 

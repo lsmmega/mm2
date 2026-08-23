@@ -140,6 +140,7 @@ miscellaneous := \
 	engine/* \
 	14/* \
 	data/* \
+	data/stages/* \
 	unused/*
 
 gfx_stages := \
