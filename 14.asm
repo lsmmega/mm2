@@ -6,9 +6,7 @@
 .INCLUDE "data/ready_oam_coord.asm"
 .INCLUDE "data/stages/tracks.asm"
 .INCLUDE "engine/teleport_to_coord.asm"
-
-_run_stage_wily_5:
-.INCBIN  "14/14_0_2.bin"
+.INCLUDE "engine/run_stage_wily_5.asm"
 .INCLUDE "data/teleport_coord_table.asm"
 
 _check_scroll:
