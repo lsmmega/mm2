@@ -1,7 +1,6 @@
 rom_obj := \
 	header.o \
-	main.o \
-	8.o
+	main.o
 
 cfg := \
 	mm2.cfg
@@ -81,8 +80,9 @@ stages := \
 	stages/crashman/* \
 	gfx/ending/*.bmp
 
-8 := \
-	8.asm \
+miscellaneous := \
+	miscellaneous.asm \
+	constants/* \
 	gfx/password_get_weapon/*.bmp \
 	gfx/font/*.bmp \
 	gfx/stage_select/*.bmp \
@@ -91,15 +91,10 @@ stages := \
 	gfx/wily_machine_2/*.bmp \
 	gfx/sprites/dr_wily/*.bmp \
 	gfx/sprites/bosses/wily_machine_2/*.bmp \
-	unused/*
-
-miscellaneous := \
-	miscellaneous.asm \
-	constants/* \
+	unused/* \
 	gfx/stages/*.bmp \
 	gfx/menus/*.bmp \
 	gfx/sprites/miscellaneous/*.bmp \
-	unused/* \
 	engine/* \
 	data/ending/* \
 	screen/* \
@@ -337,12 +332,8 @@ header.o: $(header)
 	ca65 header.asm
 
 main.o: $(audio) $(home) $(miscellaneous) $(sprites) $(stages) $(11) $(13) $(14)
-	bmp2nes $(gfx_stages) $(gfx9) $(gfx11)
+	bmp2nes $(gfx_stages) $(gfx8) $(gfx9) $(gfx11)
 	ca65 main.asm
-
-8.o: $(8)
-	bmp2nes $(gfx8)
-	ca65 8.asm
 
 clean:
 	$(RM) $(rom_obj) \
