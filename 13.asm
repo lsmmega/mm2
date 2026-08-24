@@ -21,6 +21,7 @@ _stage_select:
 
 .INCBIN  "13/13_4_0_0.bin"
 .INCLUDE "engine/flash_palettes.asm"
+.INCLUDE "engine/stage_select_set.asm"
 .INCBIN  "13/13_4_0_1.bin"
 .INCLUDE "engine/load_boss_show_star_or_copipi.asm"
 .INCLUDE "engine/load_boss_show_oam.asm"
