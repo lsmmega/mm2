@@ -1,13 +1,15 @@
+boss_show_frameset_index:
 ;frameset index
-	.BYTE boss_show_heatman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_airman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_woodman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_bubbleman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_quickman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_flashman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_metalman_frameset - boss_show_heatman_frameset
-	.BYTE boss_show_crashman_frameset - boss_show_heatman_frameset
+	.BYTE boss_show_heatman_frameset - boss_show_data_frameset
+	.BYTE boss_show_airman_frameset - boss_show_data_frameset
+	.BYTE boss_show_woodman_frameset - boss_show_data_frameset
+	.BYTE boss_show_bubbleman_frameset - boss_show_data_frameset
+	.BYTE boss_show_quickman_frameset - boss_show_data_frameset
+	.BYTE boss_show_flashman_frameset - boss_show_data_frameset
+	.BYTE boss_show_metalman_frameset - boss_show_data_frameset
+	.BYTE boss_show_crashman_frameset - boss_show_data_frameset
 
+boss_show_frameset_length:
 ;frameset length
 	.BYTE boss_show_airman_frameset - boss_show_heatman_frameset - 1
 	.BYTE boss_show_woodman_frameset - boss_show_airman_frameset - 1
@@ -18,6 +20,7 @@
 	.BYTE boss_show_crashman_frameset - boss_show_metalman_frameset - 1
 	.BYTE boss_show_frameset_end - boss_show_crashman_frameset - 1
 
+boss_show_frames:
 ;frame(s)
 	.BYTE 2 ;heatman
 	.BYTE 3 ;airman
@@ -29,6 +32,7 @@
 	.BYTE 8 ;crashman
 
 ;frameset
+boss_show_data_frameset:
 boss_show_heatman_frameset:
 	.BYTE $03, $02, $02, $01, $01, $00, $27, $28
 	.BYTE $27, $28, $27, $28, $27, $28, $27, $28

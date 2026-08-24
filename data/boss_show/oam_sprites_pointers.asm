@@ -1,5 +1,5 @@
 ;boss show oam sprites pointers
-;lo
+boss_show_oam_sprites_lo_pointers:
 	.LOBYTES boss_show_oam_sprites_00
 	.LOBYTES boss_show_oam_sprites_01
 	.LOBYTES boss_show_oam_sprites_02
@@ -42,7 +42,7 @@
 	.LOBYTES boss_show_oam_sprites_27
 	.LOBYTES boss_show_oam_sprites_28
 
-;hi
+boss_show_oam_sprites_hi_pointers:
 	.HIBYTES boss_show_oam_sprites_00
 	.HIBYTES boss_show_oam_sprites_01
 	.HIBYTES boss_show_oam_sprites_02
