@@ -121,7 +121,7 @@ miscellaneous := \
 	macros/* \
 	13/* \
 	engine/* \
-	data/* \
+	data/stage_select/* \
 	data/boss_show/* \
 	data/password/* \
 	screen/* \
