@@ -38,6 +38,7 @@ _stage_select:
 .INCLUDE "data/boss_show/screen.asm"
 .INCLUDE "data/stage_select/check_border_boss_clear_flag_index.asm"
 .INCBIN  "13/13_4_1_1.bin"
+.INCLUDE "data/stage_select/load_boss_tiles.asm"
 .INCLUDE "data/stage_select/clear_flag.asm"
 .INCBIN  "13/13_4_1_2.bin"
 .INCLUDE "data/boss_show/load_boss_show_star_or_copipi_coord.asm"
