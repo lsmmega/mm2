@@ -1,0 +1,9 @@
+boss_show_boss_name:
+	.BYTE " HEATMAN  "
+	.BYTE "  AIRMAN  "
+	.BYTE " WOODMAN  "
+	.BYTE "BUBBLEMAN "
+	.BYTE " QUICKMAN "
+	.BYTE " FLASHMAN "
+	.BYTE " METALMAN "
+	.BYTE " CRASHMAN "
