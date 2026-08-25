@@ -1,25 +1,7 @@
 .SEGMENT "BANK0D"
 .INCLUDE "constants/flags.asm"
 .INCLUDE "engine/miscellaneous_jumptable.asm"
-
-_stage_select:
-.INCBIN  "13/13_0.bin"
-
-	track_queue track_stage_select
-
-.INCBIN  "13/13_1.bin"
-
-	track_queue track_select
-
-.INCBIN  "13/13_2.bin"
-
-	track_queue track_teleport_out
-
-.INCBIN  "13/13_3.bin"
-
-	track_queue track_boss_show
-
-.INCBIN  "13/13_4_0_0.bin"
+.INCLUDE "engine/stage_select.asm"
 .INCLUDE "engine/flash_palettes.asm"
 .INCLUDE "engine/stage_select_set.asm"
 .INCLUDE "engine/stage_select_border.asm"
