@@ -36,6 +36,7 @@ _stage_select:
 .INCLUDE "data/stage_select/border_oam.asm"
 .INCBIN  "13/13_4_1_0_1.bin"
 .INCLUDE "data/boss_show/screen.asm"
+.INCLUDE "data/stage_select/check_border_boss_clear_flag_index.asm"
 .INCBIN  "13/13_4_1_1.bin"
 .INCLUDE "data/stage_select/clear_flag.asm"
 .INCBIN  "13/13_4_1_2.bin"
