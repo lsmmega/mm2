@@ -37,6 +37,8 @@ _stage_select:
 .INCBIN  "13/13_4_1_0_1.bin"
 .INCLUDE "data/boss_show/screen.asm"
 .INCBIN  "13/13_4_1_1.bin"
+.INCLUDE "data/stage_select/clear_flag.asm"
+.INCBIN  "13/13_4_1_2.bin"
 .INCLUDE "data/boss_show/load_boss_show_star_or_copipi_coord.asm"
 .INCLUDE "data/boss_show/oam_frameset.asm"
 .INCLUDE "data/boss_show/oam_sprites_pointers.asm"
