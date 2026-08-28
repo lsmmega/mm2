@@ -1,5 +1,7 @@
 _weapon_palette:
 	LDA z:zcurrent_weapon
+
+_weapon_palette_menu:
 	ASL
 	ASL
 	TAX
