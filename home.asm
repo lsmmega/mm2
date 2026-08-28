@@ -29,7 +29,7 @@
 .INCLUDE "home/load_boss_tiles.asm"
 .INCLUDE "home/load_copipi_tiles.asm"
 .INCLUDE "home/load_title_tiles.asm"
-.INCBIN  "home/home_10_1.bin"
+.INCLUDE "home/draw_menu_object_tiles.asm"
 .INCLUDE "home/load_stage_scrolling.asm"
 .INCLUDE "home/megaman_beam_down.asm"
 .INCLUDE "home/run_bosses_init.asm"
