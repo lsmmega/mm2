@@ -71,6 +71,8 @@
 	zleft_checkpoint_items_index             = $4C
 	zright_checkpoint_items_index            = $4D
 	zdraw_other_flag                         = $51
+	zmenu_screen_xcoord                      = $52
+	zmenu_screen_id                          = $53
 	zdraw_door                               = $54
 	zno_of_appearing_block                   = $55
 	zappearing_block_index                   = $56
@@ -191,3 +193,4 @@
 	aobject_frameset_upper_timer             = $6A0
 	aobject_hp                               = $6C0
 	aobject_collision_xcoord                 = $6E0
+	amenu_palette_temp                       = $700

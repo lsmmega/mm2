@@ -25,3 +25,7 @@ stage_select_border_xcoord_offset:
 	.BYTE $70 ;6
 	.BYTE $30 ;7
 	.BYTE $30 ;8
+
+;unused
+	.BYTE $60, $20, $60, $20, $20, $A0, $A0, $A0
+	.BYTE $30, $70, $B0, $30, $B0, $70, $30, $B0
