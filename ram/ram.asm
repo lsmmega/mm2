@@ -132,6 +132,7 @@
 	zwater_timer                             = $FC
 	zFD                                      = $FD
 	zFE                                      = $FE
+	zFF                                      = $FF
 
 	aenemies_index       = $100
 	aenemies_hit_flag    = $110

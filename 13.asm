@@ -25,21 +25,7 @@
 .INCLUDE "data/boss_show/oam_frameset.asm"
 .INCLUDE "data/boss_show/oam_sprites_pointers.asm"
 .INCLUDE "data/boss_show/oam_sprites.asm"
-
-_open_menu:
-.INCBIN  "13/13_5.bin"
-
-	track_queue track_select
-
-.INCBIN  "13/13_6.bin"
-
-	track_queue track_refill
-
-.INCBIN  "13/13_7.bin"
-
-	track_queue track_teleport_in
-
-.INCBIN  "13/13_8.bin"
+.INCLUDE "engine/menu.asm"
 
 _wily_castle:
 .INCBIN  "13/13_9.bin"
