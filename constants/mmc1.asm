@@ -7,4 +7,4 @@
 ;mmc1 control
 	nametable_horizontal = 2
 	nametable_vertical   = 3
-	fix_last_bank = 3 << 2
+	fix_last_bank        = 3 << 2
