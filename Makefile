@@ -123,6 +123,7 @@ miscellaneous := \
 	engine/* \
 	data/stage_select/* \
 	data/boss_show/* \
+	data/wily_castle/* \
 	data/password/* \
 	screen/* \
 	unused/*

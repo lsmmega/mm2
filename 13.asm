@@ -44,7 +44,11 @@ _wily_castle:
 
 	track_queue track_wily_castle
 
-.INCBIN  "13/13_13.bin"
+.INCBIN  "13/13_13_0.bin"
+.INCLUDE "data/wily_castle/upper_screen_set.asm"
+.INCLUDE "data/wily_castle/palettes.asm"
+.INCLUDE "data/wily_castle/ufo.asm"
+.INCBIN  "13/13_13_1.bin"
 
 _intro:
 .INCBIN  "13/13_14.bin"
