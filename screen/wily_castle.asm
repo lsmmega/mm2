@@ -1,4 +1,4 @@
-;wily castle screen set
+wily_castle_screen_set:
 ;y0
 	.BYTE $E8 ;x0
 	.BYTE $E8 ;x1
