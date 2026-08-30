@@ -48,6 +48,7 @@ _wily_castle:
 .INCLUDE "data/wily_castle/upper_screen_set.asm"
 .INCLUDE "data/wily_castle/palettes.asm"
 .INCLUDE "data/wily_castle/ufo.asm"
+.INCLUDE "data/wily_castle/wily_plate.asm"
 .INCBIN  "13/13_13_1.bin"
 
 _intro:
