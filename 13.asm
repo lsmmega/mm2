@@ -51,7 +51,7 @@ _wily_castle:
 .INCLUDE "data/wily_castle/wily_plate.asm"
 .INCLUDE "data/wily_castle/ufo_oam_data.asm"
 .INCLUDE "data/wily_castle/map.asm"
-.INCBIN  "13/13_13_1.bin"
+.INCLUDE "data/wily_castle/fade_out.asm"
 
 _intro:
 .INCBIN  "13/13_14.bin"
