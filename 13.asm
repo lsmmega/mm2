@@ -26,25 +26,7 @@
 .INCLUDE "data/boss_show/oam_sprites_pointers.asm"
 .INCLUDE "data/boss_show/oam_sprites.asm"
 .INCLUDE "engine/menu.asm"
-
-_wily_castle:
-.INCBIN  "13/13_9.bin"
-
-	track_queue track_wily_ufo
-
-.INCBIN  "13/13_10.bin"
-
-	track_queue track_wily_castle
-
-.INCBIN  "13/13_11.bin"
-
-	track_queue track_refill
-
-.INCBIN  "13/13_12.bin"
-
-	track_queue track_wily_castle
-
-.INCBIN  "13/13_13_0.bin"
+.INCLUDE "engine/wily_castle.asm"
 .INCLUDE "data/wily_castle/upper_screen_set.asm"
 .INCLUDE "data/wily_castle/palettes.asm"
 .INCLUDE "data/wily_castle/ufo.asm"
