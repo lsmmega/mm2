@@ -104,6 +104,8 @@
 	zrefighting_flag                         = $BC
 	zcant_collision_flag                     = $BD
 	ztitle_flag                              = $BE
+	zopening_subtitle_msb_hi                 = $C8
+	zopening_subtitle_pointer                = $C9
 	zdifficulty                              = $CB
 	zcredit_pointer                          = $DE
 	zaudio_header                            = $E0

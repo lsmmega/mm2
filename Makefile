@@ -82,7 +82,7 @@ stages := \
 
 miscellaneous := \
 	miscellaneous.asm \
-	constants/* \
+	constants/charmap/* \
 	gfx/password_get_weapon/*.bmp \
 	gfx/font/*.bmp \
 	gfx/stage_select/*.bmp \
@@ -118,12 +118,14 @@ miscellaneous := \
 13 := \
 	13.asm \
 	constants/* \
+	constants/charmap/* \
 	macros/* \
 	13/* \
 	engine/* \
 	data/stage_select/* \
 	data/boss_show/* \
 	data/wily_castle/* \
+	data/* \
 	data/password/* \
 	screen/* \
 	unused/*

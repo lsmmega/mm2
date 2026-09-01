@@ -1,5 +1,5 @@
 .SEGMENT "BANK08"
-.INCLUDE "constants/charmap.asm"
+.INCLUDE "constants/charmap/regular.asm"
 .INCBIN  "gfx/password_get_weapon/common.chr"
 .INCBIN  "gfx/password_get_weapon/katakana.chr"
 .INCBIN  "gfx/font/font_1.chr"
