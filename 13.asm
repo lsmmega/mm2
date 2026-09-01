@@ -72,6 +72,7 @@ _intro:
 .INCLUDE "engine/nmi.asm"
 .INCLUDE "engine/run_opening_screen.asm"
 .INCLUDE "engine/subtitle.asm"
+.INCLUDE "engine/load_title_screen.asm"
 .INCBIN  "13/13_22_1.bin"
 .INCLUDE "data/opening_subtitle.asm"
 .INCBIN  "13/13_22_2.bin"

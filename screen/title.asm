@@ -1,4 +1,4 @@
-;title screen set
+title_screen_set:
 ;attributes, start at yxx, each 8 bytes xxx
 ;y7
 	.BYTE topleft_palette_3 | topright_palette_3 | bottomleft_palette_3 | bottomright_palette_3 ;x0
