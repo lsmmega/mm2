@@ -125,7 +125,7 @@ miscellaneous := \
 	data/stage_select/* \
 	data/boss_show/* \
 	data/wily_castle/* \
-	data/* \
+	data/intro/* \
 	data/password/* \
 	screen/* \
 	unused/*
