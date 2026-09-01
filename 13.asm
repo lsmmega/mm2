@@ -70,6 +70,7 @@ _intro:
 
 .INCBIN  "13/13_22_0.bin"
 .INCLUDE "engine/nmi.asm"
+.INCLUDE "engine/run_opening_screen.asm"
 .INCBIN  "13/13_22_1.bin"
 .INCLUDE "data/password/password.asm"
 .INCBIN  "13/13_23.bin"
