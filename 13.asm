@@ -73,6 +73,7 @@ _intro:
 .INCLUDE "engine/run_opening_screen.asm"
 .INCLUDE "engine/subtitle.asm"
 .INCLUDE "engine/load_title_screen.asm"
+.INCLUDE "engine/title_frameset.asm"
 .INCBIN  "13/13_22_1.bin"
 .INCLUDE "data/intro/subtitle.asm"
 .INCBIN  "13/13_22_2.bin"
