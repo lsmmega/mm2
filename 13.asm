@@ -75,6 +75,7 @@ _intro:
 .INCLUDE "engine/load_title_screen.asm"
 .INCLUDE "engine/title_frameset.asm"
 .INCLUDE "engine/load_rockman_title_oam.asm" ;unused
+.INCLUDE "engine/intro_screen_movement.asm"
 .INCBIN  "13/13_22_1_0.bin"
 .INCLUDE "data/intro/rockman_title_oam_coord.asm" ;unused
 .INCBIN  "13/13_22_1_1.bin"
