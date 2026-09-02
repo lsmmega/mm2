@@ -79,12 +79,15 @@ _intro:
 .INCLUDE "engine/draw_intro_oam.asm"
 .INCLUDE "engine/title_megaman_oam.asm"
 .INCBIN  "13/13_22_1_0.bin"
+.INCLUDE "engine/init_password_oam.asm"
 .INCLUDE "data/intro/palettes.asm"
 .INCLUDE "data/intro/rockman_title_oam_coord.asm" ;unused
 .INCLUDE "data/intro/intro_oam.asm"
 .INCLUDE "data/intro/oam_sprites.asm"
 .INCLUDE "data/intro/subtitle.asm"
 .INCBIN  "13/13_22_2.bin"
+.INCLUDE "data/password/password_oamcoord.asm"
+.INCBIN  "13/13_22_3.bin"
 .INCLUDE "data/password/password.asm"
 .INCBIN  "13/13_23.bin"
 
