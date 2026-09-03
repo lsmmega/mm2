@@ -90,7 +90,7 @@ _intro:
 .INCLUDE "data/password/password_oamcoord.asm"
 .INCBIN  "13/13_22_3.bin"
 .INCLUDE "data/password/password.asm"
-.INCBIN  "13/13_23.bin"
+.INCLUDE "data/password/correct_weapons_oam.asm"
 
 _game_over:
 .INCBIN  "13/13_24.bin"
