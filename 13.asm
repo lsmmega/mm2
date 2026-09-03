@@ -87,6 +87,7 @@ _intro:
 .INCLUDE "data/intro/oam_sprites.asm"
 .INCLUDE "data/intro/subtitle.asm"
 .INCBIN  "13/13_22_2.bin"
+.INCLUDE "data/password/palettes.asm"
 .INCLUDE "data/password/strings.asm"
 .INCLUDE "data/password/password_oam.asm"
 .INCBIN  "13/13_22_3.bin"
