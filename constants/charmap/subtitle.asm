@@ -3,7 +3,10 @@
 	.CHARMAP $27, $DE ;'
 	.CHARMAP $2C, $DD ;,
 	.CHARMAP $30, $A0 ;0
+	.CHARMAP $31, $A7 ;1
 	.CHARMAP $32, $A2 ;2
+	.CHARMAP $38, $A1 ;8
+	.CHARMAP $39, $A5 ;9
 	.CHARMAP $2E, $DC ;.
 	.CHARMAP $41, $C1 ;A
 	.CHARMAP $42, $C2 ;B
