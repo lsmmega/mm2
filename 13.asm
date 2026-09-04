@@ -92,7 +92,7 @@ _intro:
 .INCLUDE "data/password/palettes.asm"
 .INCLUDE "data/password/strings.asm"
 .INCLUDE "data/password/password_oam.asm"
-.INCBIN  "13/13_22_3.bin"
+.INCLUDE "data/password/row_move.asm"
 .INCLUDE "data/password/fade_palettes.asm"
 .INCLUDE "data/password/cursor.asm"
 .INCLUDE "data/password/password.asm"
