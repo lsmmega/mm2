@@ -53,22 +53,7 @@ _intro:
 	track_queue track_teleport_out
 
 .INCBIN  "13/13_18.bin"
-
-	track_queue track_password
-
-.INCBIN  "13/13_19.bin"
-
-	track_queue track_select
-
-.INCBIN  "13/13_20.bin"
-
-	track_queue track_select
-
-.INCBIN  "13/13_21.bin"
-
-	track_queue track_1up
-
-.INCBIN  "13/13_22_0.bin"
+.INCLUDE "engine/password.asm"
 .INCLUDE "engine/nmi.asm"
 .INCLUDE "engine/run_opening_screen.asm"
 .INCLUDE "engine/subtitle.asm"
