@@ -1,5 +1,4 @@
-password_row_move:
-;move right
+password_row_move_right:
 	     ; 1    2    3    4    5
 	.BYTE $01, $02, $03, $04, $00 ;A
 	.BYTE $06, $07, $08, $09, $05 ;B
@@ -7,7 +6,7 @@ password_row_move:
 	.BYTE $10, $11, $12, $13, $0F ;D
 	.BYTE $15, $16, $17, $18, $14 ;E
 
-;move left
+password_row_move_left:
 	     ; 1    2    3    4    5
 	.BYTE $04, $00, $01, $02, $03 ;A
 	.BYTE $09, $05, $06, $07, $08 ;B
@@ -15,7 +14,7 @@ password_row_move:
 	.BYTE $13, $0F, $10, $11, $12 ;D
 	.BYTE $18, $14, $15, $16, $17 ;E
 
-;move up
+password_row_move_up:
 	     ; 1    2    3    4    5
 	.BYTE $14, $15, $16, $17, $18 ;A
 	.BYTE $00, $01, $02, $03, $04 ;B
@@ -23,7 +22,7 @@ password_row_move:
 	.BYTE $0A, $0B, $0C, $0D, $0E ;D
 	.BYTE $0F, $10, $11, $12, $13 ;E
 
-;move down
+password_row_move_down:
 	     ; 1    2    3    4    5
 	.BYTE $05, $06, $07, $08, $09 ;A
 	.BYTE $0A, $0B, $0C, $0D, $0E ;B
