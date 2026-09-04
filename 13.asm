@@ -93,6 +93,7 @@ _intro:
 .INCLUDE "data/password/strings.asm"
 .INCLUDE "data/password/password_oam.asm"
 .INCBIN  "13/13_22_3.bin"
+.INCLUDE "data/password/cursor.asm"
 .INCLUDE "data/password/password.asm"
 .INCLUDE "data/password/correct_weapons_oam.asm"
 
