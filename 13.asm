@@ -79,6 +79,7 @@ _intro:
 .INCLUDE "engine/draw_intro_oam.asm"
 .INCLUDE "engine/title_megaman_oam.asm"
 .INCBIN  "13/13_22_1_0.bin"
+.INCLUDE "engine/password_fade_in_out.asm"
 .INCLUDE "engine/load_password_oam.asm"
 .INCLUDE "engine/load_password_game_over_strings.asm"
 .INCLUDE "engine/init_password_screen.asm"
