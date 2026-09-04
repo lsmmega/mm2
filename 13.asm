@@ -86,7 +86,7 @@ _intro:
 .INCLUDE "data/intro/intro_oam.asm"
 .INCLUDE "data/intro/oam_sprites.asm"
 .INCLUDE "data/intro/subtitle.asm"
-.INCBIN  "13/13_22_2.bin"
+.INCLUDE "data/intro/fade_palettes.asm"
 .INCLUDE "data/intro/megaman_beam_up_set.asm"
 .INCLUDE "data/intro/licensed.asm"
 .INCLUDE "data/password/palettes.asm"
