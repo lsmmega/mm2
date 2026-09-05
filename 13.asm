@@ -34,25 +34,7 @@
 .INCLUDE "data/wily_castle/ufo_oam_data.asm"
 .INCLUDE "data/wily_castle/map.asm"
 .INCLUDE "data/wily_castle/fade_out.asm"
-
-_intro:
-.INCBIN  "13/13_14.bin"
-
-	track_queue track_opening
-
-.INCBIN  "13/13_15.bin"
-
-	track_queue track_title
-
-.INCBIN  "13/13_16.bin"
-
-	track_queue track_select
-
-.INCBIN  "13/13_17.bin"
-
-	track_queue track_teleport_out
-
-.INCBIN  "13/13_18.bin"
+.INCLUDE "engine/intro.asm"
 .INCLUDE "engine/password.asm"
 .INCLUDE "engine/nmi.asm"
 .INCLUDE "engine/run_opening_screen.asm"
@@ -63,7 +45,7 @@ _intro:
 .INCLUDE "engine/intro_screen_movement.asm"
 .INCLUDE "engine/draw_intro_oam.asm"
 .INCLUDE "engine/title_megaman_oam.asm"
-.INCBIN  "13/13_22_1_0.bin"
+.INCLUDE "engine/load_title_screen_direct.asm"
 .INCLUDE "engine/load_password_screen.asm"
 .INCLUDE "engine/password_fade_in_out.asm"
 .INCLUDE "engine/load_password_oam.asm"

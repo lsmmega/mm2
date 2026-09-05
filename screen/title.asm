@@ -1067,6 +1067,7 @@ title_screen_set:
 	.BYTE $00 ;x30
 	.BYTE $00 ;x31
 
+load_title_screen_set_direct:
 ;y0
 	.BYTE $00 ;x0
 	.BYTE $00 ;x1
