@@ -69,25 +69,8 @@
 .INCLUDE "data/password/cursor.asm"
 .INCLUDE "data/password/password.asm"
 .INCLUDE "data/password/correct_weapons_oam.asm"
-
-_game_over:
-.INCBIN  "13/13_24.bin"
-
-	track_queue track_game_over
-
-.INCBIN  "13/13_25.bin"
-
-	track_queue track_password
-
-.INCBIN  "13/13_26.bin"
-
-	track_queue track_select
-
-.INCBIN  "13/13_27.bin"
-
-	track_queue track_1up
-
-.INCBIN  "13/13_28.bin"
+.INCLUDE "engine/game_over.asm"
+.INCLUDE "engine/show_password.asm"
 .INCLUDE "screen/title.asm"
 
 _ending:
