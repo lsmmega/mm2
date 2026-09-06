@@ -9,11 +9,11 @@ _game_over:
 	STA z:z08
 	LDA #>mapset_flashman_wily6_24
 	STA z:z09
-	JSR _load_password_screen
+	JSR _load_miscellaneous_screen
 	LDA #<mapset_flashman_wily6_25
 	STA z:z08
 	LDA #>mapset_flashman_wily6_25
-	JSR _load_password_screen
+	JSR _load_miscellaneous_screen
 	LDA #$21
 	STA PPU_ADDRESS
 	LDA #$CC

@@ -7,12 +7,12 @@ _password:
 	STA z:z08
 	LDA #>mapset_flashman_wily6_21
 	STA z:z09
-	JSR _load_password_screen
+	JSR _load_miscellaneous_screen
 	LDA #<mapset_flashman_wily6_22
 	STA z:z08
 	LDA #>mapset_flashman_wily6_22
 	STA z:z09
-	JSR _load_password_screen
+	JSR _load_miscellaneous_screen
 	LDX #$00
 
 @loop_2:

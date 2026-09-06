@@ -46,7 +46,7 @@
 .INCLUDE "engine/draw_intro_oam.asm"
 .INCLUDE "engine/title_megaman_oam.asm"
 .INCLUDE "engine/load_title_screen_direct.asm"
-.INCLUDE "engine/load_password_screen.asm"
+.INCLUDE "engine/load_miscellaneous_screen.asm"
 .INCLUDE "engine/password_fade_in_out.asm"
 .INCLUDE "engine/load_password_oam.asm"
 .INCLUDE "engine/load_password_game_over_strings.asm"

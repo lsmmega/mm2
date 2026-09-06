@@ -1,4 +1,4 @@
-_load_password_screen:
+_load_miscellaneous_screen:
 	LDA #$00
 	STA z:zcurrent_handle_32x32_attribute
 	STA z:zscreen_update_flag
