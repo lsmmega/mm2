@@ -1,3 +1,9 @@
+_home_ending_oam_with_object:
+	LDY aobject_pointer
+
+_home_ending_oam_without_object:
+	STY z:z01
+
 _home_ending_oam:
 	farjsr _ending_oam_jmp
 

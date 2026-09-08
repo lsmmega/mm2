@@ -72,21 +72,16 @@
 .INCLUDE "engine/game_over.asm"
 .INCLUDE "engine/show_password.asm"
 .INCLUDE "screen/title.asm"
-
-_ending:
-.INCBIN  "13/13_29.bin"
-
-	track_queue track_ending
-
-.INCBIN  "13/13_30.bin"
-
-	track_queue track_title
-
-.INCBIN  "13/13_31.bin"
-
-	track_queue track_staff_roll
-
-.INCBIN  "13/13_32.bin"
+.INCLUDE "engine/ending.asm"
+.INCLUDE "engine/run_ending.asm"
+.INCLUDE "engine/ending_flash_palette.asm"
+.INCLUDE "engine/ending_palette.asm"
+.INCLUDE "engine/init_credit_strings.asm"
+.INCLUDE "data/ending/palettes.asm"
+.INCLUDE "data/ending/flash_palettes.asm"
+.INCLUDE "data/ending/timer.asm"
+.INCLUDE "data/ending/drop_oam.asm"
+.INCLUDE "data/ending/strings.asm"
 
 _get_weapon:
 .INCBIN  "13/13_33.bin"
