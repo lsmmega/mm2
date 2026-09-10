@@ -82,7 +82,9 @@ stages := \
 
 miscellaneous := \
 	miscellaneous.asm \
+	constants/* \
 	constants/charmap/* \
+	macros/* \
 	gfx/password_get_weapon/*.bmp \
 	gfx/font/*.bmp \
 	gfx/stage_select/*.bmp \
@@ -102,7 +104,13 @@ miscellaneous := \
 	gfx/font/*.bmp \
 	gfx/opening/*.bmp \
 	gfx/title/*.bmp \
-	gfx/mecha_dragon/*.bmp
+	gfx/mecha_dragon/*.bmp \
+	data/stage_select/* \
+	data/boss_show/* \
+	data/wily_castle/* \
+	data/intro/* \
+	data/password/* \
+	data/get_weapon/* \
 
 11 := \
 	11.asm \
@@ -114,21 +122,6 @@ miscellaneous := \
 	unused/* \
 	screen/* \
 	gfx/guts_tank/*.bmp
-
-13 := \
-	13.asm \
-	constants/* \
-	constants/charmap/* \
-	macros/* \
-	13/* \
-	engine/* \
-	data/stage_select/* \
-	data/boss_show/* \
-	data/wily_castle/* \
-	data/intro/* \
-	data/password/* \
-	screen/* \
-	unused/*
 
 14 := \
 	14.asm \

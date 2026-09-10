@@ -1,6 +1,4 @@
 .SEGMENT "BANK0B"
-.INCLUDE "constants/track.asm"
-.INCLUDE "macros/audio.asm"
 
 _boss_init_jmp:
 	JMP _boss_init
