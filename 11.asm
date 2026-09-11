@@ -77,9 +77,7 @@ _boss_ai_jmp:
 	track_queue track_refill
 
 .INCBIN  "11/11_18.bin"
-
-_boss_init:
-.INCBIN  "11/11_19.bin"
+.INCLUDE "engine/boss_init.asm"
 .INCLUDE "engine/boss_hit.asm"
 .INCLUDE "engine/check_weapon_bosses_collision.asm"
 .INCLUDE "engine/weapons_bosses_damage.asm"
