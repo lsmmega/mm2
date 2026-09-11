@@ -1,4 +1,4 @@
-_boss_hit:
+_bosses_hit:
 	LDA #$00
 	STA z:z01
 	LDA z:zmegaman_status

@@ -1,9 +1,9 @@
 .SEGMENT "BANK0B"
 
-_boss_init_jmp:
-	JMP _boss_init
+_bosses_init_jmp:
+	JMP _bosses_init
 
-_boss_ai_jmp:
+_bosses_ai_jmp:
 .INCBIN  "11/11_0.bin"
 
 	track_queue track_refill
@@ -77,8 +77,8 @@ _boss_ai_jmp:
 	track_queue track_refill
 
 .INCBIN  "11/11_18.bin"
-.INCLUDE "engine/boss_init.asm"
-.INCLUDE "engine/boss_hit.asm"
+.INCLUDE "engine/bosses_init.asm"
+.INCLUDE "engine/bosses_hit.asm"
 .INCLUDE "engine/check_weapon_bosses_collision.asm"
 .INCLUDE "engine/weapons_bosses_damage.asm"
 .INCLUDE "data/weapons_bosses_damage_table.asm"

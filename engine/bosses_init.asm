@@ -1,4 +1,4 @@
-_boss_init:
+_bosses_init:
 	LDX z:zcurrent_boss
 	LDA z:zscreen_id
 	STA aobject_screen + $01

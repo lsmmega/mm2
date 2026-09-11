@@ -1,7 +1,7 @@
 _run_bosses_ai:
 	LDA z:zboss_ai_pointer
 	BEQ @skip
-	farjsr _boss_ai_jmp
+	farjsr _bosses_ai_jmp
 	bankswitch $0E
 	LDA aregular_boss_defeated_flag
 	BEQ @skip
