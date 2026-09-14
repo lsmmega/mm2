@@ -41,11 +41,7 @@
 .INCLUDE "home/object_palette.asm"
 .INCLUDE "home/appearing_block.asm"
 .INCLUDE "home/tsa_collision.asm"
-.INCBIN  "home/home_12_0_2.bin"
-
-	bankswitch $0B
-	RTS
-
+.INCLUDE "home/run_alien_broken.asm"
 .INCLUDE "home/init_sprites.asm"
 .INCLUDE "home/sprites.asm"
 .INCLUDE "home/nmi.asm"
