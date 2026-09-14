@@ -23,7 +23,7 @@
 .INCLUDE "home/stage_select.asm"
 .INCLUDE "home/open_menu.asm"
 .INCLUDE "home/run_bosses_ai.asm"
-.INCBIN  "home/home_10_0.bin"
+.INCLUDE "home/draw_bosses_background.asm"
 .INCLUDE "home/load_cutscene_screen.asm"
 .INCLUDE "home/load_cutscene_tiles.asm"
 .INCLUDE "home/load_boss_tiles.asm"
