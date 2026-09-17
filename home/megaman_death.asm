@@ -20,13 +20,13 @@ _megaman_death:
 	STA aobject_flag + $0E, Y
 	CLC
 	LDA aobject_xcoord
-	ADC @spin_xcoord_offset, X
+	ADC death_spin_xcoord_offset, X
 	STA aobject_xcoord + $0E, Y
 	LDA aobject_screen
-	ADC @spin_screen_offset, X
+	ADC death_spin_screen_offset, X
 	STA aobject_screen + $0E, Y
 	LDA aobject_ycoord
-	ADC @spin_ycoord_offset, X
+	ADC death_spin_ycoord_offset, X
 	STA aobject_ycoord + $0E, Y
 	LDA #$01
 	STA aobject_frameset_upper_timer + $0E, Y
@@ -101,11 +101,11 @@ _megaman_death:
 @continue_stage_regular:
 	JMP _continue_stage_regular
 
-@spin_ycoord_offset:
+death_spin_ycoord_offset:
 	.BYTE $F8, $08, $FB, $05, $00, $00, $05, $FB
 
-@spin_xcoord_offset:
+death_spin_xcoord_offset:
 	.BYTE $00, $00, $FB, $05, $FB, $08, $FB, $05
 
-@spin_screen_offset:
+death_spin_screen_offset:
 	.BYTE $00, $00, $FF, $00, $FF, $00, $FF, $00
