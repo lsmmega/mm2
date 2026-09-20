@@ -1,9 +1,9 @@
 _load_copipi_tiles:
-	bankswitch <.BANK (_load_copipi_chr)
+	bankswitch <.BANK (load_copipi_chr)
 	LDX #$1F
 
 @loop:
-	LDA _load_copipi_chr, X
+	LDA load_copipi_chr, X
 	STA aobject_ppu_data, X
 	DEX
 	BPL @loop
