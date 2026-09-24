@@ -83,9 +83,11 @@ _bosses_ai_jmp:
 .INCLUDE "engine/weapons_bosses_damage.asm"
 .INCLUDE "data/weapons_bosses_damage_table.asm"
 .INCLUDE "data/bosses_hit_damage_table.asm"
-.INCBIN  "11/11_36.bin"
-.INCLUDE "unused/unused_2eac0.asm"
+.INCLUDE "data/guts_tank_tileset.asm"
+.INCLUDE "unused/unused_2eabf.asm"
 .INCLUDE "screen/stage_select.asm"
+
+load_guts_tank_chr:
 .INCBIN  "gfx/guts_tank/guts_tank_1.chr"
 .INCBIN  "gfx/guts_tank/guts_tank_2.chr"
 .INCLUDE "unused/unused_2ff20.asm"
