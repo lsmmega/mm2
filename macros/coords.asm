@@ -18,3 +18,11 @@
 .MACRO rightscreencoord b, c
 	.DBYT $2400 + b + c << 5
 .ENDMACRO
+
+.MACRO hirightscreencoord b, c
+	.HIBYTES $2400 + b + c << 5
+.ENDMACRO
+
+.MACRO lorightscreencoord b, c
+	.LOBYTES $2400 + b + c << 5
+.ENDMACRO

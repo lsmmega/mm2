@@ -57,6 +57,7 @@
 	zmegaman_hit_type                        = $3D
 	zslip_speed_fraction                     = $3E
 	zslip_speed                              = $3F
+	zslip_wind_flags                         = $40
 	zpause                                   = $41 ;used for mega man 1
 	ztoward                                  = $42
 	zcurrent_palette_no                      = $43
@@ -70,6 +71,8 @@
 	zmegaman_invincibility_time              = $4B
 	zleft_checkpoint_items_index             = $4C
 	zright_checkpoint_items_index            = $4D
+	zwind_conveyor_speed_fraction            = $4F
+	zwind_conveyor_speed                     = $50
 	zdraw_other_flag                         = $51
 	zmenu_screen_xcoord                      = $52
 	zmenu_screen_id                          = $53
@@ -91,6 +94,7 @@
 	zweapon_consume_fraction                 = $AC
 	zitem                                    = $AD
 	zopening_nametable                       = $AE
+	zwind_toward                             = $AF
 	zcheckpoint_pointer                      = $B0
 	zboss_ai_pointer                         = $B1
 	zboss_timer                              = $B2
@@ -190,6 +194,7 @@
 	aboss_invincibility_time                 = $5A8
 	aboss_defeated_timer_2                   = $5A9
 	aregular_boss_defeated_flag              = $5AA
+	awily_temp                               = $5AB
 	aobject_xcoord_speed                     = $600
 	aobject_xcoord_speed_fraction            = $620
 	aobject_ycoord_speed                     = $640

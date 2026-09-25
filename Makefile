@@ -14,6 +14,48 @@ audio := \
 	audio/music/* \
 	audio/sfx/*
 
+bosses := \
+	bosses.asm \
+	constants/* \
+	macros/* \
+	engine/* \
+	data/* \
+	unused/* \
+	screen/* \
+	gfx/guts_tank/*.bmp
+
+miscellaneous := \
+	miscellaneous.asm \
+	constants/* \
+	constants/charmap/* \
+	macros/* \
+	gfx/password_get_weapon/*.bmp \
+	gfx/font/*.bmp \
+	gfx/stage_select/*.bmp \
+	gfx/wily_lab/*.bmp \
+	gfx/ending/*.bmp \
+	gfx/wily_machine_2/*.bmp \
+	gfx/sprites/dr_wily/*.bmp \
+	gfx/sprites/bosses/wily_machine_2/*.bmp \
+	unused/* \
+	gfx/stages/*.bmp \
+	gfx/menus/*.bmp \
+	gfx/sprites/miscellaneous/*.bmp \
+	engine/* \
+	data/ending/* \
+	screen/* \
+	gfx/wily_castle/*.bmp \
+	gfx/font/*.bmp \
+	gfx/opening/*.bmp \
+	gfx/title/*.bmp \
+	gfx/mecha_dragon/*.bmp \
+	data/stage_select/* \
+	data/boss_show/* \
+	data/wily_castle/* \
+	data/intro/* \
+	data/password/* \
+	data/get_weapon/*
+
 header := \
 	header.asm \
 	constants/*
@@ -35,7 +77,7 @@ sprites := \
 	macros/* \
 	sprites/pointers/* \
 	sprites/* \
-	sprites/unused/* \
+	sprites/unused/*
 
 stages := \
 	stages.asm \
@@ -79,49 +121,6 @@ stages := \
 	gfx/sprites/bosses/bubbleman/*.bmp \
 	stages/crashman/* \
 	gfx/ending/*.bmp
-
-miscellaneous := \
-	miscellaneous.asm \
-	constants/* \
-	constants/charmap/* \
-	macros/* \
-	gfx/password_get_weapon/*.bmp \
-	gfx/font/*.bmp \
-	gfx/stage_select/*.bmp \
-	gfx/wily_lab/*.bmp \
-	gfx/ending/*.bmp \
-	gfx/wily_machine_2/*.bmp \
-	gfx/sprites/dr_wily/*.bmp \
-	gfx/sprites/bosses/wily_machine_2/*.bmp \
-	unused/* \
-	gfx/stages/*.bmp \
-	gfx/menus/*.bmp \
-	gfx/sprites/miscellaneous/*.bmp \
-	engine/* \
-	data/ending/* \
-	screen/* \
-	gfx/wily_castle/*.bmp \
-	gfx/font/*.bmp \
-	gfx/opening/*.bmp \
-	gfx/title/*.bmp \
-	gfx/mecha_dragon/*.bmp \
-	data/stage_select/* \
-	data/boss_show/* \
-	data/wily_castle/* \
-	data/intro/* \
-	data/password/* \
-	data/get_weapon/* \
-
-11 := \
-	11.asm \
-	constants/* \
-	macros/* \
-	11/* \
-	engine/* \
-	data/* \
-	unused/* \
-	screen/* \
-	gfx/guts_tank/*.bmp
 
 14 := \
 	14.asm \
@@ -273,7 +272,7 @@ gfx_stages := \
 	gfx/stages/regular/crashman.bmp gfx/stages/regular/crashman.chr \
 	gfx/sprites/bosses/mecha_dragon.bmp gfx/sprites/bosses/mecha_dragon.chr \
 	gfx/sprites/bosses/guts_tank.bmp gfx/sprites/bosses/guts_tank.chr \
-	gfx/ending/ending_1.bmp gfx/ending/ending_1.chr \
+	gfx/ending/ending_1.bmp gfx/ending/ending_1.chr
 
 gfx8 := \
 	gfx/password_get_weapon/common.bmp gfx/password_get_weapon/common.chr \
@@ -293,7 +292,7 @@ gfx8 := \
 	gfx/ending/ending_2.bmp gfx/ending/ending_2.chr \
 	gfx/wily_machine_2/wily_machine_2.bmp gfx/wily_machine_2/wily_machine_2.chr \
 	gfx/sprites/dr_wily/dogeza.bmp gfx/sprites/dr_wily/dogeza.chr \
-	gfx/sprites/bosses/wily_machine_2/wily_machine_2_3.bmp gfx/sprites/bosses/wily_machine_2/wily_machine_2_3.chr \
+	gfx/sprites/bosses/wily_machine_2/wily_machine_2_3.bmp gfx/sprites/bosses/wily_machine_2/wily_machine_2_3.chr
 
 gfx9 := \
 	gfx/stages/common.bmp gfx/stages/common.chr \
@@ -310,7 +309,7 @@ gfx9 := \
 	gfx/opening/opening_2.bmp gfx/opening/opening_2.chr \
 	gfx/title/title.bmp gfx/title/title.chr \
 	gfx/mecha_dragon/mecha_dragon_1.bmp gfx/mecha_dragon/mecha_dragon_1.chr \
-	gfx/mecha_dragon/mecha_dragon_2.bmp gfx/mecha_dragon/mecha_dragon_2.chr \
+	gfx/mecha_dragon/mecha_dragon_2.bmp gfx/mecha_dragon/mecha_dragon_2.chr
 
 gfx11 := \
 	gfx/guts_tank/guts_tank_1.bmp gfx/guts_tank/guts_tank_1.chr \
@@ -327,7 +326,7 @@ mm2: mm2.nes
 header.o: $(header)
 	ca65 header.asm
 
-main.o: $(audio) $(home) $(miscellaneous) $(sprites) $(stages) $(11) $(13) $(14)
+main.o: $(audio) $(bosses) $(home) $(miscellaneous) $(sprites) $(stages) $(13) $(14)
 	bmp2nes $(gfx_stages) $(gfx8) $(gfx9) $(gfx11)
 	ca65 main.asm
 

@@ -5,7 +5,7 @@
 .INCLUDE "stages.asm"
 .INCLUDE "miscellaneous.asm"
 .INCLUDE "sprites.asm"
-.INCLUDE "11.asm"
+.INCLUDE "bosses.asm"
 .INCLUDE "audio.asm"
 .INCLUDE "14.asm"
 .INCLUDE "home.asm"

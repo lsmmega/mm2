@@ -1,0 +1,16 @@
+.SEGMENT "BANK0B"
+.INCLUDE "engine/bosses_ai.asm"
+.INCLUDE "engine/bosses_init.asm"
+.INCLUDE "engine/bosses_hit.asm"
+.INCLUDE "engine/check_weapon_bosses_collision.asm"
+.INCLUDE "engine/weapons_bosses_damage.asm"
+.INCLUDE "data/weapons_bosses_damage_table.asm"
+.INCLUDE "data/bosses_hit_damage_table.asm"
+.INCLUDE "data/guts_tank_tileset.asm"
+.INCLUDE "unused/unused_2eabf.asm"
+.INCLUDE "screen/stage_select.asm"
+
+load_guts_tank_chr:
+.INCBIN  "gfx/guts_tank/guts_tank_1.chr"
+.INCBIN  "gfx/guts_tank/guts_tank_2.chr"
+.INCLUDE "unused/unused_2ff20.asm"

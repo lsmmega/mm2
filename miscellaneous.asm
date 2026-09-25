@@ -14,8 +14,12 @@
 .INCBIN  "gfx/stage_select/metalman.chr"
 .INCBIN  "gfx/stage_select/flashman.chr"
 .INCBIN  "gfx/stage_select/crashman.chr"
+
+load_wily_lab_chr:
 .INCBIN  "gfx/wily_lab/wily_lab.chr"
 .INCBIN  "gfx/ending/ending_2.chr"
+
+load_wily_machine_2_chr:
 .INCBIN  "gfx/wily_machine_2/wily_machine_2.chr"
 .INCBIN  "gfx/sprites/dr_wily/dogeza.chr"
 .INCBIN  "gfx/sprites/bosses/wily_machine_2/wily_machine_2_3.chr"
