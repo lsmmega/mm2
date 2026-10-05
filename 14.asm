@@ -8,9 +8,7 @@
 .INCLUDE "engine/teleport_to_coord.asm"
 .INCLUDE "engine/run_stage_wily_5.asm"
 .INCLUDE "data/teleport_coord_table.asm"
-
-_check_scroll:
-.INCBIN  "14/14_0_3.bin"
+.INCLUDE "engine/check_scroll.asm"
 .INCLUDE "engine/megaman_hit_item.asm"
 
 _run_megaman:
@@ -23,22 +21,9 @@ _run_megaman:
 	track_queue track_jump_into_water
 
 .INCBIN  "14/14_10.bin"
-
-	track_queue track_door
-
-.INCBIN  "14/14_11.bin"
-
-	track_queue track_boss_fighting
-
-.INCBIN  "14/14_12.bin"
-
-	track_queue track_door
-
-.INCBIN  "14/14_13_0_0.bin"
+.INCLUDE "engine/scrolling_mapset.asm"
 .INCLUDE "engine/draw_screen_instant.asm"
-.INCBIN  "14/14_13_0_1.bin"
-.INCLUDE "engine/scroll_right_background_palette.asm"
-.INCBIN  "14/14_13_1.bin"
+.INCLUDE "engine/handle_scrolling_object.asm"
 .INCLUDE "engine/clean_object_in_teleporting.asm"
 
 _run_enemies_ai:
