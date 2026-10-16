@@ -6,7 +6,7 @@ _bosses_ai_jmp:
 	STA z:zsprites_pointer
 	LDY z:zcurrent_boss
 	LDA z:ztime_stopper_flag
-	AND #%00000001
+	AND #time_stopper_used
 	BEQ @time_stopper_not_use
 	LDA @time_stopper_damage_per_frames, Y
 	BEQ @time_stopper_not_use
@@ -1404,7 +1404,7 @@ _flashman_boss_ai:
 	STA aobject_xcoord_speed_fraction + $0F
 	STA aobject_frameset_lower_timer + $0F
 	STA aobject_frameset_upper_timer + $0F
-	LDA #$04
+	LDA #megaman_frozen
 	STA z:ztime_stopper_flag
 	LDA #white_gray
 	STA acurrent_background_palette + $10

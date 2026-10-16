@@ -400,7 +400,7 @@ _open_menu:
 	STA aobject_frameset_upper_timer
 	LDA #$1A
 	STA aobject_pointer
-	LDA #$03
+	LDA #time_stopper_used | not_megaman_frozen
 	STA z:ztime_stopper_flag
 	track_queue track_teleport_in
 	RTS

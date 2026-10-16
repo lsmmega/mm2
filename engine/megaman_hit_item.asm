@@ -23,7 +23,7 @@ _megaman_hit_item:
 	LDA aobject_hp
 	CMP #$1C
 	BCS @skip_1
-	LDA #$07
+	LDA #time_stopper_used | not_megaman_frozen | megaman_frozen
 	STA z:ztime_stopper_flag
 
 @loop_1:
@@ -65,7 +65,7 @@ _megaman_hit_item:
 	LDA z:zweapon_energy - 1, X
 	CMP #$1C
 	BEQ @skip_2
-	LDA #$07
+	LDA #time_stopper_used | not_megaman_frozen | megaman_frozen
 	STA z:ztime_stopper_flag
 
 @loop_2:
