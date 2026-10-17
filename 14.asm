@@ -10,17 +10,13 @@
 .INCLUDE "data/teleport_coord_table.asm"
 .INCLUDE "engine/check_scroll.asm"
 .INCLUDE "engine/megaman_hit_item.asm"
-
-_run_megaman:
-.INCBIN  "14/14_8.bin"
-
-	track_queue track_landing
-
-.INCBIN  "14/14_9.bin"
-
-	track_queue track_jump_into_water
-
-.INCBIN  "14/14_10.bin"
+.INCLUDE "engine/run_megaman.asm"
+.INCLUDE "engine/turn_megaman.asm"
+.INCLUDE "engine/check_object_horizontal_move.asm"
+.INCLUDE "engine/tsa.asm"
+.INCLUDE "engine/check_object_vertical_move.asm"
+.INCLUDE "engine/check_stand_object.asm"
+.INCLUDE "engine/draw_mapset.asm"
 .INCLUDE "engine/scrolling_mapset.asm"
 .INCLUDE "engine/draw_screen_instant.asm"
 .INCLUDE "engine/handle_scrolling_object.asm"

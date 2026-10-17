@@ -47,6 +47,8 @@
 	zobject_in_process_coord_fraction        = $2F
 	zobject_ycoord_speed_accelerate_fraction = $30
 	zobject_ycoord_speed_accelerate          = $31
+	ztsa_blockset_pointers                   = $32
+	zladder_flag                             = $35
 	ztimer                                   = $36
 	zscroll_direction                        = $37
 	zscroll_index                            = $38
