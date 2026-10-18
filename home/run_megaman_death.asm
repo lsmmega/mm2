@@ -8,6 +8,8 @@ _run_megaman_death:
 	JSR _find_objects
 	JSR _run_bosses_ai
 	JSR _run_enemies_ai
+
+_jmp_unused_3c396_common:
 	JSR _sprites
 	LDA z:zwater
 	BEQ @skip
