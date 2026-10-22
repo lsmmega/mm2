@@ -2,8 +2,8 @@ music_wily_ufo:
 	music_header
 	.WORD music_wily_ufo_pulse_1
 	.WORD music_wily_ufo_pulse_2
-	.WORD $0000
-	.WORD $0000
+	.WORD 0
+	.WORD 0
 	.WORD music_wily_ufo_modulator
 
 music_wily_ufo_pulse_1:

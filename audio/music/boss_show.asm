@@ -3,7 +3,7 @@ music_boss_show:
 	.WORD music_boss_show_pulse_1
 	.WORD music_boss_show_pulse_2
 	.WORD music_boss_show_triangle
-	.WORD $0000
+	.WORD 0
 	.WORD music_boss_show_modulator
 
 music_boss_show_pulse_1:

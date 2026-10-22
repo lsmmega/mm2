@@ -1,7 +1,7 @@
 music_get_weapon:
 	music_header
-	.WORD $0000
-	.WORD $0000
+	.WORD 0
+	.WORD 0
 	.WORD music_get_weapon_triangle
 	.WORD music_get_weapon_noise
 	.WORD music_get_weapon_modulator

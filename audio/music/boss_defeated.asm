@@ -3,7 +3,7 @@ music_boss_defeated:
 	.WORD music_boss_defeated_pulse_1
 	.WORD music_boss_defeated_pulse_2
 	.WORD music_boss_defeated_triangle
-	.WORD $0000
+	.WORD 0
 	.WORD music_boss_defeated_modulator
 
 music_boss_defeated_pulse_1:
