@@ -62,31 +62,12 @@
 .INCLUDE "home/objects_coord_speed_init_table.asm"
 .INCLUDE "home/check_object.asm"
 .INCLUDE "home/weapons.asm"
-
-_run_weapons_ai:
-.INCBIN  "home/home_24.bin"
-
-	track_queue track_atomic_fire_release
-
-.INCBIN  "home/home_25.bin"
-
-	track_queue track_leaf_shield
-
-.INCBIN  "home/home_26.bin"
-
-	track_queue track_crash_bomber_grab
-
-.INCBIN  "home/home_27.bin"
-
-	track_queue track_enemy_hit
-
-.INCBIN  "home/home_28.bin"
 .INCLUDE "home/object_hit.asm"
 .INCLUDE "home/check_weapon_enemies_collision.asm"
 .INCLUDE "home/weapons_enemies_damage.asm"
 .INCLUDE "home/weapons_enemies_damage_table.asm"
 .INCLUDE "home/enemies_hit_damage.asm"
-.INCBIN  "home/home_45.bin"
+.INCLUDE "home/object_on_screen.asm"
 .INCLUDE "home/enemies_to_items.asm"
 .INCLUDE "home/enemies_to_megaman.asm"
 .INCLUDE "home/kill_drops.asm"

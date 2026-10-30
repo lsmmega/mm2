@@ -221,7 +221,7 @@ _continue_stage_regular:
 @not_open_menu:
 	JSR _appearing_block
 	JSR _run_megaman
-	JSR _run_weapons_ai
+	JSR _run_weapons_trajectory
 	JSR _find_objects
 	JSR _run_bosses_ai
 	JSR _run_enemies_ai

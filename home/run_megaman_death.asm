@@ -4,7 +4,7 @@ _run_megaman_death:
 	STA aobject_frameset_lower_timer
 	LDA #$01
 	STA z:zmegaman_invincibility_time
-	JSR _run_weapons_ai
+	JSR _run_weapons_trajectory
 	JSR _find_objects
 	JSR _run_bosses_ai
 	JSR _run_enemies_ai

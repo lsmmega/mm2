@@ -15,7 +15,7 @@ _run_stage_wily_5:
 @not_open_menu:
 	JSR _appearing_block
 	JSR _run_megaman
-	JSR _run_weapons_ai
+	JSR _run_weapons_trajectory
 	JSR _run_bosses_ai
 	JSR _run_enemies_ai
 	JSR _sprites

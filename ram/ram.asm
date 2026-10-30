@@ -73,6 +73,7 @@
 	zmegaman_invincibility_time              = $4B
 	zleft_checkpoint_items_index             = $4C
 	zright_checkpoint_items_index            = $4D
+	zhandle_object_type                      = $4E
 	zwind_conveyor_speed_fraction            = $4F
 	zwind_conveyor_speed                     = $50
 	zdraw_other_flag                         = $51

@@ -12,7 +12,7 @@ _run_bosses_defeated:
 	STA z:zjoy1_pressed
 	STA z:zjoy1_pressed_bits
 	JSR _run_megaman
-	JSR _run_weapons_ai
+	JSR _run_weapons_trajectory
 	JSR _find_objects
 	JSR _run_bosses_ai
 	JSR _run_enemies_ai
