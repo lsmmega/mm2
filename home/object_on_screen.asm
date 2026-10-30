@@ -1,4 +1,4 @@
-_unused_3ede8: ;in process because include enemies ai code
+_unused_3ede8:
 	LDA #$14
 	STA aobject_stand_xcoord - $10, X
 	JSR _check_enemies_object_set_flags_2
@@ -49,7 +49,7 @@ _unused_3ee33:
 	LDA aobject_pointer, X
 	SBC #$40
 	TAY
-	LDA $AF79, Y
+	LDA enemies_goblin_palette_index_table, Y
 	STA z:z01
 	LDA aobject_flag, X
 	AND #objects_invisible
@@ -85,7 +85,7 @@ _unused_3ee33:
 	ASL
 	TAY
 	LDX z:z01
-	JSR $AF4C
+	JSR _update_goblin_palettes
 	LDX z:zsprites_pointer
 
 @4_frames:
@@ -106,7 +106,7 @@ _unused_3ee8c:
 	LDA #$01
 	STA z:z01
 	LDA #$23
-	JSR $96CF
+	JSR _set_enemies_object_limited
 	LDA #can_collide_megaman | can_collide_megaman_bullet | objects_exist
 	STA aobject_flag, X
 	BCS @skip
