@@ -1,4 +1,4 @@
-_unused_3ede8:
+_enemies_lift_with_megaman_time_stopper:
 	LDA #$14
 	STA aobject_stand_xcoord - $10, X
 	JSR _check_enemies_object_set_flags_2
@@ -13,7 +13,7 @@ _unused_3ede8:
 	STA aobject_stand_ycoord - $10, X
 	RTS
 
-_unused_3ee01:
+_enemies_drop_platform_with_megaman_time_stopper:
 	LDA #$18
 	STA aobject_stand_xcoord - $10, X
 	JSR _check_enemies_object_set_flags_2
@@ -28,7 +28,7 @@ _unused_3ee01:
 	STA aobject_stand_ycoord - $10, X
 	RTS
 
-_unused_3ee1a:
+_enemies_kaminari_goro_with_megaman_time_stopper:
 	LDA #$18
 	STA aobject_stand_xcoord - $10, X
 	JSR _check_enemies_object_set_flags_2
@@ -43,7 +43,7 @@ _unused_3ee1a:
 	STA aobject_stand_ycoord - $10, X
 	RTS
 
-_unused_3ee33:
+_enemies_goblin_with_megaman_time_stopper:
 	JSR _compare_megaman_xcoord_with_objects_xcoord
 	SEC
 	LDA aobject_pointer, X
@@ -95,7 +95,7 @@ _unused_3ee33:
 	JSR _check_enemies_object_set_flags_2
 	RTS
 
-_unused_3ee8c:
+_enemies_changkey_maker_with_megaman_time_stopper:
 	LDA aobject_xcoord_speed_fraction, X
 	BNE @skip
 	LDA #$6E
@@ -124,6 +124,8 @@ _unused_3ee8c:
 
 @not_oob:
 	RTS
+
+_enemies_with_megaman_time_stopper_nothing:
 	RTS
 
 _unused_3eec6:
