@@ -1,5 +1,4 @@
 boss_show_oam_sprites_00:
-	.FEATURE FORCE_RANGE
 	.BYTE (@end - @start) >> 2
 
 @start:

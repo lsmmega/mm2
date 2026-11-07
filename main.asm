@@ -1,3 +1,4 @@
+	.FEATURE FORCE_RANGE
 .INCLUDE "constants/track.asm"
 .INCLUDE "macros/far.asm"
 .INCLUDE "macros/audio.asm"
