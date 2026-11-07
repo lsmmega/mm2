@@ -122,13 +122,12 @@ stages := \
 	stages/crashman/* \
 	gfx/ending/*.bmp
 
-14 := \
-	14.asm \
+engine := \
+	engine.asm \
 	constants/* \
 	macros/* \
 	ram/* \
 	engine/* \
-	14/* \
 	data/* \
 	data/stages/* \
 	unused/*
@@ -326,7 +325,7 @@ mm2: mm2.nes
 header.o: $(header)
 	ca65 header.asm
 
-main.o: $(audio) $(bosses) $(home) $(miscellaneous) $(sprites) $(stages) $(13) $(14)
+main.o: $(audio) $(bosses) $(engine) $(home) $(miscellaneous) $(sprites) $(stages)
 	bmp2nes $(gfx_stages) $(gfx8) $(gfx9) $(gfx11)
 	ca65 main.asm
 

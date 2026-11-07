@@ -139,7 +139,7 @@ _unused_3eec6_common:
 	STA z:zhandle_object_type
 	LDA aobject_flag, X
 	AND #can_collide_megaman | can_collide_megaman_bullet
-	BEQ @skip
+	BEQ _run_check_object_vertical_bool_oob_move
 	PHA
 	AND #can_collide_megaman
 	BEQ @cant_collide_megaman
@@ -148,10 +148,12 @@ _unused_3eec6_common:
 @cant_collide_megaman:
 	PLA
 	AND #can_collide_megaman_bullet
-	BEQ @skip
+	BEQ _run_check_object_vertical_bool_oob_move
 	JSR _check_weapon_enemies_collision
-	BCC @skip
+	BCC _run_check_object_vertical_bool_oob_move
 	JSR _enemies_killed
+
+_enemies_blocky_apart_hit:
 	LDA #$06
 	STA aobject_pointer, X
 	LDA #objects_exist
@@ -161,7 +163,6 @@ _unused_3eec6_common:
 	STA aobject_frameset_upper_timer, X
 	JMP _check_object_type_branch
 
-@skip:
 _run_check_object_vertical_bool_oob_move:
 	SEC
 	LDA aobject_ycoord_fraction, X

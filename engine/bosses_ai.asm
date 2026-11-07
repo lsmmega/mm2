@@ -263,7 +263,7 @@ _heatman_throw_fireball:
 	STA z:z0D
 	JSR _divide_fraction
 	LDX #$01
-	LDA #$58
+	LDA #objects_heatman_atomic_fire
 	JSR _bosses_shoot_object
 	LDX z:z01
 	LDA heatman_throw_fireball_ycoord_speed_fraction_table, X
@@ -491,7 +491,7 @@ _airman_boss_ai:
 	STA z:z02
 
 @loop_1:
-	LDA #$5D
+	LDA #objects_airman_air_shooter
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDX z:z01
@@ -711,7 +711,7 @@ _woodman_boss_ai:
 	JSR _check_bosses_toward
 	LDA aobject_temp + $01
 	BNE @create_leaf_shield_done
-	LDA #$61
+	LDA #objects_woodman_leaf_shield
 	LDX #$01
 	JSR _bosses_shoot_object
 	INC aobject_temp + $01
@@ -727,7 +727,7 @@ _woodman_boss_ai:
 	LDA #$00
 	STA z:zboss_timer
 	INC aobject_temp + $01
-	LDA #$62
+	LDA #objects_woodman_leaf
 	LDX #$01
 	JSR _bosses_shoot_object
 
@@ -742,7 +742,7 @@ _woodman_boss_ai:
 	STA z:z02
 
 @loop:
-	LDA #$62
+	LDA #objects_woodman_leaf
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @exist
@@ -938,7 +938,7 @@ _bubbleman_boss_ai:
 	BNE @skip
 	LDA #$1F
 	STA z:zboss_timer
-	LDA #$5B
+	LDA #objects_bubbleman_bubble_lead
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDA #$01
@@ -1012,7 +1012,7 @@ _bubbleman_boss_ai:
 	STA aboss_defeated_timer_1
 	LDA #$03
 	STA aobject_frameset_upper_timer + $01
-	LDA #$5A
+	LDA #objects_bubbleman_shoot
 	LDX #$01
 	JSR _bosses_shoot_object
 	DEC z:zboss_timer
@@ -1178,7 +1178,7 @@ _quickman_boss_ai:
 	STA z:z02
 
 @loop:
-	LDA #$59
+	LDA #objects_quickman_quick_boomerang
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @exist
@@ -1460,7 +1460,7 @@ _flashman_boss_ai:
 	CLC
 	ADC z:z04
 	STA aobject_ycoord
-	LDA #$35
+	LDA #objects_straight_bullet
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @exist
@@ -1720,7 +1720,7 @@ _metalman_boss_ai:
 	LDA aobject_frameset_lower_timer + $01
 	BNE @not_throwing
 	track_queue track_metal_blade
-	LDA #$5C
+	LDA #objects_metalman_metall_blade
 	LDX #$01
 	JSR _bosses_shoot_object
 	CLC
@@ -1961,7 +1961,7 @@ _crashman_boss_ai:
 	LDA #$5E
 	JSR _check_bosses_shoot_object_regular
 	BCC @run_jump_throw_regular
-	LDA #$5E
+	LDA #objects_crashman_crash_bomber
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @run_jump_throw_regular
@@ -2201,7 +2201,7 @@ _draw_mecha_dragon:
 _mecha_dragon_appear:
 	LDA aobject_temp + $01
 	BNE @set_body_done
-	LDA #$67
+	LDA #objects_mecha_dragon_beam
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDA z:zscreen_id
@@ -2232,14 +2232,14 @@ _mecha_dragon_appear:
 	STA z:zboss_ai_pointer
 	LDA #$5D
 	STA z:zboss_timer
-	LDA #$65
+	LDA #objects_mecha_dragon_wing
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDA #$40
 	STA aobject_xcoord + $10, Y
 	LDA #$87
 	STA aobject_ycoord + $10, Y
-	LDA #$66
+	LDA #objects_mecha_dragon_tail_head
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDA #$38
@@ -2366,7 +2366,7 @@ _mecha_dragon_shoot_fireball:
 	track_queue track_mecha_dragon
 	LDA #$01
 	STA aobject_frameset_upper_timer + $01
-	LDA #$68
+	LDA #objects_mecha_dragon_fireball
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS _mecha_dragon_shoot_fireball_exist
@@ -2715,7 +2715,7 @@ _picopico_kun_connecting:
 
 @loop_2:
 	STX z:z02
-	LDA #$6A
+	LDA #objects_picopico_kun_apart
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDX z:z01
@@ -3180,7 +3180,7 @@ _run_guts_tank_shoot:
 	BPL @loop
 
 @not_set:
-	LDA #$34
+	LDA #objects_neo_metall
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @check_hit
@@ -3221,7 +3221,7 @@ _run_guts_tank_shoot:
 	JSR _check_bosses_shoot_object_regular
 	LDA #$00
 	STA aobject_temp + $10, Y
-	LDA #$35
+	LDA #objects_straight_bullet
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @check_hit
@@ -3318,7 +3318,7 @@ _boobeam_trap_boss_ai:
 	STA z:z02
 
 @loop:
-	LDA #$6D
+	LDA #objects_boobeam_trap
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDX z:z02
@@ -3459,7 +3459,7 @@ _load_wily_machine_2_phase_1:
 	CMP #$1C
 	BNE @processing
 	INC z:zboss_ai_pointer
-	LDA #$56
+	LDA #objects_crashman_palette_swap
 	LDX #$01
 	JSR _bosses_shoot_object
 	LDA #can_collide_megaman | can_collide_megaman_bullet | objects_can_recoiled | objects_invisible | objects_exist
@@ -3581,7 +3581,7 @@ _wily_machine_2_run_common:
 	STA z:z0A
 	STA z:z0C
 	JSR _divide_fraction
-	LDA #$6B
+	LDA #objects_large_bullet
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @skip
@@ -3649,7 +3649,7 @@ _wily_machine_2_phase_2:
 	JSR _divide_mod
 	LDA z:z04
 	STA z:z09
-	LDA #$6C
+	LDA #objects_wily_machine_2_cockpit_damage
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @skip
@@ -3773,7 +3773,7 @@ _wily_machine_2_defeated:
 	LDA #$20
 	STA z:z02
 	JSR _divide_mod
-	LDA #$06
+	LDA #objects_killed
 	LDX #$01
 	JSR _bosses_shoot_object
 	BCS @exist
@@ -4262,7 +4262,7 @@ _alien_fighting:
 	BNE @skip
 	LDA #$3E
 	STA aboss_defeated_timer_1
-	LDA #$6F
+	LDA #objects_alien_shot
 	JSR _bosses_shoot_object
 	BCS @skip
 	LDA #$04

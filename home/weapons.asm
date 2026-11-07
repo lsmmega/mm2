@@ -1083,14 +1083,14 @@ _crash_bomber_trajectory:
 	LDX z:z02
 	CLC
 	LDA aobject_ycoord, Y
-	ADC @ycoord_offset, X
+	ADC crash_bomber_explosion_ycoord_offset, X
 	STA aobject_ycoord, Y
 	CLC
 	LDA aobject_xcoord, Y
-	ADC @xcoord_offset, X
+	ADC crash_bomber_explosion_xcoord_offset, X
 	STA aobject_xcoord, Y
 	LDA aobject_screen, Y
-	ADC @screen_offset, X
+	ADC crash_bomber_explosion_screen_offset, X
 	STA aobject_screen, Y
 	LDX z:zsprites_pointer
 	INC z:z02
@@ -1108,19 +1108,19 @@ _crash_bomber_trajectory:
 	JSR _check_crash_bomber_object
 	RTS
 
-@ycoord_offset:
+crash_bomber_explosion_ycoord_offset:
 	.BYTE  -8, -16,  +8,  +0
 	.BYTE  -8,  -8,  +8,  +0
 	.BYTE -16,  +0, +16, +16
 	.BYTE -16,  -8,  +8,  +8
 
-@xcoord_offset:
+crash_bomber_explosion_xcoord_offset:
 	.BYTE  -8,  +8,  +0, +16
 	.BYTE  -8, +16, -16,  +8
 	.BYTE  +0,  +0,  -8, +16
 	.BYTE -16, +16, -16,  +8
 
-@screen_offset:
+crash_bomber_explosion_screen_offset:
 	.BYTE -1, +0, +0, +0
 	.BYTE -1, +0, -1, +0
 	.BYTE +0, +0, -1, +0
