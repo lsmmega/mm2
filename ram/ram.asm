@@ -17,133 +17,132 @@
 	z0F
 	z10
 	z11
+	zstart_scrolling_mapset = $14
+	zend_scrolling_mapset
+	zleft_mapset_pointer
+	zright_mapset_pointer = $18
+	zcurrent_handle_32x32_attribute = $1A
+	zscreen_update_flag
+	znmi_frame
+	znmi_wait
+	zscreen_xcoord_fraction
+	zscreen_xcoord
+	zscreen_id
+	zscreen_ycoord_fraction
+	zscreen_ycoord
+	zjoy1_pressed
+	zjoy2_pressed
+	zjoy1_pressed_frame
+	zjoy2_pressed_frame
+	zjoy1_pressed_bits
+	zjoy2_pressed_bits
+	zcurrent_bankswitch
+	zcurrent_stage
+	zsprites_pointer
+	zmegaman_status
+	zobject_in_process_screen
+	zobject_in_process_coord
+	zobject_in_process_coord_fraction
+	zobject_ycoord_speed_accelerate_fraction
+	zobject_ycoord_speed_accelerate
+	ztsa_blockset_pointers
+	zladder_flag = $35
+	ztimer
+	zscroll_direction
+	zscroll_index
+	zscroll_down_process
+	z3A
+	zjump_speed_fraction
+	zjump_speed
+	zmegaman_hit_type
+	zslip_speed_fraction
+	zslip_speed
+	zslip_wind_flags
+	zpause ;used for mega man 1
+	ztoward
+	zcurrent_palette_no
+	zpalette_animation_timer
+	zconveyor_right
+	zconveyor_left
+	zobject_tiles_update_size
+	zleft_checkpoint_enemies_index
+	zright_checkpoint_enemies_index
+	zrandom
+	zmegaman_invincibility_time
+	zleft_checkpoint_items_index
+	zright_checkpoint_items_index
+	zhandle_object_type
+	zwind_conveyor_speed_fraction
+	zwind_conveyor_speed
+	zdraw_other_flag
+	zmenu_screen_xcoord
+	zmenu_screen_id
+	zdraw_door
+	zno_of_appearing_block
+	zappearing_block_index
+	ztrack_queue_pointer = $66
+	zdelay_track_queue
+	zbankswitch_status
+	zundo_bankswitch
+	zgot_weapon_flag = $9A
+	zgot_item_flag
+	zweapon_energy
+	ze_tank = $A7
+	z1up
+	zcurrent_weapon
+	ztime_stopper_flag
+	zquick_boomerang_autofire_timer
+	zweapon_consume_fraction
+	zitem
+	zopening_nametable
+	zwind_toward
+	zcheckpoint_pointer
+	zboss_ai_pointer
+	zboss_timer
+	zcurrent_boss
+	zboss_hit_flag
+	zmecha_dragon_ycoord_fraction
+	zmecha_dragon_ycoord
+	zmecha_dragon_xcoord_fraction
+	zmecha_dragon_xcoord
+	zmecha_dragon_screen
+	zcurrent_refighting_boss
+	zrefighting_flag = $BC
+	zcant_collision_flag
+	ztitle_flag
+	ztitle_timer = $C0
+	zopening_subtitle_msb_hi = $C8
+	zopening_subtitle_pointer
+	zdifficulty = $CB
+	zcredit_pointer = $DE
+	zaudio_header = $E0
+	zsfx_channel
+	ztrack_pointers
+	zplayback_flag = $E4
+	zaudio_E5
+	zsfx_apu_register_index
+	zmusic_playmultispeed
+	zfade_in_out_rate
+	zfade_in_out_level
+	zaudio_frame
+	zmusic_apu_register_index
+	zaudio_ram_pointers
+	zmusic_channel = $EE
+	zundo_sfx_channel
+	zsfx_pointers
+	zsfx_frame = $F2
+	zsfx_loop
+	zaudio_F4
+	zaudio_F5
+	zppu_ctrl = $F7
+	zppu_mask
+	zout_of_screen
+	zwater = $FB
+	zwater_timer
+	zFD
+	zFE
+	zFF
 .ENDENUM
-
-	zstart_scrolling_mapset                  = $14
-	zend_scrolling_mapset                    = $15
-	zleft_mapset_pointer                     = $16
-	zright_mapset_pointer                    = $18
-	zcurrent_handle_32x32_attribute          = $1A
-	zscreen_update_flag                      = $1B
-	znmi_frame                               = $1C
-	znmi_wait                                = $1D
-	zscreen_xcoord_fraction                  = $1E
-	zscreen_xcoord                           = $1F
-	zscreen_id                               = $20
-	zscreen_ycoord_fraction                  = $21
-	zscreen_ycoord                           = $22
-	zjoy1_pressed                            = $23
-	zjoy2_pressed                            = $24
-	zjoy1_pressed_frame                      = $25
-	zjoy2_pressed_frame                      = $26
-	zjoy1_pressed_bits                       = $27
-	zjoy2_pressed_bits                       = $28
-	zcurrent_bankswitch                      = $29
-	zcurrent_stage                           = $2A
-	zsprites_pointer                         = $2B
-	zmegaman_status                          = $2C
-	zobject_in_process_screen                = $2D
-	zobject_in_process_coord                 = $2E
-	zobject_in_process_coord_fraction        = $2F
-	zobject_ycoord_speed_accelerate_fraction = $30
-	zobject_ycoord_speed_accelerate          = $31
-	ztsa_blockset_pointers                   = $32
-	zladder_flag                             = $35
-	ztimer                                   = $36
-	zscroll_direction                        = $37
-	zscroll_index                            = $38
-	zscroll_down_process                     = $39
-	z3A                                      = $3A
-	zjump_speed_fraction                     = $3B
-	zjump_speed                              = $3C
-	zmegaman_hit_type                        = $3D
-	zslip_speed_fraction                     = $3E
-	zslip_speed                              = $3F
-	zslip_wind_flags                         = $40
-	zpause                                   = $41 ;used for mega man 1
-	ztoward                                  = $42
-	zcurrent_palette_no                      = $43
-	zpalette_animation_timer                 = $44
-	zconveyor_right                          = $45
-	zconveyor_left                           = $46
-	zobject_tiles_update_size                = $47
-	zleft_checkpoint_enemies_index           = $48
-	zright_checkpoint_enemies_index          = $49
-	zrandom                                  = $4A
-	zmegaman_invincibility_time              = $4B
-	zleft_checkpoint_items_index             = $4C
-	zright_checkpoint_items_index            = $4D
-	zhandle_object_type                      = $4E
-	zwind_conveyor_speed_fraction            = $4F
-	zwind_conveyor_speed                     = $50
-	zdraw_other_flag                         = $51
-	zmenu_screen_xcoord                      = $52
-	zmenu_screen_id                          = $53
-	zdraw_door                               = $54
-	zno_of_appearing_block                   = $55
-	zappearing_block_index                   = $56
-	ztrack_queue_pointer                     = $66
-	zdelay_track_queue                       = $67
-	zbankswitch_status                       = $68
-	zundo_bankswitch                         = $69
-	zgot_weapon_flag                         = $9A
-	zgot_item_flag                           = $9B
-	zweapon_energy                           = $9C
-	ze_tank                                  = $A7
-	z1up                                     = $A8
-	zcurrent_weapon                          = $A9
-	ztime_stopper_flag                       = $AA
-	zquick_boomerang_autofire_timer          = $AB
-	zweapon_consume_fraction                 = $AC
-	zitem                                    = $AD
-	zopening_nametable                       = $AE
-	zwind_toward                             = $AF
-	zcheckpoint_pointer                      = $B0
-	zboss_ai_pointer                         = $B1
-	zboss_timer                              = $B2
-	zcurrent_boss                            = $B3
-	zboss_hit_flag                           = $B4
-	zmecha_dragon_ycoord_fraction            = $B5
-	zmecha_dragon_ycoord                     = $B6
-	zmecha_dragon_xcoord_fraction            = $B7
-	zmecha_dragon_xcoord                     = $B8
-	zmecha_dragon_screen                     = $B9
-	zcurrent_refighting_boss                 = $BA
-	zrefighting_flag                         = $BC
-	zcant_collision_flag                     = $BD
-	ztitle_flag                              = $BE
-	ztitle_timer                             = $C0
-	zopening_subtitle_msb_hi                 = $C8
-	zopening_subtitle_pointer                = $C9
-	zdifficulty                              = $CB
-	zcredit_pointer                          = $DE
-	zaudio_header                            = $E0
-	zsfx_channel                             = $E1
-	ztrack_pointers                          = $E2
-	zplayback_flag                           = $E4
-	zaudio_E5                                = $E5
-	zsfx_apu_register_index                  = $E6
-	zmusic_playmultispeed                    = $E7
-	zfade_in_out_rate                        = $E8
-	zfade_in_out_level                       = $E9
-	zaudio_frame                             = $EA
-	zmusic_apu_register_index                = $EB
-	zaudio_ram_pointers                      = $EC
-	zmusic_channel                           = $EE
-	zundo_sfx_channel                        = $EF
-	zsfx_pointers                            = $F0
-	zsfx_frame                               = $F2
-	zsfx_loop                                = $F3
-	zaudio_F4                                = $F4
-	zaudio_F5                                = $F5
-	zppu_ctrl                                = $F7
-	zppu_mask                                = $F8
-	zout_of_screen                           = $F9
-	zwater                                   = $FB
-	zwater_timer                             = $FC
-	zFD                                      = $FD
-	zFE                                      = $FE
-	zFF                                      = $FF
 
 	aenemies_index       = $100
 	aenemies_hit_flag    = $110
