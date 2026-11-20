@@ -22,3 +22,10 @@
 	LDX #b
 	TXS
 .ENDMACRO
+
+.MACRO stack_return b
+	LDA #>(b - 1)
+	PHA
+	LDA #<(b - 1)
+	PHA
+.ENDMACRO

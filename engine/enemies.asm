@@ -27,10 +27,7 @@ _run_enemies_ai_regular_loop:
 	STA z:z08
 	LDA run_enemies_ai_hi_jumptable, Y
 	STA z:z09
-	LDA #>(_run_enemies_ai_regular_return - 1)
-	PHA
-	LDA #<(_run_enemies_ai_regular_return - 1)
-	PHA
+	stack_return _run_enemies_ai_regular_return
 	JMP (z08)
 
 @not_exist:
@@ -55,10 +52,7 @@ _run_enemies_ai_with_megaman_time_stopper_loop:
 	LDA aobject_screen, X
 	SBC z:zscreen_id
 	STA z:zobject_in_process_coord_fraction
-	LDA #>(_run_enemies_ai_with_megaman_time_stopper_return - 1)
-	PHA
-	LDA #<(_run_enemies_ai_with_megaman_time_stopper_return - 1)
-	PHA
+	stack_return _run_enemies_ai_with_megaman_time_stopper_return
 	LDY aobject_pointer, X
 	LDA enemies_ai_with_megaman_time_stopper_index_jumptable, Y
 	BNE @run_with_megaman_time_stopper_ai_jumptable

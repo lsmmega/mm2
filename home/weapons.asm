@@ -479,10 +479,7 @@ _run_weapons_trajectory_return:
 	RTS
 
 _run_weapons_trajectory_can_collide:
-	LDA #>(_run_weapons_trajectory_return - 1)
-	PHA
-	LDA #<(_run_weapons_trajectory_return - 1)
-	PHA
+	stack_return _run_weapons_trajectory_return
 	SEC
 	LDA aobject_xcoord, X
 	SBC z:zscreen_xcoord
